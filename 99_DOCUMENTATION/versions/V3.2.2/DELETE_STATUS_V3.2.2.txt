@@ -1,0 +1,18 @@
+﻿
+DELETE GOVERNANCE
+
+Status:
+
+REVIEW ONLY
+
+
+Physical Delete:
+
+LOCKED
+
+
+Reference Audit:
+
+COMPLETED
+
+

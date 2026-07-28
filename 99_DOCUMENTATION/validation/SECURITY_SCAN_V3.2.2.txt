@@ -1,0 +1,90 @@
+﻿
+Football AI OS Security Scan
+
+Time:
+
+07/28/2026 23:20:54
+
+
+Potential Sensitive Matches:
+
+E:\football_v\.venv\Lib\site-packages\pip\_internal\models\direct_url.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_internal\models\link.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_internal\network\auth.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_internal\req\req_file.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_internal\utils\misc.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_internal\utils\misc.py => secret
+E:\football_v\.venv\Lib\site-packages\pip\_internal\utils\misc.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_internal\utils\setuptools_build.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_internal\utils\subprocess.py => secret
+E:\football_v\.venv\Lib\site-packages\pip\_internal\utils\wheel.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_internal\vcs\mercurial.py => secret
+E:\football_v\.venv\Lib\site-packages\pip\_internal\vcs\subversion.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_internal\vcs\versioncontrol.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_internal\vcs\versioncontrol.py => secret
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\distlib\compat.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\distlib\compat.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\distlib\index.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\distlib\util.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\distro\distro.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\packaging\licenses\__init__.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\packaging\markers.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\packaging\requirements.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\packaging\_parser.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\packaging\_tokenizer.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\filters\__init__.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\formatters\bbcode.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\formatters\groff.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\formatters\html.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\formatters\img.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\formatters\irc.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\formatters\latex.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\formatters\other.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\formatters\pangomarkup.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\formatters\rtf.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\formatters\svg.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\formatters\terminal.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\formatters\terminal256.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\formatters\_mapping.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\lexers\python.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\lexers\_mapping.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\cmdline.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\formatter.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\lexer.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\style.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\token.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\pygments\__init__.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\requests\adapters.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\requests\auth.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\requests\sessions.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\requests\utils.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\requests\utils.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\rich\ansi.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\rich\console.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\rich\containers.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\rich\logging.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\rich\pretty.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\rich\prompt.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\rich\syntax.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\rich\text.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\rich\traceback.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\rich\_emoji_codes.py => secret
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\truststore\_api.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport\low_level.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\urllib3\contrib\ntlmpool.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\urllib3\contrib\pyopenssl.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\urllib3\contrib\securetransport.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\urllib3\contrib\socks.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\urllib3\packages\six.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\urllib3\util\request.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\urllib3\util\ssl_.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\urllib3\util\url.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\urllib3\connection.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\urllib3\connection.py => token
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\urllib3\connectionpool.py => password
+E:\football_v\.venv\Lib\site-packages\pip\_vendor\urllib3\poolmanager.py => password
+E:\football_v\00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_api_integration_layer_V1.0.py => api_key
+E:\football_v\15_API_INTEGRATION_LAYER\config\api_config.json => api_key
+E:\football_v\99_DOCUMENTATION\MODEL_LAYER_FULL_AUDIT\MODEL_LAYER_FULL_AUDIT.json => token
+
+

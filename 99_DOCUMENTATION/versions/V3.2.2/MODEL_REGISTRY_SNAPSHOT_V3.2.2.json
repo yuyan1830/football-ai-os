@@ -1,0 +1,30 @@
+﻿{
+    "version":"V3.2.2",
+    "models":[
+        {
+            "name":"ELO",
+            "path":"50_MODEL_REGISTRY/models/elo_model_V4.0.json",
+            "status":"TRAINED"
+        },
+        {
+            "name":"Dixon-Coles",
+            "path":"05_MODEL_AI/MODEL_LAYER/models/dixon_coles_model.py",
+            "status":"ACTIVE"
+        },
+        {
+            "name":"Poisson",
+            "path":"05_MODEL_AI/MODEL_LAYER/models/poisson_model.py",
+            "status":"ACTIVE"
+        },
+        {
+            "name":"XGBoost",
+            "path":"05_MODEL_AI/MODEL_LAYER/models/xgboost_model.py",
+            "status":"ACTIVE"
+        },
+        {
+            "name":"Fusion",
+            "path":"05_AI_Intelligence_Layer/FUSION_DECISION_ENGINE/fusion_engine.py",
+            "status":"ACTIVE"
+        }
+    ]
+}
