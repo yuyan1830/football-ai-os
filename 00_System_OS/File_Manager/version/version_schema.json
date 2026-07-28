@@ -1,0 +1,85 @@
+{
+    "schema_version":"1.1",
+
+    "version_definition":{
+
+
+        "Version_ID":{
+
+            "type":"string"
+
+        },
+
+
+        "Asset_ID":{
+
+            "type":"string"
+
+        },
+
+
+        "Version_Number":{
+
+            "type":"string"
+
+        },
+
+
+        "Parent_Version":{
+
+            "type":"string"
+
+        },
+
+
+        "Create_Time":{
+
+            "type":"datetime"
+
+        },
+
+
+        "Source":{
+
+            "type":"string"
+
+        },
+
+
+        "Data_Period":{
+
+            "type":"string"
+
+        },
+
+
+        "SHA256":{
+
+            "type":"string"
+
+        },
+
+
+        "Status":{
+
+            "type":"string",
+
+            "values":[
+
+                "CURRENT",
+                "HISTORY",
+                "DEPRECATED"
+
+            ]
+
+        },
+
+
+        "Change_Reason":{
+
+            "type":"string"
+
+        }
+
+    }
+}

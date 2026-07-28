@@ -1,0 +1,4 @@
+﻿Migration_ID,Source,Target,Action,Status
+MIGRATION_DB_001,E:\football_v\01_DATA_LAYER\database\match_data.db,Omega_V3.2_DATA_LAYER,REGISTER_ONLY,PENDING
+MIGRATION_DB_002,E:\football_v\02_FEATURE_LAYER\database\feature_store.db,Omega_V3.2_FEATURE_LAYER,REGISTER_ONLY,PENDING
+MIGRATION_DB_003,E:\football_v\03_MODEL_LAYER\database\model_store.db,Omega_V3.2_MODEL_LAYER,REGISTER_ONLY,PENDING

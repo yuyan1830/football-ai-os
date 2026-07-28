@@ -1,0 +1,13 @@
+
+{
+    "module":"Migration Engine",
+    "version":"V1.0",
+
+    "source_database":
+    "E:\\football\\data\\football.db",
+
+    "target_database":
+    "E:\\football_v\\database",
+
+    "status":"READY"
+}

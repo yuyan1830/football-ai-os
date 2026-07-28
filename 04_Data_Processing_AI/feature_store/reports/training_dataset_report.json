@@ -1,0 +1,12 @@
+{
+    "framework": "Football AI OS",
+    "module": "Feature Store",
+    "version": "V1.8",
+    "status": "READY",
+    "pipeline": [
+        "feature_dataset",
+        "training_dataset",
+        "validation_dataset",
+        "backtest_dataset"
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "workflow_version":"1.0",
+
+    "workflows":{
+
+
+        "asset_maintenance":{
+
+
+            "enabled":true,
+
+
+            "description":
+            "Football AI OS Asset Maintenance",
+
+
+            "steps":[
+
+
+                {
+                    "order":1,
+
+                    "name":
+                    "Scanner",
+
+                    "command":
+                    "scanner"
+                },
+
+
+                {
+                    "order":2,
+
+                    "name":
+                    "Duplicate Detector",
+
+                    "command":
+                    "duplicate_detector_v11"
+                },
+
+
+                {
+                    "order":3,
+
+                    "name":
+                    "Lifecycle Engine",
+
+                    "command":
+                    "lifecycle_engine"
+                },
+
+
+                {
+                    "order":4,
+
+                    "name":
+                    "Version Manager",
+
+                    "command":
+                    "version_manager"
+                },
+
+
+                {
+                    "order":5,
+
+                    "name":
+                    "Archive Manager",
+
+                    "command":
+                    "archive_manager_v11"
+                }
+
+
+            ]
+
+        }
+
+    }
+}

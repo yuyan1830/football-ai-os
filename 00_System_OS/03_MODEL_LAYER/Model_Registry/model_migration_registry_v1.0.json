@@ -1,0 +1,59 @@
+﻿{
+  "system": "Football AI OS Betting Intelligence System Ω+",
+  "architecture": "V3.2 Final Baseline",
+  "registry_version": "1.0",
+
+  "models": [
+
+    {
+      "model_id": "ELO_MODEL_V4.0",
+      "type": "rating_model",
+      "path": "Model_Pool/Elo/elo_engine.py",
+      "status": "MIGRATED",
+      "layer": "03_MODEL_LAYER"
+    },
+
+    {
+      "model_id": "DIXON_COLES_MODEL_V3.2",
+      "type": "probability_model",
+      "path": "Model_Pool/Dixon_Coles/dixon_coles.py",
+      "history_engine": "Model_Pool/Dixon_Coles/dixon_coles_history_engine.py",
+      "status": "MIGRATED",
+      "layer": "03_MODEL_LAYER"
+    },
+
+    {
+      "model_id": "POISSON_MODEL_V3.2",
+      "type": "goal_probability_model",
+      "path": "Model_Pool/Poisson/poisson_engine.py",
+      "history_engine": "Model_Pool/Poisson/poisson_history_engine.py",
+      "status": "MIGRATED",
+      "layer": "03_MODEL_LAYER"
+    },
+
+    {
+      "model_id": "XGBOOST_MODEL_V3.2",
+      "type": "machine_learning_model",
+      "path": "Model_Pool/XGBoost/xgboost_engine.py",
+      "status": "MIGRATED",
+      "layer": "03_MODEL_LAYER"
+    },
+
+    {
+      "model_id": "XGBOOST_FUSION_V1",
+      "type": "fusion_model",
+      "path": "Model_Pool/XGBoost/xgboost_fusion_engine.py",
+      "status": "MIGRATED",
+      "layer": "03_MODEL_LAYER"
+    },
+
+    {
+      "model_id": "XGBOOST_FUSION_V2",
+      "type": "fusion_model",
+      "path": "Model_Pool/XGBoost/xgboost_fusion_v2_engine.py",
+      "status": "MIGRATED",
+      "layer": "03_MODEL_LAYER"
+    }
+
+  ]
+}

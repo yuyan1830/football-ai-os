@@ -1,0 +1,4 @@
+﻿Database_ID,Database_Name,Path,Layer,Role,Status,Migration_Status
+DB0001,match_data.db,E:\football_v\01_DATA_LAYER\database\match_data.db,01_DATA_LAYER,Historical Match Database,ACTIVE,PENDING
+DB0002,feature_store.db,E:\football_v\02_FEATURE_LAYER\database\feature_store.db,02_FEATURE_LAYER,Feature Storage,ACTIVE,PENDING
+DB0003,model_store.db,E:\football_v\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,Model Storage,ACTIVE,PENDING

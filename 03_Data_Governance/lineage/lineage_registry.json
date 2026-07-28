@@ -1,0 +1,29 @@
+﻿{
+    "framework":"Football AI OS",
+    "module":"03_DATA_GOVERNANCE",
+    "service":"lineage_engine",
+    "version":"V1.0",
+    "status":"active",
+
+    "flows":[
+
+        {
+            "source":"01_DATA_SOURCE",
+            "target":"02_DATA_PLATFORM",
+            "type":"raw_import"
+        },
+
+        {
+            "source":"02_DATA_PLATFORM",
+            "target":"03_DATA_GOVERNANCE",
+            "type":"quality_validation"
+        },
+
+        {
+            "source":"03_DATA_GOVERNANCE",
+            "target":"07_MODEL_ENGINE",
+            "type":"feature_delivery"
+        }
+
+    ]
+}

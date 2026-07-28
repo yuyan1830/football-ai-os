@@ -1,0 +1,7 @@
+﻿Model_ID,Model_Name,Type,Target_Layer,Status
+M0001,Elo,Rating_Model,04_MODEL_LAYER,ACTIVE
+M0002,Poisson,Goal_Model,04_MODEL_LAYER,ACTIVE
+M0003,Dixon-Coles,Correction_Model,04_MODEL_LAYER,ACTIVE
+M0004,XGBoost,ML_Model,04_MODEL_LAYER,ACTIVE
+M0005,Fusion_Engine,Ensemble_Model,04_MODEL_LAYER,ACTIVE
+M0006,Market_Risk_Model,Risk_Model,06_MARKET_INTELLIGENCE_LAYER,ACTIVE

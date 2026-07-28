@@ -1,0 +1,6 @@
+Asset,Path,Layer,Asset_Type,Ownership,Lifecycle_Status,Risk,Architecture_Source,Exists,Validation_Time
+market_value.db,E:\football_v\05_MARKET_LAYER\database\market_value.db,05_MARKET_LAYER,MARKET_ASSET,CURRENT,ACTIVE,MEDIUM,OMEGA_V3.2_CURRENT,True,2026-07-25 13:14:46.029551
+risk_manager.db,E:\football_v\06_RISK_LAYER\database\risk_manager.db,06_RISK_LAYER,RISK_GOVERNANCE_ASSET,CURRENT,ACTIVE,MEDIUM,OMEGA_V3.2_CURRENT,True,2026-07-25 13:14:46.029551
+learning_feedback.db,E:\football_v\07_LEARNING_LAYER\database\learning_feedback.db,07_LEARNING_LAYER,LEARNING_ASSET,CURRENT,ACTIVE,MEDIUM,OMEGA_V3.2_CURRENT,True,2026-07-25 13:14:46.029551
+decision_history.db,E:\football_v\08_DECISION_LAYER\database\decision_history.db,08_DECISION_LAYER,HISTORY_ASSET,CURRENT,ACTIVE,LOW,OMEGA_V3.2_CURRENT,True,2026-07-25 13:14:46.029551
+application_runtime.db,E:\football_v\09_APPLICATION_LAYER\runtime\application_runtime.db,09_APPLICATION_LAYER,RUNTIME_ASSET,CURRENT,ACTIVE,LOW,OMEGA_V3.2_CURRENT,True,2026-07-25 13:14:46.029551

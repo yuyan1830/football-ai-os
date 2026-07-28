@@ -1,0 +1,11 @@
+{
+    "features": [
+        "team_strength",
+        "recent_form",
+        "home_away_strength",
+        "attack_defense",
+        "market_feature",
+        "elo_feature",
+        "xg_feature"
+    ]
+}

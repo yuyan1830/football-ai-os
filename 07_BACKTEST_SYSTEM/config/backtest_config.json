@@ -1,0 +1,11 @@
+{
+    "framework": "Football AI OS Ultimate Fusion Framework V1.5",
+    "models": [
+        "Elo",
+        "Dixon-Coles",
+        "Poisson",
+        "XGBoost",
+        "Fusion"
+    ],
+    "future_model_support": true
+}

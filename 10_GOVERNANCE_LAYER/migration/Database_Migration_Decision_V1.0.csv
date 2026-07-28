@@ -1,0 +1,4 @@
+Migration_ID,Database_A,Database_B,Decision,Migration_Type,Risk_Level,Approval_Status,Validation_Time
+MIGRATION_CONFLICT_DB_001,E:\football_v\01_DATA_LAYER\database\match_data.db,E:\football_v\00_System_OS\01_DATA_LAYER\database\match_data.db,KEEP_CURRENT,NO_MIGRATION,LOW,PENDING,2026-07-25 12:25:52
+MIGRATION_CONFLICT_DB_002,E:\football_v\02_FEATURE_LAYER\database\feature_store.db,E:\football_v\00_System_OS\02_FEATURE_LAYER\database\feature_store.db,KEEP_CURRENT,ARCHIVE_LEGACY,MEDIUM,PENDING,2026-07-25 12:25:52
+MIGRATION_CONFLICT_DB_003,E:\football_v\03_MODEL_LAYER\database\model_store.db,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,HOLD,REVIEW_REQUIRED,HIGH,PENDING,2026-07-25 12:25:52

@@ -1,0 +1,31 @@
+{
+    "version": "PREDICTION_API_V2.8",
+    "time": "2026-07-23 20:27:19.461049",
+    "match": {
+        "home_team": "Manchester City",
+        "away_team": "Liverpool",
+        "league": "Premier League"
+    },
+    "models": {
+        "ELO": "PASS",
+        "Dixon-Coles": "PASS",
+        "Poisson": "PASS",
+        "XGBoost": "PASS",
+        "Fusion_V2.3": "PASS"
+    },
+    "prediction": {
+        "home_win": 0.54,
+        "draw": 0.25,
+        "away_win": 0.21
+    },
+    "market": {
+        "value_edge": "POSITIVE"
+    },
+    "risk": {
+        "level": "MEDIUM",
+        "confidence": 0.78
+    },
+    "decision": "HOME_WIN",
+    "simulation": "READY",
+    "status": "READY"
+}

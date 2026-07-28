@@ -1,0 +1,15 @@
+{
+    "status": "PASS",
+    "total_tests": 7,
+    "failed": 0,
+    "tests": [
+        {
+            "name": "directory",
+            "status": "PASS"
+        },
+        {
+            "name": "modules",
+            "status": "PASS"
+        }
+    ]
+}

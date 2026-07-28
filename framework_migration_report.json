@@ -1,0 +1,683 @@
+{
+    "project": "E:\\football_v",
+    "scan_time": "2026-07-19T17:51:42.018551",
+    "files": [
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\main.py",
+            "size": 2606,
+            "modified": "2026-07-19T12:23:44.065433"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\config\\database_config.py",
+            "size": 195,
+            "modified": "2026-07-18T23:52:41.593249"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\config\\__init__.py",
+            "size": 0,
+            "modified": "2026-07-18T23:57:12.529264"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\db_connection.py",
+            "size": 902,
+            "modified": "2026-07-19T10:54:08.930500"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\file_service.py",
+            "size": 398,
+            "modified": "2026-07-19T11:03:57.482176"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\hash_service.py",
+            "size": 411,
+            "modified": "2026-07-19T11:03:31.580670"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\logger.py",
+            "size": 736,
+            "modified": "2026-07-19T11:02:57.752818"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\version_service.py",
+            "size": 523,
+            "modified": "2026-07-19T11:04:23.366605"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\import_pipeline\\archive_manager.py",
+            "size": 266,
+            "modified": "2026-07-19T12:08:12.065396"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\import_pipeline\\duplicate_checker.py",
+            "size": 649,
+            "modified": "2026-07-19T12:21:55.969600"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\import_pipeline\\importer.py",
+            "size": 1855,
+            "modified": "2026-07-19T12:22:16.268206"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\import_pipeline\\scanner.py",
+            "size": 437,
+            "modified": "2026-07-19T12:06:18.877290"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\import_pipeline\\validator.py",
+            "size": 359,
+            "modified": "2026-07-19T12:07:35.810584"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\import_pipeline\\__init__.py",
+            "size": 0,
+            "modified": "2026-07-19T12:11:11.001580"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\market\\bookmaker_manager.py",
+            "size": 1287,
+            "modified": "2026-07-18T23:35:41.115213"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\market\\market_type_manager.py",
+            "size": 870,
+            "modified": "2026-07-18T23:44:46.677580"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\market\\odds_manager.py",
+            "size": 1217,
+            "modified": "2026-07-18T23:46:08.911679"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\quality\\quality_checker.py",
+            "size": 1450,
+            "modified": "2026-07-19T14:54:27.331404"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\quality\\quality_engine.py",
+            "size": 5527,
+            "modified": "2026-07-19T15:19:46.535290"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\quality\\quality_report.py",
+            "size": 758,
+            "modified": "2026-07-19T14:55:51.129258"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\quality\\quality__init__.py",
+            "size": 0,
+            "modified": "2026-07-19T14:53:26.251359"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\registry\\data_lineage.py",
+            "size": 566,
+            "modified": "2026-07-19T11:15:23.723414"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\registry\\import_tracker.py",
+            "size": 629,
+            "modified": "2026-07-19T11:16:02.391593"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\registry\\quality_score.py",
+            "size": 527,
+            "modified": "2026-07-19T11:16:34.815010"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\registry\\registry_manager.py",
+            "size": 1159,
+            "modified": "2026-07-19T11:54:38.316125"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\create_data_layer.py",
+            "size": 936,
+            "modified": "2026-07-18T23:21:19.419819"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\database_alert_final_upgrade.py",
+            "size": 1247,
+            "modified": "2026-07-19T15:10:01.982320"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\database_init.py",
+            "size": 1437,
+            "modified": "2026-07-18T23:29:17.258971"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\database_market_init.py",
+            "size": 1425,
+            "modified": "2026-07-18T23:41:44.986219"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\database_quality_alert_upgrade.py",
+            "size": 1445,
+            "modified": "2026-07-19T15:02:44.971766"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\database_quality_init.py",
+            "size": 2522,
+            "modified": "2026-07-19T14:45:57.768387"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\database_task_reliability_init.py",
+            "size": 2438,
+            "modified": "2026-07-19T14:17:32.264935"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\database_task_table_upgrade.py",
+            "size": 1543,
+            "modified": "2026-07-19T14:36:44.450973"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\quality_rule_init.py",
+            "size": 3095,
+            "modified": "2026-07-19T14:47:56.455616"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\registry_init.py",
+            "size": 1666,
+            "modified": "2026-07-19T11:48:04.236548"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\registry_manager.py",
+            "size": 1557,
+            "modified": "2026-07-18T23:30:16.360543"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\retry_policy_init.py",
+            "size": 2813,
+            "modified": "2026-07-19T14:24:10.357143"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\task_queue_init.py",
+            "size": 863,
+            "modified": "2026-07-19T12:38:06.283826"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\test_quality_engine.py",
+            "size": 1807,
+            "modified": "2026-07-19T14:57:55.113487"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\test_registry_flow.py",
+            "size": 1666,
+            "modified": "2026-07-19T11:51:57.104519"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\test_retry_logger.py",
+            "size": 1228,
+            "modified": "2026-07-19T14:29:34.909101"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\test_scheduler.py",
+            "size": 2330,
+            "modified": "2026-07-19T13:38:06.429929"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\test_scheduler_reliability.py",
+            "size": 1185,
+            "modified": "2026-07-19T14:41:26.674722"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\test_task_history.py",
+            "size": 1263,
+            "modified": "2026-07-19T14:27:06.223008"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\test_task_manager_reliability.py",
+            "size": 1037,
+            "modified": "2026-07-19T14:34:19.629171"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\test_task_queue.py",
+            "size": 1025,
+            "modified": "2026-07-19T12:44:39.551417"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\test_task_reliability_full.py",
+            "size": 1904,
+            "modified": "2026-07-19T14:43:15.784830"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\task_queue\\manual_task.py",
+            "size": 530,
+            "modified": "2026-07-19T12:40:23.549033"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\task_queue\\retry_engine.py",
+            "size": 4126,
+            "modified": "2026-07-19T14:31:30.184652"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\task_queue\\retry_logger.py",
+            "size": 2110,
+            "modified": "2026-07-19T14:28:49.863799"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\task_queue\\scheduler.py",
+            "size": 3532,
+            "modified": "2026-07-19T14:40:22.158383"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\task_queue\\task_history.py",
+            "size": 2073,
+            "modified": "2026-07-19T14:26:20.362532"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\task_queue\\task_manager.py",
+            "size": 3167,
+            "modified": "2026-07-19T14:33:10.721290"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\task_queue\\task_query.py",
+            "size": 816,
+            "modified": "2026-07-19T12:43:30.831609"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\task_queue\\task_queue_init.py",
+            "size": 0,
+            "modified": "2026-07-19T12:42:36.894589"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\task_queue\\task_status.py",
+            "size": 154,
+            "modified": "2026-07-19T12:39:24.674526"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\task_queue\\__init__.py",
+            "size": 0,
+            "modified": "2026-07-19T12:42:09.316930"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Automation\\logs\\scheduler_log.json",
+            "size": 360,
+            "modified": "2026-07-18T18:57:56.998114"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Automation\\logs\\workflow_run_log.json",
+            "size": 1570,
+            "modified": "2026-07-18T18:20:10.262821"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Automation\\scheduler\\scheduler_config.json",
+            "size": 348,
+            "modified": "2026-07-18T18:53:49.719041"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Automation\\scheduler\\scheduler_manager.py",
+            "size": 1749,
+            "modified": "2026-07-18T18:54:23.805995"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Automation\\task_manager\\task_history.json",
+            "size": 263,
+            "modified": "2026-07-18T18:43:39.057024"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Automation\\task_manager\\task_manager.py",
+            "size": 1954,
+            "modified": "2026-07-18T18:41:12.572398"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Automation\\task_manager\\task_registry.json",
+            "size": 415,
+            "modified": "2026-07-18T18:43:27.875566"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Automation\\workflow\\workflow.json",
+            "size": 1367,
+            "modified": "2026-07-18T18:08:41.258410"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Automation\\workflow\\workflow_runner.py",
+            "size": 4248,
+            "modified": "2026-07-18T18:20:05.365530"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Bootstrap\\bootstrap.py",
+            "size": 2872,
+            "modified": "2026-07-18T19:56:17.601273"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Bootstrap\\bootstrap_config.json",
+            "size": 201,
+            "modified": "2026-07-18T19:34:58.446036"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Bootstrap\\bootstrap_log.json",
+            "size": 551,
+            "modified": "2026-07-18T19:36:52.155290"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Bootstrap\\config_generator.py",
+            "size": 1773,
+            "modified": "2026-07-18T19:58:18.624897"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Bootstrap\\deployment_report.json",
+            "size": 760,
+            "modified": "2026-07-18T19:56:34.618950"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Bootstrap\\deploy_system.py",
+            "size": 1709,
+            "modified": "2026-07-18T19:45:20.680137"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Bootstrap\\setup_system.py",
+            "size": 1459,
+            "modified": "2026-07-18T19:35:27.273488"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Bootstrap\\system_check.py",
+            "size": 2300,
+            "modified": "2026-07-18T19:39:50.384158"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Bootstrap\\system_check_log.json",
+            "size": 421,
+            "modified": "2026-07-18T19:45:42.227342"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Bootstrap\\config\\automation.yaml",
+            "size": 93,
+            "modified": "2026-07-18T19:59:23.726776"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Bootstrap\\config\\config_generation.json",
+            "size": 176,
+            "modified": "2026-07-18T19:59:23.742370"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Bootstrap\\config\\monitor.yaml",
+            "size": 65,
+            "modified": "2026-07-18T19:59:23.742370"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Bootstrap\\config\\recovery.yaml",
+            "size": 63,
+            "modified": "2026-07-18T19:59:23.742370"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Bootstrap\\config\\system.yaml",
+            "size": 65,
+            "modified": "2026-07-18T19:59:23.726776"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\archive\\archive_index.json",
+            "size": 1097,
+            "modified": "2026-07-18T17:05:51.818669"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\archive\\archive_manager.py",
+            "size": 2517,
+            "modified": "2026-07-18T17:05:33.039771"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\archive\\archive_manager_v11.py",
+            "size": 2101,
+            "modified": "2026-07-18T17:54:37.852037"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\archive\\archive_report.json",
+            "size": 2747,
+            "modified": "2026-07-18T17:55:04.099177"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\archive\\archive_rules.json",
+            "size": 167,
+            "modified": "2026-07-18T17:53:47.851646"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\config\\file_manager.yaml",
+            "size": 0,
+            "modified": "2026-07-18T16:41:19.728046"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\duplicate\\duplicate_detector_v11.py",
+            "size": 2735,
+            "modified": "2026-07-18T17:45:40.050245"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\duplicate\\duplicate_report_v11.json",
+            "size": 15126,
+            "modified": "2026-07-18T17:47:57.066656"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\hash\\duplicate_detector.py",
+            "size": 2007,
+            "modified": "2026-07-18T16:52:06.071012"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\lifecycle\\lifecycle_engine.py",
+            "size": 2123,
+            "modified": "2026-07-18T17:32:44.711806"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\lifecycle\\lifecycle_history.json",
+            "size": 2355,
+            "modified": "2026-07-18T17:33:19.177824"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\lifecycle\\lifecycle_manager.py",
+            "size": 2129,
+            "modified": "2026-07-18T17:01:06.523634"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\lifecycle\\lifecycle_rules.json",
+            "size": 1113,
+            "modified": "2026-07-18T17:32:00.430114"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\registry\\asset_schema.json",
+            "size": 2100,
+            "modified": "2026-07-18T17:12:51.367191"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\registry\\file_registry.json",
+            "size": 6802,
+            "modified": "2026-07-18T16:49:31.495670"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\registry\\file_registry_v11.json",
+            "size": 9122,
+            "modified": "2026-07-18T17:33:19.177824"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\registry\\file_registry_v11.py",
+            "size": 2431,
+            "modified": "2026-07-18T17:15:54.523124"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\runtime\\file_manager_state.json",
+            "size": 0,
+            "modified": "2026-07-18T16:41:19.743637"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\scanner\\file_scanner.py",
+            "size": 4062,
+            "modified": "2026-07-18T16:49:06.648484"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\source\\source_schema.json",
+            "size": 2213,
+            "modified": "2026-07-18T17:19:15.273757"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\version\\version_manager.py",
+            "size": 2276,
+            "modified": "2026-07-18T17:40:26.674381"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\version\\version_registry.json",
+            "size": 6135,
+            "modified": "2026-07-18T17:40:50.076298"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\version\\version_schema.json",
+            "size": 934,
+            "modified": "2026-07-18T17:36:58.040060"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Monitor\\error_log.json",
+            "size": 2,
+            "modified": "2026-07-18T19:08:53.820206"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Monitor\\health_status.json",
+            "size": 197,
+            "modified": "2026-07-18T19:23:17.554357"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Monitor\\heartbeat.json",
+            "size": 113,
+            "modified": "2026-07-18T19:23:17.554357"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Monitor\\monitor_service.py",
+            "size": 2402,
+            "modified": "2026-07-18T19:09:29.743856"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Recovery\\recovery_controller.py",
+            "size": 2030,
+            "modified": "2026-07-18T19:29:09.055243"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Recovery\\recovery_log.json",
+            "size": 304,
+            "modified": "2026-07-18T19:29:29.622844"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Recovery\\recovery_policy.json",
+            "size": 401,
+            "modified": "2026-07-18T19:25:49.742062"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\Recovery\\recovery_service.py",
+            "size": 1969,
+            "modified": "2026-07-18T19:26:46.055291"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\registry\\dependency_engine.py",
+            "size": 1148,
+            "modified": "2026-07-18T20:10:53.821313"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\registry\\dependency_map.json",
+            "size": 450,
+            "modified": "2026-07-18T20:10:22.680367"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\registry\\modules.json",
+            "size": 658,
+            "modified": "2026-07-18T20:12:27.633786"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\registry\\module_registry.json",
+            "size": 0,
+            "modified": "2026-07-18T16:30:38.140491"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\registry\\module_template.json",
+            "size": 152,
+            "modified": "2026-07-18T20:04:59.953358"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\registry\\registry.json",
+            "size": 2461,
+            "modified": "2026-07-18T20:08:49.590894"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\registry\\registry_api.py",
+            "size": 906,
+            "modified": "2026-07-18T20:12:56.570301"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\registry\\registry_log.json",
+            "size": 125,
+            "modified": "2026-07-18T20:08:49.590894"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\registry\\registry_manager.py",
+            "size": 2351,
+            "modified": "2026-07-18T20:05:56.961614"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\registry\\registry_scanner.py",
+            "size": 2254,
+            "modified": "2026-07-18T20:08:34.303275"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\runtime\\system_state.json",
+            "size": 0,
+            "modified": "2026-07-18T16:30:38.128546"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\scripts\\project_structure_scanner.py",
+            "size": 2202,
+            "modified": "2026-07-19T17:44:46.716477"
+        },
+        {
+            "file": "E:\\football_v\\Config\\system_version.yaml",
+            "size": 0,
+            "modified": "2026-07-18T16:30:38.140491"
+        }
+    ],
+    "possible_common": [
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\file_service.py",
+            "size": 398,
+            "modified": "2026-07-19T11:03:57.482176"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\logger.py",
+            "size": 736,
+            "modified": "2026-07-19T11:02:57.752818"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\import_pipeline\\validator.py",
+            "size": 359,
+            "modified": "2026-07-19T12:07:35.810584"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\test_retry_logger.py",
+            "size": 1228,
+            "modified": "2026-07-19T14:29:34.909101"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\task_queue\\retry_logger.py",
+            "size": 2110,
+            "modified": "2026-07-19T14:28:49.863799"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\config\\file_manager.yaml",
+            "size": 0,
+            "modified": "2026-07-18T16:41:19.728046"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\registry\\file_registry.json",
+            "size": 6802,
+            "modified": "2026-07-18T16:49:31.495670"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\registry\\file_registry_v11.json",
+            "size": 9122,
+            "modified": "2026-07-18T17:33:19.177824"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\registry\\file_registry_v11.py",
+            "size": 2431,
+            "modified": "2026-07-18T17:15:54.523124"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\runtime\\file_manager_state.json",
+            "size": 0,
+            "modified": "2026-07-18T16:41:19.743637"
+        },
+        {
+            "file": "E:\\football_v\\00_System_OS\\File_Manager\\scanner\\file_scanner.py",
+            "size": 4062,
+            "modified": "2026-07-18T16:49:06.648484"
+        }
+    ]
+}

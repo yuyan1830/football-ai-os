@@ -1,0 +1,12 @@
+{
+    "framework": "Football AI OS",
+    "module": "Feature Store",
+    "version": "V2.3",
+    "allowed_source": [
+        "E:\\football_v\\DATABASE"
+    ],
+    "blocked_source": [
+        "E:\\football"
+    ],
+    "auto_import": false
+}

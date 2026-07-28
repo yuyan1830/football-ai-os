@@ -1,0 +1,43 @@
+{
+    "version": "END_TO_END_TEST_V2.9",
+    "time": "2026-07-23 20:28:51.948232",
+    "input": {
+        "home_team": "Manchester City",
+        "away_team": "Liverpool",
+        "league": "Premier League",
+        "odds": {
+            "home": 1.85,
+            "draw": 3.6,
+            "away": 3.9
+        }
+    },
+    "layers": {
+        "DATA": "PASS",
+        "FEATURE": "PASS",
+        "MODEL": "PASS",
+        "PREDICTION": "PASS",
+        "MARKET": "PASS",
+        "RISK": "PASS",
+        "LEARNING": "PASS",
+        "DECISION": "PASS",
+        "APPLICATION": "PASS",
+        "SIMULATION": "PASS"
+    },
+    "models": {
+        "ELO": true,
+        "Dixon-Coles": true,
+        "Poisson": true,
+        "XGBoost": true,
+        "Fusion_V2.3": true
+    },
+    "prediction": {
+        "home_win": 0.54,
+        "draw": 0.25,
+        "away_win": 0.21
+    },
+    "recommendation": {
+        "decision": "HOME_WIN",
+        "confidence": 0.78
+    },
+    "system_status": "READY"
+}

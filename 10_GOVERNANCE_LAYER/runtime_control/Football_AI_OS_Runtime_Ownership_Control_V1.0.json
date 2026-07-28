@@ -1,0 +1,17 @@
+﻿{
+ "Control":"RUNTIME_OWNERSHIP",
+
+ "Core_Runtime":[
+ "AI_RUNTIME",
+ "11_System_Intelligence",
+ "06_PREDICTION_INTELLIGENCE_ENGINE",
+ "18_MODEL_EXECUTION_ENGINE",
+ "27_MODEL_FUSION_ENGINE",
+ "08_DECISION_LAYER",
+ "12_API_LAYER"
+ ],
+
+ "Freeze":true,
+
+ "Modification":false
+}

@@ -1,0 +1,26 @@
+{
+    "version": "V1.0",
+    "time": "2026-07-20 16:53:54.977813",
+    "sources": [
+        {
+            "name": "football-data",
+            "type": "csv",
+            "status": "active",
+            "download_check": {
+                "path": "E:\\football_v\\01_Data_Source\\download",
+                "exists": true,
+                "file_count": 2
+            }
+        },
+        {
+            "name": "api-football",
+            "type": "api",
+            "status": "planned",
+            "download_check": {
+                "path": "E:\\football_v\\01_Data_Source\\download",
+                "exists": true,
+                "file_count": 2
+            }
+        }
+    ]
+}

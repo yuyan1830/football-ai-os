@@ -1,0 +1,24 @@
+{
+    "framework": "Football AI OS",
+    "module": "02_DATA_PLATFORM",
+    "service": "dataset_registry",
+    "version": "V1.0",
+    "datasets": [
+        {
+            "name": "match_raw",
+            "type": "football_match",
+            "status": "ready"
+        },
+        {
+            "name": "team_raw",
+            "type": "football_team",
+            "status": "ready"
+        },
+        {
+            "name": "odds_raw",
+            "type": "market_odds",
+            "status": "planned"
+        }
+    ],
+    "created": "2026-07-20 17:49:20.860654"
+}

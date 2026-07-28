@@ -1,0 +1,36 @@
+{
+    "version": "SIMULATION_V2.7.1",
+    "time": "2026-07-23 20:22:34.558399",
+    "match": {
+        "home_team": "Manchester City",
+        "away_team": "Liverpool",
+        "league": "Premier League",
+        "handicap": "Home -0.5",
+        "odds": {
+            "home": 1.85,
+            "draw": 3.6,
+            "away": 3.9
+        }
+    },
+    "models": {
+        "ELO": "PASS",
+        "Dixon-Coles": "PASS",
+        "Poisson": "PASS",
+        "XGBoost": "PASS",
+        "Fusion_V2.3": "PASS"
+    },
+    "prediction": {
+        "home_win": 0.54,
+        "draw": 0.25,
+        "away_win": 0.21
+    },
+    "market": {
+        "value_edge": "POSITIVE"
+    },
+    "risk": {
+        "level": "MEDIUM",
+        "confidence": 0.78
+    },
+    "decision": "HOME_WIN",
+    "status": "READY"
+}

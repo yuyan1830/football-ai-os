@@ -1,0 +1,37 @@
+{
+    "framework": "Football AI OS Ultimate Fusion Framework V1.5",
+    "module": "08_DECISION_INTELLIGENCE_LAYER",
+    "service": "decision_layer_test",
+    "version": "V1.0",
+    "status": "PASS",
+    "total_tests": 5,
+    "failed": 0,
+    "tests": [
+        {
+            "test": "decision_engine",
+            "status": "PASS",
+            "message": "decision interface ready"
+        },
+        {
+            "test": "raw_output",
+            "status": "PASS",
+            "message": "model raw output ready"
+        },
+        {
+            "test": "explanation_engine",
+            "status": "PASS",
+            "message": "model explanation ready"
+        },
+        {
+            "test": "fusion_analysis",
+            "status": "PASS",
+            "message": "fusion weight analysis ready"
+        },
+        {
+            "test": "future_model_interface",
+            "status": "PASS",
+            "message": "new model register ready"
+        }
+    ],
+    "time": "2026-07-22 16:45:59.017331"
+}

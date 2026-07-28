@@ -1,0 +1,10 @@
+﻿Asset_ID,Asset_Category,Asset_Name,Source_Path,Related_Layer,Architecture_Role,Status,Action
+LEGACY_DB_001,DATABASE,match_data.db,E:\football_v\00_System_OS\01_DATA_LAYER\database\match_data.db,01_DATA_LAYER,Historical Match Data Backup,LEGACY_REVIEW,KEEP
+LEGACY_FEATURE_001,FEATURE,feature_store.db,E:\football_v\00_System_OS\02_FEATURE_LAYER\database\feature_store.db,02_FEATURE_LAYER,Feature Store Snapshot,LEGACY_REVIEW,KEEP
+LEGACY_MODEL_001,MODEL,elo_model,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,Elo Rating Engine,OMEGA_V3.2_CORE,KEEP
+LEGACY_MODEL_002,MODEL,dixon_coles_model,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,Dixon Coles Probability Engine,OMEGA_V3.2_CORE,KEEP
+LEGACY_MODEL_003,MODEL,poisson_model,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,Poisson Goal Model,OMEGA_V3.2_CORE,KEEP
+LEGACY_MODEL_004,MODEL,xgboost_model,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,XGBoost Prediction Model,OMEGA_V3.2_CORE,KEEP
+LEGACY_MODEL_005,MODEL,fusion_model,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,Multi Model Fusion Engine,OMEGA_V3.2_CORE,KEEP
+LEGACY_MODEL_006,MODEL,model_weight,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,Model Weight History,OMEGA_V3.2_CORE,KEEP
+LEGACY_MODEL_007,MODEL,prediction_history,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,Prediction Feedback History,OMEGA_V3.2_CORE,KEEP

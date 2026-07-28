@@ -1,0 +1,83 @@
+{
+    "System": "Football AI OS",
+    "Version": "1.0",
+    "Modules": [
+        {
+            "ID": "AUTOMATION_001",
+            "Name": "Automation",
+            "Version": "UNKNOWN",
+            "Status": "DISCOVERED",
+            "Detected": "2026-07-18T20:08:49.573892"
+        },
+        {
+            "ID": "BOOTSTRAP_001",
+            "Name": "Bootstrap",
+            "Version": "UNKNOWN",
+            "Status": "DISCOVERED",
+            "Detected": "2026-07-18T20:08:49.573892"
+        },
+        {
+            "ID": "CONFIG_001",
+            "Name": "config",
+            "Version": "UNKNOWN",
+            "Status": "DISCOVERED",
+            "Detected": "2026-07-18T20:08:49.590893"
+        },
+        {
+            "ID": "CORE_001",
+            "Name": "core",
+            "Version": "UNKNOWN",
+            "Status": "DISCOVERED",
+            "Detected": "2026-07-18T20:08:49.590893"
+        },
+        {
+            "ID": "FILE_MANAGER_001",
+            "Name": "File_Manager",
+            "Version": "UNKNOWN",
+            "Status": "DISCOVERED",
+            "Detected": "2026-07-18T20:08:49.590893"
+        },
+        {
+            "ID": "LOGS_001",
+            "Name": "logs",
+            "Version": "UNKNOWN",
+            "Status": "DISCOVERED",
+            "Detected": "2026-07-18T20:08:49.590893"
+        },
+        {
+            "ID": "MONITOR_001",
+            "Name": "Monitor",
+            "Version": "UNKNOWN",
+            "Status": "DISCOVERED",
+            "Detected": "2026-07-18T20:08:49.590893"
+        },
+        {
+            "ID": "RECOVERY_001",
+            "Name": "Recovery",
+            "Version": "UNKNOWN",
+            "Status": "DISCOVERED",
+            "Detected": "2026-07-18T20:08:49.590893"
+        },
+        {
+            "ID": "REGISTRY_001",
+            "Name": "registry",
+            "Version": "UNKNOWN",
+            "Status": "DISCOVERED",
+            "Detected": "2026-07-18T20:08:49.590893"
+        },
+        {
+            "ID": "RUNTIME_001",
+            "Name": "runtime",
+            "Version": "UNKNOWN",
+            "Status": "DISCOVERED",
+            "Detected": "2026-07-18T20:08:49.590893"
+        },
+        {
+            "ID": "SERVICES_001",
+            "Name": "services",
+            "Version": "UNKNOWN",
+            "Status": "DISCOVERED",
+            "Detected": "2026-07-18T20:08:49.590893"
+        }
+    ]
+}

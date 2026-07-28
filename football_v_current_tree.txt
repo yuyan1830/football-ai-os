@@ -1,0 +1,1247 @@
+﻿卷 本地磁盘 的文件夹 PATH 列表
+卷序列号为 EE5B-0C2A
+E:.
+|   current_check.txt
+|   football_v_current_structure.txt
+|   football_v_current_tree.txt
+|   framework_migration_report.json
+|   init_Football_AI_OS_v1.ps1
+|   quality_report.json
+|   structure.txt
+|   
++---00_System_OS
+|   +---01_DATA_LAYER
+|   |   |   deploy_schema_validator_final.ps1
+|   |   |   main.py
+|   |   |   upgrade_validator_schema_v1.ps1
+|   |   |   
+|   |   +---archive
+|   |   +---config
+|   |   |   |   database_config.py
+|   |   |   |   __init__.py
+|   |   |   |   
+|   |   |   \---__pycache__
+|   |   |           database_config.cpython-312.pyc
+|   |   |           __init__.cpython-312.pyc
+|   |   |           
+|   |   +---core
+|   |   |   +---database
+|   |   |   |   |   db_connection.py
+|   |   |   |   |   
+|   |   |   |   \---__pycache__
+|   |   |   |           db_connection.cpython-312.pyc
+|   |   |   |           
+|   |   |   +---exception
+|   |   |   |   |   base_exception.py
+|   |   |   |   |   database_exception.py
+|   |   |   |   |   error_codes.py
+|   |   |   |   |   exception_handler.py
+|   |   |   |   |   file_exception.py
+|   |   |   |   |   validation_exception.py
+|   |   |   |   |   __init__.py
+|   |   |   |   |   
+|   |   |   |   \---__pycache__
+|   |   |   |           base_exception.cpython-312.pyc
+|   |   |   |           database_exception.cpython-312.pyc
+|   |   |   |           file_exception.cpython-312.pyc
+|   |   |   |           validation_exception.cpython-312.pyc
+|   |   |   |           __init__.cpython-312.pyc
+|   |   |   |           
+|   |   |   +---file_service
+|   |   |   |       file_service.py
+|   |   |   |       
+|   |   |   +---hash_service
+|   |   |   |       hash_service.py
+|   |   |   |       
+|   |   |   +---logger
+|   |   |   |   |   compatibility.py
+|   |   |   |   |   formatter.py
+|   |   |   |   |   handlers.py
+|   |   |   |   |   logger.py
+|   |   |   |   |   log_config.json
+|   |   |   |   |   __init__.py
+|   |   |   |   |   
+|   |   |   |   \---__pycache__
+|   |   |   |           formatter.cpython-312.pyc
+|   |   |   |           handlers.cpython-312.pyc
+|   |   |   |           logger.cpython-312.pyc
+|   |   |   |           __init__.cpython-312.pyc
+|   |   |   |           
+|   |   |   +---validator
+|   |   |   |   |   data_validator.py
+|   |   |   |   |   schema_validator.py
+|   |   |   |   |   schema_validator_status.txt
+|   |   |   |   |   validation_result.py
+|   |   |   |   |   __init__.py
+|   |   |   |   |   
+|   |   |   |   \---__pycache__
+|   |   |   |           data_validator.cpython-312.pyc
+|   |   |   |           validation_result.cpython-312.pyc
+|   |   |   |           __init__.cpython-312.pyc
+|   |   |   |           
+|   |   |   \---version_service
+|   |   |           version_service.py
+|   |   |           
+|   |   +---database
+|   |   |       football_ai_os.db
+|   |   |       新建文本文档.txt
+|   |   |       
+|   |   +---import_pipeline
+|   |   |       archive_manager.py
+|   |   |       duplicate_checker.py
+|   |   |       importer.py
+|   |   |       scanner.py
+|   |   |       validator.py
+|   |   |       __init__.py
+|   |   |       
+|   |   +---logs
+|   |   |       2026-07-19.log
+|   |   |       football_ai.log
+|   |   |       
+|   |   +---market
+|   |   |       bookmaker_manager.py
+|   |   |       market_type_manager.py
+|   |   |       odds_manager.py
+|   |   |       
+|   |   +---processed_data
+|   |   +---quality
+|   |   |       quality_checker.py
+|   |   |       quality_engine.py
+|   |   |       quality_report.py
+|   |   |       quality__init__.py
+|   |   |       
+|   |   +---raw_data
+|   |   |   +---external
+|   |   |   +---market
+|   |   |   |   +---correct_score
+|   |   |   |   +---exchange
+|   |   |   |   +---handicap
+|   |   |   |   +---odds_1x2
+|   |   |   |   \---over_under
+|   |   |   +---match
+|   |   |   +---player
+|   |   |   \---team
+|   |   +---registry
+|   |   |       data_lineage.py
+|   |   |       import_tracker.py
+|   |   |       quality_score.py
+|   |   |       registry_manager.py
+|   |   |       
+|   |   +---scripts
+|   |   |       create_data_layer.py
+|   |   |       database_alert_final_upgrade.py
+|   |   |       database_init.py
+|   |   |       database_market_init.py
+|   |   |       database_quality_alert_upgrade.py
+|   |   |       database_quality_init.py
+|   |   |       database_task_reliability_init.py
+|   |   |       database_task_table_upgrade.py
+|   |   |       quality_rule_init.py
+|   |   |       registry_init.py
+|   |   |       registry_manager.py
+|   |   |       retry_policy_init.py
+|   |   |       task_queue_init.py
+|   |   |       test.csv
+|   |   |       test_quality_engine.py
+|   |   |       test_registry_flow.py
+|   |   |       test_retry_logger.py
+|   |   |       test_scheduler.py
+|   |   |       test_scheduler_reliability.py
+|   |   |       test_task_history.py
+|   |   |       test_task_manager_reliability.py
+|   |   |       test_task_queue.py
+|   |   |       test_task_reliability_full.py
+|   |   |       
+|   |   +---task_queue
+|   |   |       manual_task.py
+|   |   |       retry_engine.py
+|   |   |       retry_logger.py
+|   |   |       scheduler.py
+|   |   |       task_history.py
+|   |   |       task_manager.py
+|   |   |       task_query.py
+|   |   |       task_queue_init.py
+|   |   |       task_status.py
+|   |   |       __init__.py
+|   |   |       新建文本文档.txt
+|   |   |       
+|   |   \---test_data
+|   |           test_odds.csv
+|   |           
+|   +---Automation
+|   |   +---logs
+|   |   |       scheduler_log.json
+|   |   |       workflow_run_log.json
+|   |   |       
+|   |   +---scheduler
+|   |   |       install_monitor_task.ps1
+|   |   |       install_recovery_task.ps1
+|   |   |       install_task.ps1
+|   |   |       scheduler_config.json
+|   |   |       scheduler_manager.py
+|   |   |       
+|   |   +---task_manager
+|   |   |       task_history.json
+|   |   |       task_manager.py
+|   |   |       task_registry.json
+|   |   |       
+|   |   \---workflow
+|   |           workflow.json
+|   |           workflow_runner.py
+|   |           
+|   +---Bootstrap
+|   |   |   bootstrap.py
+|   |   |   bootstrap_config.json
+|   |   |   bootstrap_log.json
+|   |   |   config_generator.py
+|   |   |   deployment_log.txt
+|   |   |   deployment_report.json
+|   |   |   deploy_system.py
+|   |   |   setup_system.py
+|   |   |   system_check.py
+|   |   |   system_check_log.json
+|   |   |   
+|   |   \---config
+|   |           automation.yaml
+|   |           config_generation.json
+|   |           monitor.yaml
+|   |           recovery.yaml
+|   |           system.yaml
+|   |           
+|   +---config
+|   +---core
+|   +---File_Manager
+|   |   +---archive
+|   |   |   |   archive_index.json
+|   |   |   |   archive_manager.py
+|   |   |   |   archive_manager_v11.py
+|   |   |   |   archive_report.json
+|   |   |   |   archive_rules.json
+|   |   |   |   
+|   |   |   \---storage
+|   |   |       \---20260718_170551
+|   |   |               duplicate_report.csv
+|   |   |               file_inventory.csv
+|   |   |               lifecycle_report.csv
+|   |   |               
+|   |   +---config
+|   |   |       file_manager.yaml
+|   |   |       
+|   |   +---duplicate
+|   |   |       duplicate_detector_v11.py
+|   |   |       duplicate_report_v11.json
+|   |   |       
+|   |   +---hash
+|   |   |       duplicate_detector.py
+|   |   |       
+|   |   +---lifecycle
+|   |   |       lifecycle_engine.py
+|   |   |       lifecycle_history.json
+|   |   |       lifecycle_manager.py
+|   |   |       lifecycle_rules.json
+|   |   |       
+|   |   +---registry
+|   |   |       asset_schema.json
+|   |   |       file_registry.json
+|   |   |       file_registry_v11.json
+|   |   |       file_registry_v11.py
+|   |   |       
+|   |   +---reports
+|   |   |       duplicate_report.csv
+|   |   |       file_inventory.csv
+|   |   |       lifecycle_report.csv
+|   |   |       
+|   |   +---runtime
+|   |   |       file_manager_state.json
+|   |   |       
+|   |   +---scanner
+|   |   |       file_scanner.py
+|   |   |       
+|   |   +---source
+|   |   |       source_schema.json
+|   |   |       
+|   |   +---version
+|   |   |       version_manager.py
+|   |   |       version_registry.json
+|   |   |       version_schema.json
+|   |   |       
+|   |   \---新建文件夹
+|   +---logs
+|   +---Monitor
+|   |       error_log.json
+|   |       health_status.json
+|   |       heartbeat.json
+|   |       monitor_service.py
+|   |       
+|   +---Recovery
+|   |       recovery_controller.py
+|   |       recovery_log.json
+|   |       recovery_policy.json
+|   |       recovery_service.py
+|   |       
+|   +---registry
+|   |       dependency_engine.py
+|   |       dependency_map.json
+|   |       modules.json
+|   |       module_registry.json
+|   |       module_template.json
+|   |       registry.json
+|   |       registry_api.py
+|   |       registry_log.json
+|   |       registry_manager.py
+|   |       registry_scanner.py
+|   |       
+|   +---runtime
+|   |       system_state.json
+|   |       
+|   +---scripts
+|   |       core_architecture_freeze_v12.ps1
+|   |       core_cleanup_patch_v12.ps1
+|   |       core_service_final_acceptance_v1.ps1
+|   |       core_service_validation_v12.ps1
+|   |       core_structure_cleanup_v12.ps1
+|   |       deploy_schema_validator_final.ps1
+|   |       framework_export_scan_v12.ps1
+|   |       framework_initializer.py
+|   |       legacy_archive_finalize_v12.ps1
+|   |       legacy_cleanup_v10.ps1
+|   |       logger_cleanup_v13.ps1
+|   |       logger_consolidation_v12.ps1
+|   |       project_structure_scanner.py
+|   |       setup_logger_module.py
+|   |       upgrade_database_service_v11.ps1
+|   |       upgrade_exception_service_v1.ps1
+|   |       upgrade_exception_service_v10.ps1
+|   |       upgrade_file_service_v11.ps1
+|   |       upgrade_hash_service_v11.ps1
+|   |       upgrade_validator_schema_v1.ps1
+|   |       upgrade_version_service_v11.ps1
+|   |       
+|   \---services
++---00_SYSTEM_TOOLS
+|   +---Checkpoint
+|   |       ai_autonomous_engine_hil_v1.4_checkpoint.json
+|   |       ai_autonomous_engine_hil_v1.6_checkpoint.json
+|   |       ai_autonomous_engine_hil_v1.8_checkpoint.json
+|   |       ai_orchestration_layer_v1.3_checkpoint.json
+|   |       backtest_system_v1.3_checkpoint.json
+|   |       decision_engine_v1.3_checkpoint.json
+|   |       feature_store_v1.9_checkpoint.json
+|   |       feature_store_v2.0_checkpoint.json
+|   |       feature_store_v2.1_checkpoint.json
+|   |       feature_store_v2.2_checkpoint.json
+|   |       feature_store_v2.3_checkpoint.json
+|   |       feature_store_v2.6_checkpoint.json
+|   |       feature_store_v3.0_checkpoint.json
+|   |       model_layer_v1.3_checkpoint.json
+|   |       prediction_engine_v1.3_checkpoint.json
+|   |       
+|   \---Module_Deployment_Tool
+|       +---logs
+|       +---modules
+|       |   |   deploy_ai_autonomous_engine_HIL_V1.0_V1.4.py
+|       |   |   deploy_ai_autonomous_engine_HIL_V1.2.py
+|       |   |   deploy_ai_autonomous_engine_HIL_V1.3_V1.4.py
+|       |   |   deploy_ai_autonomous_engine_HIL_V1.5_V1.6.py
+|       |   |   deploy_ai_autonomous_engine_HIL_V1.7_V1.8.py
+|       |   |   deploy_ai_autonomous_engine_HIL_V1.9_V2.0.py
+|       |   |   deploy_ai_autonomous_engine_HIL_V2.1_V2.2_BATCH.py
+|       |   |   deploy_ai_autonomous_engine_HIL_V2.3_V2.4_BATCH.py
+|       |   |   deploy_ai_autonomous_engine_HIL_V2.5_V2.6_BATCH.py
+|       |   |   deploy_ai_autonomous_engine_HIL_V2.7_V2.8_BATCH.py
+|       |   |   deploy_ai_autonomous_engine_HIL_V2.9_V3.0_BATCH.py
+|       |   |   deploy_ai_autonomous_engine_V1.0_V1.3.py
+|       |   |   deploy_ai_orchestration_layer_V1.0_V1.3.py
+|       |   |   deploy_backtest_system_V1.0_V1.3.py
+|       |   |   deploy_decision_engine_V1.0_V1.3.py
+|       |   |   deploy_feature_store_V1.0.py
+|       |   |   deploy_feature_store_V1.1.py
+|       |   |   deploy_feature_store_V1.2.py
+|       |   |   deploy_feature_store_V1.3.py
+|       |   |   deploy_feature_store_V1.4.py
+|       |   |   deploy_feature_store_V1.5.py
+|       |   |   deploy_feature_store_V1.6.py
+|       |   |   deploy_feature_store_V1.7.py
+|       |   |   deploy_feature_store_V1.8.py
+|       |   |   deploy_feature_store_V1.9.py
+|       |   |   deploy_feature_store_V2.0.py
+|       |   |   deploy_feature_store_V2.1.py
+|       |   |   deploy_feature_store_V2.2.py
+|       |   |   deploy_feature_store_V2.3.py
+|       |   |   deploy_feature_store_V2.4_V2.6.py
+|       |   |   deploy_feature_store_V2.7_V3.0.py
+|       |   |   deploy_model_layer_V1.0_V1.3.py
+|       |   |   deploy_prediction_engine_V1.0_V1.3.py
+|       |   |   
+|       |   \---__pycache__
+|       |           deploy_ai_autonomous_engine_HIL_V2.7_V2.8_BATCH.cpython-312.pyc
+|       |           deploy_ai_autonomous_engine_HIL_V2.9_V3.0_BATCH.cpython-312.pyc
+|       |           deploy_decision_engine_V1.0_V1.3.cpython-312.pyc
+|       |           
+|       +---reports
+|       \---templates
++---01_Data_Archive
+|   \---history
++---01_Data_Source
+|   +---acceptance
+|   |       acceptance_check.py
+|   |       
+|   +---download
+|   |       data_downloader.py
+|   |       download_history.json
+|   |       __init__.py
+|   |       
+|   +---monitor
+|   |       source_health_report.json
+|   |       source_monitor.py
+|   |       __init__.py
+|   |       
+|   +---pipeline
+|   |   |   pipeline_runner.py
+|   |   |   source_scanner.py
+|   |   |   source_validator.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           source_scanner.cpython-312.pyc
+|   |           source_validator.cpython-312.pyc
+|   |           
+|   +---registry
+|   |       source_registry.json
+|   |       source_registry.py
+|   |       source_registry.pynotepad
+|   |       __init__.py
+|   |       
+|   +---reports
+|   |       data_source_acceptance_report.json
+|   |       
+|   \---tests
++---02_Data_Infrastructure
+|   \---config
++---02_Data_Platform
+|   +---archive
+|   +---config
+|   +---data_loader
+|   |   |   data_loader.py
+|   |   |   __init__.py
+|   |   |   
+|   |   +---engine
+|   |   |       loader_engine.py
+|   |   |       
+|   |   \---formats
+|   |           csv_loader.py
+|   |           
+|   +---data_manager
+|   |   |   dataset_manager.py
+|   |   |   dataset_registry.json
+|   |   |   dataset_registry.py
+|   |   |   data_manager.py
+|   |   |   data_status.py
+|   |   |   __init__.py
+|   |   |   __main__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           dataset_manager.cpython-312.pyc
+|   |           dataset_registry.cpython-312.pyc
+|   |           data_manager.cpython-312.pyc
+|   |           
+|   +---integration
+|   |       platform_bootstrap.py
+|   |       __init__.py
+|   |       
+|   +---logs
+|   +---metadata
+|   |   |   data_platform_registry.json
+|   |   |   metadata_manager.py
+|   |   |   metadata_registry.json
+|   |   |   metadata_schema.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---lineage
+|   |           data_lineage.py
+|   |           lineage_registry.json
+|   |           __init__.py
+|   |           
+|   +---pipeline
+|   |       data_pipeline.py
+|   |       __init__.py
+|   |       
+|   +---processed
+|   |   +---match
+|   |   +---odds
+|   |   +---player
+|   |   \---team
+|   +---raw
+|   |   |   raw_manager.py
+|   |   |   raw_registry.json
+|   |   |   raw_registry.py
+|   |   |   raw_scanner.py
+|   |   |   __init__.py
+|   |   |   
+|   |   +---market
+|   |   +---match
+|   |   +---player
+|   |   +---team
+|   |   \---__pycache__
+|   |           raw_registry.cpython-312.pyc
+|   |           raw_scanner.cpython-312.pyc
+|   |           
+|   +---registry
+|   |       data_platform_registry.json
+|   |       data_platform_registry.py
+|   |       __init__.py
+|   |       
+|   \---storage_engine
+|           storage_manager.py
+|           storage_registry.json
+|           __init__.py
+|           
++---03_Data_Governance
+|   +---audit
+|   |       audit_engine.py
+|   |       audit_rules.json
+|   |       
+|   +---controller
+|   |       governance_controller.py
+|   |       
+|   +---lineage
+|   |       lineage_engine.py
+|   |       lineage_registry.json
+|   |       
+|   +---quality
+|   |       quality_engine.py
+|   |       
+|   +---registry
+|   |       audit_registry.json
+|   |       data_registry.json
+|   |       governance_registry.json
+|   |       lineage_registry.json
+|   |       quality_registry.json
+|   |       validation_registry.json
+|   |       
+|   +---reports
+|   |       audit_report.json
+|   |       governance_status.json
+|   |       lineage_report.json
+|   |       quality_report.json
+|   |       validation_report.json
+|   |       
+|   \---validation
+|           rules.json
+|           validation_engine.py
+|           
++---04_Data_Processing_AI
+|   +---cleaning
+|   |       cleaning_engine.py
+|   |       cleaning_rules.json
+|   |       
+|   +---config
+|   +---controller
+|   |       processing_controller.py
+|   |       
+|   +---feature_engine
+|   |       feature_engine.py
+|   |       feature_rules.json
+|   |       
+|   +---feature_store
+|   |   |   backtest_dataset_manager.py
+|   |   |   database_connection_pool.py
+|   |   |   database_connector.py
+|   |   |   database_health_monitor.py
+|   |   |   database_migration_manager.py
+|   |   |   dataset_split_manager.py
+|   |   |   data_promotion_service.py
+|   |   |   data_source_registry.py
+|   |   |   elo_history_feature_engine.py
+|   |   |   environment_manager.py
+|   |   |   feature_anomaly_detector.py
+|   |   |   feature_api_service.py
+|   |   |   feature_audit_logger.py
+|   |   |   feature_auto_generator.py
+|   |   |   feature_cache_manager.py
+|   |   |   feature_context_builder.py
+|   |   |   feature_crud_service.py
+|   |   |   feature_database_connector.py
+|   |   |   feature_database_health_check.py
+|   |   |   feature_database_reader.py
+|   |   |   feature_database_service.py
+|   |   |   feature_database_session.py
+|   |   |   feature_dataset_builder.py
+|   |   |   feature_dataset_builder_v2.py
+|   |   |   feature_dataset_exporter.py
+|   |   |   feature_dataset_generator.py
+|   |   |   feature_dataset_reporter.py
+|   |   |   feature_dataset_schema_validator.py
+|   |   |   feature_dataset_version_manager.py
+|   |   |   feature_data_ingestion.py
+|   |   |   feature_data_loader.py
+|   |   |   feature_drift_detector.py
+|   |   |   feature_feature_generator.py
+|   |   |   feature_feedback_optimizer.py
+|   |   |   feature_importance_analyzer.py
+|   |   |   feature_ingestion_scheduler.py
+|   |   |   feature_interaction_engine.py
+|   |   |   feature_lineage_tracker.py
+|   |   |   feature_loader.py
+|   |   |   feature_loader_service.py
+|   |   |   feature_match_reader.py
+|   |   |   feature_model_adapter.py
+|   |   |   feature_model_interface.py
+|   |   |   feature_model_registry.py
+|   |   |   feature_optimizer.py
+|   |   |   feature_pattern_miner.py
+|   |   |   feature_pipeline.py
+|   |   |   feature_pipeline_runner.py
+|   |   |   feature_probability_schema.py
+|   |   |   feature_quality_monitor.py
+|   |   |   feature_quality_reporter.py
+|   |   |   feature_quality_rules.py
+|   |   |   feature_query_engine.py
+|   |   |   feature_query_service.py
+|   |   |   feature_reduction_engine.py
+|   |   |   feature_registry.py
+|   |   |   feature_request_router.py
+|   |   |   feature_response_formatter.py
+|   |   |   feature_schema.py
+|   |   |   feature_selector_ai.py
+|   |   |   feature_service.py
+|   |   |   feature_service_health.py
+|   |   |   feature_snapshot_manager.py
+|   |   |   feature_store.py
+|   |   |   feature_table_mapper.py
+|   |   |   feature_time_series_manager.py
+|   |   |   feature_validation_service.py
+|   |   |   feature_validator.py
+|   |   |   feature_version_manager.py
+|   |   |   historical_feature_builder.py
+|   |   |   historical_feature_database.py
+|   |   |   historical_feature_registry.py
+|   |   |   historical_feature_repository.py
+|   |   |   historical_feature_repository_v2.py
+|   |   |   historical_feature_table_creator.py
+|   |   |   home_away_feature_engine.py
+|   |   |   intelligent_feature_store.py
+|   |   |   model_feedback_collector.py
+|   |   |   model_training_exporter.py
+|   |   |   prediction_error_analyzer.py
+|   |   |   production_release_checker.py
+|   |   |   team_form_feature_engine.py
+|   |   |   training_dataset_builder.py
+|   |   |   validation_dataset_checker.py
+|   |   |   validation_production_switch.py
+|   |   |   
+|   |   +---adapters
+|   |   |       dixon_coles_adapter.py
+|   |   |       dixon_coles_feature_adapter.py
+|   |   |       elo_adapter.py
+|   |   |       elo_feature_adapter.py
+|   |   |       fusion_adapter.py
+|   |   |       fusion_feature_adapter.py
+|   |   |       poisson_adapter.py
+|   |   |       poisson_feature_adapter.py
+|   |   |       xgboost_adapter.py
+|   |   |       xgboost_feature_adapter.py
+|   |   |       
+|   |   +---catalog
+|   |   |       feature_catalog.json
+|   |   |       
+|   |   +---config
+|   |   |       database_config.json
+|   |   |       database_runtime.json
+|   |   |       database_service_config.json
+|   |   |       environment_config.json
+|   |   |       feature_store_config.json
+|   |   |       ingestion_config.json
+|   |   |       intelligent_feature_config.json
+|   |   |       match_data_runtime.json
+|   |   |       postgres_runtime_config.json
+|   |   |       production_feature_config.json
+|   |   |       training_dataset_config.json
+|   |   |       
+|   |   +---migrations
+|   |   |       V2.1_create_historical_feature_tables.sql
+|   |   |       
+|   |   +---registry
+|   |   |       feature_registry.json
+|   |   |       
+|   |   +---reports
+|   |   |       ai_feature_dataset_report.json
+|   |   |       database_migration_report.json
+|   |   |       database_runtime_report.json
+|   |   |       data_promotion_report.json
+|   |   |       feature_database_report.json
+|   |   |       feature_dataset_generation_report.json
+|   |   |       feature_pipeline_report.json
+|   |   |       feature_store_report.json
+|   |   |       historical_feature_database_report.json
+|   |   |       historical_feature_report.json
+|   |   |       ingestion_report.json
+|   |   |       intelligent_feature_report.json
+|   |   |       model_feature_mapping_report.json
+|   |   |       production_readiness_report.json
+|   |   |       training_dataset_report.json
+|   |   |       
+|   |   +---schema
+|   |   |       ai_feature_dataset_schema.json
+|   |   |       feature_schema.json
+|   |   |       historical_feature_schema.json
+|   |   |       match_dataset_schema.json
+|   |   |       match_schema.json
+|   |   |       
+|   |   \---tests
+|   |           ai_feature_dataset_test.py
+|   |           environment_flow_test.py
+|   |           feature_database_health_test.py
+|   |           feature_database_integration_test.py
+|   |           feature_dataset_generation_test.py
+|   |           feature_ingestion_test.py
+|   |           feature_store_data_test.py
+|   |           feature_store_pipeline_test.py
+|   |           feature_store_test.py
+|   |           feature_store_v2.6_full_test.py
+|   |           feature_store_v3.0_full_test.py
+|   |           historical_feature_database_test.py
+|   |           historical_feature_store_test.py
+|   |           model_feature_adapter_test.py
+|   |           postgres_runtime_test.py
+|   |           training_dataset_pipeline_test.py
+|   |           
+|   +---pipeline
+|   |       pipeline_registry.json
+|   |       processing_pipeline.py
+|   |       
+|   +---registry
+|   |       cleaning_registry.json
+|   |       feature_registry.json
+|   |       pipeline_registry.json
+|   |       processing_registry.json
+|   |       transformation_registry.json
+|   |       
+|   +---reports
+|   |       cleaning_report.json
+|   |       feature_report.json
+|   |       pipeline_report.json
+|   |       transformation_report.json
+|   |       
+|   \---transformation
+|           transformation_engine.py
+|           transformation_rules.json
+|           
++---05_AI_Intelligence_Layer
+|   +---calibration
+|   +---config
+|   +---controller
+|   |       model_controller.py
+|   |       
+|   +---dixon_coles
+|   +---elo_engine
+|   +---fusion
+|   +---poisson
+|   +---prediction
+|   +---registry
+|   |       model_registry.json
+|   |       
+|   +---reports
+|   \---xgboost_engine
++---05_Master_Data
++---05_MODEL_AI
+|   \---MODEL_LAYER
+|       |   feature_store_connector.py
+|       |   model_interface.py
+|       |   model_loader.py
+|       |   model_registry.py
+|       |   model_runtime.py
+|       |   
+|       +---backtest
+|       |       backtest_engine.py
+|       |       model_accuracy_report.py
+|       |       prediction_tracker.py
+|       |       roi_analyzer.py
+|       |       
+|       +---config
+|       |       model_config.json
+|       |       
+|       +---fusion
+|       |       fusion_engine.py
+|       |       probability_calculator.py
+|       |       
+|       +---models
+|       |       dixon_coles_model.py
+|       |       elo_model.py
+|       |       poisson_model.py
+|       |       xgboost_model.py
+|       |       
+|       +---reports
+|       |       model_layer_report.json
+|       |       
+|       \---tests
+|               model_layer_v1.3_full_test.py
+|               
++---06_Feature_Store
++---06_PREDICTION_ENGINE
+|   |   confidence_calculator.py
+|   |   correct_score_calculator.py
+|   |   goal_distribution.py
+|   |   market_probability_compare.py
+|   |   prediction_interface.py
+|   |   prediction_registry.py
+|   |   prediction_runtime.py
+|   |   prediction_service.py
+|   |   probability_calibrator.py
+|   |   probability_engine.py
+|   |   risk_engine.py
+|   |   score_prediction_engine.py
+|   |   value_analyzer.py
+|   |   
+|   +---config
+|   |       prediction_config.json
+|   |       
+|   +---reports
+|   |       prediction_engine_report.json
+|   |       
+|   \---tests
+|           prediction_engine_v1.3_full_test.py
+|           
++---07_BACKTEST_AI
+|   |   accuracy_evaluator.py
+|   |   backtest_engine.py
+|   |   backtest_runner.py
+|   |   betting_result_analyzer.py
+|   |   confidence_evaluator.py
+|   |   feature_feedback.py
+|   |   historical_match_loader.py
+|   |   model_feedback.py
+|   |   optimization_scheduler.py
+|   |   prediction_result_loader.py
+|   |   probability_evaluator.py
+|   |   roi_tracker.py
+|   |   strategy_performance.py
+|   |   
+|   +---config
+|   |       backtest_config.json
+|   |       
+|   +---reports
+|   |       backtest_report.json
+|   |       
+|   \---tests
+|           backtest_system_v1.3_full_test.py
+|           
++---07_Model_Engine
+|   +---models
+|   \---training
++---08_DECISION_ENGINE
+|   |   bankroll_manager.py
+|   |   bet_selection_engine.py
+|   |   decision_engine.py
+|   |   decision_interface.py
+|   |   decision_registry.py
+|   |   decision_runtime.py
+|   |   final_decision_report.py
+|   |   portfolio_strategy.py
+|   |   risk_control_engine.py
+|   |   stake_calculator.py
+|   |   value_filter_engine.py
+|   |   
+|   +---config
+|   |       decision_config.json
+|   |       
+|   +---reports
+|   |       decision_report.json
+|   |       
+|   \---tests
+|           decision_engine_v1.3_full_test.py
+|           
++---08_Model_Registry
++---09_AI_ORCHESTRATION_LAYER
+|   |   auto_report_generator.py
+|   |   model_router.py
+|   |   orchestration_interface.py
+|   |   pipeline_controller.py
+|   |   system_health_monitor.py
+|   |   task_scheduler.py
+|   |   workflow_engine.py
+|   |   
+|   +---config
+|   |       orchestration_config.json
+|   |       
+|   +---reports
+|   |       orchestration_report.json
+|   |       
+|   \---tests
+|           orchestration_layer_v1.3_full_test.py
+|           
++---09_Prediction_System
++---10_AI_AUTONOMOUS_ENGINE
+|   |   adaptive_parameter_learning.py
+|   |   adaptive_strategy_selector.py
+|   |   ai_strategy_reasoning_engine.py
+|   |   approval_workflow.py
+|   |   architecture_health_checker.py
+|   |   auto_experiment_engine.py
+|   |   auto_recovery_manager.py
+|   |   auto_upgrade_manager.py
+|   |   change_risk_assessor.py
+|   |   continuous_improvement_engine.py
+|   |   decision_logger.py
+|   |   decision_quality_analyzer.py
+|   |   dependency_validator.py
+|   |   dynamic_weight_adjuster.py
+|   |   error_analysis_engine.py
+|   |   error_rate_calculator.py
+|   |   error_trend_detector.py
+|   |   evolution_controller.py
+|   |   evolution_decision_brain.py
+|   |   evolution_governance_manager.py
+|   |   evolution_intelligence_engine.py
+|   |   evolution_knowledge_reasoner.py
+|   |   evolution_memory.py
+|   |   evolution_memory_index.py
+|   |   evolution_pattern_analyzer.py
+|   |   evolution_report_generator.py
+|   |   experience_pattern_miner.py
+|   |   experience_repository.py
+|   |   failure_prediction_engine.py
+|   |   feature_self_optimizer.py
+|   |   football_reasoning_core.py
+|   |   future_risk_simulator.py
+|   |   historical_case_analyzer.py
+|   |   human_approval_gate_v2.py
+|   |   human_approval_manager.py
+|   |   human_dashboard_api.py
+|   |   intelligent_task_allocator.py
+|   |   knowledge_graph_builder.py
+|   |   knowledge_relation_engine.py
+|   |   knowledge_retrieval_engine.py
+|   |   knowledge_snapshot.py
+|   |   learning_cycle_manager.py
+|   |   learning_effect_tracker.py
+|   |   market_reasoning_engine.py
+|   |   model_change_tracker.py
+|   |   model_self_optimizer.py
+|   |   module_consistency_checker.py
+|   |   monthly_performance_analyzer.py
+|   |   multi_cycle_learning_engine.py
+|   |   optimization_history.py
+|   |   optimization_priority_engine.py
+|   |   optimization_result_predictor.py
+|   |   optimization_strategy_generator.py
+|   |   optimization_suggestion_engine.py
+|   |   parameter_effect_analyzer.py
+|   |   parameter_tuner.py
+|   |   prediction_explanation_engine.py
+|   |   release_validator.py
+|   |   risk_gate.py
+|   |   rollback_manager.py
+|   |   safe_upgrade_executor.py
+|   |   scenario_test_generator.py
+|   |   self_audit_engine.py
+|   |   strategy_confidence_evaluator.py
+|   |   strategy_evolution_manager.py
+|   |   strategy_selection_engine.py
+|   |   system_restore_manager.py
+|   |   tactical_reasoning_engine.py
+|   |   time_window_analyzer.py
+|   |   upgrade_decision_engine.py
+|   |   upgrade_history_repository.py
+|   |   upgrade_policy_manager.py
+|   |   upgrade_simulation_engine.py
+|   |   version_control_manager.py
+|   |   virtual_validation_engine.py
+|   |   weekly_evolution_analyzer.py
+|   |   
+|   +---checkpoint
+|   |       evolution_v2.2_checkpoint.json
+|   |       evolution_v2.4_checkpoint.json
+|   |       evolution_v2.6_checkpoint.json
+|   |       evolution_v2.8_approval.json
+|   |       evolution_v2.8_checkpoint.json
+|   |       evolution_v3.0_approval.json
+|   |       evolution_v3.0_checkpoint.json
+|   |       
+|   +---config
+|   |       autonomous_config.json
+|   |       cognitive_intelligence_config.json
+|   |       evolution_decision_config.json
+|   |       evolution_governance_config.json
+|   |       evolution_intelligence_config.json
+|   |       evolution_knowledge_config.json
+|   |       evolution_memory_config.json
+|   |       evolution_simulation_config.json
+|   |       evolution_upgrade_config.json
+|   |       human_approval_config.json
+|   |       human_approval_gate_config.json
+|   |       optimization_strategy_config.json
+|   |       recovery_config.json
+|   |       self_audit_config.json
+|   |       strategy_reasoning_config.json
+|   |       upgrade_config.json
+|   |       
+|   +---reports
+|   |       autonomous_engine_v2.2_batch_report.json
+|   |       autonomous_engine_v2.4_batch_report.json
+|   |       autonomous_engine_v2.6_batch_report.json
+|   |       autonomous_engine_v2.8_batch_report.json
+|   |       autonomous_engine_v3.0_batch_report.json
+|   |       
+|   \---tests
+|           autonomous_engine_hil_v1.0_full_test.py
+|           autonomous_engine_v1.4_full_test.py
+|           autonomous_engine_v1.6_full_test.py
+|           autonomous_engine_v1.8_full_test.py
+|           autonomous_engine_v2.2_batch_full_test.py
+|           autonomous_engine_v2.4_batch_full_test.py
+|           autonomous_engine_v2.6_batch_full_test.py
+|           autonomous_engine_v2.8_batch_full_test.py
+|           autonomous_engine_v3.0_batch_full_test.py
+|           compile_check.py
+|           human_approval_v1.2_full_test.py
+|           optimization_suggestion_v1.1_full_test.py
+|           
++---10_Dashboard
++---11_System_Intelligence
++---97_TESTS
+|   \---common_services
++---99_DOCUMENTATION
+|   |   project_tree_snapshot.txt
+|   |   
+|   +---architecture
+|   |       Core_Service_Upgrade_Process_V1.0.md
+|   |       Football_AI_OS_Development_Roadmap_V1.2.md
+|   |       Football_AI_OS_Enterprise_Architecture_V1.1.md
+|   |       Validator Integration Upgrade Plan V1.0.txt
+|   |       
+|   +---backup
+|   |   +---Core_Backup_V1.2
+|   |   |   \---core
+|   |   |       |   db_connection.py
+|   |   |       |   file_service.py
+|   |   |       |   hash_service.py
+|   |   |       |   logger.py
+|   |   |       |   version_service.py
+|   |   |       |   
+|   |   |       +---database
+|   |   |       |       db_connection.py
+|   |   |       |       
+|   |   |       +---exception
+|   |   |       |       base_exception.py
+|   |   |       |       database_exception.py
+|   |   |       |       error_codes.py
+|   |   |       |       exception_handler.py
+|   |   |       |       file_exception.py
+|   |   |       |       validation_exception.py
+|   |   |       |       __init__.py
+|   |   |       |       
+|   |   |       +---file_service
+|   |   |       |       file_service.py
+|   |   |       |       
+|   |   |       +---hash_service
+|   |   |       |       hash_service.py
+|   |   |       |       
+|   |   |       +---logger
+|   |   |       |       compatibility.py
+|   |   |       |       formatter.py
+|   |   |       |       handlers.py
+|   |   |       |       logger.py
+|   |   |       |       log_config.json
+|   |   |       |       __init__.py
+|   |   |       |       
+|   |   |       +---validator
+|   |   |       |       data_validator.py
+|   |   |       |       deploy_schema_validator_final.ps1
+|   |   |       |       schema_validator.py
+|   |   |       |       schema_validator_status.txt
+|   |   |       |       upgrade_database_service_v11.ps1
+|   |   |       |       upgrade_exception_service_v1.ps1
+|   |   |       |       upgrade_validator_schema_v1.ps1
+|   |   |       |       validation_result.py
+|   |   |       |       __init__.py
+|   |   |       |       
+|   |   |       \---version_service
+|   |   |               version_service.py
+|   |   |               
+|   |   +---Core_Cleanup_Patch_V12
+|   |   |       framework_initializer_backup.py
+|   |   |       
+|   |   +---Legacy_Archive_Finalize_V12
+|   |   |       legacy_cleanup_v10_backup.ps1
+|   |   |       
+|   |   +---logger_backup_v12
+|   |   |   |   logger.py
+|   |   |   |   
+|   |   |   \---logger
+|   |   |           compatibility.py
+|   |   |           formatter.py
+|   |   |           handlers.py
+|   |   |           logger.py
+|   |   |           log_config.json
+|   |   |           __init__.py
+|   |   |           
+|   |   +---logger_cleanup_v13
+|   |   |       logger.py
+|   |   |       
+|   |   \---Storage_Merge_V1.0
+|   |           storage_manager.py
+|   |           __init__.py
+|   |           
+|   +---checkpoints
+|   |   |   Architecture_Snapshot_V1.2.txt
+|   |   |   Checkpoint-003.txt
+|   |   |   Checkpoint-019_Validator_Schema_V1.0.txt
+|   |   |   Checkpoint-020_Validator_Service_Stable_V1.0.txt
+|   |   |   Checkpoint-022_Exception_Service_Stable_V1.0.txt
+|   |   |   Checkpoint-023_Database_Service_V1.1_Stable.txt
+|   |   |   Checkpoint-024_File_Service_V1.1_Stable.txt
+|   |   |   Checkpoint-025_Hash_Service_V1.1_Stable.txt
+|   |   |   Checkpoint-026_Version_Service_V1.1_Stable.txt
+|   |   |   Checkpoint-027_Exception_Service_V1.0_Stable.txt
+|   |   |   Checkpoint-028_Core_Service_Fusion_Final.txt
+|   |   |   Checkpoint-030_Core_Structure_V1.2.txt
+|   |   |   Checkpoint-031_Framework_Sync_V1.2.txt.txt
+|   |   |   Checkpoint-032_Logger_Consolidation_V1.2.txt
+|   |   |   Checkpoint-033_Core_Service_Final_Validation_V1.2.txt
+|   |   |   Checkpoint-034_Logger_Cleanup_V1.3.txt
+|   |   |   Checkpoint-035_Core_Architecture_Freeze_V1.2.txt
+|   |   |   Checkpoint-036_Legacy_Cleanup_V1.0.txt
+|   |   |   Checkpoint-037_Core_Cleanup_Patch_V1.2.txt
+|   |   |   Checkpoint-038_Legacy_Archive_Finalization_V1.2.txt
+|   |   |   Checkpoint-039_Data_Infrastructure_Integration_V1.0.txt
+|   |   |   Checkpoint-039_Data_Platform_Init_V1.0.txt
+|   |   |   Checkpoint-039_Data_Source_Registry_V1.1.txt
+|   |   |   Checkpoint-040_Data_Platform_Core_V1.0.txt
+|   |   |   Checkpoint-040_Download_Engine_V1.1.txt
+|   |   |   Checkpoint-041_Data_Source_Pipeline_V1.2.txt
+|   |   |   Checkpoint-041_Storage_Architecture_Fix_V1.0.txt
+|   |   |   Checkpoint-042_Data_Manager_Runtime_Fix_V1.0.txt
+|   |   |   Checkpoint-042_Data_Source_Final_Acceptance_V1.2.txt
+|   |   |   Checkpoint-043_Data_Platform_Init_V1.0.txt
+|   |   |   Checkpoint-044_Data_Lineage_Engine_V1.0.txt
+|   |   |   Checkpoint-044_Raw_Data_Manager_V1.0.txt
+|   |   |   Checkpoint-045_Data_Platform_Integration_V1.0.txt
+|   |   |   Checkpoint-046_AI_Feature_Store_Framework_V1.0.txt
+|   |   |   Checkpoint-046_Data_Quality_Engine_V1.0.txt
+|   |   |   Checkpoint-047_Data_Validation_Engine_V1.0.txt
+|   |   |   Checkpoint-047_Football_AI_OS_Enterprise_Development_Plan_V1.5.txt
+|   |   |   Checkpoint-048_Data_Lineage_Engine_V1.0.txt
+|   |   |   Checkpoint-049_Governance_Audit_Engine_V1.0.txt
+|   |   |   Checkpoint-050_Governance_Controller_V1.0.txt
+|   |   |   Checkpoint-051_Data_Processing_Core_V1.0.txt
+|   |   |   Checkpoint-052_Data_Cleaning_Engine_V1.0.txt
+|   |   |   Checkpoint-053_Data_Transformation_Engine_V1.0.txt
+|   |   |   Checkpoint-054_Feature_Engineering_Core_V1.0.txt
+|   |   |   Checkpoint-055_Processing_Pipeline_Integration_V1.0.txt
+|   |   |   Checkpoint-056_AI_Model_Engine_Framework_V1.0.txt
+|   |   |   Checkpoint_004_Framework_Freeze_V1.1_Enterprise.md
+|   |   |   Checkpoint_005_Architecture_Alignment_Priority.md
+|   |   |   common_services_reference_scan.txt
+|   |   |   Common_Service_Current.txt
+|   |   |   Core_Current_Checkpoint010.txt
+|   |   |   core_reference_scan.txt
+|   |   |   Football_AI_OS_Architecture_Current.md
+|   |   |   Football_AI_OS_V1.1_Project_Log.md
+|   |   |   Hash_Current_PreUpgrade.txt
+|   |   |   logger_dependency_scan.txt
+|   |   |   System_Core_Current.txt
+|   |   |   
+|   |   +---database_backup_v11
+|   |   |       db_connection_backup.py
+|   |   |       
+|   |   +---exception_backup_v10
+|   |   |   \---exception
+|   |   |           base_exception.py
+|   |   |           error_codes.py
+|   |   |           exception_handler.py
+|   |   |           __init__.py
+|   |   |           
+|   |   +---file_service_backup_v11
+|   |   |       file_service_backup.py
+|   |   |       
+|   |   +---hash_service_backup_v11
+|   |   |       hash_service_backup.py
+|   |   |       
+|   |   +---logger_backup_20260720_105240
+|   |   |       logger.py
+|   |   |       
+|   |   +---logger_core_patch_backup_20260720_110736
+|   |   +---logger_merge_backup_phase1
+|   |   |       compatibility.py
+|   |   |       formatter.py
+|   |   |       handlers.py
+|   |   |       log_config.json
+|   |   |       __init__.py
+|   |   |       
+|   |   \---version_service_backup_v11
+|   |           version_service_backup.py
+|   |           
+|   +---deployment_scripts
+|   |       deploy_task_03_01.ps1
+|   |       deploy_task_03_02.ps1
+|   |       deploy_task_03_03.ps1
+|   |       deploy_task_03_04.ps1
+|   |       deploy_task_03_05.ps1
+|   |       deploy_task_04_01.ps1
+|   |       deploy_task_04_02.ps1
+|   |       deploy_task_04_03.ps1
+|   |       deploy_task_04_04.ps1
+|   |       deploy_task_04_05.ps1
+|   |       deploy_task_05_01.ps1
+|   |       fix_task_03_01_quality_engine_v2.ps1
+|   |       patch_task_03_01_quality_fix_v1.ps1
+|   |       
+|   +---reports
+|   |   |   common_service_dependency_report.json
+|   |   |   Core_Service_Upgrade_Map.json
+|   |   |   Core_Service_Upgrade_Map_V2.json
+|   |   |   framework_init_report.json
+|   |   |   
+|   |   \---Framework_Export_Scan_V1.2
+|   |           checkpoints_list.txt
+|   |           core_structure.txt
+|   |           data_layer_structure.txt
+|   |           framework_report.txt
+|   |           full_tree.txt
+|   |           powershell_scripts.txt
+|   |           python_modules.txt
+|   |           
+|   \---tools
+|           save_checkpoint.py
+|           
++---archive
+|   +---common_service_migration
+|   |       ARCHIVED_V12.txt
+|   |       common_service_migration_check.py
+|   |       core_service_compare.py
+|   |       core_service_compare_v2.py
+|   |       
+|   +---framework_scan_history
+|   |       common_services_scan.txt
+|   |       framework_scan.txt
+|   |       python_modules.txt
+|   |       
+|   \---logger_migration
+|           logger_core_merge_v1.py
+|           logger_upgrade_v1.py
+|           setup_logger_module.py
+|           
++---Config
+|       system_version.yaml
+|       
++---Database
+|   +---development
+|   |   +---cleaned
+|   |   +---feature_dataset
+|   |   +---processed
+|   |   \---raw
+|   +---MinIO
+|   +---PostgreSQL
+|   +---production
+|   \---validation
++---Documentation
+|       README.md
+|       
++---Logs
+|       system.log
+|       
++---Storage
+\---upload
+        core_scan.txt
+        

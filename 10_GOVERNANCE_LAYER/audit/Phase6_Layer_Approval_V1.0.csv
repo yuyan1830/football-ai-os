@@ -1,0 +1,4 @@
+﻿Layer,Decision,Risk,Status,Architecture,Rule_Source,Validation_Time
+11_SIMULATION_LAYER,KEEP_CURRENT,LOW,APPROVED,Football_AI_OS_Betting_Intelligence_System_Omega_V3.2,CLAUDE.md,2026-07-25
+12_API_LAYER,KEEP_CURRENT,LOW,APPROVED,Football_AI_OS_Betting_Intelligence_System_Omega_V3.2,CLAUDE.md,2026-07-25
+13_TEST_LAYER,KEEP_CURRENT,LOW,APPROVED,Football_AI_OS_Betting_Intelligence_System_Omega_V3.2,CLAUDE.md,2026-07-25

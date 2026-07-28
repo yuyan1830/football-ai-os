@@ -1,0 +1,7 @@
+﻿Migration_ID,Asset,Source,Decision,Migration_Type,Risk_Level,Approval_Status
+MODEL_MIGRATION_001,model_registry,E:\football_v\03_MODEL_LAYER\database\model_store.db,KEEP_CURRENT,NO_MIGRATION,LOW,APPROVED
+MODEL_MIGRATION_002,elo_model,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,RETAIN_LEGACY,ARCHIVE_REFERENCE,MEDIUM,PENDING
+MODEL_MIGRATION_003,poisson_model,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,RETAIN_LEGACY,ARCHIVE_REFERENCE,MEDIUM,PENDING
+MODEL_MIGRATION_004,dixon_coles_model,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,RETAIN_LEGACY,ARCHIVE_REFERENCE,MEDIUM,PENDING
+MODEL_MIGRATION_005,xgboost_model,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,RETAIN_LEGACY,ARCHIVE_REFERENCE,MEDIUM,PENDING
+MODEL_MIGRATION_006,fusion_model,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,HOLD,REVIEW_REQUIRED,HIGH,PENDING

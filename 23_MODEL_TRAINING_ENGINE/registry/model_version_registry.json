@@ -1,0 +1,12 @@
+
+{
+    "module":"Model Training Engine",
+    "version":"V2.0",
+    "models":[
+        "ELO",
+        "Dixon-Coles",
+        "Poisson",
+        "XGBoost"
+    ],
+    "status":"READY"
+}

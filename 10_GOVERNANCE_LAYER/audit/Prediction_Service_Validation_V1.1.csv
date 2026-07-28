@@ -1,0 +1,9 @@
+Database,Table,Columns,Records,Validation,Time
+prediction_service.db,prediction_service_registry,4,15,PASS,2026-07-25 13:05:01
+prediction_service.db,prediction_request,4,0,PASS,2026-07-25 13:05:01
+prediction_service.db,prediction_result,7,1,PASS,2026-07-25 13:05:01
+prediction_service.db,prediction_history,3,0,PASS,2026-07-25 13:05:01
+prediction_runtime.db,prediction_runtime,10,0,PASS,2026-07-25 13:05:01
+prediction_runtime.db,sqlite_sequence,2,0,PASS,2026-07-25 13:05:01
+prediction_runtime.db,prediction_accuracy_log,5,0,PASS,2026-07-25 13:05:01
+api_runtime.db,api_runtime_registry,3,1,PASS,2026-07-25 13:05:01

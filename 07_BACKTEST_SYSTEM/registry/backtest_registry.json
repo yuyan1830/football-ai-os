@@ -1,0 +1,12 @@
+{
+    "module": "07_BACKTEST_SYSTEM",
+    "version": "V1.0",
+    "future_model_interface": true,
+    "models": [
+        "Elo",
+        "Dixon-Coles",
+        "Poisson",
+        "XGBoost",
+        "Fusion"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "framework": "Football AI OS",
+    "module": "Feature Store",
+    "version": "V2.0",
+    "database": "PostgreSQL",
+    "tables": [
+        "team_form_history",
+        "home_away_history",
+        "elo_history",
+        "attack_defence_history",
+        "model_feature_snapshot"
+    ]
+}

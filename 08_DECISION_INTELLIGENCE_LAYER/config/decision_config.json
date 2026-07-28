@@ -1,0 +1,14 @@
+{
+    "framework": "Football AI OS Ultimate Fusion Framework V1.5",
+    "models": [
+        "Elo",
+        "Dixon-Coles",
+        "Poisson",
+        "XGBoost",
+        "Fusion"
+    ],
+    "interfaces": [
+        "Handicap_V38.8.1",
+        "Market_Risk_2.0"
+    ]
+}

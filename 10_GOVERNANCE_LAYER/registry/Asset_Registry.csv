@@ -1,0 +1,8 @@
+﻿Asset_ID,Asset_Name,Asset_Type,Source,Target_Layer,Status,Action,Validation
+A0001,Omega_V3.2_Baseline,Architecture,Baseline,10_GOVERNANCE_LAYER,ACTIVE,KEEP,PENDING
+A0002,CLAUDE.md,Governance,Rule_Set,10_GOVERNANCE_LAYER,ACTIVE,KEEP,PENDING
+A0003,Legacy_Asset_Index,Registry,Asset_Index,10_GOVERNANCE_LAYER,ACTIVE,KEEP,PENDING
+A0004,Elo_Model,Model,Legacy_System,04_MODEL_LAYER,ACTIVE,KEEP,PENDING
+A0005,Poisson_Model,Model,Legacy_System,04_MODEL_LAYER,ACTIVE,KEEP,PENDING
+A0006,Dixon_Coles_Model,Model,Legacy_System,04_MODEL_LAYER,ACTIVE,KEEP,PENDING
+A0007,XGBoost_Model,Model,Legacy_System,04_MODEL_LAYER,ACTIVE,KEEP,PENDING

@@ -1,0 +1,13 @@
+{
+    "framework": "Football AI OS",
+    "module": "Decision Engine",
+    "version": "V1.3",
+    "status": "PASS",
+    "completed": [
+        "decision_engine",
+        "bet_selection_engine",
+        "risk_control_engine",
+        "bankroll_manager",
+        "final_decision_report"
+    ]
+}

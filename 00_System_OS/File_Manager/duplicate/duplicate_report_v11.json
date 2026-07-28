@@ -1,0 +1,548 @@
+[
+    {
+        "Asset_A": "FA-000001",
+        "Asset_B": "FA-000002",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000001",
+        "Asset_B": "FA-000003",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000001",
+        "Asset_B": "FA-000004",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000001",
+        "Asset_B": "FA-000005",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000001",
+        "Asset_B": "FA-000006",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000001",
+        "Asset_B": "FA-000007",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000001",
+        "Asset_B": "FA-000008",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000001",
+        "Asset_B": "FA-000009",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000001",
+        "Asset_B": "FA-000010",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000001",
+        "Asset_B": "FA-000011",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000001",
+        "Asset_B": "FA-000012",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000001",
+        "Asset_B": "FA-000013",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000001",
+        "Asset_B": "FA-000014",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000002",
+        "Asset_B": "FA-000003",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000002",
+        "Asset_B": "FA-000004",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000002",
+        "Asset_B": "FA-000005",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000002",
+        "Asset_B": "FA-000006",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000002",
+        "Asset_B": "FA-000007",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000002",
+        "Asset_B": "FA-000008",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000002",
+        "Asset_B": "FA-000009",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000002",
+        "Asset_B": "FA-000010",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000002",
+        "Asset_B": "FA-000011",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000002",
+        "Asset_B": "FA-000012",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000002",
+        "Asset_B": "FA-000013",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000002",
+        "Asset_B": "FA-000014",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000003",
+        "Asset_B": "FA-000004",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000003",
+        "Asset_B": "FA-000005",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000003",
+        "Asset_B": "FA-000006",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000003",
+        "Asset_B": "FA-000007",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000003",
+        "Asset_B": "FA-000008",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000003",
+        "Asset_B": "FA-000009",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000003",
+        "Asset_B": "FA-000010",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000003",
+        "Asset_B": "FA-000011",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000003",
+        "Asset_B": "FA-000012",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000003",
+        "Asset_B": "FA-000013",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000003",
+        "Asset_B": "FA-000014",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000004",
+        "Asset_B": "FA-000005",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000004",
+        "Asset_B": "FA-000006",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000004",
+        "Asset_B": "FA-000007",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000004",
+        "Asset_B": "FA-000008",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000004",
+        "Asset_B": "FA-000009",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000004",
+        "Asset_B": "FA-000010",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000004",
+        "Asset_B": "FA-000011",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000004",
+        "Asset_B": "FA-000012",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000004",
+        "Asset_B": "FA-000013",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000004",
+        "Asset_B": "FA-000014",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000005",
+        "Asset_B": "FA-000006",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000005",
+        "Asset_B": "FA-000007",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000005",
+        "Asset_B": "FA-000008",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000005",
+        "Asset_B": "FA-000009",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000005",
+        "Asset_B": "FA-000010",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000005",
+        "Asset_B": "FA-000011",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000005",
+        "Asset_B": "FA-000012",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000005",
+        "Asset_B": "FA-000013",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000005",
+        "Asset_B": "FA-000014",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000006",
+        "Asset_B": "FA-000007",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000006",
+        "Asset_B": "FA-000008",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000006",
+        "Asset_B": "FA-000009",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000006",
+        "Asset_B": "FA-000010",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000006",
+        "Asset_B": "FA-000011",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000006",
+        "Asset_B": "FA-000012",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000006",
+        "Asset_B": "FA-000013",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000006",
+        "Asset_B": "FA-000014",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000007",
+        "Asset_B": "FA-000008",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000007",
+        "Asset_B": "FA-000009",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000007",
+        "Asset_B": "FA-000010",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000007",
+        "Asset_B": "FA-000011",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000007",
+        "Asset_B": "FA-000012",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000007",
+        "Asset_B": "FA-000013",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000007",
+        "Asset_B": "FA-000014",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000008",
+        "Asset_B": "FA-000009",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000008",
+        "Asset_B": "FA-000010",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000008",
+        "Asset_B": "FA-000011",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000008",
+        "Asset_B": "FA-000012",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000008",
+        "Asset_B": "FA-000013",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000008",
+        "Asset_B": "FA-000014",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000009",
+        "Asset_B": "FA-000010",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000009",
+        "Asset_B": "FA-000011",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000009",
+        "Asset_B": "FA-000012",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000009",
+        "Asset_B": "FA-000013",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000009",
+        "Asset_B": "FA-000014",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000010",
+        "Asset_B": "FA-000011",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000010",
+        "Asset_B": "FA-000012",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000010",
+        "Asset_B": "FA-000013",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000010",
+        "Asset_B": "FA-000014",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000011",
+        "Asset_B": "FA-000012",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000011",
+        "Asset_B": "FA-000013",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000011",
+        "Asset_B": "FA-000014",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000012",
+        "Asset_B": "FA-000013",
+        "Result": "EXACT_DUPLICATE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000012",
+        "Asset_B": "FA-000014",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    },
+    {
+        "Asset_A": "FA-000013",
+        "Asset_B": "FA-000014",
+        "Result": "VERSION_DIFFERENCE",
+        "Time": "2026-07-18T17:47:57.066655"
+    }
+]

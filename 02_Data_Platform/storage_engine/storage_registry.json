@@ -1,0 +1,16 @@
+{
+    "module": "02_DATA_PLATFORM",
+    "service": "data_loader",
+    "version": "V1.0",
+    "time": "2026-07-20 17:40:04.507785",
+    "raw_files": [
+        "E:\\football_v\\02_Data_Platform\\raw\\raw_manager.py",
+        "E:\\football_v\\02_Data_Platform\\raw\\raw_registry.json",
+        "E:\\football_v\\02_Data_Platform\\raw\\raw_registry.py",
+        "E:\\football_v\\02_Data_Platform\\raw\\raw_scanner.py",
+        "E:\\football_v\\02_Data_Platform\\raw\\__init__.py",
+        "E:\\football_v\\02_Data_Platform\\raw\\__pycache__\\raw_registry.cpython-312.pyc",
+        "E:\\football_v\\02_Data_Platform\\raw\\__pycache__\\raw_scanner.cpython-312.pyc"
+    ],
+    "count": 7
+}

@@ -1,0 +1,36 @@
+[
+    {
+        "Name":"File_Manager",
+        "Version":"1.0",
+        "Layer":"Core System",
+        "Status":"ONLINE"
+    },
+
+    {
+        "Name":"Automation",
+        "Version":"1.0",
+        "Layer":"Execution",
+        "Status":"ONLINE"
+    },
+
+    {
+        "Name":"Monitor",
+        "Version":"1.0",
+        "Layer":"System Control",
+        "Status":"ONLINE"
+    },
+
+    {
+        "Name":"Recovery",
+        "Version":"1.0",
+        "Layer":"Self Healing",
+        "Status":"ONLINE"
+    },
+
+    {
+        "Name":"Bootstrap",
+        "Version":"2.1",
+        "Layer":"Deployment",
+        "Status":"ONLINE"
+    }
+]

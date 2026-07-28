@@ -1,0 +1,34 @@
+{
+    "version": "REAL_MODEL_RUNTIME_V3.2.1",
+    "time": "2026-07-23 20:59:44.309014",
+    "match": {
+        "home_team": "Manchester City",
+        "away_team": "Liverpool",
+        "league": "Premier League",
+        "odds": {
+            "home": 1.85,
+            "draw": 3.6,
+            "away": 3.9
+        },
+        "handicap": "Home -0.5"
+    },
+    "models": {
+        "model_data_registry": "FOUND",
+        "sqlite_sequence": "FOUND",
+        "system_registry": "FOUND",
+        "database_registry": "FOUND",
+        "model_registry": "FOUND",
+        "runtime_log": "FOUND",
+        "ELO": "LOADED",
+        "Dixon-Coles": "LOADED",
+        "Poisson": "LOADED",
+        "XGBoost": "LOADED",
+        "Fusion_V2.3": "LOADED"
+    },
+    "prediction": {
+        "home_win": 0.54,
+        "draw": 0.25,
+        "away_win": 0.21
+    },
+    "status": "REAL_READY"
+}

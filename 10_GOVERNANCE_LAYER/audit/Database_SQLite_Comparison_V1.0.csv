@@ -1,0 +1,4 @@
+Conflict_ID,Database_A,Database_B,Exists_A,Exists_B,Tables_A,Tables_B,Schema_Compare,Validation_Time
+CONFLICT_DB_001,E:\football_v\01_DATA_LAYER\database\match_data.db,E:\football_v\00_System_OS\01_DATA_LAYER\database\match_data.db,True,True,21,21,MATCH,2026-07-25 12:14:03.935205
+CONFLICT_DB_002,E:\football_v\02_FEATURE_LAYER\database\feature_store.db,E:\football_v\00_System_OS\02_FEATURE_LAYER\database\feature_store.db,True,True,19,8,DIFFERENT,2026-07-25 12:14:04.069006
+CONFLICT_DB_003,E:\football_v\03_MODEL_LAYER\database\model_store.db,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,True,True,6,12,DIFFERENT,2026-07-25 12:14:04.072996

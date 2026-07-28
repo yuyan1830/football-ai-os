@@ -1,0 +1,15 @@
+Asset_ID,File_Name,Full_Path,Current_Status,Last_Check_Time,Lifecycle_Note
+FA-000001,init_Football_AI_OS_v1.ps1,E:\football_v\init_Football_AI_OS_v1.ps1,REGISTERED,2026-07-18T17:01:26.335815,File registered in system
+FA-000002,file_manager.yaml,E:\football_v\00_System_OS\File_Manager\config\file_manager.yaml,REGISTERED,2026-07-18T17:01:26.335815,File registered in system
+FA-000003,file_registry.json,E:\football_v\00_System_OS\File_Manager\registry\file_registry.json,REGISTERED,2026-07-18T17:01:26.335815,File registered in system
+FA-000004,duplicate_report.csv,E:\football_v\00_System_OS\File_Manager\reports\duplicate_report.csv,REGISTERED,2026-07-18T17:01:26.335815,File registered in system
+FA-000005,file_inventory.csv,E:\football_v\00_System_OS\File_Manager\reports\file_inventory.csv,REGISTERED,2026-07-18T17:01:26.335815,File registered in system
+FA-000006,lifecycle_report.csv,E:\football_v\00_System_OS\File_Manager\reports\lifecycle_report.csv,REGISTERED,2026-07-18T17:01:26.335815,File registered in system
+FA-000007,file_manager_state.json,E:\football_v\00_System_OS\File_Manager\runtime\file_manager_state.json,REGISTERED,2026-07-18T17:01:26.335815,File registered in system
+FA-000008,file_scanner.py,E:\football_v\00_System_OS\File_Manager\scanner\file_scanner.py,REGISTERED,2026-07-18T17:01:26.335815,File registered in system
+FA-000009,module_registry.json,E:\football_v\00_System_OS\registry\module_registry.json,REGISTERED,2026-07-18T17:01:26.335815,File registered in system
+FA-000010,system_state.json,E:\football_v\00_System_OS\runtime\system_state.json,REGISTERED,2026-07-18T17:01:26.335815,File registered in system
+FA-000011,system_version.yaml,E:\football_v\Config\system_version.yaml,REGISTERED,2026-07-18T17:01:26.335815,File registered in system
+FA-000012,README.md,E:\football_v\Documentation\README.md,REGISTERED,2026-07-18T17:01:26.335815,File registered in system
+FA-000013,system.log,E:\football_v\Logs\system.log,REGISTERED,2026-07-18T17:01:26.335815,File registered in system
+FA-000014,create_file_manager.ps1,E:\football_v\Scripts\create_file_manager.ps1,REGISTERED,2026-07-18T17:01:26.335815,File registered in system

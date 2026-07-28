@@ -1,0 +1,7 @@
+{
+    "framework": "Football AI OS",
+    "module": "Feature Store",
+    "version": "V2.3",
+    "layer": "Real Feature Data Ingestion Layer",
+    "status": "READY"
+}

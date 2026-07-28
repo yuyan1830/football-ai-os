@@ -1,0 +1,13 @@
+﻿Asset_ID,Asset_Name,Asset_Type,Source_Path,Layer,Architecture_Status,Decision,Reason
+MODEL001,elo_model,ELO_MODEL,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,OMEGA_V3.2_BASELINE,KEEP,Core rating model
+MODEL002,dixon_coles_model,DIXON_COLES_MODEL,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,OMEGA_V3.2_BASELINE,KEEP,Core probability correction model
+MODEL003,poisson_model,POISSON_MODEL,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,OMEGA_V3.2_BASELINE,KEEP,Goal probability model
+MODEL004,xgboost_model,XGBOOST_MODEL,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,OMEGA_V3.2_BASELINE,KEEP,Machine learning prediction model
+MODEL005,fusion_model,FUSION_MODEL,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,OMEGA_V3.2_BASELINE,KEEP,Multi-model fusion engine
+MODEL006,model_weight,MODEL_WEIGHT,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,OMEGA_V3.2_BASELINE,KEEP,Model weighting configuration
+MODEL007,model_version,MODEL_VERSION,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,OMEGA_V3.2_BASELINE,KEEP,Version tracking
+MODEL008,prediction_history,PREDICTION_HISTORY,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,OMEGA_V3.2_BASELINE,KEEP,Prediction feedback history
+MODEL009,prediction_result,PREDICTION_RESULT,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,OMEGA_V3.2_BASELINE,KEEP,Prediction output storage
+MODEL010,model_registry,MODEL_REGISTRY,E:\football_v\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,GOVERNANCE_LAYER_SUPPORT,KEEP,Active model registry
+MODEL011,model_data_registry,MODEL_DATA_REGISTRY,E:\football_v\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,GOVERNANCE_LAYER_SUPPORT,KEEP,Model data governance
+MODEL012,runtime_log,RUNTIME_LOG,E:\football_v\03_MODEL_LAYER\database\model_store.db,03_MODEL_LAYER,GOVERNANCE_LAYER_SUPPORT,KEEP,Runtime audit

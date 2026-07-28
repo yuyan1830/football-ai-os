@@ -1,0 +1,49 @@
+﻿{
+    "Phase": "PHASE12_PART2_RUNTIME_MAIN_PATH_WHITELIST",
+    "Architecture": "Football_AI_OS_Betting_Intelligence_System_Omega_V3.2",
+    "Baseline": "Football_AI_OS_Betting_Intelligence_System_Omega_V3.2_Baseline.md",
+    "Legacy_Source": "Football_AI_OS_Legacy_Asset_Index_V1.0",
+    "Rule_Source": "CLAUDE.md",
+
+    "Status": "RUNTIME_PATH_CONTROL_ENABLED",
+
+    "CORE_RUNTIME": [
+        "AI_RUNTIME",
+        "11_System_Intelligence",
+        "06_PREDICTION_INTELLIGENCE_ENGINE",
+        "18_MODEL_EXECUTION_ENGINE",
+        "27_MODEL_FUSION_ENGINE",
+        "08_DECISION_LAYER",
+        "12_API_LAYER"
+    ],
+
+    "MODEL_DEPENDENCY_READ_ONLY": [
+        "03_MODEL_LAYER",
+        "05_MODEL_AI",
+        "17_MODEL_STORE_LAYER",
+        "50_MODEL_REGISTRY"
+    ],
+
+    "TRAINING_DEPENDENCY": [
+        "23_MODEL_TRAINING_ENGINE",
+        "40_MODEL_TRAINING_PIPELINE"
+    ],
+
+    "OBSERVE_LAYER": [
+        "09_APPLICATION_LAYER"
+    ],
+
+    "RUNTIME_RULE": {
+        "Allow_Runtime_Load": true,
+        "Allow_Runtime_Read": true,
+        "Allow_Runtime_Delete": false,
+        "Allow_Runtime_Move": false,
+        "Allow_Runtime_Modify_Code": false,
+        "Allow_Runtime_Modify_Database": false
+    },
+
+    "Validation": {
+        "Based_On": "PHASE11.5_PART3_RUNTIME_MAIN_PATH_CONFIRMATION",
+        "Modification": false
+    }
+}

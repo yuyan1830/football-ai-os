@@ -1,0 +1,45 @@
+{
+    "version": "FOOTBALL_AI_OS_V4.0_FEEDBACK_FLOW_AUDIT",
+    "time": "2026-07-23 23:06:09.648572",
+    "items": {
+        "prediction_result": {
+            "path": "E:\\football_v\\14_OPERATION_LAYER\\output\\prediction_result.json",
+            "exists": true,
+            "keys": [
+                "version",
+                "time",
+                "match",
+                "models",
+                "prediction",
+                "market",
+                "risk",
+                "decision",
+                "status"
+            ]
+        },
+        "feedback_connector": {
+            "path": "E:\\football_v\\08_DECISION_INTELLIGENCE_LAYER\\feedback_interface\\feedback_connector.py",
+            "exists": true
+        },
+        "feedback_receiver": {
+            "path": "E:\\football_v\\07_AI_ORCHESTRATION_LAYER\\learning_hook\\feedback_receiver.py",
+            "exists": true
+        },
+        "feedback_engine": {
+            "path": "E:\\football_v\\31_SELF_LEARNING_ENGINE\\feedback_engine.py",
+            "exists": true
+        },
+        "model_update_engine": {
+            "path": "E:\\football_v\\31_SELF_LEARNING_ENGINE\\model_update_engine.py",
+            "exists": true
+        },
+        "learning_database": {
+            "path": "E:\\football_v\\07_LEARNING_LAYER\\database\\learning_feedback.db",
+            "exists": true,
+            "tables": [
+                "learning_feedback_registry"
+            ]
+        }
+    },
+    "status": "AUDIT_COMPLETE"
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "Time": "2026-07-18T19:27:13.775391",
+        "Target": "Asset Maintenance",
+        "Status": "SUCCESS",
+        "Action": "NONE"
+    },
+    {
+        "Time": "2026-07-18T19:29:29.607208",
+        "Before": "OK",
+        "Action": "NONE",
+        "Result": "SKIPPED"
+    }
+]

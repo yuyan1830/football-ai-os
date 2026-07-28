@@ -1,0 +1,12 @@
+{
+    "version": "CODE_LOGIC_DUPLICATE_IMPACT_ANALYSIS_V1.0",
+    "time": "2026-07-24 13:41:54",
+    "source": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+    "summary": {
+        "function_groups": 33,
+        "class_groups": 2,
+        "delete_candidates": 0,
+        "merge_candidates": 0
+    },
+    "analysis": []
+}

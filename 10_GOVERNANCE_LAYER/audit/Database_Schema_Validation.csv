@@ -1,0 +1,4 @@
+﻿Database_ID,Database_Name,Path,Exists,Tables,Schema_Status,Validation_Time
+DB0001,match_data.db,E:\football_v\01_DATA_LAYER\database\match_data.db,True,21,PASS,2026-07-25 11:39:38
+DB0002,feature_store.db,E:\football_v\02_FEATURE_LAYER\database\feature_store.db,True,19,PASS,2026-07-25 11:39:38
+DB0003,model_store.db,E:\football_v\03_MODEL_LAYER\database\model_store.db,True,6,PASS,2026-07-25 11:39:38

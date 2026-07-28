@@ -1,0 +1,21 @@
+﻿{
+    "version":"V1.0",
+    "rules":[
+
+        {
+            "name":"file_exists",
+            "enabled":true
+        },
+
+        {
+            "name":"json_format",
+            "enabled":true
+        },
+
+        {
+            "name":"empty_check",
+            "enabled":true
+        }
+
+    ]
+}

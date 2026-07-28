@@ -1,0 +1,52 @@
+﻿{
+    "Phase": "PHASE12_PART4_UPGRADE_APPROVAL_GOVERNANCE",
+
+    "Architecture": "Football_AI_OS_Betting_Intelligence_System_Omega_V3.2",
+
+    "Status": "UPGRADE_CONTROL_ENABLED",
+
+    "Upgrade_Process": [
+        "Upgrade_Proposal",
+        "Architecture_Impact_Review",
+        "Module_Ownership_Check",
+        "Legacy_Asset_Check",
+        "Model_Impact_Validation",
+        "Regression_Test",
+        "Approval",
+        "Deployment"
+    ],
+
+    "Upgrade_Type": {
+
+        "TYPE_A_MODEL_PARAMETER": {
+            "Allowed": true,
+            "Require_Backtest": true
+        },
+
+        "TYPE_B_ALGORITHM_CHANGE": {
+            "Allowed": true,
+            "Require_Accuracy_Report": true,
+            "Require_ROI_Validation": true
+        },
+
+        "TYPE_C_ARCHITECTURE_CHANGE": {
+            "Allowed": false,
+            "Require_Baseline_Revision": true,
+            "Require_Architecture_Approval": true
+        }
+    },
+
+    "Forbidden": [
+        "Duplicate_Module",
+        "Runtime_Core_Modification",
+        "Database_Structure_Modification",
+        "Legacy_Overwrite",
+        "Governance_Bypass"
+    ],
+
+    "Reference": {
+        "Baseline": "Football_AI_OS_Betting_Intelligence_System_Omega_V3.2_Baseline.md",
+        "Legacy": "Football_AI_OS_Legacy_Asset_Index_V1.0",
+        "Rule": "CLAUDE.md"
+    }
+}

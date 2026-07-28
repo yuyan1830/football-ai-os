@@ -1,0 +1,57 @@
+﻿{
+    "framework":"Football AI OS",
+
+    "module":"04_DATA_PROCESSING_AI",
+
+    "service":"feature_engine",
+
+    "version":"V1.0",
+
+
+    "features":[
+
+
+        {
+            "name":"team_strength",
+            "enabled":true
+        },
+
+
+        {
+            "name":"recent_form",
+            "enabled":true
+        },
+
+
+        {
+            "name":"home_away_strength",
+            "enabled":true
+        },
+
+
+        {
+            "name":"attack_defense",
+            "enabled":true
+        },
+
+
+        {
+            "name":"market_feature",
+            "enabled":true
+        },
+
+
+        {
+            "name":"elo_interface",
+            "enabled":true
+        },
+
+
+        {
+            "name":"xg_interface",
+            "enabled":true
+        }
+
+
+    ]
+}

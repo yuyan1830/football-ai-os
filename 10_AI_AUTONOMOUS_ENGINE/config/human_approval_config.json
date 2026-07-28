@@ -1,0 +1,11 @@
+{
+    "module": "Human Approval Center",
+    "version": "V1.2",
+    "approval_required": true,
+    "decision_options": [
+        "APPROVED",
+        "REJECTED",
+        "OBSERVE",
+        "ROLLBACK"
+    ]
+}

@@ -1,0 +1,22 @@
+
+{
+    "module":"MODEL_STORE_LAYER",
+    "version":"V1.0",
+    "database":"E:\\football_v\\database\\model_store.db",
+
+    "models":[
+
+        "Elo",
+
+        "Dixon-Coles",
+
+        "Poisson",
+
+        "XGBoost",
+
+        "V38.8.1 Handicap Model",
+
+        "Market Risk Model 2.0"
+
+    ]
+}

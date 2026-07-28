@@ -1,0 +1,12 @@
+﻿{
+ "Control":"LEGACY_ASSET_BINDING",
+
+ "Source":
+ "Football_AI_OS_Legacy_Asset_Index_V1.0",
+
+ "Rules":{
+ "Legacy_Overwrite":false,
+ "Auto_Merge":false,
+ "Delete":false
+ }
+}

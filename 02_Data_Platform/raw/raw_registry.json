@@ -1,0 +1,1405 @@
+{
+    "framework": "Football AI OS",
+    "module": "02_DATA_PLATFORM",
+    "layer": "raw",
+    "version": "V1.0",
+    "status": "active",
+    "files": [
+        {
+            "name": "current_check.txt",
+            "path": ".\\current_check.txt"
+        },
+        {
+            "name": "football_v_current_structure.txt",
+            "path": ".\\football_v_current_structure.txt"
+        },
+        {
+            "name": "framework_migration_report.json",
+            "path": ".\\framework_migration_report.json"
+        },
+        {
+            "name": "init_Football_AI_OS_v1.ps1",
+            "path": ".\\init_Football_AI_OS_v1.ps1"
+        },
+        {
+            "name": "structure.txt",
+            "path": ".\\structure.txt"
+        },
+        {
+            "name": "deploy_schema_validator_final.ps1",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\deploy_schema_validator_final.ps1"
+        },
+        {
+            "name": "main.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\main.py"
+        },
+        {
+            "name": "upgrade_validator_schema_v1.ps1",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\upgrade_validator_schema_v1.ps1"
+        },
+        {
+            "name": "database_config.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\config\\database_config.py"
+        },
+        {
+            "name": "__init__.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\config\\__init__.py"
+        },
+        {
+            "name": "database_config.cpython-312.pyc",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\config\\__pycache__\\database_config.cpython-312.pyc"
+        },
+        {
+            "name": "__init__.cpython-312.pyc",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\config\\__pycache__\\__init__.cpython-312.pyc"
+        },
+        {
+            "name": "db_connection.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\database\\db_connection.py"
+        },
+        {
+            "name": "db_connection.cpython-312.pyc",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\database\\__pycache__\\db_connection.cpython-312.pyc"
+        },
+        {
+            "name": "base_exception.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\exception\\base_exception.py"
+        },
+        {
+            "name": "database_exception.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\exception\\database_exception.py"
+        },
+        {
+            "name": "error_codes.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\exception\\error_codes.py"
+        },
+        {
+            "name": "exception_handler.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\exception\\exception_handler.py"
+        },
+        {
+            "name": "file_exception.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\exception\\file_exception.py"
+        },
+        {
+            "name": "validation_exception.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\exception\\validation_exception.py"
+        },
+        {
+            "name": "__init__.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\exception\\__init__.py"
+        },
+        {
+            "name": "base_exception.cpython-312.pyc",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\exception\\__pycache__\\base_exception.cpython-312.pyc"
+        },
+        {
+            "name": "database_exception.cpython-312.pyc",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\exception\\__pycache__\\database_exception.cpython-312.pyc"
+        },
+        {
+            "name": "file_exception.cpython-312.pyc",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\exception\\__pycache__\\file_exception.cpython-312.pyc"
+        },
+        {
+            "name": "validation_exception.cpython-312.pyc",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\exception\\__pycache__\\validation_exception.cpython-312.pyc"
+        },
+        {
+            "name": "__init__.cpython-312.pyc",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\exception\\__pycache__\\__init__.cpython-312.pyc"
+        },
+        {
+            "name": "file_service.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\file_service\\file_service.py"
+        },
+        {
+            "name": "hash_service.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\hash_service\\hash_service.py"
+        },
+        {
+            "name": "compatibility.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\logger\\compatibility.py"
+        },
+        {
+            "name": "formatter.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\logger\\formatter.py"
+        },
+        {
+            "name": "handlers.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\logger\\handlers.py"
+        },
+        {
+            "name": "logger.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\logger\\logger.py"
+        },
+        {
+            "name": "log_config.json",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\logger\\log_config.json"
+        },
+        {
+            "name": "__init__.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\logger\\__init__.py"
+        },
+        {
+            "name": "formatter.cpython-312.pyc",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\logger\\__pycache__\\formatter.cpython-312.pyc"
+        },
+        {
+            "name": "handlers.cpython-312.pyc",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\logger\\__pycache__\\handlers.cpython-312.pyc"
+        },
+        {
+            "name": "logger.cpython-312.pyc",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\logger\\__pycache__\\logger.cpython-312.pyc"
+        },
+        {
+            "name": "__init__.cpython-312.pyc",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\logger\\__pycache__\\__init__.cpython-312.pyc"
+        },
+        {
+            "name": "data_validator.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\validator\\data_validator.py"
+        },
+        {
+            "name": "schema_validator.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\validator\\schema_validator.py"
+        },
+        {
+            "name": "schema_validator_status.txt",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\validator\\schema_validator_status.txt"
+        },
+        {
+            "name": "validation_result.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\validator\\validation_result.py"
+        },
+        {
+            "name": "__init__.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\validator\\__init__.py"
+        },
+        {
+            "name": "data_validator.cpython-312.pyc",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\validator\\__pycache__\\data_validator.cpython-312.pyc"
+        },
+        {
+            "name": "validation_result.cpython-312.pyc",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\validator\\__pycache__\\validation_result.cpython-312.pyc"
+        },
+        {
+            "name": "__init__.cpython-312.pyc",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\validator\\__pycache__\\__init__.cpython-312.pyc"
+        },
+        {
+            "name": "version_service.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\core\\version_service\\version_service.py"
+        },
+        {
+            "name": "football_ai_os.db",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\database\\football_ai_os.db"
+        },
+        {
+            "name": "新建文本文档.txt",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\database\\新建文本文档.txt"
+        },
+        {
+            "name": "archive_manager.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\import_pipeline\\archive_manager.py"
+        },
+        {
+            "name": "duplicate_checker.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\import_pipeline\\duplicate_checker.py"
+        },
+        {
+            "name": "importer.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\import_pipeline\\importer.py"
+        },
+        {
+            "name": "scanner.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\import_pipeline\\scanner.py"
+        },
+        {
+            "name": "validator.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\import_pipeline\\validator.py"
+        },
+        {
+            "name": "__init__.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\import_pipeline\\__init__.py"
+        },
+        {
+            "name": "2026-07-19.log",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\logs\\2026-07-19.log"
+        },
+        {
+            "name": "football_ai.log",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\logs\\football_ai.log"
+        },
+        {
+            "name": "bookmaker_manager.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\market\\bookmaker_manager.py"
+        },
+        {
+            "name": "market_type_manager.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\market\\market_type_manager.py"
+        },
+        {
+            "name": "odds_manager.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\market\\odds_manager.py"
+        },
+        {
+            "name": "quality_checker.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\quality\\quality_checker.py"
+        },
+        {
+            "name": "quality_engine.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\quality\\quality_engine.py"
+        },
+        {
+            "name": "quality_report.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\quality\\quality_report.py"
+        },
+        {
+            "name": "quality__init__.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\quality\\quality__init__.py"
+        },
+        {
+            "name": "data_lineage.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\registry\\data_lineage.py"
+        },
+        {
+            "name": "import_tracker.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\registry\\import_tracker.py"
+        },
+        {
+            "name": "quality_score.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\registry\\quality_score.py"
+        },
+        {
+            "name": "registry_manager.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\registry\\registry_manager.py"
+        },
+        {
+            "name": "create_data_layer.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\create_data_layer.py"
+        },
+        {
+            "name": "database_alert_final_upgrade.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\database_alert_final_upgrade.py"
+        },
+        {
+            "name": "database_init.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\database_init.py"
+        },
+        {
+            "name": "database_market_init.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\database_market_init.py"
+        },
+        {
+            "name": "database_quality_alert_upgrade.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\database_quality_alert_upgrade.py"
+        },
+        {
+            "name": "database_quality_init.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\database_quality_init.py"
+        },
+        {
+            "name": "database_task_reliability_init.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\database_task_reliability_init.py"
+        },
+        {
+            "name": "database_task_table_upgrade.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\database_task_table_upgrade.py"
+        },
+        {
+            "name": "quality_rule_init.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\quality_rule_init.py"
+        },
+        {
+            "name": "registry_init.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\registry_init.py"
+        },
+        {
+            "name": "registry_manager.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\registry_manager.py"
+        },
+        {
+            "name": "retry_policy_init.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\retry_policy_init.py"
+        },
+        {
+            "name": "task_queue_init.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\task_queue_init.py"
+        },
+        {
+            "name": "test.csv",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\test.csv"
+        },
+        {
+            "name": "test_quality_engine.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\test_quality_engine.py"
+        },
+        {
+            "name": "test_registry_flow.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\test_registry_flow.py"
+        },
+        {
+            "name": "test_retry_logger.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\test_retry_logger.py"
+        },
+        {
+            "name": "test_scheduler.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\test_scheduler.py"
+        },
+        {
+            "name": "test_scheduler_reliability.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\test_scheduler_reliability.py"
+        },
+        {
+            "name": "test_task_history.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\test_task_history.py"
+        },
+        {
+            "name": "test_task_manager_reliability.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\test_task_manager_reliability.py"
+        },
+        {
+            "name": "test_task_queue.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\test_task_queue.py"
+        },
+        {
+            "name": "test_task_reliability_full.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\scripts\\test_task_reliability_full.py"
+        },
+        {
+            "name": "manual_task.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\task_queue\\manual_task.py"
+        },
+        {
+            "name": "retry_engine.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\task_queue\\retry_engine.py"
+        },
+        {
+            "name": "retry_logger.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\task_queue\\retry_logger.py"
+        },
+        {
+            "name": "scheduler.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\task_queue\\scheduler.py"
+        },
+        {
+            "name": "task_history.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\task_queue\\task_history.py"
+        },
+        {
+            "name": "task_manager.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\task_queue\\task_manager.py"
+        },
+        {
+            "name": "task_query.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\task_queue\\task_query.py"
+        },
+        {
+            "name": "task_queue_init.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\task_queue\\task_queue_init.py"
+        },
+        {
+            "name": "task_status.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\task_queue\\task_status.py"
+        },
+        {
+            "name": "__init__.py",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\task_queue\\__init__.py"
+        },
+        {
+            "name": "新建文本文档.txt",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\task_queue\\新建文本文档.txt"
+        },
+        {
+            "name": "test_odds.csv",
+            "path": ".\\00_System_OS\\01_DATA_LAYER\\test_data\\test_odds.csv"
+        },
+        {
+            "name": "scheduler_log.json",
+            "path": ".\\00_System_OS\\Automation\\logs\\scheduler_log.json"
+        },
+        {
+            "name": "workflow_run_log.json",
+            "path": ".\\00_System_OS\\Automation\\logs\\workflow_run_log.json"
+        },
+        {
+            "name": "install_monitor_task.ps1",
+            "path": ".\\00_System_OS\\Automation\\scheduler\\install_monitor_task.ps1"
+        },
+        {
+            "name": "install_recovery_task.ps1",
+            "path": ".\\00_System_OS\\Automation\\scheduler\\install_recovery_task.ps1"
+        },
+        {
+            "name": "install_task.ps1",
+            "path": ".\\00_System_OS\\Automation\\scheduler\\install_task.ps1"
+        },
+        {
+            "name": "scheduler_config.json",
+            "path": ".\\00_System_OS\\Automation\\scheduler\\scheduler_config.json"
+        },
+        {
+            "name": "scheduler_manager.py",
+            "path": ".\\00_System_OS\\Automation\\scheduler\\scheduler_manager.py"
+        },
+        {
+            "name": "task_history.json",
+            "path": ".\\00_System_OS\\Automation\\task_manager\\task_history.json"
+        },
+        {
+            "name": "task_manager.py",
+            "path": ".\\00_System_OS\\Automation\\task_manager\\task_manager.py"
+        },
+        {
+            "name": "task_registry.json",
+            "path": ".\\00_System_OS\\Automation\\task_manager\\task_registry.json"
+        },
+        {
+            "name": "workflow.json",
+            "path": ".\\00_System_OS\\Automation\\workflow\\workflow.json"
+        },
+        {
+            "name": "workflow_runner.py",
+            "path": ".\\00_System_OS\\Automation\\workflow\\workflow_runner.py"
+        },
+        {
+            "name": "bootstrap.py",
+            "path": ".\\00_System_OS\\Bootstrap\\bootstrap.py"
+        },
+        {
+            "name": "bootstrap_config.json",
+            "path": ".\\00_System_OS\\Bootstrap\\bootstrap_config.json"
+        },
+        {
+            "name": "bootstrap_log.json",
+            "path": ".\\00_System_OS\\Bootstrap\\bootstrap_log.json"
+        },
+        {
+            "name": "config_generator.py",
+            "path": ".\\00_System_OS\\Bootstrap\\config_generator.py"
+        },
+        {
+            "name": "deployment_log.txt",
+            "path": ".\\00_System_OS\\Bootstrap\\deployment_log.txt"
+        },
+        {
+            "name": "deployment_report.json",
+            "path": ".\\00_System_OS\\Bootstrap\\deployment_report.json"
+        },
+        {
+            "name": "deploy_system.py",
+            "path": ".\\00_System_OS\\Bootstrap\\deploy_system.py"
+        },
+        {
+            "name": "setup_system.py",
+            "path": ".\\00_System_OS\\Bootstrap\\setup_system.py"
+        },
+        {
+            "name": "system_check.py",
+            "path": ".\\00_System_OS\\Bootstrap\\system_check.py"
+        },
+        {
+            "name": "system_check_log.json",
+            "path": ".\\00_System_OS\\Bootstrap\\system_check_log.json"
+        },
+        {
+            "name": "automation.yaml",
+            "path": ".\\00_System_OS\\Bootstrap\\config\\automation.yaml"
+        },
+        {
+            "name": "config_generation.json",
+            "path": ".\\00_System_OS\\Bootstrap\\config\\config_generation.json"
+        },
+        {
+            "name": "monitor.yaml",
+            "path": ".\\00_System_OS\\Bootstrap\\config\\monitor.yaml"
+        },
+        {
+            "name": "recovery.yaml",
+            "path": ".\\00_System_OS\\Bootstrap\\config\\recovery.yaml"
+        },
+        {
+            "name": "system.yaml",
+            "path": ".\\00_System_OS\\Bootstrap\\config\\system.yaml"
+        },
+        {
+            "name": "archive_index.json",
+            "path": ".\\00_System_OS\\File_Manager\\archive\\archive_index.json"
+        },
+        {
+            "name": "archive_manager.py",
+            "path": ".\\00_System_OS\\File_Manager\\archive\\archive_manager.py"
+        },
+        {
+            "name": "archive_manager_v11.py",
+            "path": ".\\00_System_OS\\File_Manager\\archive\\archive_manager_v11.py"
+        },
+        {
+            "name": "archive_report.json",
+            "path": ".\\00_System_OS\\File_Manager\\archive\\archive_report.json"
+        },
+        {
+            "name": "archive_rules.json",
+            "path": ".\\00_System_OS\\File_Manager\\archive\\archive_rules.json"
+        },
+        {
+            "name": "duplicate_report.csv",
+            "path": ".\\00_System_OS\\File_Manager\\archive\\storage\\20260718_170551\\duplicate_report.csv"
+        },
+        {
+            "name": "file_inventory.csv",
+            "path": ".\\00_System_OS\\File_Manager\\archive\\storage\\20260718_170551\\file_inventory.csv"
+        },
+        {
+            "name": "lifecycle_report.csv",
+            "path": ".\\00_System_OS\\File_Manager\\archive\\storage\\20260718_170551\\lifecycle_report.csv"
+        },
+        {
+            "name": "file_manager.yaml",
+            "path": ".\\00_System_OS\\File_Manager\\config\\file_manager.yaml"
+        },
+        {
+            "name": "duplicate_detector_v11.py",
+            "path": ".\\00_System_OS\\File_Manager\\duplicate\\duplicate_detector_v11.py"
+        },
+        {
+            "name": "duplicate_report_v11.json",
+            "path": ".\\00_System_OS\\File_Manager\\duplicate\\duplicate_report_v11.json"
+        },
+        {
+            "name": "duplicate_detector.py",
+            "path": ".\\00_System_OS\\File_Manager\\hash\\duplicate_detector.py"
+        },
+        {
+            "name": "lifecycle_engine.py",
+            "path": ".\\00_System_OS\\File_Manager\\lifecycle\\lifecycle_engine.py"
+        },
+        {
+            "name": "lifecycle_history.json",
+            "path": ".\\00_System_OS\\File_Manager\\lifecycle\\lifecycle_history.json"
+        },
+        {
+            "name": "lifecycle_manager.py",
+            "path": ".\\00_System_OS\\File_Manager\\lifecycle\\lifecycle_manager.py"
+        },
+        {
+            "name": "lifecycle_rules.json",
+            "path": ".\\00_System_OS\\File_Manager\\lifecycle\\lifecycle_rules.json"
+        },
+        {
+            "name": "asset_schema.json",
+            "path": ".\\00_System_OS\\File_Manager\\registry\\asset_schema.json"
+        },
+        {
+            "name": "file_registry.json",
+            "path": ".\\00_System_OS\\File_Manager\\registry\\file_registry.json"
+        },
+        {
+            "name": "file_registry_v11.json",
+            "path": ".\\00_System_OS\\File_Manager\\registry\\file_registry_v11.json"
+        },
+        {
+            "name": "file_registry_v11.py",
+            "path": ".\\00_System_OS\\File_Manager\\registry\\file_registry_v11.py"
+        },
+        {
+            "name": "duplicate_report.csv",
+            "path": ".\\00_System_OS\\File_Manager\\reports\\duplicate_report.csv"
+        },
+        {
+            "name": "file_inventory.csv",
+            "path": ".\\00_System_OS\\File_Manager\\reports\\file_inventory.csv"
+        },
+        {
+            "name": "lifecycle_report.csv",
+            "path": ".\\00_System_OS\\File_Manager\\reports\\lifecycle_report.csv"
+        },
+        {
+            "name": "file_manager_state.json",
+            "path": ".\\00_System_OS\\File_Manager\\runtime\\file_manager_state.json"
+        },
+        {
+            "name": "file_scanner.py",
+            "path": ".\\00_System_OS\\File_Manager\\scanner\\file_scanner.py"
+        },
+        {
+            "name": "source_schema.json",
+            "path": ".\\00_System_OS\\File_Manager\\source\\source_schema.json"
+        },
+        {
+            "name": "version_manager.py",
+            "path": ".\\00_System_OS\\File_Manager\\version\\version_manager.py"
+        },
+        {
+            "name": "version_registry.json",
+            "path": ".\\00_System_OS\\File_Manager\\version\\version_registry.json"
+        },
+        {
+            "name": "version_schema.json",
+            "path": ".\\00_System_OS\\File_Manager\\version\\version_schema.json"
+        },
+        {
+            "name": "error_log.json",
+            "path": ".\\00_System_OS\\Monitor\\error_log.json"
+        },
+        {
+            "name": "health_status.json",
+            "path": ".\\00_System_OS\\Monitor\\health_status.json"
+        },
+        {
+            "name": "heartbeat.json",
+            "path": ".\\00_System_OS\\Monitor\\heartbeat.json"
+        },
+        {
+            "name": "monitor_service.py",
+            "path": ".\\00_System_OS\\Monitor\\monitor_service.py"
+        },
+        {
+            "name": "recovery_controller.py",
+            "path": ".\\00_System_OS\\Recovery\\recovery_controller.py"
+        },
+        {
+            "name": "recovery_log.json",
+            "path": ".\\00_System_OS\\Recovery\\recovery_log.json"
+        },
+        {
+            "name": "recovery_policy.json",
+            "path": ".\\00_System_OS\\Recovery\\recovery_policy.json"
+        },
+        {
+            "name": "recovery_service.py",
+            "path": ".\\00_System_OS\\Recovery\\recovery_service.py"
+        },
+        {
+            "name": "dependency_engine.py",
+            "path": ".\\00_System_OS\\registry\\dependency_engine.py"
+        },
+        {
+            "name": "dependency_map.json",
+            "path": ".\\00_System_OS\\registry\\dependency_map.json"
+        },
+        {
+            "name": "modules.json",
+            "path": ".\\00_System_OS\\registry\\modules.json"
+        },
+        {
+            "name": "module_registry.json",
+            "path": ".\\00_System_OS\\registry\\module_registry.json"
+        },
+        {
+            "name": "module_template.json",
+            "path": ".\\00_System_OS\\registry\\module_template.json"
+        },
+        {
+            "name": "registry.json",
+            "path": ".\\00_System_OS\\registry\\registry.json"
+        },
+        {
+            "name": "registry_api.py",
+            "path": ".\\00_System_OS\\registry\\registry_api.py"
+        },
+        {
+            "name": "registry_log.json",
+            "path": ".\\00_System_OS\\registry\\registry_log.json"
+        },
+        {
+            "name": "registry_manager.py",
+            "path": ".\\00_System_OS\\registry\\registry_manager.py"
+        },
+        {
+            "name": "registry_scanner.py",
+            "path": ".\\00_System_OS\\registry\\registry_scanner.py"
+        },
+        {
+            "name": "system_state.json",
+            "path": ".\\00_System_OS\\runtime\\system_state.json"
+        },
+        {
+            "name": "core_architecture_freeze_v12.ps1",
+            "path": ".\\00_System_OS\\scripts\\core_architecture_freeze_v12.ps1"
+        },
+        {
+            "name": "core_cleanup_patch_v12.ps1",
+            "path": ".\\00_System_OS\\scripts\\core_cleanup_patch_v12.ps1"
+        },
+        {
+            "name": "core_service_final_acceptance_v1.ps1",
+            "path": ".\\00_System_OS\\scripts\\core_service_final_acceptance_v1.ps1"
+        },
+        {
+            "name": "core_service_validation_v12.ps1",
+            "path": ".\\00_System_OS\\scripts\\core_service_validation_v12.ps1"
+        },
+        {
+            "name": "core_structure_cleanup_v12.ps1",
+            "path": ".\\00_System_OS\\scripts\\core_structure_cleanup_v12.ps1"
+        },
+        {
+            "name": "deploy_schema_validator_final.ps1",
+            "path": ".\\00_System_OS\\scripts\\deploy_schema_validator_final.ps1"
+        },
+        {
+            "name": "framework_export_scan_v12.ps1",
+            "path": ".\\00_System_OS\\scripts\\framework_export_scan_v12.ps1"
+        },
+        {
+            "name": "framework_initializer.py",
+            "path": ".\\00_System_OS\\scripts\\framework_initializer.py"
+        },
+        {
+            "name": "legacy_archive_finalize_v12.ps1",
+            "path": ".\\00_System_OS\\scripts\\legacy_archive_finalize_v12.ps1"
+        },
+        {
+            "name": "legacy_cleanup_v10.ps1",
+            "path": ".\\00_System_OS\\scripts\\legacy_cleanup_v10.ps1"
+        },
+        {
+            "name": "logger_cleanup_v13.ps1",
+            "path": ".\\00_System_OS\\scripts\\logger_cleanup_v13.ps1"
+        },
+        {
+            "name": "logger_consolidation_v12.ps1",
+            "path": ".\\00_System_OS\\scripts\\logger_consolidation_v12.ps1"
+        },
+        {
+            "name": "project_structure_scanner.py",
+            "path": ".\\00_System_OS\\scripts\\project_structure_scanner.py"
+        },
+        {
+            "name": "setup_logger_module.py",
+            "path": ".\\00_System_OS\\scripts\\setup_logger_module.py"
+        },
+        {
+            "name": "upgrade_database_service_v11.ps1",
+            "path": ".\\00_System_OS\\scripts\\upgrade_database_service_v11.ps1"
+        },
+        {
+            "name": "upgrade_exception_service_v1.ps1",
+            "path": ".\\00_System_OS\\scripts\\upgrade_exception_service_v1.ps1"
+        },
+        {
+            "name": "upgrade_exception_service_v10.ps1",
+            "path": ".\\00_System_OS\\scripts\\upgrade_exception_service_v10.ps1"
+        },
+        {
+            "name": "upgrade_file_service_v11.ps1",
+            "path": ".\\00_System_OS\\scripts\\upgrade_file_service_v11.ps1"
+        },
+        {
+            "name": "upgrade_hash_service_v11.ps1",
+            "path": ".\\00_System_OS\\scripts\\upgrade_hash_service_v11.ps1"
+        },
+        {
+            "name": "upgrade_validator_schema_v1.ps1",
+            "path": ".\\00_System_OS\\scripts\\upgrade_validator_schema_v1.ps1"
+        },
+        {
+            "name": "upgrade_version_service_v11.ps1",
+            "path": ".\\00_System_OS\\scripts\\upgrade_version_service_v11.ps1"
+        },
+        {
+            "name": "acceptance_check.py",
+            "path": ".\\01_Data_Source\\acceptance\\acceptance_check.py"
+        },
+        {
+            "name": "data_downloader.py",
+            "path": ".\\01_Data_Source\\download\\data_downloader.py"
+        },
+        {
+            "name": "download_history.json",
+            "path": ".\\01_Data_Source\\download\\download_history.json"
+        },
+        {
+            "name": "__init__.py",
+            "path": ".\\01_Data_Source\\download\\__init__.py"
+        },
+        {
+            "name": "source_health_report.json",
+            "path": ".\\01_Data_Source\\monitor\\source_health_report.json"
+        },
+        {
+            "name": "source_monitor.py",
+            "path": ".\\01_Data_Source\\monitor\\source_monitor.py"
+        },
+        {
+            "name": "__init__.py",
+            "path": ".\\01_Data_Source\\monitor\\__init__.py"
+        },
+        {
+            "name": "pipeline_runner.py",
+            "path": ".\\01_Data_Source\\pipeline\\pipeline_runner.py"
+        },
+        {
+            "name": "source_scanner.py",
+            "path": ".\\01_Data_Source\\pipeline\\source_scanner.py"
+        },
+        {
+            "name": "source_validator.py",
+            "path": ".\\01_Data_Source\\pipeline\\source_validator.py"
+        },
+        {
+            "name": "__init__.py",
+            "path": ".\\01_Data_Source\\pipeline\\__init__.py"
+        },
+        {
+            "name": "source_scanner.cpython-312.pyc",
+            "path": ".\\01_Data_Source\\pipeline\\__pycache__\\source_scanner.cpython-312.pyc"
+        },
+        {
+            "name": "source_validator.cpython-312.pyc",
+            "path": ".\\01_Data_Source\\pipeline\\__pycache__\\source_validator.cpython-312.pyc"
+        },
+        {
+            "name": "source_registry.json",
+            "path": ".\\01_Data_Source\\registry\\source_registry.json"
+        },
+        {
+            "name": "source_registry.py",
+            "path": ".\\01_Data_Source\\registry\\source_registry.py"
+        },
+        {
+            "name": "source_registry.pynotepad",
+            "path": ".\\01_Data_Source\\registry\\source_registry.pynotepad"
+        },
+        {
+            "name": "__init__.py",
+            "path": ".\\01_Data_Source\\registry\\__init__.py"
+        },
+        {
+            "name": "data_source_acceptance_report.json",
+            "path": ".\\01_Data_Source\\reports\\data_source_acceptance_report.json"
+        },
+        {
+            "name": "data_platform_registry.json",
+            "path": ".\\02_Data_Platform\\metadata\\data_platform_registry.json"
+        },
+        {
+            "name": "metadata_manager.py",
+            "path": ".\\02_Data_Platform\\metadata\\metadata_manager.py"
+        },
+        {
+            "name": "raw_manager.py",
+            "path": ".\\02_Data_Platform\\raw\\raw_manager.py"
+        },
+        {
+            "name": "raw_registry.json",
+            "path": ".\\02_Data_Platform\\raw\\raw_registry.json"
+        },
+        {
+            "name": "raw_registry.py",
+            "path": ".\\02_Data_Platform\\raw\\raw_registry.py"
+        },
+        {
+            "name": "raw_scanner.py",
+            "path": ".\\02_Data_Platform\\raw\\raw_scanner.py"
+        },
+        {
+            "name": "__init__.py",
+            "path": ".\\02_Data_Platform\\raw\\__init__.py"
+        },
+        {
+            "name": "raw_registry.cpython-312.pyc",
+            "path": ".\\02_Data_Platform\\raw\\__pycache__\\raw_registry.cpython-312.pyc"
+        },
+        {
+            "name": "raw_scanner.cpython-312.pyc",
+            "path": ".\\02_Data_Platform\\raw\\__pycache__\\raw_scanner.cpython-312.pyc"
+        },
+        {
+            "name": "data_registry.json",
+            "path": ".\\03_Data_Governance\\registry\\data_registry.json"
+        },
+        {
+            "name": "project_tree_snapshot.txt",
+            "path": ".\\99_DOCUMENTATION\\project_tree_snapshot.txt"
+        },
+        {
+            "name": "Core_Service_Upgrade_Process_V1.0.md",
+            "path": ".\\99_DOCUMENTATION\\architecture\\Core_Service_Upgrade_Process_V1.0.md"
+        },
+        {
+            "name": "Football_AI_OS_Development_Roadmap_V1.2.md",
+            "path": ".\\99_DOCUMENTATION\\architecture\\Football_AI_OS_Development_Roadmap_V1.2.md"
+        },
+        {
+            "name": "Football_AI_OS_Enterprise_Architecture_V1.1.md",
+            "path": ".\\99_DOCUMENTATION\\architecture\\Football_AI_OS_Enterprise_Architecture_V1.1.md"
+        },
+        {
+            "name": "Validator Integration Upgrade Plan V1.0.txt",
+            "path": ".\\99_DOCUMENTATION\\architecture\\Validator Integration Upgrade Plan V1.0.txt"
+        },
+        {
+            "name": "db_connection.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\db_connection.py"
+        },
+        {
+            "name": "file_service.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\file_service.py"
+        },
+        {
+            "name": "hash_service.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\hash_service.py"
+        },
+        {
+            "name": "logger.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\logger.py"
+        },
+        {
+            "name": "version_service.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\version_service.py"
+        },
+        {
+            "name": "db_connection.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\database\\db_connection.py"
+        },
+        {
+            "name": "base_exception.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\exception\\base_exception.py"
+        },
+        {
+            "name": "database_exception.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\exception\\database_exception.py"
+        },
+        {
+            "name": "error_codes.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\exception\\error_codes.py"
+        },
+        {
+            "name": "exception_handler.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\exception\\exception_handler.py"
+        },
+        {
+            "name": "file_exception.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\exception\\file_exception.py"
+        },
+        {
+            "name": "validation_exception.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\exception\\validation_exception.py"
+        },
+        {
+            "name": "__init__.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\exception\\__init__.py"
+        },
+        {
+            "name": "file_service.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\file_service\\file_service.py"
+        },
+        {
+            "name": "hash_service.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\hash_service\\hash_service.py"
+        },
+        {
+            "name": "compatibility.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\logger\\compatibility.py"
+        },
+        {
+            "name": "formatter.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\logger\\formatter.py"
+        },
+        {
+            "name": "handlers.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\logger\\handlers.py"
+        },
+        {
+            "name": "logger.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\logger\\logger.py"
+        },
+        {
+            "name": "log_config.json",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\logger\\log_config.json"
+        },
+        {
+            "name": "__init__.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\logger\\__init__.py"
+        },
+        {
+            "name": "data_validator.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\validator\\data_validator.py"
+        },
+        {
+            "name": "deploy_schema_validator_final.ps1",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\validator\\deploy_schema_validator_final.ps1"
+        },
+        {
+            "name": "schema_validator.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\validator\\schema_validator.py"
+        },
+        {
+            "name": "schema_validator_status.txt",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\validator\\schema_validator_status.txt"
+        },
+        {
+            "name": "upgrade_database_service_v11.ps1",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\validator\\upgrade_database_service_v11.ps1"
+        },
+        {
+            "name": "upgrade_exception_service_v1.ps1",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\validator\\upgrade_exception_service_v1.ps1"
+        },
+        {
+            "name": "upgrade_validator_schema_v1.ps1",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\validator\\upgrade_validator_schema_v1.ps1"
+        },
+        {
+            "name": "validation_result.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\validator\\validation_result.py"
+        },
+        {
+            "name": "__init__.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\validator\\__init__.py"
+        },
+        {
+            "name": "version_service.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\version_service\\version_service.py"
+        },
+        {
+            "name": "framework_initializer_backup.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\Core_Cleanup_Patch_V12\\framework_initializer_backup.py"
+        },
+        {
+            "name": "legacy_cleanup_v10_backup.ps1",
+            "path": ".\\99_DOCUMENTATION\\backup\\Legacy_Archive_Finalize_V12\\legacy_cleanup_v10_backup.ps1"
+        },
+        {
+            "name": "logger.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\logger_backup_v12\\logger.py"
+        },
+        {
+            "name": "compatibility.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\logger_backup_v12\\logger\\compatibility.py"
+        },
+        {
+            "name": "formatter.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\logger_backup_v12\\logger\\formatter.py"
+        },
+        {
+            "name": "handlers.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\logger_backup_v12\\logger\\handlers.py"
+        },
+        {
+            "name": "logger.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\logger_backup_v12\\logger\\logger.py"
+        },
+        {
+            "name": "log_config.json",
+            "path": ".\\99_DOCUMENTATION\\backup\\logger_backup_v12\\logger\\log_config.json"
+        },
+        {
+            "name": "__init__.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\logger_backup_v12\\logger\\__init__.py"
+        },
+        {
+            "name": "logger.py",
+            "path": ".\\99_DOCUMENTATION\\backup\\logger_cleanup_v13\\logger.py"
+        },
+        {
+            "name": "Architecture_Snapshot_V1.2.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Architecture_Snapshot_V1.2.txt"
+        },
+        {
+            "name": "Checkpoint-003.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-003.txt"
+        },
+        {
+            "name": "Checkpoint-019_Validator_Schema_V1.0.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-019_Validator_Schema_V1.0.txt"
+        },
+        {
+            "name": "Checkpoint-020_Validator_Service_Stable_V1.0.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-020_Validator_Service_Stable_V1.0.txt"
+        },
+        {
+            "name": "Checkpoint-022_Exception_Service_Stable_V1.0.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-022_Exception_Service_Stable_V1.0.txt"
+        },
+        {
+            "name": "Checkpoint-023_Database_Service_V1.1_Stable.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-023_Database_Service_V1.1_Stable.txt"
+        },
+        {
+            "name": "Checkpoint-024_File_Service_V1.1_Stable.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-024_File_Service_V1.1_Stable.txt"
+        },
+        {
+            "name": "Checkpoint-025_Hash_Service_V1.1_Stable.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-025_Hash_Service_V1.1_Stable.txt"
+        },
+        {
+            "name": "Checkpoint-026_Version_Service_V1.1_Stable.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-026_Version_Service_V1.1_Stable.txt"
+        },
+        {
+            "name": "Checkpoint-027_Exception_Service_V1.0_Stable.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-027_Exception_Service_V1.0_Stable.txt"
+        },
+        {
+            "name": "Checkpoint-028_Core_Service_Fusion_Final.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-028_Core_Service_Fusion_Final.txt"
+        },
+        {
+            "name": "Checkpoint-030_Core_Structure_V1.2.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-030_Core_Structure_V1.2.txt"
+        },
+        {
+            "name": "Checkpoint-031_Framework_Sync_V1.2.txt.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-031_Framework_Sync_V1.2.txt.txt"
+        },
+        {
+            "name": "Checkpoint-032_Logger_Consolidation_V1.2.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-032_Logger_Consolidation_V1.2.txt"
+        },
+        {
+            "name": "Checkpoint-033_Core_Service_Final_Validation_V1.2.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-033_Core_Service_Final_Validation_V1.2.txt"
+        },
+        {
+            "name": "Checkpoint-034_Logger_Cleanup_V1.3.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-034_Logger_Cleanup_V1.3.txt"
+        },
+        {
+            "name": "Checkpoint-035_Core_Architecture_Freeze_V1.2.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-035_Core_Architecture_Freeze_V1.2.txt"
+        },
+        {
+            "name": "Checkpoint-036_Legacy_Cleanup_V1.0.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-036_Legacy_Cleanup_V1.0.txt"
+        },
+        {
+            "name": "Checkpoint-037_Core_Cleanup_Patch_V1.2.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-037_Core_Cleanup_Patch_V1.2.txt"
+        },
+        {
+            "name": "Checkpoint-038_Legacy_Archive_Finalization_V1.2.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-038_Legacy_Archive_Finalization_V1.2.txt"
+        },
+        {
+            "name": "Checkpoint-039_Data_Infrastructure_Integration_V1.0.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-039_Data_Infrastructure_Integration_V1.0.txt"
+        },
+        {
+            "name": "Checkpoint-039_Data_Source_Registry_V1.1.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-039_Data_Source_Registry_V1.1.txt"
+        },
+        {
+            "name": "Checkpoint-040_Download_Engine_V1.1.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-040_Download_Engine_V1.1.txt"
+        },
+        {
+            "name": "Checkpoint-041_Data_Source_Pipeline_V1.2.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-041_Data_Source_Pipeline_V1.2.txt"
+        },
+        {
+            "name": "Checkpoint-042_Data_Source_Final_Acceptance_V1.2.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-042_Data_Source_Final_Acceptance_V1.2.txt"
+        },
+        {
+            "name": "Checkpoint-043_Data_Platform_Init_V1.0.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint-043_Data_Platform_Init_V1.0.txt"
+        },
+        {
+            "name": "Checkpoint_004_Framework_Freeze_V1.1_Enterprise.md",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint_004_Framework_Freeze_V1.1_Enterprise.md"
+        },
+        {
+            "name": "Checkpoint_005_Architecture_Alignment_Priority.md",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Checkpoint_005_Architecture_Alignment_Priority.md"
+        },
+        {
+            "name": "common_services_reference_scan.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\common_services_reference_scan.txt"
+        },
+        {
+            "name": "Common_Service_Current.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Common_Service_Current.txt"
+        },
+        {
+            "name": "Core_Current_Checkpoint010.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Core_Current_Checkpoint010.txt"
+        },
+        {
+            "name": "core_reference_scan.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\core_reference_scan.txt"
+        },
+        {
+            "name": "Football_AI_OS_Architecture_Current.md",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Football_AI_OS_Architecture_Current.md"
+        },
+        {
+            "name": "Football_AI_OS_V1.1_Project_Log.md",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Football_AI_OS_V1.1_Project_Log.md"
+        },
+        {
+            "name": "Hash_Current_PreUpgrade.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\Hash_Current_PreUpgrade.txt"
+        },
+        {
+            "name": "logger_dependency_scan.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\logger_dependency_scan.txt"
+        },
+        {
+            "name": "System_Core_Current.txt",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\System_Core_Current.txt"
+        },
+        {
+            "name": "db_connection_backup.py",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\database_backup_v11\\db_connection_backup.py"
+        },
+        {
+            "name": "base_exception.py",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\exception_backup_v10\\exception\\base_exception.py"
+        },
+        {
+            "name": "error_codes.py",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\exception_backup_v10\\exception\\error_codes.py"
+        },
+        {
+            "name": "exception_handler.py",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\exception_backup_v10\\exception\\exception_handler.py"
+        },
+        {
+            "name": "__init__.py",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\exception_backup_v10\\exception\\__init__.py"
+        },
+        {
+            "name": "file_service_backup.py",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\file_service_backup_v11\\file_service_backup.py"
+        },
+        {
+            "name": "hash_service_backup.py",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\hash_service_backup_v11\\hash_service_backup.py"
+        },
+        {
+            "name": "logger.py",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\logger_backup_20260720_105240\\logger.py"
+        },
+        {
+            "name": "compatibility.py",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\logger_merge_backup_phase1\\compatibility.py"
+        },
+        {
+            "name": "formatter.py",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\logger_merge_backup_phase1\\formatter.py"
+        },
+        {
+            "name": "handlers.py",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\logger_merge_backup_phase1\\handlers.py"
+        },
+        {
+            "name": "log_config.json",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\logger_merge_backup_phase1\\log_config.json"
+        },
+        {
+            "name": "__init__.py",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\logger_merge_backup_phase1\\__init__.py"
+        },
+        {
+            "name": "version_service_backup.py",
+            "path": ".\\99_DOCUMENTATION\\checkpoints\\version_service_backup_v11\\version_service_backup.py"
+        },
+        {
+            "name": "common_service_dependency_report.json",
+            "path": ".\\99_DOCUMENTATION\\reports\\common_service_dependency_report.json"
+        },
+        {
+            "name": "Core_Service_Upgrade_Map.json",
+            "path": ".\\99_DOCUMENTATION\\reports\\Core_Service_Upgrade_Map.json"
+        },
+        {
+            "name": "Core_Service_Upgrade_Map_V2.json",
+            "path": ".\\99_DOCUMENTATION\\reports\\Core_Service_Upgrade_Map_V2.json"
+        },
+        {
+            "name": "framework_init_report.json",
+            "path": ".\\99_DOCUMENTATION\\reports\\framework_init_report.json"
+        },
+        {
+            "name": "checkpoints_list.txt",
+            "path": ".\\99_DOCUMENTATION\\reports\\Framework_Export_Scan_V1.2\\checkpoints_list.txt"
+        },
+        {
+            "name": "core_structure.txt",
+            "path": ".\\99_DOCUMENTATION\\reports\\Framework_Export_Scan_V1.2\\core_structure.txt"
+        },
+        {
+            "name": "data_layer_structure.txt",
+            "path": ".\\99_DOCUMENTATION\\reports\\Framework_Export_Scan_V1.2\\data_layer_structure.txt"
+        },
+        {
+            "name": "framework_report.txt",
+            "path": ".\\99_DOCUMENTATION\\reports\\Framework_Export_Scan_V1.2\\framework_report.txt"
+        },
+        {
+            "name": "full_tree.txt",
+            "path": ".\\99_DOCUMENTATION\\reports\\Framework_Export_Scan_V1.2\\full_tree.txt"
+        },
+        {
+            "name": "powershell_scripts.txt",
+            "path": ".\\99_DOCUMENTATION\\reports\\Framework_Export_Scan_V1.2\\powershell_scripts.txt"
+        },
+        {
+            "name": "python_modules.txt",
+            "path": ".\\99_DOCUMENTATION\\reports\\Framework_Export_Scan_V1.2\\python_modules.txt"
+        },
+        {
+            "name": "ARCHIVED_V12.txt",
+            "path": ".\\archive\\common_service_migration\\ARCHIVED_V12.txt"
+        },
+        {
+            "name": "common_service_migration_check.py",
+            "path": ".\\archive\\common_service_migration\\common_service_migration_check.py"
+        },
+        {
+            "name": "core_service_compare.py",
+            "path": ".\\archive\\common_service_migration\\core_service_compare.py"
+        },
+        {
+            "name": "core_service_compare_v2.py",
+            "path": ".\\archive\\common_service_migration\\core_service_compare_v2.py"
+        },
+        {
+            "name": "common_services_scan.txt",
+            "path": ".\\archive\\framework_scan_history\\common_services_scan.txt"
+        },
+        {
+            "name": "framework_scan.txt",
+            "path": ".\\archive\\framework_scan_history\\framework_scan.txt"
+        },
+        {
+            "name": "python_modules.txt",
+            "path": ".\\archive\\framework_scan_history\\python_modules.txt"
+        },
+        {
+            "name": "logger_core_merge_v1.py",
+            "path": ".\\archive\\logger_migration\\logger_core_merge_v1.py"
+        },
+        {
+            "name": "logger_upgrade_v1.py",
+            "path": ".\\archive\\logger_migration\\logger_upgrade_v1.py"
+        },
+        {
+            "name": "setup_logger_module.py",
+            "path": ".\\archive\\logger_migration\\setup_logger_module.py"
+        },
+        {
+            "name": "system_version.yaml",
+            "path": ".\\Config\\system_version.yaml"
+        },
+        {
+            "name": "README.md",
+            "path": ".\\Documentation\\README.md"
+        },
+        {
+            "name": "system.log",
+            "path": ".\\Logs\\system.log"
+        },
+        {
+            "name": "core_scan.txt",
+            "path": ".\\upload\\core_scan.txt"
+        }
+    ]
+}

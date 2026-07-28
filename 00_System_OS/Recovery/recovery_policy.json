@@ -1,0 +1,29 @@
+{
+    "Version":"1.0",
+
+    "Policies":[
+
+        {
+            "Target":
+            "Automation",
+
+            "Failure_Action":
+            "RETRY",
+
+            "Max_Retry":
+            3
+        },
+
+        {
+            "Target":
+            "Scheduler",
+
+            "Failure_Action":
+            "RESTART",
+
+            "Max_Retry":
+            1
+        }
+
+    ]
+}

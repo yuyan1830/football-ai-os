@@ -1,0 +1,20 @@
+{
+    "framework": "Football AI OS",
+    "module": "04_DATA_PROCESSING_AI",
+    "service": "cleaning_engine",
+    "version": "V1.0",
+    "status": "PASS",
+    "rules": 6,
+    "checks": [
+        {
+            "duplicate_check": "enabled"
+        },
+        {
+            "team_normalization": "enabled"
+        },
+        {
+            "score_validation": "enabled"
+        }
+    ],
+    "time": "2026-07-20 18:48:54.417143"
+}

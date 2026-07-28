@@ -1,0 +1,12 @@
+﻿{
+    "framework":"Football AI OS",
+    "module":"04_DATA_PROCESSING_AI",
+    "version":"V1.0",
+    "status":"active",
+    "services":[
+        "cleaning",
+        "transformation",
+        "feature_engine",
+        "pipeline"
+    ]
+}

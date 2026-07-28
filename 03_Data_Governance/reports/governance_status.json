@@ -1,0 +1,31 @@
+{
+    "framework": "Football AI OS",
+    "module": "03_DATA_GOVERNANCE",
+    "service": "governance_controller",
+    "version": "V1.0",
+    "score": 100,
+    "status": "PASS",
+    "components": [
+        {
+            "module": "quality_engine",
+            "path": "E:\\football_v\\03_Data_Governance\\quality\\quality_engine.py",
+            "status": true
+        },
+        {
+            "module": "validation_engine",
+            "path": "E:\\football_v\\03_Data_Governance\\validation\\validation_engine.py",
+            "status": true
+        },
+        {
+            "module": "lineage_engine",
+            "path": "E:\\football_v\\03_Data_Governance\\lineage\\lineage_engine.py",
+            "status": true
+        },
+        {
+            "module": "audit_engine",
+            "path": "E:\\football_v\\03_Data_Governance\\audit\\audit_engine.py",
+            "status": true
+        }
+    ],
+    "time": "2026-07-20 18:29:21.305554"
+}

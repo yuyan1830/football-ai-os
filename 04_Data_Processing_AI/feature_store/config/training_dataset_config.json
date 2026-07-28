@@ -1,0 +1,8 @@
+{
+    "framework": "Football AI OS",
+    "module": "Feature Store",
+    "version": "V1.8",
+    "dataset_type": "model_training_dataset",
+    "split_ratio": "80_20",
+    "environment": "development"
+}

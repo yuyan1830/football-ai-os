@@ -1,0 +1,4 @@
+﻿Database_ID,Database_Name,Path,Size_MB,Layer,Status,Action,Validation
+DB0001,match_data.db,E:\football_v\01_DATA_LAYER\database\match_data.db,256.42,01_DATA_LAYER,DISCOVERED,PENDING,PENDING
+DB0002,feature_store.db,E:\football_v\02_FEATURE_LAYER\database\feature_store.db,84.79,02_FEATURE_LAYER,DISCOVERED,PENDING,PENDING
+DB0003,model_store.db,E:\football_v\03_MODEL_LAYER\database\model_store.db,0.03,03_MODEL_LAYER,DISCOVERED,PENDING,PENDING

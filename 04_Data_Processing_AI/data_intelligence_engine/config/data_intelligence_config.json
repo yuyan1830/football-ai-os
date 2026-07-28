@@ -1,0 +1,12 @@
+{
+    "module": "Data Intelligence Engine",
+    "version": "V1.0",
+    "purpose": "Feature intelligence routing",
+    "supported_models": [
+        "Elo",
+        "Dixon-Coles",
+        "Poisson",
+        "XGBoost",
+        "Fusion"
+    ]
+}

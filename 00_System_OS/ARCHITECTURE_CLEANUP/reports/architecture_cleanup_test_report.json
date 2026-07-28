@@ -1,0 +1,24 @@
+{
+    "status": "PASS",
+    "total_tests": 4,
+    "failed": 0,
+    "tests": [
+        {
+            "file": "E:\\football_v\\00_SYSTEM_OS\\ARCHITECTURE_CLEANUP\\architecture_scanner\\architecture_scanner_V1.0.py",
+            "status": "PASS"
+        },
+        {
+            "file": "E:\\football_v\\00_SYSTEM_OS\\ARCHITECTURE_CLEANUP\\architecture_classifier\\architecture_classifier_V1.0.py",
+            "status": "PASS"
+        },
+        {
+            "file": "E:\\football_v\\00_SYSTEM_OS\\ARCHITECTURE_CLEANUP\\registry_manager\\registry_manager_V1.1.py",
+            "status": "PASS"
+        },
+        {
+            "file": "E:\\football_v\\00_SYSTEM_OS\\ARCHITECTURE_CLEANUP\\config\\architecture_rules.json",
+            "status": "PASS"
+        }
+    ],
+    "time": "2026-07-22 22:09:16.778219"
+}

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(e:/football_v/.venv/Scripts/python.exe *)",
+      "Bash(e:/football_v/.venv/Scripts/pip list *)"
+    ]
+  }
+}

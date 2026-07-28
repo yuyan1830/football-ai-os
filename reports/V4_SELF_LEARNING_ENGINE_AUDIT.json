@@ -1,0 +1,28 @@
+{
+    "version": "FOOTBALL_AI_OS_V4.0_SELF_LEARNING_ENGINE_AUDIT",
+    "time": "2026-07-23 23:16:42.292903",
+    "files": {
+        "E:\\football_v\\31_SELF_LEARNING_ENGINE\\feedback_engine.py": {
+            "exists": true,
+            "classes": [
+                "class FeedbackEngine:"
+            ],
+            "functions": [
+                "def learn(self):"
+            ],
+            "database_reference": false,
+            "model_update_reference": false
+        },
+        "E:\\football_v\\31_SELF_LEARNING_ENGINE\\model_update_engine.py": {
+            "exists": true,
+            "classes": [
+                "class ModelUpdate:"
+            ],
+            "functions": [
+                "def update(self):"
+            ],
+            "database_reference": false,
+            "model_update_reference": true
+        }
+    }
+}

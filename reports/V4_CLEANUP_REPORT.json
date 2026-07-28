@@ -1,0 +1,46 @@
+﻿{
+    "status":  "READY",
+    "time":  "2026-07-23 21:13:27",
+    "items":  [
+                  {
+                      "archive":  "E:\\football_v\\archive\\V4_CLEANUP_ARCHIVE\\deploy_Football_AI_OS_V2.7_REAL_SIMULATION_ALL.ps1",
+                      "status":  "ARCHIVED",
+                      "sha256":  "28DCAF429A434E3D24FCD2FF1929B8E1DE7CA696BBD5F78602F1DB6A573CC35D",
+                      "file":  "deployment_scripts\\deploy_Football_AI_OS_V2.7_REAL_SIMULATION_ALL.ps1"
+                  },
+                  {
+                      "archive":  "E:\\football_v\\archive\\V4_CLEANUP_ARCHIVE\\deploy_Football_AI_OS_V2.8_REAL_PREDICTION_API_ALL.ps1",
+                      "status":  "ARCHIVED",
+                      "sha256":  "0D0DC46D7A1235FCE67D8B8EEBCAA0CF16AB3BAA5CDC51E68FCC298EC63C32C5",
+                      "file":  "deployment_scripts\\deploy_Football_AI_OS_V2.8_REAL_PREDICTION_API_ALL.ps1"
+                  },
+                  {
+                      "archive":  "E:\\football_v\\archive\\V4_CLEANUP_ARCHIVE\\deploy_Football_AI_OS_V2.9_REAL_END_TO_END_TEST_ALL.ps1",
+                      "status":  "ARCHIVED",
+                      "sha256":  "E498D76CD998B3330DD4E23BC3B82C52EE4C37C5615AB4C9C943BAE4732A7B9B",
+                      "file":  "deployment_scripts\\deploy_Football_AI_OS_V2.9_REAL_END_TO_END_TEST_ALL.ps1"
+                  },
+                  {
+                      "archive":  "E:\\football_v\\archive\\V4_CLEANUP_ARCHIVE\\deploy_MODEL_LAYER_V2.10_OPTIMIZATION_ALL.ps1",
+                      "status":  "ARCHIVED",
+                      "sha256":  "9056D3C4B7921D77F65361294221D557F7D5BDC34C0ADFBD4C642F7532AA46EB",
+                      "file":  "deployment_scripts\\deploy_MODEL_LAYER_V2.10_OPTIMIZATION_ALL.ps1"
+                  },
+                  {
+                      "archive":  "E:\\football_v\\archive\\V4_CLEANUP_ARCHIVE\\deploy_MODEL_LAYER_V2.11_FEEDBACK_LOOP_ALL.ps1",
+                      "status":  "ARCHIVED",
+                      "sha256":  "2B821ECE8CF877A376DCC0C9F0F9572B60EBEB3FA63C8DDC4F0AE7EE75FBA8BA",
+                      "file":  "deployment_scripts\\deploy_MODEL_LAYER_V2.11_FEEDBACK_LOOP_ALL.ps1"
+                  },
+                  {
+                      "file":  "12_API_LAYER\\runtime\\real_model_runtime_adapter_V3.2.py",
+                      "status":  "NOT_FOUND"
+                  },
+                  {
+                      "file":  "12_API_LAYER\\runtime\\real_model_runtime_adapter_V3.2.1.py",
+                      "status":  "NOT_FOUND"
+                  }
+              ],
+    "version":  "FOOTBALL_AI_OS_V4.0_CLEANUP_ARCHIVE",
+    "mode":  "COPY_ONLY_NO_DELETE"
+}

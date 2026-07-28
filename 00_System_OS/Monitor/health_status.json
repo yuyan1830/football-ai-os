@@ -1,0 +1,10 @@
+{
+    "System": "Football AI OS",
+    "Version": "1.0",
+    "Status": "ONLINE",
+    "Modules": {
+        "File_Manager": "OK",
+        "Automation": "OK",
+        "Scheduler": "OK"
+    }
+}

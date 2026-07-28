@@ -1,0 +1,12 @@
+﻿Asset_ID,Table_Name,Source_DB,Asset_Type,Record_Count,Current_Status,Omega_Relevance,Migration_Action,Risk,Decision
+MODEL_ASSET_001,dixon_coles_model,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,MODEL_RUNTIME,1,LEGACY_ONLY,HIGH,REVIEW_REQUIRED,HIGH,PENDING
+MODEL_ASSET_002,elo_model,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,MODEL_RUNTIME,1,LEGACY_ONLY,HIGH,REVIEW_REQUIRED,HIGH,PENDING
+MODEL_ASSET_003,fusion_model,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,MODEL_RUNTIME,1,LEGACY_ONLY,HIGH,REVIEW_REQUIRED,HIGH,PENDING
+MODEL_ASSET_004,model_version,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,MODEL_METADATA,0,LEGACY_ONLY,MEDIUM,COMPARE_SCHEMA,MEDIUM,PENDING
+MODEL_ASSET_005,model_weight,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,MODEL_PARAMETER,1,LEGACY_ONLY,HIGH,REVIEW_REQUIRED,HIGH,PENDING
+MODEL_ASSET_006,model_weight_history,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,MODEL_HISTORY,0,LEGACY_ONLY,MEDIUM,ARCHIVE_REFERENCE,LOW,PENDING
+MODEL_ASSET_007,poisson_model,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,MODEL_RUNTIME,1,LEGACY_ONLY,HIGH,REVIEW_REQUIRED,HIGH,PENDING
+MODEL_ASSET_008,prediction_feature_snapshot,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,FEATURE_SNAPSHOT,0,LEGACY_ONLY,MEDIUM,ARCHIVE_REFERENCE,LOW,PENDING
+MODEL_ASSET_009,prediction_history,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,PREDICTION_HISTORY,2,LEGACY_ONLY,HIGH,REVIEW_REQUIRED,MEDIUM,PENDING
+MODEL_ASSET_010,prediction_result,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,PREDICTION_OUTPUT,0,LEGACY_ONLY,HIGH,REVIEW_REQUIRED,MEDIUM,PENDING
+MODEL_ASSET_011,xgboost_model,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,MODEL_RUNTIME,1,LEGACY_ONLY,HIGH,REVIEW_REQUIRED,HIGH,PENDING

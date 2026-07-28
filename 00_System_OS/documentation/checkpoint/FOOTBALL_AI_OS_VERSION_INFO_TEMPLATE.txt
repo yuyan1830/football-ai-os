@@ -1,0 +1,22 @@
+﻿Football AI OS Version Information
+
+Version:
+
+Framework Version:
+
+Database Version:
+
+Current Phase:
+
+Completed Modules:
+
+Pending Modules:
+
+Last Deployment:
+
+Last Test:
+
+Next Development Target:
+
+Date:
+

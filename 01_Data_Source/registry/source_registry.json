@@ -1,0 +1,79 @@
+﻿{
+    "framework": "Football AI OS",
+    "module": "01_DATA_SOURCE",
+    "version": "V1.1",
+
+    "sources": [
+
+        {
+            "id": "SRC001",
+            "name": "football-data",
+
+            "type": "CSV",
+
+            "version": "1.0",
+
+            "status": "active",
+
+            "location":
+            "01_DATA_SOURCE/download",
+
+            "format":
+            "csv",
+
+            "encoding":
+            "utf-8",
+
+            "checksum":
+            "pending",
+
+            "lineage":
+            "03_DATA_GOVERNANCE/lineage",
+
+            "created":
+            "2026-07-20",
+
+            "updated":
+            "2026-07-20"
+        },
+
+
+        {
+            "id": "SRC002",
+
+            "name":
+            "api-football",
+
+            "type":
+            "API",
+
+            "version":
+            "planned",
+
+            "status":
+            "planned",
+
+            "location":
+            "external",
+
+            "format":
+            "json",
+
+            "encoding":
+            "utf-8",
+
+            "checksum":
+            "pending",
+
+            "lineage":
+            "03_DATA_GOVERNANCE/lineage",
+
+            "created":
+            "2026-07-20",
+
+            "updated":
+            "2026-07-20"
+        }
+
+    ]
+}

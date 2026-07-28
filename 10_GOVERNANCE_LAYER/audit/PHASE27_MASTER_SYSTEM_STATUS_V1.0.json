@@ -1,0 +1,19 @@
+{
+    "Omega_V3.2": "FINAL",
+    "Production": true,
+    "Legacy_Alignment": true,
+    "Claude_Compliance": true,
+    "Architecture": "Football_AI_OS_Betting_Intelligence_System_Omega_V3.2",
+    "Baseline": "Football_AI_OS_Betting_Intelligence_System_Omega_V3.2_Baseline.md",
+    "Legacy_Source": "Football_AI_OS_Legacy_Asset_Index_V1.0",
+    "Rule_Source": "CLAUDE.md",
+    "Modification": {
+        "Database_Content": false,
+        "Business_Logic": false,
+        "Model_Code": false,
+        "Delete": false,
+        "Rename": false,
+        "Move": false
+    },
+    "Validation_Time": "2026-07-25 16:41:53.717073"
+}

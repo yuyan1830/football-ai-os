@@ -1,0 +1,15 @@
+{
+    "module": "14_SYSTEM_MONITORING_LAYER",
+    "version": "V1.0",
+    "monitors": [
+        "health",
+        "database",
+        "model",
+        "performance",
+        "error",
+        "alert",
+        "resource",
+        "dashboard"
+    ],
+    "future_interface": true
+}

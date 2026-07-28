@@ -1,0 +1,11 @@
+﻿{
+    "home_team":"Manchester City",
+    "away_team":"Liverpool",
+    "league":"Premier League",
+    "odds":{
+        "home":1.85,
+        "draw":3.6,
+        "away":3.9
+    },
+    "handicap":"Home -0.5"
+}

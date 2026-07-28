@@ -1,0 +1,30 @@
+﻿Football AI OS Development Task Template
+
+Task Name:
+
+Module:
+
+Architecture Layer:
+
+Database:
+
+Need Database Change:
+YES / NO
+
+Need Framework Change:
+YES / NO
+
+New Files:
+
+Deployment Script Required:
+YES / NO
+
+Test Script Required:
+YES / NO
+
+
+Description:
+
+
+Acceptance Criteria:
+

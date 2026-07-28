@@ -1,0 +1,45 @@
+﻿{
+    "framework":"Football AI OS",
+
+    "module":"04_DATA_PROCESSING_AI",
+
+    "service":"transformation_engine",
+
+    "version":"V1.0",
+
+
+    "rules":[
+
+
+        {
+            "name":"field_mapping",
+            "enabled":true
+        },
+
+
+        {
+            "name":"type_conversion",
+            "enabled":true
+        },
+
+
+        {
+            "name":"league_standardization",
+            "enabled":true
+        },
+
+
+        {
+            "name":"result_encoding",
+            "enabled":true
+        },
+
+
+        {
+            "name":"time_feature",
+            "enabled":true
+        }
+
+
+    ]
+}

@@ -1,0 +1,143 @@
+{
+    "schema_version": "1.1",
+
+    "source_definition": {
+
+        "Source_ID": {
+            "type": "string",
+            "description": "Unique source identifier"
+        },
+
+        "Source_Name": {
+            "type": "string",
+            "description": "Name of data source"
+        },
+
+        "Source_Type": {
+
+            "type": "string",
+
+            "allowed_values": [
+
+                "API",
+                "WEBSITE",
+                "DATABASE",
+                "FILE_DOWNLOAD",
+                "MANUAL_IMPORT",
+                "INTERNAL_GENERATED"
+
+            ]
+
+        },
+
+
+        "Provider": {
+
+            "type": "string",
+
+            "description":
+            "Organization providing data"
+
+        },
+
+
+        "URL": {
+
+            "type": "string",
+
+            "description":
+            "Source address"
+
+        },
+
+
+        "Trust_Level": {
+
+            "type": "string",
+
+            "allowed_values": [
+
+                "HIGH",
+                "MEDIUM",
+                "LOW",
+                "UNKNOWN"
+
+            ]
+
+        },
+
+
+        "Update_Frequency": {
+
+            "type": "string",
+
+            "allowed_values": [
+
+                "REAL_TIME",
+                "HOURLY",
+                "DAILY",
+                "WEEKLY",
+                "MONTHLY",
+                "UNKNOWN"
+
+            ]
+
+        },
+
+
+        "Last_Check_Time": {
+
+            "type": "datetime"
+
+        },
+
+
+        "Last_Update_Time": {
+
+            "type": "datetime"
+
+        },
+
+
+        "Data_Category": {
+
+            "type": "string",
+
+            "allowed_values": [
+
+                "MATCH",
+                "PLAYER",
+                "TEAM",
+                "EVENT",
+                "STATISTICS",
+                "MODEL",
+                "OTHER"
+
+            ]
+
+        },
+
+
+        "Status": {
+
+            "type": "string",
+
+            "allowed_values": [
+
+                "ACTIVE",
+                "PAUSED",
+                "DISABLED"
+
+            ]
+
+        },
+
+
+        "Owner_Module": {
+
+            "type": "string"
+
+        }
+
+    }
+}

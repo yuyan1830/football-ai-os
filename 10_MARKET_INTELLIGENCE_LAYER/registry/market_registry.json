@@ -1,0 +1,9 @@
+{
+    "module": "10_MARKET_INTELLIGENCE_LAYER",
+    "version": "V1.0",
+    "independent_models": [
+        "Handicap_V38.8.1",
+        "Market_Risk_2.0"
+    ],
+    "future_model_interface": true
+}

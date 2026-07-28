@@ -1,0 +1,4 @@
+Asset,Path,Asset_Type,Exists,Table_Count,Tables,Validation_Time
+prediction_service.db,E:\football_v\04_PREDICTION_LAYER\database\prediction_service.db,SERVICE_DATABASE,True,4,"prediction_service_registry,prediction_request,prediction_result,prediction_history",2026-07-25 13:03:45
+prediction_runtime.db,E:\football_v\04_PREDICTION_LAYER\runtime\prediction_runtime.db,RUNTIME_DATABASE,True,3,"prediction_runtime,sqlite_sequence,prediction_accuracy_log",2026-07-25 13:03:45
+api_runtime.db,E:\football_v\04_PREDICTION_LAYER\runtime\api_runtime.db,API_DATABASE,True,1,api_runtime_registry,2026-07-25 13:03:45

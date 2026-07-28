@@ -1,0 +1,6 @@
+{
+    "environment": "development",
+    "database_root": "E:\\football_v\\database\\development",
+    "source": "football_v_development_database",
+    "allow_legacy_database": false
+}

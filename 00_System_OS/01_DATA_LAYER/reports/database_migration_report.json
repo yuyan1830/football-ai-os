@@ -1,0 +1,12 @@
+{
+    "framework": "Football AI OS Ultimate Fusion Framework V1.5",
+    "module": "16_DATABASE_MIGRATION_LAYER",
+    "version": "V1.0",
+    "source": "E:\\football\\Football_AI_System\\02_Database\\football.db",
+    "targets": {
+        "match_data": "E:\\football_v\\01_DATA_LAYER\\database\\match_data.db",
+        "feature_store": "E:\\football_v\\02_FEATURE_LAYER\\database\\feature_store.db",
+        "model_store": "E:\\football_v\\03_MODEL_LAYER\\database\\model_store.db"
+    },
+    "time": "2026-07-28 18:46:10.101674"
+}

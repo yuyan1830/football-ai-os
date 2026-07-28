@@ -1,0 +1,4 @@
+recovery:
+  enabled: true
+  check_time: 02:10
+  max_retry: 3

@@ -1,0 +1,10 @@
+{
+    "module": "Feature Store",
+    "version": "V1.7",
+    "status": "READY",
+    "promotion_flow": [
+        "development",
+        "validation",
+        "production"
+    ]
+}

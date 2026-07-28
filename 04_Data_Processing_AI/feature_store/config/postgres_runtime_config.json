@@ -1,0 +1,8 @@
+{
+    "framework": "Football AI OS",
+    "module": "Feature Store",
+    "version": "V2.2",
+    "database": "PostgreSQL",
+    "runtime_connection": true,
+    "auto_import_data": false
+}

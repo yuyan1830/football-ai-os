@@ -1,0 +1,7 @@
+﻿Asset_ID,Asset_Name,Layer,Path,Decision,Status,Source
+ASSET_DB001,match_data.db,01_DATA_LAYER,E:\football_v\01_DATA_LAYER\database\match_data.db,KEEP_CURRENT,ACTIVE,Omega_V3.2
+ASSET_DB002,feature_store.db,02_FEATURE_LAYER,E:\football_v\02_FEATURE_LAYER\database\feature_store.db,KEEP_CURRENT,ACTIVE,Omega_V3.2
+ASSET_DB003,model_store.db,03_MODEL_LAYER,E:\football_v\03_MODEL_LAYER\database\model_store.db,HOLD,REVIEW_REQUIRED,Omega_V3.2
+ASSET_DB004,legacy_match_data.db,LEGACY,E:\football_v\00_System_OS\01_DATA_LAYER\database\match_data.db,RETAIN,ARCHIVE,Legacy
+ASSET_DB005,legacy_feature_store.db,LEGACY,E:\football_v\00_System_OS\02_FEATURE_LAYER\database\feature_store.db,RETAIN,ARCHIVE,Legacy
+ASSET_DB006,legacy_model_store.db,LEGACY,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,RETAIN,REVIEW,Legacy

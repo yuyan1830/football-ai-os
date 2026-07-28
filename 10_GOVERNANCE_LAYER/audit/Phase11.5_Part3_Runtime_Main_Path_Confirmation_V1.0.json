@@ -1,0 +1,264 @@
+{
+    "Phase": "PHASE11.5_PART3_RUNTIME_MAIN_PATH_CONFIRMATION",
+    "Architecture": "Football_AI_OS_Betting_Intelligence_System_Omega_V3.2",
+    "Baseline": "Football_AI_OS_Betting_Intelligence_System_Omega_V3.2_Baseline.md",
+    "Legacy_Source": "Football_AI_OS_Legacy_Asset_Index_V1.0",
+    "Rule_Source": "CLAUDE.md",
+    "Status": "RUNTIME_SCAN_COMPLETED",
+    "Runtime_Candidates": [
+        {
+            "Path": "E:\\football_v\\AI_RUNTIME",
+            "Python_File_Count": 12,
+            "Runtime_Keyword_Files": [
+                "E:\\football_v\\AI_RUNTIME\\ai_report.py",
+                "E:\\football_v\\AI_RUNTIME\\console.py",
+                "E:\\football_v\\AI_RUNTIME\\engine.py",
+                "E:\\football_v\\AI_RUNTIME\\final_decision.py",
+                "E:\\football_v\\AI_RUNTIME\\model_connector.py",
+                "E:\\football_v\\AI_RUNTIME\\model_fusion.py",
+                "E:\\football_v\\AI_RUNTIME\\model_outputs.py",
+                "E:\\football_v\\AI_RUNTIME\\model_runtime_connector.py",
+                "E:\\football_v\\AI_RUNTIME\\prediction_executor.py",
+                "E:\\football_v\\AI_RUNTIME\\report.py",
+                "E:\\football_v\\AI_RUNTIME\\router.py",
+                "E:\\football_v\\AI_RUNTIME\\runtime.py"
+            ]
+        },
+        {
+            "Path": "E:\\football_v\\11_System_Intelligence",
+            "Python_File_Count": 145,
+            "Runtime_Keyword_Files": [
+                "E:\\football_v\\11_System_Intelligence\\agent_fusion_engine.py",
+                "E:\\football_v\\11_System_Intelligence\\ai_prediction_os.py",
+                "E:\\football_v\\11_System_Intelligence\\capital_flow_engine.py",
+                "E:\\football_v\\11_System_Intelligence\\capital_sentiment.py",
+                "E:\\football_v\\11_System_Intelligence\\decision_api.py",
+                "E:\\football_v\\11_System_Intelligence\\decision_context.py",
+                "E:\\football_v\\11_System_Intelligence\\decision_fusion.py",
+                "E:\\football_v\\11_System_Intelligence\\decision_memory.py",
+                "E:\\football_v\\11_System_Intelligence\\decision_reasoner.py",
+                "E:\\football_v\\11_System_Intelligence\\football_ai_runtime.py",
+                "E:\\football_v\\11_System_Intelligence\\intelligence_fusion_engine.py",
+                "E:\\football_v\\11_System_Intelligence\\match_prediction_engine.py",
+                "E:\\football_v\\11_System_Intelligence\\model_fusion_core.py",
+                "E:\\football_v\\11_System_Intelligence\\prediction_agent.py",
+                "E:\\football_v\\11_System_Intelligence\\prediction_evaluator.py",
+                "E:\\football_v\\11_System_Intelligence\\prediction_report.py",
+                "E:\\football_v\\11_System_Intelligence\\prediction_report_generator.py",
+                "E:\\football_v\\11_System_Intelligence\\probability_fusion_engine.py",
+                "E:\\football_v\\11_System_Intelligence\\score_prediction_engine.py",
+                "E:\\football_v\\11_System_Intelligence\\xgboost_predictor.py"
+            ]
+        },
+        {
+            "Path": "E:\\football_v\\18_MODEL_EXECUTION_ENGINE",
+            "Python_File_Count": 13,
+            "Runtime_Keyword_Files": [
+                "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\fusion_engine.py",
+                "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\batch_predictor\\batch_predictor_V1.0.py",
+                "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\fusion_engine\\fusion_engine_V1.0.py",
+                "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\prediction_pipeline\\prediction_pipeline_V1.0.py",
+                "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\prediction_scheduler\\prediction_scheduler_V1.0.py"
+            ]
+        },
+        {
+            "Path": "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE",
+            "Python_File_Count": 21,
+            "Runtime_Keyword_Files": [
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\connector_manager.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\dixon_coles_connector.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\elo_connector.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\poisson_connector.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\xgboost_connector.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\confidence_calibration\\calibration_engine.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\confidence_calibration\\reliability.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\confidence_engine\\confidence_manager.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\knockout_extension\\knockout_engine.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\model_connector\\model_connector.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\prediction_api\\api_service.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\probability_engine\\probability_fusion.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\real_probability_engine\\fusion_calculator.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\real_probability_engine\\probability_service.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\regular_time_prediction\\prediction_engine.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\risk_engine\\risk_manager.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\risk_intelligence_engine\\model_conflict.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\risk_intelligence_engine\\upset_detector.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\score_prediction\\score_predictor.py",
+                "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\score_probability_engine\\score_distribution.py"
+            ]
+        },
+        {
+            "Path": "E:\\football_v\\27_MODEL_FUSION_ENGINE",
+            "Python_File_Count": 3,
+            "Runtime_Keyword_Files": [
+                "E:\\football_v\\27_MODEL_FUSION_ENGINE\\confidence_engine.py",
+                "E:\\football_v\\27_MODEL_FUSION_ENGINE\\fusion_engine_V2.1.py",
+                "E:\\football_v\\27_MODEL_FUSION_ENGINE\\model_weight_engine.py"
+            ]
+        },
+        {
+            "Path": "E:\\football_v\\08_DECISION_LAYER",
+            "Python_File_Count": 4,
+            "Runtime_Keyword_Files": [
+                "E:\\football_v\\08_DECISION_LAYER\\engine\\decision_engine_V2.4.py",
+                "E:\\football_v\\08_DECISION_LAYER\\engine\\recommendation_engine.py",
+                "E:\\football_v\\08_DECISION_LAYER\\monitor\\decision_monitor.py",
+                "E:\\football_v\\08_DECISION_LAYER\\service\\decision_service.py"
+            ]
+        },
+        {
+            "Path": "E:\\football_v\\09_APPLICATION_LAYER",
+            "Python_File_Count": 4,
+            "Runtime_Keyword_Files": [
+                "E:\\football_v\\09_APPLICATION_LAYER\\api\\decision_api.py",
+                "E:\\football_v\\09_APPLICATION_LAYER\\api\\prediction_api.py"
+            ]
+        },
+        {
+            "Path": "E:\\football_v\\12_API_LAYER",
+            "Python_File_Count": 4,
+            "Runtime_Keyword_Files": [
+                "E:\\football_v\\12_API_LAYER\\api\\decision_api.py",
+                "E:\\football_v\\12_API_LAYER\\api\\prediction_api.py",
+                "E:\\football_v\\12_API_LAYER\\service\\football_prediction_service.py",
+                "E:\\football_v\\12_API_LAYER\\test\\api_integration_test.py"
+            ]
+        }
+    ],
+    "Main_Path_Analysis": {
+        "Input": [
+            {
+                "Path": "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE",
+                "Python_File_Count": 21,
+                "Runtime_Keyword_Files": [
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\connector_manager.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\dixon_coles_connector.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\elo_connector.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\poisson_connector.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\xgboost_connector.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\confidence_calibration\\calibration_engine.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\confidence_calibration\\reliability.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\confidence_engine\\confidence_manager.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\knockout_extension\\knockout_engine.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\model_connector\\model_connector.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\prediction_api\\api_service.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\probability_engine\\probability_fusion.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\real_probability_engine\\fusion_calculator.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\real_probability_engine\\probability_service.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\regular_time_prediction\\prediction_engine.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\risk_engine\\risk_manager.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\risk_intelligence_engine\\model_conflict.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\risk_intelligence_engine\\upset_detector.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\score_prediction\\score_predictor.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\score_probability_engine\\score_distribution.py"
+                ]
+            }
+        ],
+        "Model": [
+            {
+                "Path": "E:\\football_v\\AI_RUNTIME",
+                "Python_File_Count": 12,
+                "Runtime_Keyword_Files": [
+                    "E:\\football_v\\AI_RUNTIME\\ai_report.py",
+                    "E:\\football_v\\AI_RUNTIME\\console.py",
+                    "E:\\football_v\\AI_RUNTIME\\engine.py",
+                    "E:\\football_v\\AI_RUNTIME\\final_decision.py",
+                    "E:\\football_v\\AI_RUNTIME\\model_connector.py",
+                    "E:\\football_v\\AI_RUNTIME\\model_fusion.py",
+                    "E:\\football_v\\AI_RUNTIME\\model_outputs.py",
+                    "E:\\football_v\\AI_RUNTIME\\model_runtime_connector.py",
+                    "E:\\football_v\\AI_RUNTIME\\prediction_executor.py",
+                    "E:\\football_v\\AI_RUNTIME\\report.py",
+                    "E:\\football_v\\AI_RUNTIME\\router.py",
+                    "E:\\football_v\\AI_RUNTIME\\runtime.py"
+                ]
+            },
+            {
+                "Path": "E:\\football_v\\11_System_Intelligence",
+                "Python_File_Count": 145,
+                "Runtime_Keyword_Files": [
+                    "E:\\football_v\\11_System_Intelligence\\agent_fusion_engine.py",
+                    "E:\\football_v\\11_System_Intelligence\\ai_prediction_os.py",
+                    "E:\\football_v\\11_System_Intelligence\\capital_flow_engine.py",
+                    "E:\\football_v\\11_System_Intelligence\\capital_sentiment.py",
+                    "E:\\football_v\\11_System_Intelligence\\decision_api.py",
+                    "E:\\football_v\\11_System_Intelligence\\decision_context.py",
+                    "E:\\football_v\\11_System_Intelligence\\decision_fusion.py",
+                    "E:\\football_v\\11_System_Intelligence\\decision_memory.py",
+                    "E:\\football_v\\11_System_Intelligence\\decision_reasoner.py",
+                    "E:\\football_v\\11_System_Intelligence\\football_ai_runtime.py",
+                    "E:\\football_v\\11_System_Intelligence\\intelligence_fusion_engine.py",
+                    "E:\\football_v\\11_System_Intelligence\\match_prediction_engine.py",
+                    "E:\\football_v\\11_System_Intelligence\\model_fusion_core.py",
+                    "E:\\football_v\\11_System_Intelligence\\prediction_agent.py",
+                    "E:\\football_v\\11_System_Intelligence\\prediction_evaluator.py",
+                    "E:\\football_v\\11_System_Intelligence\\prediction_report.py",
+                    "E:\\football_v\\11_System_Intelligence\\prediction_report_generator.py",
+                    "E:\\football_v\\11_System_Intelligence\\probability_fusion_engine.py",
+                    "E:\\football_v\\11_System_Intelligence\\score_prediction_engine.py",
+                    "E:\\football_v\\11_System_Intelligence\\xgboost_predictor.py"
+                ]
+            },
+            {
+                "Path": "E:\\football_v\\18_MODEL_EXECUTION_ENGINE",
+                "Python_File_Count": 13,
+                "Runtime_Keyword_Files": [
+                    "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\fusion_engine.py",
+                    "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\batch_predictor\\batch_predictor_V1.0.py",
+                    "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\fusion_engine\\fusion_engine_V1.0.py",
+                    "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\prediction_pipeline\\prediction_pipeline_V1.0.py",
+                    "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\prediction_scheduler\\prediction_scheduler_V1.0.py"
+                ]
+            }
+        ],
+        "Fusion": [
+            {
+                "Path": "E:\\football_v\\27_MODEL_FUSION_ENGINE",
+                "Python_File_Count": 3,
+                "Runtime_Keyword_Files": [
+                    "E:\\football_v\\27_MODEL_FUSION_ENGINE\\confidence_engine.py",
+                    "E:\\football_v\\27_MODEL_FUSION_ENGINE\\fusion_engine_V2.1.py",
+                    "E:\\football_v\\27_MODEL_FUSION_ENGINE\\model_weight_engine.py"
+                ]
+            }
+        ],
+        "Decision": [
+            {
+                "Path": "E:\\football_v\\08_DECISION_LAYER",
+                "Python_File_Count": 4,
+                "Runtime_Keyword_Files": [
+                    "E:\\football_v\\08_DECISION_LAYER\\engine\\decision_engine_V2.4.py",
+                    "E:\\football_v\\08_DECISION_LAYER\\engine\\recommendation_engine.py",
+                    "E:\\football_v\\08_DECISION_LAYER\\monitor\\decision_monitor.py",
+                    "E:\\football_v\\08_DECISION_LAYER\\service\\decision_service.py"
+                ]
+            }
+        ],
+        "Output": [
+            {
+                "Path": "E:\\football_v\\09_APPLICATION_LAYER",
+                "Python_File_Count": 4,
+                "Runtime_Keyword_Files": [
+                    "E:\\football_v\\09_APPLICATION_LAYER\\api\\decision_api.py",
+                    "E:\\football_v\\09_APPLICATION_LAYER\\api\\prediction_api.py"
+                ]
+            },
+            {
+                "Path": "E:\\football_v\\12_API_LAYER",
+                "Python_File_Count": 4,
+                "Runtime_Keyword_Files": [
+                    "E:\\football_v\\12_API_LAYER\\api\\decision_api.py",
+                    "E:\\football_v\\12_API_LAYER\\api\\prediction_api.py",
+                    "E:\\football_v\\12_API_LAYER\\service\\football_prediction_service.py",
+                    "E:\\football_v\\12_API_LAYER\\test\\api_integration_test.py"
+                ]
+            }
+        ]
+    },
+    "Modification": {
+        "Database_Content": false,
+        "Business_Logic": false,
+        "Model_Code": false
+    },
+    "Validation_Time": "2026-07-25 15:52:08.016835"
+}

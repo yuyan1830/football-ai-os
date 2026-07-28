@@ -1,0 +1,18 @@
+Table_Name,Current_Exists,Legacy_Exists,Current_Columns,Legacy_Columns,Current_Records,Legacy_Records,Asset_Status,Decision,Validation_Time
+database_registry,True,False,5,,0,,CURRENT_ONLY,PENDING,2026-07-25 12:50:15.747935
+dixon_coles_model,False,True,,4,,1,LEGACY_ONLY,PENDING,2026-07-25 12:50:15.747935
+elo_model,False,True,,4,,1,LEGACY_ONLY,PENDING,2026-07-25 12:50:15.747935
+fusion_model,False,True,,4,,1,LEGACY_ONLY,PENDING,2026-07-25 12:50:15.747935
+model_data_registry,True,False,5,,8,,CURRENT_ONLY,PENDING,2026-07-25 12:50:15.747935
+model_registry,True,False,4,,0,,CURRENT_ONLY,PENDING,2026-07-25 12:50:15.747935
+model_version,False,True,,4,,0,LEGACY_ONLY,PENDING,2026-07-25 12:50:15.747935
+model_weight,False,True,,4,,1,LEGACY_ONLY,PENDING,2026-07-25 12:50:15.747935
+model_weight_history,False,True,,4,,0,LEGACY_ONLY,PENDING,2026-07-25 12:50:15.747935
+poisson_model,False,True,,4,,1,LEGACY_ONLY,PENDING,2026-07-25 12:50:15.747935
+prediction_feature_snapshot,False,True,,4,,0,LEGACY_ONLY,PENDING,2026-07-25 12:50:15.747935
+prediction_history,False,True,,6,,2,LEGACY_ONLY,PENDING,2026-07-25 12:50:15.747935
+prediction_result,False,True,,5,,0,LEGACY_ONLY,PENDING,2026-07-25 12:50:15.747935
+runtime_log,True,False,3,,0,,CURRENT_ONLY,PENDING,2026-07-25 12:50:15.747935
+sqlite_sequence,True,True,2,2,1,7,BOTH_EXIST,PENDING,2026-07-25 12:50:15.747935
+system_registry,True,False,5,,0,,CURRENT_ONLY,PENDING,2026-07-25 12:50:15.747935
+xgboost_model,False,True,,4,,1,LEGACY_ONLY,PENDING,2026-07-25 12:50:15.747935

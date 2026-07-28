@@ -1,0 +1,15 @@
+
+{
+    "module":"Validation Engine",
+    "version":"V1.0",
+
+    "database_path":
+    "E:\\football_v\\database",
+
+    "databases":
+    [
+        "match_data.db",
+        "feature_store.db",
+        "model_store.db"
+    ]
+}

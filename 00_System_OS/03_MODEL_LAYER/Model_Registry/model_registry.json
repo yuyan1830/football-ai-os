@@ -1,0 +1,85 @@
+﻿{
+  "system": "Football AI OS Ω+ V3.2",
+  "registry_version": "V1.1",
+  "layer": "03_MODEL_LAYER",
+
+  "governance": {
+    "baseline": "Football_AI_OS_Betting_Intelligence_System_Omega_V3.2_Baseline.md",
+    "legacy_index": "Football_AI_OS_Legacy_Asset_Index_V1.0",
+    "rules": "CLAUDE.md"
+  },
+
+  "models": [
+
+    {
+      "id": "ELO_V4",
+      "type": "probability_model",
+      "path": "Model_Pool/Elo/elo_engine.py",
+      "status": "ACTIVE"
+    },
+
+    {
+      "id": "DIXON_COLES_V3",
+      "type": "probability_model",
+      "path": "Model_Pool/Dixon_Coles/dixon_coles.py",
+      "status": "ACTIVE"
+    },
+
+    {
+      "id": "DIXON_COLES_HISTORY",
+      "type": "history_model",
+      "path": "Model_Pool/Dixon_Coles/dixon_coles_history_engine.py",
+      "status": "ACTIVE"
+    },
+
+    {
+      "id": "POISSON_V3",
+      "type": "probability_model",
+      "path": "Model_Pool/Poisson/poisson_engine.py",
+      "status": "ACTIVE"
+    },
+
+    {
+      "id": "POISSON_HISTORY",
+      "type": "history_model",
+      "path": "Model_Pool/Poisson/poisson_history_engine.py",
+      "status": "ACTIVE"
+    },
+
+    {
+      "id": "XGBOOST_BASE",
+      "type": "machine_learning",
+      "path": "Model_Pool/XGBoost/xgboost_engine.py",
+      "status": "ACTIVE"
+    },
+
+    {
+      "id": "XGBOOST_FUSION_V1",
+      "type": "fusion_model",
+      "path": "Model_Pool/XGBoost/xgboost_fusion_engine.py",
+      "status": "REVIEW"
+    },
+
+    {
+      "id": "XGBOOST_FUSION_V2",
+      "type": "fusion_model",
+      "path": "Model_Pool/XGBoost/xgboost_fusion_v2_engine.py",
+      "status": "ACTIVE"
+    },
+
+    {
+      "id": "MODEL_WEIGHT_HISTORY",
+      "type": "governance",
+      "path": "database/model_store.db",
+      "status": "ACTIVE"
+    },
+
+    {
+      "id": "PREDICTION_HISTORY",
+      "type": "learning_feedback",
+      "path": "database/model_store.db",
+      "status": "ACTIVE"
+    }
+
+  ]
+}

@@ -1,0 +1,4 @@
+﻿Legacy_ID,Asset,Path,Action,Reason,Status
+LEGACY001,match_data.db,E:\football_v\00_System_OS\01_DATA_LAYER\database\match_data.db,RETAIN,Historical reference,PENDING
+LEGACY002,feature_store.db,E:\football_v\00_System_OS\02_FEATURE_LAYER\database\feature_store.db,RETAIN,Feature comparison,PENDING
+LEGACY003,model_store.db,E:\football_v\00_System_OS\03_MODEL_LAYER\database\model_store.db,RETAIN,Model governance review,PENDING

@@ -1,0 +1,9 @@
+{
+    "required_fields": [
+        "home_team",
+        "away_team",
+        "home_score",
+        "away_score"
+    ],
+    "version": "V1.1"
+}

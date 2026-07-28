@@ -1,0 +1,7 @@
+{
+    "framework": "Football AI OS",
+    "module": "Feature Store",
+    "version": "V1.9",
+    "feature_layer": "Historical Feature Store",
+    "status": "READY"
+}

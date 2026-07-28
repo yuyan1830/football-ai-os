@@ -1,0 +1,65 @@
+﻿{
+    "version": "MODEL_TRAINING_CONFIG_V4.0",
+
+    "status": "READY",
+
+    "data_source":
+    {
+        "database":
+        "football.db",
+
+        "table":
+        "matches_clean",
+
+        "training_mode":
+        "TIME_SEQUENCE"
+    },
+
+
+    "models":
+    {
+
+        "ELO":
+        {
+            "enabled":true,
+            "weight":0.20
+        },
+
+
+        "Dixon_Coles":
+        {
+            "enabled":true,
+            "weight":0.20
+        },
+
+
+        "Poisson":
+        {
+            "enabled":true,
+            "weight":0.15
+        },
+
+
+        "XGBoost":
+        {
+            "enabled":true,
+            "weight":0.15
+        },
+
+
+        "Fusion":
+        {
+            "enabled":true,
+            "weight":0.30
+        }
+
+    },
+
+
+    "architecture_change":
+    false,
+
+
+    "auto_weight_change":
+    false
+}

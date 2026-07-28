@@ -1,0 +1,86 @@
+[
+    {
+        "Asset_ID": "FA-000001",
+        "Old_Status": "REGISTERED",
+        "New_Status": "VALIDATED",
+        "Time": "2026-07-18T17:33:19.161014"
+    },
+    {
+        "Asset_ID": "FA-000002",
+        "Old_Status": "REGISTERED",
+        "New_Status": "VALIDATED",
+        "Time": "2026-07-18T17:33:19.161014"
+    },
+    {
+        "Asset_ID": "FA-000003",
+        "Old_Status": "REGISTERED",
+        "New_Status": "VALIDATED",
+        "Time": "2026-07-18T17:33:19.161014"
+    },
+    {
+        "Asset_ID": "FA-000004",
+        "Old_Status": "REGISTERED",
+        "New_Status": "VALIDATED",
+        "Time": "2026-07-18T17:33:19.161014"
+    },
+    {
+        "Asset_ID": "FA-000005",
+        "Old_Status": "REGISTERED",
+        "New_Status": "VALIDATED",
+        "Time": "2026-07-18T17:33:19.161014"
+    },
+    {
+        "Asset_ID": "FA-000006",
+        "Old_Status": "REGISTERED",
+        "New_Status": "VALIDATED",
+        "Time": "2026-07-18T17:33:19.161014"
+    },
+    {
+        "Asset_ID": "FA-000007",
+        "Old_Status": "REGISTERED",
+        "New_Status": "VALIDATED",
+        "Time": "2026-07-18T17:33:19.161014"
+    },
+    {
+        "Asset_ID": "FA-000008",
+        "Old_Status": "REGISTERED",
+        "New_Status": "VALIDATED",
+        "Time": "2026-07-18T17:33:19.161014"
+    },
+    {
+        "Asset_ID": "FA-000009",
+        "Old_Status": "REGISTERED",
+        "New_Status": "VALIDATED",
+        "Time": "2026-07-18T17:33:19.161014"
+    },
+    {
+        "Asset_ID": "FA-000010",
+        "Old_Status": "REGISTERED",
+        "New_Status": "VALIDATED",
+        "Time": "2026-07-18T17:33:19.161014"
+    },
+    {
+        "Asset_ID": "FA-000011",
+        "Old_Status": "REGISTERED",
+        "New_Status": "VALIDATED",
+        "Time": "2026-07-18T17:33:19.161014"
+    },
+    {
+        "Asset_ID": "FA-000012",
+        "Old_Status": "REGISTERED",
+        "New_Status": "VALIDATED",
+        "Time": "2026-07-18T17:33:19.161014"
+    },
+    {
+        "Asset_ID": "FA-000013",
+        "Old_Status": "REGISTERED",
+        "New_Status": "VALIDATED",
+        "Time": "2026-07-18T17:33:19.161014"
+    },
+    {
+        "Asset_ID": "FA-000014",
+        "Old_Status": "REGISTERED",
+        "New_Status": "VALIDATED",
+        "Time": "2026-07-18T17:33:19.161014"
+    }
+]

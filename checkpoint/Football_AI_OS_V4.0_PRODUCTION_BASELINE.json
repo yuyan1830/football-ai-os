@@ -1,0 +1,46 @@
+﻿{
+    "version":  "FOOTBALL_AI_OS_V4.0_PRODUCTION_BASELINE",
+    "time":  "2026-07-23 21:17:15",
+    "mode":  "PRODUCTION_BASELINE",
+    "layers":  {
+                   "MODEL_LAYER":  "EXISTS",
+                   "PREDICTION_LAYER":  "EXISTS",
+                   "MARKET_LAYER":  "EXISTS",
+                   "RISK_LAYER":  "EXISTS",
+                   "LEARNING_LAYER":  "EXISTS",
+                   "DECISION_LAYER":  "EXISTS",
+                   "APPLICATION_LAYER":  "EXISTS",
+                   "INTEGRATION_LAYER":  "EXISTS",
+                   "SIMULATION_LAYER":  "EXISTS",
+                   "API_LAYER":  "EXISTS",
+                   "TEST_LAYER":  "EXISTS",
+                   "OPERATION_LAYER":  "EXISTS",
+                   "AI_RUNTIME":  "EXISTS"
+               },
+    "models":  {
+                   "ELO":  "REGISTERED",
+                   "Dixon-Coles":  "REGISTERED",
+                   "Poisson":  "REGISTERED",
+                   "XGBoost":  "REGISTERED",
+                   "Fusion_V2.3":  "REGISTERED"
+               },
+    "runtime":  {
+                    "AI_RUNTIME":  true,
+                    "API_RUNTIME":  true,
+                    "OPERATION_RUNTIME":  true
+                },
+    "archive_status":  "V4_CLEANUP_ARCHIVE_COMPLETED",
+    "production_assets":  [
+                              "FINAL_RELEASE_V4.0",
+                              "FINAL_SYSTEM_COMPLETION_V4.0",
+                              "V4_RUNTIME_VALIDATION_V4.0",
+                              "FIRST_REAL_PREDICTION_TEST_V4.0",
+                              "MODEL_DATA_SNAPSHOT_V4.0",
+                              "MODEL_TRAINING_READY_V4.0"
+                          ],
+    "duplicate_cleanup":  {
+                              "status":  "ARCHIVED",
+                              "mode":  "COPY_ONLY_NO_DELETE"
+                          },
+    "status":  "READY_FOR_PRODUCTION_OPERATION"
+}

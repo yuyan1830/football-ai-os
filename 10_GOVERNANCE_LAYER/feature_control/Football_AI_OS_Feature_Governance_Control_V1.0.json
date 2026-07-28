@@ -1,0 +1,18 @@
+﻿{
+ "Control":"FEATURE_GOVERNANCE",
+
+ "Features":[
+ "ELO_FEATURE",
+ "DIXON_COLES_FEATURE",
+ "POISSON_FEATURE",
+ "XGBOOST_FEATURE",
+ "FATIGUE_FEATURE",
+ "MARKET_FEATURE",
+ "SENTIMENT_FEATURE"
+ ],
+
+ "Rule":{
+ "Feature_Delete":false,
+ "Feature_Override":false
+ }
+}

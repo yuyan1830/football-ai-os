@@ -1,0 +1,4 @@
+monitor:
+  enabled: true
+  interval: daily
+  check_time: 02:05

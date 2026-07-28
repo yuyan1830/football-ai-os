@@ -1,0 +1,4 @@
+Asset,Ownership,Lifecycle,Runtime_Status
+prediction_service.db,CURRENT,ACTIVE,ACTIVE
+prediction_runtime.db,CURRENT,ACTIVE,ACTIVE
+api_runtime.db,CURRENT,ACTIVE,ACTIVE

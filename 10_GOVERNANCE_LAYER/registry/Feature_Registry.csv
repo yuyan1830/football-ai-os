@@ -1,0 +1,8 @@
+﻿Feature_ID,Feature_Name,Category,Target_Layer,Status
+F0001,Elo_Rating,Team_Strength,03_FEATURE_STORE_LAYER,ACTIVE
+F0002,Poisson_Rate,Goal_Feature,03_FEATURE_STORE_LAYER,ACTIVE
+F0003,Dixon_Adjustment,Correction_Feature,03_FEATURE_STORE_LAYER,ACTIVE
+F0004,Form_Index,Performance,03_FEATURE_STORE_LAYER,ACTIVE
+F0005,Fatigue_Index,Physical_State,03_FEATURE_STORE_LAYER,ACTIVE
+F0006,Odds_Feature,Market,03_FEATURE_STORE_LAYER,ACTIVE
+F0007,Sentiment_Feature,Market_Emotion,03_FEATURE_STORE_LAYER,ACTIVE

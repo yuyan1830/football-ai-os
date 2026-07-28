@@ -1,0 +1,40 @@
+﻿{
+    "framework":"Football AI OS",
+    "module":"04_DATA_PROCESSING_AI",
+    "service":"cleaning_engine",
+    "version":"V1.0",
+
+    "rules":[
+
+        {
+            "name":"duplicate_check",
+            "enabled":true
+        },
+
+        {
+            "name":"field_standardization",
+            "enabled":true
+        },
+
+        {
+            "name":"team_normalization",
+            "enabled":true
+        },
+
+        {
+            "name":"date_validation",
+            "enabled":true
+        },
+
+        {
+            "name":"score_validation",
+            "enabled":true
+        },
+
+        {
+            "name":"missing_check",
+            "enabled":true
+        }
+
+    ]
+}

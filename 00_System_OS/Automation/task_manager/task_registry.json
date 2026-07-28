@@ -1,0 +1,29 @@
+{
+    "version":"1.0",
+
+    "tasks":[
+
+        {
+            "Task_ID":"TASK_001",
+
+            "Name":
+            "Asset Maintenance",
+
+            "Workflow":
+            "asset_maintenance",
+
+            "Schedule":
+            "DAILY",
+
+            "Enabled":
+            true,
+
+            "Retry_Count":
+            3,
+
+            "Status":
+            "READY"
+        }
+
+    ]
+}

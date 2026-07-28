@@ -1,0 +1,57 @@
+{
+    "framework": "Football AI OS Ultimate Fusion Framework V1.5",
+    "module": "13_REPORT_INTELLIGENCE_LAYER",
+    "service": "report_layer_test",
+    "version": "V1.0",
+    "status": "PASS",
+    "total_tests": 9,
+    "failed": 0,
+    "tests": [
+        {
+            "test": "match_report_generator",
+            "status": "PASS",
+            "message": "match report interface ready"
+        },
+        {
+            "test": "probability_report",
+            "status": "PASS",
+            "message": "probability report ready"
+        },
+        {
+            "test": "model_report",
+            "status": "PASS",
+            "message": "model explanation report ready"
+        },
+        {
+            "test": "market_report",
+            "status": "PASS",
+            "message": "market report ready"
+        },
+        {
+            "test": "risk_report",
+            "status": "PASS",
+            "message": "risk report ready"
+        },
+        {
+            "test": "post_match_report",
+            "status": "PASS",
+            "message": "post match review ready"
+        },
+        {
+            "test": "visualization_engine",
+            "status": "PASS",
+            "message": "visualization ready"
+        },
+        {
+            "test": "export_engine",
+            "status": "PASS",
+            "message": "PDF HTML JSON export ready"
+        },
+        {
+            "test": "future_report_interface",
+            "status": "PASS",
+            "message": "new report module register ready"
+        }
+    ],
+    "time": "2026-07-22 17:02:17.765146"
+}

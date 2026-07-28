@@ -1,0 +1,16 @@
+{
+    "framework": "Football AI OS",
+    "module": "Decision Engine",
+    "version": "V1.3",
+    "features": [
+        "decision_core",
+        "bet_selection",
+        "risk_control",
+        "bankroll_management",
+        "final_decision_output"
+    ],
+    "connected_modules": [
+        "Prediction Engine V1.3",
+        "Backtest System V1.3"
+    ]
+}

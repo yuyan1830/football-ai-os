@@ -1,0 +1,13 @@
+{
+    "module": "Feature Store Adapter Layer",
+    "version": "V1.0",
+    "status": "active",
+    "adapters": [
+        "Elo",
+        "Dixon-Coles",
+        "Poisson",
+        "XGBoost",
+        "Fusion"
+    ],
+    "time": "2026-07-22 12:20:58.472332"
+}

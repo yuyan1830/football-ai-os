@@ -1,0 +1,20 @@
+{
+    "layer": "AI Orchestration Layer",
+    "version": "V1.0",
+    "modules": [
+        "orchestration_core/orchestrator.py",
+        "orchestration_core/task_scheduler.py",
+        "orchestration_core/pipeline_manager.py",
+        "model_router/router.py",
+        "model_router/model_selector.py",
+        "data_pipeline/input_manager.py",
+        "data_pipeline/feature_pipeline.py",
+        "data_pipeline/output_pipeline.py",
+        "decision_interface/decision_service.py",
+        "report_engine/report_generator.py",
+        "workflow_monitor/monitor.py",
+        "workflow_monitor/status_tracker.py",
+        "learning_hook/feedback_receiver.py",
+        "learning_hook/experience_connector.py"
+    ]
+}

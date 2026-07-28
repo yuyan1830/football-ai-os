@@ -1,0 +1,20 @@
+﻿{
+ "Control":"MODEL_GOVERNANCE",
+
+ "Models":[
+ "ELO",
+ "DIXON_COLES",
+ "POISSON",
+ "XGBOOST",
+ "FUSION_ENGINE",
+ "MARKET_MODEL",
+ "RISK_MODEL"
+ ],
+
+ "Rules":{
+ "Training_Allowed":true,
+ "Production_Overwrite":false,
+ "Auto_Replace":false,
+ "Version_Approval_Required":true
+ }
+}

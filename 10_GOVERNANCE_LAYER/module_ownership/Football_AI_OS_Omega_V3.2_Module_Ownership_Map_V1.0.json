@@ -1,0 +1,64 @@
+﻿{
+    "Phase": "PHASE12_PART3_MODULE_OWNERSHIP_MAP",
+    "Architecture": "Football_AI_OS_Betting_Intelligence_System_Omega_V3.2",
+
+    "Status": "MODULE_RESPONSIBILITY_LOCKED",
+
+    "Ownership": {
+
+        "DATA": [
+            "01_DATA_LAYER",
+            "02_FEATURE_LAYER"
+        ],
+
+        "MODEL": [
+            "03_MODEL_LAYER",
+            "05_MODEL_AI",
+            "17_MODEL_STORE_LAYER",
+            "50_MODEL_REGISTRY"
+        ],
+
+        "PREDICTION": [
+            "06_PREDICTION_INTELLIGENCE_ENGINE"
+        ],
+
+        "EXECUTION": [
+            "18_MODEL_EXECUTION_ENGINE"
+        ],
+
+        "FUSION": [
+            "27_MODEL_FUSION_ENGINE"
+        ],
+
+        "INTELLIGENCE": [
+            "11_System_Intelligence"
+        ],
+
+        "DECISION": [
+            "08_DECISION_LAYER"
+        ],
+
+        "SERVICE": [
+            "09_APPLICATION_LAYER",
+            "12_API_LAYER"
+        ],
+
+        "GOVERNANCE": [
+            "10_GOVERNANCE_LAYER",
+            "11_SIMULATION_LAYER",
+            "13_TEST_LAYER"
+        ]
+    },
+
+    "Rules": {
+        "Duplicate_Module_Creation": false,
+        "Cross_Module_Responsibility_Change": false,
+        "Architecture_Override": false
+    },
+
+    "Reference": {
+        "Baseline": "Football_AI_OS_Betting_Intelligence_System_Omega_V3.2_Baseline.md",
+        "Legacy": "Football_AI_OS_Legacy_Asset_Index_V1.0",
+        "Rule": "CLAUDE.md"
+    }
+}

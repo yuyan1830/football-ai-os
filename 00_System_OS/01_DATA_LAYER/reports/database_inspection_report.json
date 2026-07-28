@@ -1,0 +1,178 @@
+{
+    "framework": "Football AI OS Ultimate Fusion Framework V1.5",
+    "module": "DATABASE_INSPECTION_LAYER",
+    "database": "E:\\football\\Football_AI_System\\02_Database\\football.db",
+    "tables": [
+        {
+            "name": "fixtures",
+            "rows": 0,
+            "category": "match_data"
+        },
+        {
+            "name": "competitions",
+            "rows": 0,
+            "category": "match_data"
+        },
+        {
+            "name": "seasons",
+            "rows": 0,
+            "category": "match_data"
+        },
+        {
+            "name": "teams",
+            "rows": 0,
+            "category": "match_data"
+        },
+        {
+            "name": "matches",
+            "rows": 0,
+            "category": "match_data"
+        },
+        {
+            "name": "match_stats",
+            "rows": 0,
+            "category": "match_data"
+        },
+        {
+            "name": "odds",
+            "rows": 0,
+            "category": "match_data"
+        },
+        {
+            "name": "matches_full",
+            "rows": 96337,
+            "category": "match_data"
+        },
+        {
+            "name": "sqlite_sequence",
+            "rows": 14,
+            "category": "match_data"
+        },
+        {
+            "name": "matches_clean",
+            "rows": 96305,
+            "category": "match_data"
+        },
+        {
+            "name": "elo_history",
+            "rows": 192610,
+            "category": "feature_data"
+        },
+        {
+            "name": "team_rating",
+            "rows": 556,
+            "category": "match_data"
+        },
+        {
+            "name": "dixon_coles_rating",
+            "rows": 556,
+            "category": "feature_data"
+        },
+        {
+            "name": "poisson_rating",
+            "rows": 556,
+            "category": "feature_data"
+        },
+        {
+            "name": "team_form",
+            "rows": 556,
+            "category": "feature_data"
+        },
+        {
+            "name": "fatigue_rating",
+            "rows": 556,
+            "category": "feature_data"
+        },
+        {
+            "name": "home_away_rating",
+            "rows": 556,
+            "category": "match_data"
+        },
+        {
+            "name": "data_audit_report",
+            "rows": 17,
+            "category": "match_data"
+        },
+        {
+            "name": "dixon_coles_history",
+            "rows": 192610,
+            "category": "feature_data"
+        },
+        {
+            "name": "model_data_registry",
+            "rows": 8,
+            "category": "model_data"
+        },
+        {
+            "name": "poisson_history",
+            "rows": 192610,
+            "category": "feature_data"
+        },
+        {
+            "name": "team_form_history",
+            "rows": 192610,
+            "category": "feature_data"
+        },
+        {
+            "name": "home_away_history",
+            "rows": 192610,
+            "category": "match_data"
+        },
+        {
+            "name": "fatigue_history",
+            "rows": 192610,
+            "category": "feature_data"
+        },
+        {
+            "name": "leagues",
+            "rows": 0,
+            "category": "match_data"
+        },
+        {
+            "name": "odds_history",
+            "rows": 139501,
+            "category": "match_data"
+        },
+        {
+            "name": "data_update_log",
+            "rows": 1,
+            "category": "match_data"
+        },
+        {
+            "name": "odds_history_clean",
+            "rows": 139454,
+            "category": "match_data"
+        },
+        {
+            "name": "xg_history",
+            "rows": 0,
+            "category": "match_data"
+        },
+        {
+            "name": "xg_match_history",
+            "rows": 40958,
+            "category": "match_data"
+        },
+        {
+            "name": "xg_features_history",
+            "rows": 32762,
+            "category": "feature_data"
+        },
+        {
+            "name": "xg_shot_history",
+            "rows": 515218,
+            "category": "match_data"
+        },
+        {
+            "name": "xg_shot_history_clean",
+            "rows": 515217,
+            "category": "match_data"
+        },
+        {
+            "name": "xg_features_temp",
+            "rows": 41722,
+            "category": "feature_data"
+        }
+    ],
+    "time": "2026-07-22 18:55:52.144853"
+}

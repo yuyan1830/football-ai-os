@@ -1,0 +1,203 @@
+{
+    "version": "FOOTBALL_AI_OS_V4.0_GLOBAL_AUDIT",
+    "time": "2026-07-24 07:35:55.974817",
+    "paths": {
+        "checkpoint": {
+            "exists": true,
+            "path": "E:\\football_v\\checkpoint"
+        },
+        "production_orchestrator": {
+            "exists": true,
+            "path": "E:\\football_v\\32_PRODUCTION_ORCHESTRATOR"
+        },
+        "production_runtime": {
+            "exists": true,
+            "path": "E:\\football_v\\44_PRODUCTION_PREDICTION_RUNTIME"
+        },
+        "prediction_output": {
+            "exists": true,
+            "path": "E:\\football_v\\14_OPERATION_LAYER\\output\\prediction_result.json"
+        },
+        "learning_database": {
+            "exists": true,
+            "path": "E:\\football_v\\07_LEARNING_LAYER\\database\\learning_feedback.db"
+        },
+        "decision_layer": {
+            "exists": true,
+            "path": "E:\\football_v\\08_DECISION_INTELLIGENCE_LAYER"
+        },
+        "feedback_connector": {
+            "exists": true,
+            "path": "E:\\football_v\\08_DECISION_INTELLIGENCE_LAYER\\feedback_interface\\feedback_connector.py"
+        },
+        "feedback_receiver": {
+            "exists": true,
+            "path": "E:\\football_v\\07_AI_ORCHESTRATION_LAYER\\learning_hook\\feedback_receiver.py"
+        },
+        "feedback_engine": {
+            "exists": true,
+            "path": "E:\\football_v\\31_SELF_LEARNING_ENGINE\\feedback_engine.py"
+        },
+        "model_update": {
+            "exists": true,
+            "path": "E:\\football_v\\31_SELF_LEARNING_ENGINE\\model_update_engine.py"
+        },
+        "calibration_engine": {
+            "exists": true,
+            "path": "E:\\football_v\\28_PROBABILITY_CALIBRATION_ENGINE\\calibration_engine.py"
+        }
+    },
+    "prediction": {
+        "exists": true,
+        "keys": [
+            "version",
+            "time",
+            "match",
+            "models",
+            "prediction",
+            "market",
+            "risk",
+            "decision",
+            "status"
+        ],
+        "decision": "HOME_WIN",
+        "status": "READY",
+        "model_version": "REAL_OPERATION_V3.1"
+    },
+    "database": {
+        "tables": [
+            "learning_feedback_registry",
+            "prediction_feedback",
+            "sqlite_sequence"
+        ],
+        "prediction_feedback_count": 1
+    },
+    "registry_files": [
+        "E:\\football_v\\release_registry_V1.5.json",
+        "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\registry\\registry_manager.py",
+        "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\registry_init.py",
+        "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\registry_manager.py",
+        "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\test_registry_flow.py",
+        "E:\\football_v\\00_System_OS\\ARCHITECTURE_CLEANUP\\registry_manager\\registry_manager_V1.0.py",
+        "E:\\football_v\\00_System_OS\\ARCHITECTURE_CLEANUP\\registry_manager\\registry_manager_V1.1.py",
+        "E:\\football_v\\00_System_OS\\ARCHITECTURE_CLEANUP\\registry_manager\\__pycache__\\registry_manager_V1.1.cpython-312.pyc",
+        "E:\\football_v\\00_System_OS\\Automation\\task_manager\\task_registry.json",
+        "E:\\football_v\\00_System_OS\\File_Manager\\registry\\file_registry.json",
+        "E:\\football_v\\00_System_OS\\File_Manager\\registry\\file_registry_v11.json",
+        "E:\\football_v\\00_System_OS\\File_Manager\\registry\\file_registry_v11.py",
+        "E:\\football_v\\00_System_OS\\File_Manager\\version\\version_registry.json",
+        "E:\\football_v\\00_System_OS\\registry\\module_registry.json",
+        "E:\\football_v\\00_System_OS\\registry\\registry.json",
+        "E:\\football_v\\00_System_OS\\registry\\registry_api.py",
+        "E:\\football_v\\00_System_OS\\registry\\registry_log.json",
+        "E:\\football_v\\00_System_OS\\registry\\registry_manager.py",
+        "E:\\football_v\\00_System_OS\\registry\\registry_scanner.py",
+        "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+        "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry_V1.9.json",
+        "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\deprecated_registry.json",
+        "E:\\football_v\\00_SYSTEM_TOOLS\\Module_Deployment_Tool\\registry\\deployment_tool_registry.json",
+        "E:\\football_v\\01_Data_Source\\registry\\source_registry.json",
+        "E:\\football_v\\01_Data_Source\\registry\\source_registry.py",
+        "E:\\football_v\\01_Data_Source\\registry\\source_registry.pynotepad",
+        "E:\\football_v\\02_Data_Platform\\data_manager\\dataset_registry.json",
+        "E:\\football_v\\02_Data_Platform\\data_manager\\dataset_registry.py",
+        "E:\\football_v\\02_Data_Platform\\data_manager\\__pycache__\\dataset_registry.cpython-312.pyc",
+        "E:\\football_v\\02_Data_Platform\\metadata\\data_platform_registry.json",
+        "E:\\football_v\\02_Data_Platform\\metadata\\metadata_registry.json",
+        "E:\\football_v\\02_Data_Platform\\metadata\\lineage\\lineage_registry.json",
+        "E:\\football_v\\02_Data_Platform\\raw\\raw_registry.json",
+        "E:\\football_v\\02_Data_Platform\\raw\\raw_registry.py",
+        "E:\\football_v\\02_Data_Platform\\raw\\__pycache__\\raw_registry.cpython-312.pyc",
+        "E:\\football_v\\02_Data_Platform\\registry\\data_platform_registry.json",
+        "E:\\football_v\\02_Data_Platform\\registry\\data_platform_registry.py",
+        "E:\\football_v\\02_Data_Platform\\storage_engine\\storage_registry.json",
+        "E:\\football_v\\03_Data_Governance\\lineage\\lineage_registry.json",
+        "E:\\football_v\\03_Data_Governance\\registry\\audit_registry.json",
+        "E:\\football_v\\03_Data_Governance\\registry\\data_registry.json",
+        "E:\\football_v\\03_Data_Governance\\registry\\governance_registry.json",
+        "E:\\football_v\\03_Data_Governance\\registry\\lineage_registry.json",
+        "E:\\football_v\\03_Data_Governance\\registry\\quality_registry.json",
+        "E:\\football_v\\03_Data_Governance\\registry\\validation_registry.json",
+        "E:\\football_v\\04_Data_Processing_AI\\data_intelligence_engine\\registry\\data_intelligence_registry.json",
+        "E:\\football_v\\04_Data_Processing_AI\\dynamic_feature_weight_engine\\registry\\weight_registry.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\data_source_registry.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_model_registry.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_registry.py"
+    ],
+    "checkpoint_files": [
+        "Football_AI_OS_Checkpoint_V3.0_FINAL.json",
+        "Football_AI_OS_Checkpoint_V4.0_PRODUCTION_OPERATION.json",
+        "Football_AI_OS_V4.0_PRODUCTION_BASELINE.json"
+    ],
+    "learning_related_files": [
+        "E:\\football_v\\00_SYSTEM_TOOLS\\Module_Deployment_Tool\\modules\\deploy_autonomous_learning_engine_test_V1.0.py",
+        "E:\\football_v\\00_SYSTEM_TOOLS\\Module_Deployment_Tool\\modules\\deploy_autonomous_learning_engine_V1.0.py",
+        "E:\\football_v\\03_MODEL_LAYER\\analysis\\roi_analyzer_V2.11.py",
+        "E:\\football_v\\03_MODEL_LAYER\\reports\\model_feedback_report_V2.11.json",
+        "E:\\football_v\\03_MODEL_LAYER\\runtime\\model_feedback_runtime.db",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_feedback_optimizer.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\model_feedback_collector.py",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\backtest\\roi_analyzer.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\confidence_calibration\\calibration_engine.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\confidence_calibration\\__pycache__\\calibration_engine.cpython-312.pyc",
+        "E:\\football_v\\07_AI_ORCHESTRATION_LAYER\\learning_hook\\feedback_receiver.py",
+        "E:\\football_v\\07_AI_ORCHESTRATION_LAYER\\learning_hook\\__pycache__\\feedback_receiver.cpython-312.pyc",
+        "E:\\football_v\\07_BACKTEST_AI\\feature_feedback.py",
+        "E:\\football_v\\07_BACKTEST_AI\\model_feedback.py",
+        "E:\\football_v\\07_BACKTEST_AI\\roi_tracker.py",
+        "E:\\football_v\\07_BACKTEST_SYSTEM\\model_evaluation\\calibration.py",
+        "E:\\football_v\\07_LEARNING_LAYER\\database\\learning_feedback.db",
+        "E:\\football_v\\08_DECISION_INTELLIGENCE_LAYER\\feedback_interface\\feedback_connector.py",
+        "E:\\football_v\\08_DECISION_INTELLIGENCE_LAYER\\feedback_interface\\backup\\feedback_connector_V0.1_backup.py",
+        "E:\\football_v\\08_DECISION_INTELLIGENCE_LAYER\\feedback_interface\\__pycache__\\feedback_connector.cpython-312.pyc",
+        "E:\\football_v\\10_AI_AUTONOMOUS_ENGINE\\adaptive_parameter_learning.py",
+        "E:\\football_v\\10_AI_AUTONOMOUS_ENGINE\\learning_cycle_manager.py",
+        "E:\\football_v\\10_AI_AUTONOMOUS_ENGINE\\learning_effect_tracker.py",
+        "E:\\football_v\\10_AI_AUTONOMOUS_ENGINE\\multi_cycle_learning_engine.py",
+        "E:\\football_v\\11_System_Intelligence\\adaptive_feedback.py",
+        "E:\\football_v\\11_System_Intelligence\\feedback_memory.py",
+        "E:\\football_v\\11_System_Intelligence\\intelligence_feedback_loop.py",
+        "E:\\football_v\\11_System_Intelligence\\learning_memory.py",
+        "E:\\football_v\\11_System_Intelligence\\learning_scheduler.py",
+        "E:\\football_v\\11_System_Intelligence\\self_learning_engine.py",
+        "E:\\football_v\\11_System_Intelligence\\weight_learning_engine.py",
+        "E:\\football_v\\11_System_Intelligence\\reports\\phase3_6_self_learning_report.json",
+        "E:\\football_v\\11_System_Intelligence\\tests\\test_phase3_6_self_learning.py",
+        "E:\\football_v\\11_System_Intelligence\\tests\\test_phase6_feedback.py",
+        "E:\\football_v\\11_System_Intelligence\\tests\\__pycache__\\test_phase3_6_self_learning.cpython-312-pytest-9.1.1.pyc",
+        "E:\\football_v\\11_System_Intelligence\\tests\\__pycache__\\test_phase6_feedback.cpython-312-pytest-9.1.1.pyc",
+        "E:\\football_v\\11_System_Intelligence\\__pycache__\\feedback_memory.cpython-312.pyc",
+        "E:\\football_v\\11_System_Intelligence\\__pycache__\\intelligence_feedback_loop.cpython-312.pyc",
+        "E:\\football_v\\11_System_Intelligence\\__pycache__\\self_learning_engine.cpython-312.pyc",
+        "E:\\football_v\\127_AUTONOMOUS_LEARNING_LOOP\\feedback_processor.py",
+        "E:\\football_v\\12_AUTONOMOUS_LEARNING_ENGINE\\model_learning\\learning_engine.py",
+        "E:\\football_v\\12_AUTONOMOUS_LEARNING_ENGINE\\registry\\learning_registry.json",
+        "E:\\football_v\\12_AUTONOMOUS_LEARNING_ENGINE\\reports\\learning_deploy_report.json",
+        "E:\\football_v\\12_AUTONOMOUS_LEARNING_ENGINE\\reports\\learning_test_report.json",
+        "E:\\football_v\\25_BACKTEST_ENGINE\\roi_calculator.py",
+        "E:\\football_v\\25_BACKTEST_ENGINE\\roi_calculator\\roi_calculator_V2.0.py",
+        "E:\\football_v\\28_PROBABILITY_CALIBRATION_ENGINE\\calibration_engine.py",
+        "E:\\football_v\\28_PROBABILITY_CALIBRATION_ENGINE\\registry\\28_PROBABILITY_CALIBRATION_ENGINE_registry.json",
+        "E:\\football_v\\28_PROBABILITY_CALIBRATION_ENGINE\\registry\\calibration_registry.json",
+        "E:\\football_v\\31_SELF_LEARNING_ENGINE\\feedback_engine.py",
+        "E:\\football_v\\31_SELF_LEARNING_ENGINE\\registry\\learning_registry.json",
+        "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_CLEANUP_V3.0\\DEPRECATED_ARCHIVE\\learning_scheduler.py",
+        "E:\\football_v\\99_DOCUMENTATION\\FINAL_SYSTEM_COMPLETION_V4.0\\SELF_LEARNING_V4.0.json",
+        "E:\\football_v\\archive\\V4_CLEANUP_ARCHIVE\\deploy_MODEL_LAYER_V2.11_FEEDBACK_LOOP_ALL.ps1",
+        "E:\\football_v\\deployment_scripts\\audit_feedback_flow_v4.py",
+        "E:\\football_v\\deployment_scripts\\audit_feedback_pipeline.py",
+        "E:\\football_v\\deployment_scripts\\audit_learning_database_schema_v4.py",
+        "E:\\football_v\\deployment_scripts\\audit_self_learning_engine_v4.py",
+        "E:\\football_v\\deployment_scripts\\check_feedback_tables.py",
+        "E:\\football_v\\deployment_scripts\\check_learning_feedback_db.py",
+        "E:\\football_v\\deployment_scripts\\check_prediction_feedback_count.py",
+        "E:\\football_v\\deployment_scripts\\check_prediction_feedback_table.py",
+        "E:\\football_v\\deployment_scripts\\create_prediction_feedback_table.py",
+        "E:\\football_v\\deployment_scripts\\deploy_MODEL_LAYER_V2.11_FEEDBACK_LOOP_ALL.ps1",
+        "E:\\football_v\\deployment_scripts\\test_feedback_connector.py",
+        "E:\\football_v\\reports\\V4_FEEDBACK_FLOW_AUDIT_REPORT.json",
+        "E:\\football_v\\reports\\V4_LEARNING_DATABASE_SCHEMA_AUDIT.json",
+        "E:\\football_v\\reports\\V4_SELF_LEARNING_ENGINE_AUDIT.json"
+    ],
+    "status": "AUDIT_COMPLETE"
+}

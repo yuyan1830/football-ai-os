@@ -1,0 +1,40 @@
+{
+    "Dependencies":
+
+    {
+
+        "Bootstrap":
+        [],
+
+
+        "Registry":
+        [
+            "Bootstrap"
+        ],
+
+
+        "File_Manager":
+        [
+            "Registry"
+        ],
+
+
+        "Automation":
+        [
+            "File_Manager"
+        ],
+
+
+        "Monitor":
+        [
+            "Automation"
+        ],
+
+
+        "Recovery":
+        [
+            "Monitor"
+        ]
+
+    }
+}

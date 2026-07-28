@@ -1,0 +1,11 @@
+{
+    "dataset": "AI_FEATURE_DATASET",
+    "version": "V1.0",
+    "fields": [
+        "home_team",
+        "away_team",
+        "home_score",
+        "away_score",
+        "result"
+    ]
+}

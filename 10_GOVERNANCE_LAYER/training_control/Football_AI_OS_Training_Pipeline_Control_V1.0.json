@@ -1,0 +1,14 @@
+﻿{
+ "Control":"TRAINING_PIPELINE_GOVERNANCE",
+
+ "Training_Path":[
+ "23_MODEL_TRAINING_ENGINE",
+ "40_MODEL_TRAINING_PIPELINE"
+ ],
+
+ "Rules":{
+ "New_Model_Training":true,
+ "Production_Replacement":false,
+ "Historical_Model_Delete":false
+ }
+}

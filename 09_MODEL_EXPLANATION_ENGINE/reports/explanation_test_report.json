@@ -1,0 +1,42 @@
+{
+    "framework": "Football AI OS Ultimate Fusion Framework V1.5",
+    "module": "09_MODEL_EXPLANATION_ENGINE",
+    "service": "explanation_engine_test",
+    "version": "V1.0",
+    "status": "PASS",
+    "total_tests": 6,
+    "failed": 0,
+    "tests": [
+        {
+            "test": "elo_explainer",
+            "status": "PASS",
+            "message": "elo explanation interface ready"
+        },
+        {
+            "test": "dixon_coles_explainer",
+            "status": "PASS",
+            "message": "dixon coles explanation interface ready"
+        },
+        {
+            "test": "poisson_explainer",
+            "status": "PASS",
+            "message": "poisson explanation interface ready"
+        },
+        {
+            "test": "xgboost_explainer",
+            "status": "PASS",
+            "message": "feature importance interface ready"
+        },
+        {
+            "test": "fusion_explainer",
+            "status": "PASS",
+            "message": "fusion weight explanation ready"
+        },
+        {
+            "test": "future_model_interface",
+            "status": "PASS",
+            "message": "new model explanation register ready"
+        }
+    ],
+    "time": "2026-07-22 16:48:14.587211"
+}

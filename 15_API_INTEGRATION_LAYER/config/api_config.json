@@ -1,0 +1,8 @@
+{
+    "api_keys": {
+        "football_data": null,
+        "stats_api": null,
+        "odds_api": null
+    },
+    "future_connection": true
+}

@@ -1,0 +1,13 @@
+{
+    "module": "15_API_INTEGRATION_LAYER",
+    "version": "V1.0",
+    "interfaces": [
+        "football_data",
+        "stats_api",
+        "odds_api",
+        "weather_api",
+        "news_api",
+        "injury_api"
+    ],
+    "future_model_interface": true
+}

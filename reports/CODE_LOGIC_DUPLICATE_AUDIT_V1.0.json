@@ -1,0 +1,57 @@
+{
+    "version": "CODE_LOGIC_DUPLICATE_AUDIT_V1.0",
+    "time": "2026-07-24 12:57:24",
+    "scan_root": "E:\\football_v",
+    "summary": {
+        "duplicate_groups": 5
+    },
+    "duplicate_groups": [
+        {
+            "hash": "778a8b2cdb32b3484cd11f2527827046",
+            "files": [
+                "E:\\football_v\\archive\\V4_CLEANUP_ARCHIVE\\deploy_Football_AI_OS_V2.7_REAL_SIMULATION_ALL.ps1",
+                "E:\\football_v\\deployment_scripts\\deploy_Football_AI_OS_V2.7_REAL_SIMULATION_ALL.ps1"
+            ],
+            "risk": "MEDIUM",
+            "action": "REVIEW"
+        },
+        {
+            "hash": "015f5be580bc1270c1262bc15f3717b7",
+            "files": [
+                "E:\\football_v\\archive\\V4_CLEANUP_ARCHIVE\\deploy_Football_AI_OS_V2.8_REAL_PREDICTION_API_ALL.ps1",
+                "E:\\football_v\\deployment_scripts\\deploy_Football_AI_OS_V2.8_REAL_PREDICTION_API_ALL.ps1"
+            ],
+            "risk": "MEDIUM",
+            "action": "REVIEW"
+        },
+        {
+            "hash": "7de728d2c3e0f018f48a7c7a67802b67",
+            "files": [
+                "E:\\football_v\\archive\\V4_CLEANUP_ARCHIVE\\deploy_Football_AI_OS_V2.9_REAL_END_TO_END_TEST_ALL.ps1",
+                "E:\\football_v\\deployment_scripts\\deploy_Football_AI_OS_V2.9_REAL_END_TO_END_TEST_ALL.ps1"
+            ],
+            "risk": "MEDIUM",
+            "action": "REVIEW"
+        },
+        {
+            "hash": "3849e3242655ed86303e90598979e80f",
+            "files": [
+                "E:\\football_v\\archive\\V4_CLEANUP_ARCHIVE\\deploy_MODEL_LAYER_V2.10_OPTIMIZATION_ALL.ps1",
+                "E:\\football_v\\deployment_scripts\\deploy_MODEL_LAYER_V2.10_OPTIMIZATION_ALL.ps1"
+            ],
+            "risk": "MEDIUM",
+            "action": "REVIEW"
+        },
+        {
+            "hash": "ba91102cb54fc6b5ffb14b626541f679",
+            "files": [
+                "E:\\football_v\\archive\\V4_CLEANUP_ARCHIVE\\deploy_MODEL_LAYER_V2.11_FEEDBACK_LOOP_ALL.ps1",
+                "E:\\football_v\\deployment_scripts\\deploy_MODEL_LAYER_V2.11_FEEDBACK_LOOP_ALL.ps1"
+            ],
+            "risk": "MEDIUM",
+            "action": "REVIEW"
+        }
+    ],
+    "delete_candidates": [],
+    "merge_candidates": []
+}

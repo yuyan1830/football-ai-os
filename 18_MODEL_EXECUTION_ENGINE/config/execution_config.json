@@ -1,0 +1,26 @@
+
+{
+    "module":"MODEL_EXECUTION_ENGINE",
+    "version":"V1.0",
+
+    "dependencies":[
+
+        "feature_store.db",
+
+        "model_store.db"
+
+    ],
+
+    "models":[
+
+        "Elo",
+
+        "Dixon-Coles",
+
+        "Poisson",
+
+        "XGBoost"
+
+    ]
+
+}

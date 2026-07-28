@@ -1,0 +1,41 @@
+{
+    "framework": "Football AI OS",
+    "module": "01_DATA_SOURCE",
+    "version": "V1.2",
+    "time": "2026-07-20 17:10:10.523512",
+    "status": "PASS",
+    "checks": [
+        {
+            "file": "download/data_downloader.py",
+            "exists": true
+        },
+        {
+            "file": "download/download_history.json",
+            "exists": true
+        },
+        {
+            "file": "monitor/source_monitor.py",
+            "exists": true
+        },
+        {
+            "file": "registry/source_registry.py",
+            "exists": true
+        },
+        {
+            "file": "registry/source_registry.json",
+            "exists": true
+        },
+        {
+            "file": "pipeline/source_scanner.py",
+            "exists": true
+        },
+        {
+            "file": "pipeline/source_validator.py",
+            "exists": true
+        },
+        {
+            "file": "pipeline/pipeline_runner.py",
+            "exists": true
+        }
+    ]
+}

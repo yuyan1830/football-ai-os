@@ -1,0 +1,8 @@
+{
+    "framework": "Football AI OS",
+    "module": "Feature Store",
+    "version": "V1.3",
+    "environment": "development",
+    "database_path": "E:\\football_v\\database\\development",
+    "legacy_project_access": false
+}

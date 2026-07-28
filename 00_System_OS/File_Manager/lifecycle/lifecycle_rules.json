@@ -1,0 +1,80 @@
+{
+    "rules_version": "1.1",
+
+    "rules": {
+
+        "new_asset": {
+
+            "from": "NEW",
+
+            "to": "REGISTERED",
+
+            "condition":
+            "registry_created"
+
+        },
+
+
+        "hash_validation": {
+
+            "from": "REGISTERED",
+
+            "to": "VALIDATED",
+
+            "condition":
+            "sha256_verified"
+
+        },
+
+
+        "active_usage": {
+
+            "from": "VALIDATED",
+
+            "to": "ACTIVE",
+
+            "condition":
+            "asset_used"
+
+        },
+
+
+        "archive_rule": {
+
+            "from": "ACTIVE",
+
+            "to": "ARCHIVED",
+
+            "condition":
+            "inactive_days",
+
+            "days":180
+
+        },
+
+
+        "deprecated_rule": {
+
+            "from": "ACTIVE",
+
+            "to": "DEPRECATED",
+
+            "condition":
+            "new_version_exists"
+
+        },
+
+
+        "delete_rule": {
+
+            "from": "DEPRECATED",
+
+            "to": "DELETED",
+
+            "condition":
+            "manual_approval"
+
+        }
+
+    }
+}

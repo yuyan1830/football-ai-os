@@ -1,0 +1,890 @@
+{
+    "version": "Architecture Validation Engine V1.1",
+    "time": "2026-07-23 13:18:33.859292",
+    "status": "VALIDATION_COMPLETE",
+    "python_files": 1390,
+    "duplicate_groups": 103,
+    "duplicates": {
+        "conftest.py": [
+            "E:\\football_v\\conftest.py",
+            "E:\\football_v\\10_AI_AUTONOMOUS_ENGINE\\tests\\conftest.py"
+        ],
+        "deploy_v15_phase2_patch3.py": [
+            "E:\\football_v\\deploy_v15_phase2_patch3.py",
+            "E:\\football_v\\deploy\\deploy_v15_phase2_patch3.py"
+        ],
+        "__init__.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\config\\__init__.py",
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\exception\\__init__.py",
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\logger\\__init__.py",
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\validator\\__init__.py",
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\import_pipeline\\__init__.py",
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\task_queue\\__init__.py",
+            "E:\\football_v\\01_Data_Source\\download\\__init__.py",
+            "E:\\football_v\\01_Data_Source\\monitor\\__init__.py",
+            "E:\\football_v\\01_Data_Source\\pipeline\\__init__.py",
+            "E:\\football_v\\01_Data_Source\\registry\\__init__.py",
+            "E:\\football_v\\02_Data_Platform\\data_loader\\__init__.py",
+            "E:\\football_v\\02_Data_Platform\\data_manager\\__init__.py",
+            "E:\\football_v\\02_Data_Platform\\integration\\__init__.py",
+            "E:\\football_v\\02_Data_Platform\\metadata\\__init__.py",
+            "E:\\football_v\\02_Data_Platform\\metadata\\lineage\\__init__.py",
+            "E:\\football_v\\02_Data_Platform\\pipeline\\__init__.py",
+            "E:\\football_v\\02_Data_Platform\\raw\\__init__.py",
+            "E:\\football_v\\02_Data_Platform\\registry\\__init__.py",
+            "E:\\football_v\\02_Data_Platform\\storage_engine\\__init__.py",
+            "E:\\football_v\\09_Prediction_System\\__init__.py",
+            "E:\\football_v\\09_Prediction_System\\tests\\__init__.py",
+            "E:\\football_v\\10_AI_AUTONOMOUS_ENGINE\\autonomous_engine_hil_v1\\__init__.py",
+            "E:\\football_v\\11_System_Intelligence\\__init__.py",
+            "E:\\football_v\\11_System_Intelligence\\tests\\__init__.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\exception\\__init__.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\logger\\__init__.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\validator\\__init__.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\logger_backup_v12\\logger\\__init__.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Storage_Merge_V1.0\\__init__.py",
+            "E:\\football_v\\99_DOCUMENTATION\\checkpoints\\exception_backup_v10\\exception\\__init__.py",
+            "E:\\football_v\\99_DOCUMENTATION\\checkpoints\\logger_merge_backup_phase1\\__init__.py",
+            "E:\\football_v\\AI_RUNTIME\\__init__.py"
+        ],
+        "db_connection.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\database\\db_connection.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\db_connection.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\database\\db_connection.py"
+        ],
+        "base_exception.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\exception\\base_exception.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\exception\\base_exception.py",
+            "E:\\football_v\\99_DOCUMENTATION\\checkpoints\\exception_backup_v10\\exception\\base_exception.py"
+        ],
+        "database_exception.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\exception\\database_exception.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\exception\\database_exception.py"
+        ],
+        "error_codes.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\exception\\error_codes.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\exception\\error_codes.py",
+            "E:\\football_v\\99_DOCUMENTATION\\checkpoints\\exception_backup_v10\\exception\\error_codes.py"
+        ],
+        "exception_handler.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\exception\\exception_handler.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\exception\\exception_handler.py",
+            "E:\\football_v\\99_DOCUMENTATION\\checkpoints\\exception_backup_v10\\exception\\exception_handler.py"
+        ],
+        "file_exception.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\exception\\file_exception.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\exception\\file_exception.py"
+        ],
+        "validation_exception.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\exception\\validation_exception.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\exception\\validation_exception.py"
+        ],
+        "file_service.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\file_service\\file_service.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\file_service.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\file_service\\file_service.py"
+        ],
+        "hash_service.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\hash_service\\hash_service.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\hash_service.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\hash_service\\hash_service.py"
+        ],
+        "compatibility.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\logger\\compatibility.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\logger\\compatibility.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\logger_backup_v12\\logger\\compatibility.py",
+            "E:\\football_v\\99_DOCUMENTATION\\checkpoints\\logger_merge_backup_phase1\\compatibility.py"
+        ],
+        "formatter.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\logger\\formatter.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\logger\\formatter.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\logger_backup_v12\\logger\\formatter.py",
+            "E:\\football_v\\99_DOCUMENTATION\\checkpoints\\logger_merge_backup_phase1\\formatter.py"
+        ],
+        "handlers.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\logger\\handlers.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\logger\\handlers.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\logger_backup_v12\\logger\\handlers.py",
+            "E:\\football_v\\99_DOCUMENTATION\\checkpoints\\logger_merge_backup_phase1\\handlers.py"
+        ],
+        "logger.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\logger\\logger.py",
+            "E:\\football_v\\11_AI_ORCHESTRATION_LAYER\\logging_center\\logger.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\logger.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\logger\\logger.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\logger_backup_v12\\logger.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\logger_backup_v12\\logger\\logger.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\logger_cleanup_v13\\logger.py",
+            "E:\\football_v\\99_DOCUMENTATION\\checkpoints\\logger_backup_20260720_105240\\logger.py"
+        ],
+        "data_validator.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\validator\\data_validator.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\validator\\data_validator.py"
+        ],
+        "schema_validator.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\validator\\schema_validator.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\validator\\schema_validator.py"
+        ],
+        "validation_result.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\validator\\validation_result.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\validator\\validation_result.py"
+        ],
+        "version_service.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core\\version_service\\version_service.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\version_service.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Core_Backup_V1.2\\core\\version_service\\version_service.py"
+        ],
+        "archive_manager.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\import_pipeline\\archive_manager.py",
+            "E:\\football_v\\00_System_OS\\File_Manager\\archive\\archive_manager.py"
+        ],
+        "quality_engine.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\quality\\quality_engine.py",
+            "E:\\football_v\\03_Data_Governance\\quality\\quality_engine.py"
+        ],
+        "data_lineage.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\registry\\data_lineage.py",
+            "E:\\football_v\\02_Data_Platform\\metadata\\lineage\\data_lineage.py"
+        ],
+        "registry_manager.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\registry\\registry_manager.py",
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\registry_manager.py",
+            "E:\\football_v\\00_System_OS\\registry\\registry_manager.py"
+        ],
+        "task_queue_init.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\scripts\\task_queue_init.py",
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\task_queue\\task_queue_init.py"
+        ],
+        "scheduler.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\task_queue\\scheduler.py",
+            "E:\\football_v\\11_AI_ORCHESTRATION_LAYER\\model_scheduler\\scheduler.py",
+            "E:\\football_v\\15_API_INTEGRATION_LAYER\\api_scheduler\\scheduler.py"
+        ],
+        "task_manager.py": [
+            "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\task_queue\\task_manager.py",
+            "E:\\football_v\\00_System_OS\\Automation\\task_manager\\task_manager.py"
+        ],
+        "environment_checker_v1.0.py": [
+            "E:\\football_v\\00_System_OS\\ENVIRONMENT_CHECKER\\environment_checker_V1.0.py",
+            "E:\\football_v\\21_PRODUCT_PACKAGE\\environment_checker\\environment_checker_V1.0.py"
+        ],
+        "test_dashboard.py": [
+            "E:\\football_v\\00_System_OS\\integration_test\\test_dashboard.py",
+            "E:\\football_v\\20_DASHBOARD_LAYER\\tests\\test_dashboard.py"
+        ],
+        "setup_logger_module.py": [
+            "E:\\football_v\\00_System_OS\\scripts\\setup_logger_module.py",
+            "E:\\football_v\\archive\\logger_migration\\setup_logger_module.py"
+        ],
+        "deploy_v15_phase2.py": [
+            "E:\\football_v\\00_SYSTEM_TOOLS\\deploy_scripts\\deploy_v15_phase2.py",
+            "E:\\football_v\\deploy\\deploy_v15_phase2.py"
+        ],
+        "metadata_manager.py": [
+            "E:\\football_v\\02_Data_Platform\\metadata\\metadata_manager.py",
+            "E:\\football_v\\122_MODEL_STORE_LAYER\\metadata_manager.py"
+        ],
+        "storage_manager.py": [
+            "E:\\football_v\\02_Data_Platform\\storage_engine\\storage_manager.py",
+            "E:\\football_v\\99_DOCUMENTATION\\backup\\Storage_Merge_V1.0\\storage_manager.py"
+        ],
+        "data_router.py": [
+            "E:\\football_v\\04_Data_Processing_AI\\data_intelligence_engine\\data_router.py",
+            "E:\\football_v\\11_AI_ORCHESTRATION_LAYER\\data_router\\data_router.py"
+        ],
+        "model_interface.py": [
+            "E:\\football_v\\04_Data_Processing_AI\\data_intelligence_engine\\model_interface.py",
+            "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\model_interface.py"
+        ],
+        "feature_optimizer.py": [
+            "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_optimizer.py",
+            "E:\\football_v\\12_AUTONOMOUS_LEARNING_ENGINE\\feature_optimizer\\feature_optimizer.py"
+        ],
+        "feature_pipeline.py": [
+            "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_pipeline.py",
+            "E:\\football_v\\07_AI_ORCHESTRATION_LAYER\\data_pipeline\\feature_pipeline.py",
+            "E:\\football_v\\22_AI_FEATURE_STORE_LAYER\\feature_pipeline.py",
+            "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\prediction_pipeline\\feature_pipeline.py",
+            "E:\\football_v\\54_FEATURE_BUILD_ENGINE\\feature_pipeline.py"
+        ],
+        "feature_registry.py": [
+            "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_registry.py",
+            "E:\\football_v\\121_DATABASE_GOVERNANCE_LAYER\\feature_registry.py",
+            "E:\\football_v\\22_AI_FEATURE_STORE_LAYER\\feature_registry.py"
+        ],
+        "feature_validator.py": [
+            "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_validator.py",
+            "E:\\football_v\\50_FEATURE_VALIDATION_ENGINE\\feature_validator.py"
+        ],
+        "fusion_engine.py": [
+            "E:\\football_v\\05_AI_Intelligence_Layer\\FUSION_DECISION_ENGINE\\fusion_engine.py",
+            "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\fusion\\fusion_engine.py",
+            "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\fusion_engine.py"
+        ],
+        "error_analyzer.py": [
+            "E:\\football_v\\05_AI_Intelligence_Layer\\MODEL_EVALUATION_ENGINE\\error_analyzer.py",
+            "E:\\football_v\\12_AUTONOMOUS_LEARNING_ENGINE\\error_analysis\\error_analyzer.py"
+        ],
+        "model_registry.py": [
+            "E:\\football_v\\05_AI_Intelligence_Layer\\MODEL_REGISTRY\\model_registry.py",
+            "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\model_registry.py",
+            "E:\\football_v\\121_DATABASE_GOVERNANCE_LAYER\\model_registry.py",
+            "E:\\football_v\\17_MODEL_STORE_LAYER\\model_registry.py"
+        ],
+        "model_version_manager.py": [
+            "E:\\football_v\\05_AI_Intelligence_Layer\\MODEL_REGISTRY\\model_version_manager.py",
+            "E:\\football_v\\17_MODEL_STORE_LAYER\\model_version_manager.py"
+        ],
+        "experience_manager.py": [
+            "E:\\football_v\\05_AI_Intelligence_Layer\\SELF_REFLECTION_ENGINE\\experience_manager.py",
+            "E:\\football_v\\12_AUTONOMOUS_LEARNING_ENGINE\\experience_database\\experience_manager.py"
+        ],
+        "reflection_engine.py": [
+            "E:\\football_v\\05_AI_Intelligence_Layer\\SELF_REFLECTION_ENGINE\\reflection_engine.py",
+            "E:\\football_v\\12_AUTONOMOUS_LEARNING_ENGINE\\self_reflection\\reflection_engine.py"
+        ],
+        "model_loader.py": [
+            "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\model_loader.py",
+            "E:\\football_v\\17_MODEL_STORE_LAYER\\model_loader.py"
+        ],
+        "backtest_engine.py": [
+            "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\backtest\\backtest_engine.py",
+            "E:\\football_v\\07_BACKTEST_AI\\backtest_engine.py",
+            "E:\\football_v\\07_BACKTEST_SYSTEM\\backtest_engine\\backtest_engine.py",
+            "E:\\football_v\\11_System_Intelligence\\backtest_engine.py"
+        ],
+        "dixon_coles_model.py": [
+            "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\models\\dixon_coles_model.py",
+            "E:\\football_v\\11_System_Intelligence\\dixon_coles_model.py"
+        ],
+        "poisson_model.py": [
+            "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\models\\poisson_model.py",
+            "E:\\football_v\\11_System_Intelligence\\poisson_model.py"
+        ],
+        "prediction_runtime.py": [
+            "E:\\football_v\\06_PREDICTION_ENGINE\\prediction_runtime.py",
+            "E:\\football_v\\47_MATCH_PREDICTION_RUNTIME\\prediction_runtime.py"
+        ],
+        "probability_engine.py": [
+            "E:\\football_v\\06_PREDICTION_ENGINE\\probability_engine.py",
+            "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\probability_engine.py"
+        ],
+        "risk_engine.py": [
+            "E:\\football_v\\06_PREDICTION_ENGINE\\risk_engine.py",
+            "E:\\football_v\\10_MARKET_INTELLIGENCE_LAYER\\market_risk_model\\risk_engine.py",
+            "E:\\football_v\\11_System_Intelligence\\risk_engine.py",
+            "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\risk_engine.py"
+        ],
+        "score_prediction_engine.py": [
+            "E:\\football_v\\06_PREDICTION_ENGINE\\score_prediction_engine.py",
+            "E:\\football_v\\11_System_Intelligence\\score_prediction_engine.py",
+            "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\score_prediction_engine.py"
+        ],
+        "value_analyzer.py": [
+            "E:\\football_v\\06_PREDICTION_ENGINE\\value_analyzer.py",
+            "E:\\football_v\\60_ODDS_VALUE_ENGINE\\value_analyzer.py"
+        ],
+        "calibration_engine.py": [
+            "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\confidence_calibration\\calibration_engine.py",
+            "E:\\football_v\\28_PROBABILITY_CALIBRATION_ENGINE\\calibration_engine.py"
+        ],
+        "model_connector.py": [
+            "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\model_connector\\model_connector.py",
+            "E:\\football_v\\37_MODEL_INTELLIGENCE_CONNECTOR\\model_connector.py",
+            "E:\\football_v\\AI_RUNTIME\\model_connector.py"
+        ],
+        "prediction_engine.py": [
+            "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\regular_time_prediction\\prediction_engine.py",
+            "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\prediction_engine.py"
+        ],
+        "score_predictor.py": [
+            "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\score_prediction\\score_predictor.py",
+            "E:\\football_v\\40_MATCH_PREDICTION_ENGINE\\score_predictor.py"
+        ],
+        "router.py": [
+            "E:\\football_v\\07_AI_ORCHESTRATION_LAYER\\model_router\\router.py",
+            "E:\\football_v\\AI_RUNTIME\\router.py"
+        ],
+        "orchestrator.py": [
+            "E:\\football_v\\07_AI_ORCHESTRATION_LAYER\\orchestration_core\\orchestrator.py",
+            "E:\\football_v\\11_AI_ORCHESTRATION_LAYER\\orchestrator_core\\orchestrator.py"
+        ],
+        "task_scheduler.py": [
+            "E:\\football_v\\07_AI_ORCHESTRATION_LAYER\\orchestration_core\\task_scheduler.py",
+            "E:\\football_v\\09_AI_ORCHESTRATION_LAYER\\task_scheduler.py"
+        ],
+        "report_generator.py": [
+            "E:\\football_v\\07_AI_ORCHESTRATION_LAYER\\report_engine\\report_generator.py",
+            "E:\\football_v\\09_MODEL_EXPLANATION_ENGINE\\explanation_report\\report_generator.py",
+            "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\report_generator.py"
+        ],
+        "historical_match_loader.py": [
+            "E:\\football_v\\07_BACKTEST_AI\\historical_match_loader.py",
+            "E:\\football_v\\11_System_Intelligence\\historical_match_loader.py"
+        ],
+        "bankroll_manager.py": [
+            "E:\\football_v\\08_DECISION_ENGINE\\bankroll_manager.py",
+            "E:\\football_v\\11_System_Intelligence\\bankroll_manager.py"
+        ],
+        "decision_engine.py": [
+            "E:\\football_v\\08_DECISION_ENGINE\\decision_engine.py",
+            "E:\\football_v\\08_DECISION_INTELLIGENCE_LAYER\\decision_core\\decision_engine.py",
+            "E:\\football_v\\29_DECISION_ENGINE\\decision_engine.py"
+        ],
+        "fusion_explainer.py": [
+            "E:\\football_v\\08_DECISION_INTELLIGENCE_LAYER\\explanation_engine\\fusion_explainer.py",
+            "E:\\football_v\\09_MODEL_EXPLANATION_ENGINE\\fusion_explainer\\fusion_explainer.py"
+        ],
+        "pipeline_controller.py": [
+            "E:\\football_v\\09_AI_ORCHESTRATION_LAYER\\pipeline_controller.py",
+            "E:\\football_v\\32_PRODUCTION_ORCHESTRATOR\\pipeline_controller.py"
+        ],
+        "prediction_monitor.py": [
+            "E:\\football_v\\09_Prediction_System\\prediction_monitor.py",
+            "E:\\football_v\\124_DASHBOARD_LAYER\\prediction_monitor.py"
+        ],
+        "prediction_pipeline.py": [
+            "E:\\football_v\\09_Prediction_System\\prediction_pipeline.py",
+            "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\prediction_pipeline\\prediction_pipeline.py",
+            "E:\\football_v\\56_AI_PREDICTION_PIPELINE\\prediction_pipeline.py"
+        ],
+        "prediction_report_generator.py": [
+            "E:\\football_v\\09_Prediction_System\\prediction_report_generator.py",
+            "E:\\football_v\\11_System_Intelligence\\prediction_report_generator.py"
+        ],
+        "module.py": [
+            "E:\\football_v\\100_FINAL_MATCH_DECISION_SYSTEM\\module.py",
+            "E:\\football_v\\100_SELF_EVOLUTION_ENGINE\\module.py",
+            "E:\\football_v\\101_REAL_MARKET_INTELLIGENCE_ENGINE\\module.py",
+            "E:\\football_v\\102_ODDS_MOVEMENT_ANALYSIS_ENGINE\\module.py",
+            "E:\\football_v\\103_CAPITAL_FLOW_TRACKING_ENGINE\\module.py",
+            "E:\\football_v\\104_MARKET_SENTIMENT_FUSION_ENGINE\\module.py",
+            "E:\\football_v\\105_HANDICAP_VALUE_DECISION_ENGINE\\module.py",
+            "E:\\football_v\\106_REAL_ODDS_HISTORY_ENGINE\\module.py",
+            "E:\\football_v\\107_MARKET_PATTERN_RECOGNITION_ENGINE\\module.py",
+            "E:\\football_v\\108_SMART_HANDICAP_ENGINE\\module.py",
+            "E:\\football_v\\109_VALUE_BET_SELECTION_ENGINE\\module.py",
+            "E:\\football_v\\110_FINAL_MARKET_DECISION_ENGINE\\module.py",
+            "E:\\football_v\\111_ADVANCED_FEATURE_ENGINE\\module.py",
+            "E:\\football_v\\112_TEAM_STRENGTH_EVOLUTION_ENGINE\\module.py",
+            "E:\\football_v\\113_PLAYER_IMPACT_ANALYSIS_ENGINE\\module.py",
+            "E:\\football_v\\114_MATCH_CONTEXT_ENGINE\\module.py",
+            "E:\\football_v\\115_AI_FORECAST_ENHANCEMENT_ENGINE\\module.py",
+            "E:\\football_v\\116_REAL_MATCH_PIPELINE\\module.py",
+            "E:\\football_v\\117_FEATURE_AUTO_GENERATOR\\module.py",
+            "E:\\football_v\\118_MODEL_INFERENCE_SERVICE\\module.py",
+            "E:\\football_v\\119_PREDICTION_OUTPUT_SERVICE\\module.py",
+            "E:\\football_v\\120_AI_REPORT_SERVICE\\module.py",
+            "E:\\football_v\\121_DATABASE_GOVERNANCE_LAYER\\module.py",
+            "E:\\football_v\\121_RESULT_FEEDBACK_ENGINE\\module.py",
+            "E:\\football_v\\122_ERROR_ANALYSIS_ENGINE\\module.py",
+            "E:\\football_v\\122_MODEL_STORE_LAYER\\module.py",
+            "E:\\football_v\\123_EXECUTION_ENGINE\\module.py",
+            "E:\\football_v\\123_MODEL_WEIGHT_UPDATE_ENGINE\\module.py",
+            "E:\\football_v\\124_AUTO_BACKTEST_ENGINE\\module.py",
+            "E:\\football_v\\124_DASHBOARD_LAYER\\module.py",
+            "E:\\football_v\\125_AI_VERSION_MANAGER\\module.py",
+            "E:\\football_v\\125_PRODUCT_RELEASE_LAYER\\module.py",
+            "E:\\football_v\\126_MODEL_EXPLANATION_ENGINE\\module.py",
+            "E:\\football_v\\127_AUTONOMOUS_LEARNING_LOOP\\module.py",
+            "E:\\football_v\\128_SYSTEM_MONITORING_CENTER\\module.py",
+            "E:\\football_v\\129_API_GATEWAY_LAYER\\module.py",
+            "E:\\football_v\\130_FINAL_SYSTEM_VALIDATION\\module.py",
+            "E:\\football_v\\131_USER_INTERFACE_LAYER\\module.py",
+            "E:\\football_v\\132_NATURAL_LANGUAGE_ENGINE\\module.py",
+            "E:\\football_v\\133_CONVERSATION_MEMORY_LAYER\\module.py",
+            "E:\\football_v\\134_COMMAND_ROUTER_ENGINE\\module.py",
+            "E:\\football_v\\135_API_GATEWAY_CONNECTOR\\module.py",
+            "E:\\football_v\\136_MODULE_DISPATCH_ENGINE\\module.py",
+            "E:\\football_v\\137_REPORT_PRESENTATION_LAYER\\module.py",
+            "E:\\football_v\\138_LOCAL_CHAT_RUNTIME\\module.py",
+            "E:\\football_v\\139_SYSTEM_HEALTH_INTERFACE\\module.py",
+            "E:\\football_v\\140_FINAL_INTERFACE_VALIDATION\\module.py",
+            "E:\\football_v\\141_REAL_CHAT_EXECUTION_ENGINE\\module.py",
+            "E:\\football_v\\142_DATABASE_QUERY_RUNTIME\\module.py",
+            "E:\\football_v\\143_MODEL_CALL_ORCHESTRATOR\\module.py",
+            "E:\\football_v\\144_MATCH_ANALYSIS_EXECUTOR\\module.py",
+            "E:\\football_v\\145_REPORT_GENERATION_RUNTIME\\module.py",
+            "E:\\football_v\\146_HISTORY_CONVERSATION_STORE\\module.py",
+            "E:\\football_v\\147_TASK_SCHEDULER_ENGINE\\module.py",
+            "E:\\football_v\\148_RUNTIME_ERROR_HANDLER\\module.py",
+            "E:\\football_v\\149_SYSTEM_LOG_MANAGER\\module.py",
+            "E:\\football_v\\150_FINAL_RUNTIME_VALIDATION\\module.py",
+            "E:\\football_v\\16_DATABASE_GOVERNANCE_LAYER\\module.py",
+            "E:\\football_v\\17_MODEL_STORE_LAYER\\module.py",
+            "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\module.py",
+            "E:\\football_v\\19_API_LAYER\\module.py",
+            "E:\\football_v\\20_DASHBOARD_LAYER\\module.py",
+            "E:\\football_v\\21_PRODUCT_PACKAGE\\module.py",
+            "E:\\football_v\\22_AI_FEATURE_STORE_LAYER\\module.py",
+            "E:\\football_v\\23_MODEL_TRAINING_ENGINE\\module.py",
+            "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\module.py",
+            "E:\\football_v\\25_BACKTEST_ENGINE\\module.py",
+            "E:\\football_v\\26_AUTOMATION_LAYER\\module.py",
+            "E:\\football_v\\41_MATCH_INPUT_SERVICE\\module.py",
+            "E:\\football_v\\42_REAL_FEATURE_GENERATOR\\module.py",
+            "E:\\football_v\\43_AI_PREDICTION_REPORT_ENGINE\\module.py",
+            "E:\\football_v\\44_PRODUCTION_PREDICTION_RUNTIME\\module.py",
+            "E:\\football_v\\44_REAL_DATA_CONNECTOR\\module.py",
+            "E:\\football_v\\45_FEATURE_PIPELINE_RUNTIME\\module.py",
+            "E:\\football_v\\46_MODEL_INFERENCE_ENGINE\\module.py",
+            "E:\\football_v\\47_MATCH_PREDICTION_RUNTIME\\module.py",
+            "E:\\football_v\\48_AI_ANALYSIS_REPORT\\module.py",
+            "E:\\football_v\\49_LIVE_PREDICTION_ENGINE\\module.py",
+            "E:\\football_v\\50_FEATURE_VALIDATION_ENGINE\\module.py",
+            "E:\\football_v\\51_MODEL_OUTPUT_VALIDATOR\\module.py",
+            "E:\\football_v\\52_AI_MATCH_REPORT_SYSTEM\\module.py",
+            "E:\\football_v\\53_REAL_MATCH_QUERY_ENGINE\\module.py",
+            "E:\\football_v\\54_FEATURE_BUILD_ENGINE\\module.py",
+            "E:\\football_v\\55_MODEL_EXECUTION_RUNTIME\\module.py",
+            "E:\\football_v\\56_AI_PREDICTION_PIPELINE\\module.py",
+            "E:\\football_v\\57_PREDICTION_RESULT_STORAGE\\module.py",
+            "E:\\football_v\\58_REAL_PREDICTION_CONTROLLER\\module.py",
+            "E:\\football_v\\59_MODEL_FUSION_RUNTIME\\module.py",
+            "E:\\football_v\\60_ODDS_VALUE_ENGINE\\module.py",
+            "E:\\football_v\\61_MARKET_RISK_RUNTIME\\module.py",
+            "E:\\football_v\\62_FINAL_AI_REPORT_GENERATOR\\module.py",
+            "E:\\football_v\\63_REAL_MATCH_EXECUTION_ENGINE\\module.py",
+            "E:\\football_v\\64_LIVE_FEATURE_PROCESSOR\\module.py",
+            "E:\\football_v\\65_AI_FORECAST_SERVICE\\module.py",
+            "E:\\football_v\\66_PREDICTION_DATABASE\\module.py",
+            "E:\\football_v\\67_BACKTEST_COMPARE_ENGINE\\module.py",
+            "E:\\football_v\\68_MATCH_REQUEST_GATEWAY\\module.py",
+            "E:\\football_v\\68_REAL_ODDS_CONNECTOR\\module.py",
+            "E:\\football_v\\69_LIVE_MATCH_FEATURE_ENGINE\\module.py",
+            "E:\\football_v\\69_REAL_ODDS_IMPORTER\\module.py",
+            "E:\\football_v\\70_AI_PREDICTION_CORE\\module.py",
+            "E:\\football_v\\70_FEATURE_CALCULATION_ENGINE\\module.py",
+            "E:\\football_v\\71_AI_PREDICTION_EXECUTOR\\module.py",
+            "E:\\football_v\\71_SCORE_PROBABILITY_ENGINE\\module.py",
+            "E:\\football_v\\72_FINAL_PREDICTION_OUTPUT\\module.py",
+            "E:\\football_v\\72_HANDICAP_DECISION_ENGINE\\module.py",
+            "E:\\football_v\\73_MARKET_GAME_ANALYSIS_ENGINE\\module.py",
+            "E:\\football_v\\74_FINAL_MATCH_ADVISOR\\module.py",
+            "E:\\football_v\\75_AUTO_LEARNING_FEEDBACK\\module.py",
+            "E:\\football_v\\76_MODEL_FEATURE_INTEGRATION\\module.py",
+            "E:\\football_v\\77_ELO_RUNTIME_ENGINE\\module.py",
+            "E:\\football_v\\78_DIXON_COLES_RUNTIME_ENGINE\\module.py",
+            "E:\\football_v\\79_POISSON_RUNTIME_ENGINE\\module.py",
+            "E:\\football_v\\80_XGBOOST_RUNTIME_ENGINE\\module.py",
+            "E:\\football_v\\81_MODEL_FUSION_PREDICTOR\\module.py",
+            "E:\\football_v\\82_PROBABILITY_CALIBRATION_RUNTIME\\module.py",
+            "E:\\football_v\\83_VALUE_BET_ENGINE\\module.py",
+            "E:\\football_v\\84_KELLY_OPTIMIZATION_ENGINE\\module.py",
+            "E:\\football_v\\85_FINAL_DECISION_ENGINE\\module.py",
+            "E:\\football_v\\86_REAL_TIME_ODDS_ENGINE\\module.py",
+            "E:\\football_v\\87_MARKET_MOVEMENT_ANALYZER\\module.py",
+            "E:\\football_v\\87_MATCH_CONTEXT_ENGINE\\module.py",
+            "E:\\football_v\\88_HANDICAP_PREDICTION_ENGINE\\module.py",
+            "E:\\football_v\\88_TEAM_STRENGTH_DYNAMIC_ENGINE\\module.py",
+            "E:\\football_v\\89_PLAYER_IMPACT_ENGINE\\module.py",
+            "E:\\football_v\\89_SCORE_SIMULATION_ENGINE\\module.py",
+            "E:\\football_v\\90_AI_MATCH_SELECTION_ENGINE\\module.py",
+            "E:\\football_v\\90_FATIGUE_ANALYSIS_ENGINE\\module.py",
+            "E:\\football_v\\91_CONFIDENCE_RANKING_ENGINE\\module.py",
+            "E:\\football_v\\91_FORM_TREND_ENGINE\\module.py",
+            "E:\\football_v\\92_MARKET_EMOTION_ENGINE\\module.py",
+            "E:\\football_v\\92_RISK_CONTROL_ENGINE\\module.py",
+            "E:\\football_v\\93_CAPITAL_FLOW_ENGINE\\module.py",
+            "E:\\football_v\\93_PORTFOLIO_BET_ENGINE\\module.py",
+            "E:\\football_v\\94_HANDICAP_PENETRATION_ENGINE\\module.py",
+            "E:\\football_v\\94_MATCH_REVIEW_ENGINE\\module.py",
+            "E:\\football_v\\95_MODEL_FEEDBACK_ENGINE\\module.py",
+            "E:\\football_v\\96_AI_PREDICTION_ORCHESTRATOR\\module.py",
+            "E:\\football_v\\96_MATCH_FEATURE_STORE\\module.py",
+            "E:\\football_v\\97_FINAL_MATCH_FORECAST_ENGINE\\module.py",
+            "E:\\football_v\\97_MODEL_WEIGHT_OPTIMIZER\\module.py",
+            "E:\\football_v\\98_AI_DECISION_REPORT_ENGINE\\module.py",
+            "E:\\football_v\\98_PREDICTION_CONFIDENCE_ENGINE\\module.py",
+            "E:\\football_v\\99_AI_RISK_CONTROL_ENGINE\\module.py",
+            "E:\\football_v\\99_PRODUCTION_MONITOR_ENGINE\\module.py"
+        ],
+        "error_analysis_engine.py": [
+            "E:\\football_v\\10_AI_AUTONOMOUS_ENGINE\\error_analysis_engine.py",
+            "E:\\football_v\\11_System_Intelligence\\error_analysis_engine.py"
+        ],
+        "evolution_memory.py": [
+            "E:\\football_v\\10_AI_AUTONOMOUS_ENGINE\\evolution_memory.py",
+            "E:\\football_v\\11_System_Intelligence\\evolution_memory.py"
+        ],
+        "knowledge_relation_engine.py": [
+            "E:\\football_v\\10_AI_AUTONOMOUS_ENGINE\\knowledge_relation_engine.py",
+            "E:\\football_v\\11_System_Intelligence\\knowledge_relation_engine.py"
+        ],
+        "rollback_manager.py": [
+            "E:\\football_v\\10_AI_AUTONOMOUS_ENGINE\\rollback_manager.py",
+            "E:\\football_v\\122_MODEL_STORE_LAYER\\rollback_manager.py"
+        ],
+        "system_brain.py": [
+            "E:\\football_v\\10_AI_AUTONOMOUS_ENGINE\\system_brain.py",
+            "E:\\football_v\\11_System_Intelligence\\system_brain.py"
+        ],
+        "handicap_engine.py": [
+            "E:\\football_v\\10_MARKET_INTELLIGENCE_LAYER\\handicap_model\\handicap_engine.py",
+            "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\handicap_engine.py"
+        ],
+        "market_report.py": [
+            "E:\\football_v\\10_MARKET_INTELLIGENCE_LAYER\\market_report\\market_report.py",
+            "E:\\football_v\\13_REPORT_INTELLIGENCE_LAYER\\market_report\\market_report.py"
+        ],
+        "confidence_engine.py": [
+            "E:\\football_v\\11_System_Intelligence\\confidence_engine.py",
+            "E:\\football_v\\27_MODEL_FUSION_ENGINE\\confidence_engine.py"
+        ],
+        "dixon_coles_trainer.py": [
+            "E:\\football_v\\11_System_Intelligence\\dixon_coles_trainer.py",
+            "E:\\football_v\\23_MODEL_TRAINING_ENGINE\\dixon_coles_trainer.py"
+        ],
+        "elo_trainer.py": [
+            "E:\\football_v\\11_System_Intelligence\\elo_trainer.py",
+            "E:\\football_v\\23_MODEL_TRAINING_ENGINE\\elo_trainer.py"
+        ],
+        "learning_scheduler.py": [
+            "E:\\football_v\\11_System_Intelligence\\learning_scheduler.py",
+            "E:\\football_v\\127_AUTONOMOUS_LEARNING_LOOP\\learning_scheduler.py"
+        ],
+        "market_engine.py": [
+            "E:\\football_v\\11_System_Intelligence\\market_engine.py",
+            "E:\\football_v\\30_MARKET_GAME_ENGINE\\market_engine.py"
+        ],
+        "poisson_trainer.py": [
+            "E:\\football_v\\11_System_Intelligence\\poisson_trainer.py",
+            "E:\\football_v\\23_MODEL_TRAINING_ENGINE\\poisson_trainer.py"
+        ],
+        "prediction_report.py": [
+            "E:\\football_v\\11_System_Intelligence\\prediction_report.py",
+            "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\output_engine\\prediction_report.py",
+            "E:\\football_v\\43_AI_PREDICTION_REPORT_ENGINE\\prediction_report.py"
+        ],
+        "risk_detector.py": [
+            "E:\\football_v\\11_System_Intelligence\\risk_detector.py",
+            "E:\\football_v\\39_MARKET_SENTIMENT_ENGINE\\risk_detector.py"
+        ],
+        "risk_report.py": [
+            "E:\\football_v\\11_System_Intelligence\\risk_report.py",
+            "E:\\football_v\\13_REPORT_INTELLIGENCE_LAYER\\risk_report\\risk_report.py",
+            "E:\\football_v\\43_AI_PREDICTION_REPORT_ENGINE\\risk_report.py",
+            "E:\\football_v\\48_AI_ANALYSIS_REPORT\\risk_report.py",
+            "E:\\football_v\\52_AI_MATCH_REPORT_SYSTEM\\risk_report.py"
+        ],
+        "xgboost_predictor.py": [
+            "E:\\football_v\\11_System_Intelligence\\xgboost_predictor.py",
+            "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\prediction_models\\xgboost_predictor.py"
+        ],
+        "xgboost_trainer.py": [
+            "E:\\football_v\\11_System_Intelligence\\xgboost_trainer.py",
+            "E:\\football_v\\23_MODEL_TRAINING_ENGINE\\xgboost_trainer.py"
+        ],
+        "system_dashboard.py": [
+            "E:\\football_v\\124_DASHBOARD_LAYER\\system_dashboard.py",
+            "E:\\football_v\\14_SYSTEM_MONITORING_LAYER\\dashboard\\system_dashboard.py"
+        ],
+        "alert_manager.py": [
+            "E:\\football_v\\128_SYSTEM_MONITORING_CENTER\\alert_manager.py",
+            "E:\\football_v\\14_SYSTEM_MONITORING_LAYER\\alert_engine\\alert_manager.py"
+        ],
+        "match_report.py": [
+            "E:\\football_v\\13_REPORT_INTELLIGENCE_LAYER\\match_report_generator\\match_report.py",
+            "E:\\football_v\\52_AI_MATCH_REPORT_SYSTEM\\match_report.py"
+        ],
+        "model_loader_v1.0.py": [
+            "E:\\football_v\\17_MODEL_STORE_LAYER\\model_loader\\model_loader_V1.0.py",
+            "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\model_loader\\model_loader_V1.0.py"
+        ],
+        "model_runner.py": [
+            "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\model_runner.py",
+            "E:\\football_v\\46_MODEL_INFERENCE_ENGINE\\model_runner.py",
+            "E:\\football_v\\55_MODEL_EXECUTION_RUNTIME\\model_runner.py"
+        ],
+        "feature_builder.py": [
+            "E:\\football_v\\22_AI_FEATURE_STORE_LAYER\\feature_builder.py",
+            "E:\\football_v\\42_REAL_FEATURE_GENERATOR\\feature_builder.py",
+            "E:\\football_v\\45_FEATURE_PIPELINE_RUNTIME\\feature_builder.py",
+            "E:\\football_v\\54_FEATURE_BUILD_ENGINE\\feature_builder.py"
+        ],
+        "risk_filter.py": [
+            "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\output_engine\\risk_filter.py",
+            "E:\\football_v\\56_AI_PREDICTION_PIPELINE\\risk_filter.py"
+        ],
+        "prediction_output.py": [
+            "E:\\football_v\\40_MATCH_PREDICTION_ENGINE\\prediction_output.py",
+            "E:\\football_v\\72_FINAL_PREDICTION_OUTPUT\\prediction_output.py"
+        ],
+        "match_loader.py": [
+            "E:\\football_v\\41_MATCH_INPUT_SERVICE\\match_loader.py",
+            "E:\\football_v\\49_LIVE_PREDICTION_ENGINE\\match_loader.py"
+        ],
+        "feature_runtime.py": [
+            "E:\\football_v\\42_REAL_FEATURE_GENERATOR\\feature_runtime.py",
+            "E:\\football_v\\45_FEATURE_PIPELINE_RUNTIME\\feature_runtime.py",
+            "E:\\football_v\\70_FEATURE_CALCULATION_ENGINE\\feature_runtime.py"
+        ],
+        "score_report.py": [
+            "E:\\football_v\\43_AI_PREDICTION_REPORT_ENGINE\\score_report.py",
+            "E:\\football_v\\48_AI_ANALYSIS_REPORT\\score_report.py",
+            "E:\\football_v\\52_AI_MATCH_REPORT_SYSTEM\\score_report.py"
+        ],
+        "prediction_runner.py": [
+            "E:\\football_v\\44_PRODUCTION_PREDICTION_RUNTIME\\prediction_runner.py",
+            "E:\\football_v\\49_LIVE_PREDICTION_ENGINE\\prediction_runner.py"
+        ],
+        "execution_controller.py": [
+            "E:\\football_v\\63_REAL_MATCH_EXECUTION_ENGINE\\execution_controller.py",
+            "E:\\football_v\\71_AI_PREDICTION_EXECUTOR\\execution_controller.py"
+        ],
+        "prediction_executor.py": [
+            "E:\\football_v\\71_AI_PREDICTION_EXECUTOR\\prediction_executor.py",
+            "E:\\football_v\\AI_RUNTIME\\prediction_executor.py"
+        ]
+    },
+    "layers": {
+        "check_db_tables.py": 1,
+        "conftest.py": 1,
+        "database_inspector.py": 1,
+        "database_migration_engine_V1.0.py": 1,
+        "deploy_ai_intelligence_V2.0.py": 1,
+        "deploy_console_v1_1.py": 1,
+        "deploy_frozen_v15_completion.py": 1,
+        "deploy_integration_test_V1.5.py": 1,
+        "deploy_integration_validation_V1.5.py": 1,
+        "deploy_local_console_v1.py": 1,
+        "deploy_phase11.py": 1,
+        "deploy_phase12.py": 1,
+        "deploy_phase13.py": 1,
+        "deploy_phase14.py": 1,
+        "deploy_phase15.py": 1,
+        "deploy_phase16.py": 1,
+        "deploy_phase17.py": 1,
+        "deploy_phase18_20.py": 1,
+        "deploy_phase21_25.py": 1,
+        "deploy_phase26_30.py": 1,
+        "deploy_phase31_35.py": 1,
+        "deploy_phase36_40.py": 1,
+        "deploy_phase51_55.py": 1,
+        "deploy_phase56_60.py": 1,
+        "deploy_remaining_modules_V1.5.py": 1,
+        "deploy_remaining_modules_V1.5_FINAL.py": 1,
+        "deploy_v15_phase2_patch3.py": 1,
+        "final_acceptance_test.py": 1,
+        "final_deploy.py": 1,
+        "fix_integration_report_schema_V1.5.py": 1,
+        "legacy_delete_check.py": 1,
+        "migration_test.py": 1,
+        "phase12_test.py": 1,
+        "phase13_test.py": 1,
+        "phase14_test.py": 1,
+        "phase15_test.py": 1,
+        "phase16_test.py": 1,
+        "phase17_test.py": 1,
+        "phase21_25_test.py": 1,
+        "phase26_30_test.py": 1,
+        "phase36_40_deploy.py": 1,
+        "phase36_40_deploy_test.py": 1,
+        "phase36_40_test.py": 1,
+        "phase41_45_deploy_test.py": 1,
+        "phase46_50_deploy_test.py": 1,
+        "phase51_55_final_validation.py": 1,
+        "phase51_validation.py": 1,
+        "phase52_backtest.py": 1,
+        "release_final_patch_V2.0.1.py": 1,
+        "release_integration_V2.0.py": 1,
+        "release_validation_V1.5.py": 1,
+        "start_ai_os.py": 1,
+        "test_ai_intelligence_V2.0.py": 1,
+        "validate_release_V2.0.py": 1,
+        "00_System_OS": 128,
+        "00_SYSTEM_TOOLS": 82,
+        "01_Data_Source": 11,
+        "02_Data_Platform": 27,
+        "03_Data_Governance": 5,
+        "04_Data_Processing_AI": 125,
+        "05_AI_Intelligence_Layer": 13,
+        "05_MODEL_AI": 16,
+        "06_PREDICTION_ENGINE": 14,
+        "06_PREDICTION_INTELLIGENCE_ENGINE": 21,
+        "07_AI_ORCHESTRATION_LAYER": 14,
+        "07_BACKTEST_AI": 14,
+        "07_BACKTEST_SYSTEM": 9,
+        "08_DECISION_ENGINE": 12,
+        "08_DECISION_INTELLIGENCE_LAYER": 14,
+        "09_AI_ORCHESTRATION_LAYER": 8,
+        "09_MODEL_EXPLANATION_ENGINE": 6,
+        "09_Prediction_System": 12,
+        "100_FINAL_MATCH_DECISION_SYSTEM": 1,
+        "100_SELF_EVOLUTION_ENGINE": 1,
+        "101_REAL_MARKET_INTELLIGENCE_ENGINE": 1,
+        "102_ODDS_MOVEMENT_ANALYSIS_ENGINE": 1,
+        "103_CAPITAL_FLOW_TRACKING_ENGINE": 1,
+        "104_MARKET_SENTIMENT_FUSION_ENGINE": 1,
+        "105_HANDICAP_VALUE_DECISION_ENGINE": 1,
+        "106_REAL_ODDS_HISTORY_ENGINE": 1,
+        "107_MARKET_PATTERN_RECOGNITION_ENGINE": 1,
+        "108_SMART_HANDICAP_ENGINE": 1,
+        "109_VALUE_BET_SELECTION_ENGINE": 1,
+        "10_AI_AUTONOMOUS_ENGINE": 99,
+        "10_MARKET_INTELLIGENCE_LAYER": 7,
+        "110_FINAL_MARKET_DECISION_ENGINE": 1,
+        "111_ADVANCED_FEATURE_ENGINE": 1,
+        "112_TEAM_STRENGTH_EVOLUTION_ENGINE": 1,
+        "113_PLAYER_IMPACT_ANALYSIS_ENGINE": 1,
+        "114_MATCH_CONTEXT_ENGINE": 1,
+        "115_AI_FORECAST_ENHANCEMENT_ENGINE": 1,
+        "116_REAL_MATCH_PIPELINE": 1,
+        "117_FEATURE_AUTO_GENERATOR": 1,
+        "118_MODEL_INFERENCE_SERVICE": 1,
+        "119_PREDICTION_OUTPUT_SERVICE": 1,
+        "11_AI_ORCHESTRATION_LAYER": 8,
+        "11_System_Intelligence": 147,
+        "120_AI_REPORT_SERVICE": 1,
+        "121_DATABASE_GOVERNANCE_LAYER": 6,
+        "121_RESULT_FEEDBACK_ENGINE": 1,
+        "122_ERROR_ANALYSIS_ENGINE": 1,
+        "122_MODEL_STORE_LAYER": 5,
+        "123_EXECUTION_ENGINE": 5,
+        "123_MODEL_WEIGHT_UPDATE_ENGINE": 1,
+        "124_AUTO_BACKTEST_ENGINE": 1,
+        "124_DASHBOARD_LAYER": 4,
+        "125_AI_VERSION_MANAGER": 1,
+        "125_PRODUCT_RELEASE_LAYER": 4,
+        "126_MODEL_EXPLANATION_ENGINE": 3,
+        "127_AUTONOMOUS_LEARNING_LOOP": 4,
+        "128_SYSTEM_MONITORING_CENTER": 4,
+        "129_API_GATEWAY_LAYER": 3,
+        "12_AUTONOMOUS_LEARNING_ENGINE": 8,
+        "130_FINAL_SYSTEM_VALIDATION": 3,
+        "131_USER_INTERFACE_LAYER": 1,
+        "132_NATURAL_LANGUAGE_ENGINE": 1,
+        "133_CONVERSATION_MEMORY_LAYER": 1,
+        "134_COMMAND_ROUTER_ENGINE": 1,
+        "135_API_GATEWAY_CONNECTOR": 1,
+        "136_MODULE_DISPATCH_ENGINE": 1,
+        "137_REPORT_PRESENTATION_LAYER": 1,
+        "138_LOCAL_CHAT_RUNTIME": 1,
+        "139_SYSTEM_HEALTH_INTERFACE": 1,
+        "13_REPORT_INTELLIGENCE_LAYER": 8,
+        "140_FINAL_INTERFACE_VALIDATION": 1,
+        "141_REAL_CHAT_EXECUTION_ENGINE": 1,
+        "142_DATABASE_QUERY_RUNTIME": 1,
+        "143_MODEL_CALL_ORCHESTRATOR": 1,
+        "144_MATCH_ANALYSIS_EXECUTOR": 1,
+        "145_REPORT_GENERATION_RUNTIME": 1,
+        "146_HISTORY_CONVERSATION_STORE": 1,
+        "147_TASK_SCHEDULER_ENGINE": 1,
+        "148_RUNTIME_ERROR_HANDLER": 1,
+        "149_SYSTEM_LOG_MANAGER": 1,
+        "14_SYSTEM_MONITORING_LAYER": 8,
+        "150_FINAL_RUNTIME_VALIDATION": 1,
+        "15_API_INTEGRATION_LAYER": 8,
+        "16_DATABASE_GOVERNANCE_LAYER": 26,
+        "17_MODEL_STORE_LAYER": 16,
+        "18_MODEL_EXECUTION_ENGINE": 19,
+        "19_API_LAYER": 12,
+        "20_DASHBOARD_LAYER": 12,
+        "21_PRODUCT_PACKAGE": 8,
+        "22_AI_FEATURE_STORE_LAYER": 4,
+        "23_MODEL_TRAINING_ENGINE": 13,
+        "24_PREDICTION_INTELLIGENCE_LAYER": 19,
+        "25_BACKTEST_ENGINE": 9,
+        "26_AUTOMATION_LAYER": 8,
+        "27_MODEL_FUSION_ENGINE": 3,
+        "28_PROBABILITY_CALIBRATION_ENGINE": 2,
+        "29_DECISION_ENGINE": 2,
+        "30_MARKET_GAME_ENGINE": 2,
+        "31_SELF_LEARNING_ENGINE": 2,
+        "32_PRODUCTION_ORCHESTRATOR": 2,
+        "37_MODEL_INTELLIGENCE_CONNECTOR": 5,
+        "38_HANDICAP_VALUE_ENGINE": 2,
+        "39_MARKET_SENTIMENT_ENGINE": 3,
+        "40_MATCH_PREDICTION_ENGINE": 3,
+        "41_MATCH_INPUT_SERVICE": 4,
+        "42_REAL_FEATURE_GENERATOR": 3,
+        "43_AI_PREDICTION_REPORT_ENGINE": 4,
+        "44_PRODUCTION_PREDICTION_RUNTIME": 3,
+        "44_REAL_DATA_CONNECTOR": 3,
+        "45_FEATURE_PIPELINE_RUNTIME": 3,
+        "46_MODEL_INFERENCE_ENGINE": 3,
+        "47_MATCH_PREDICTION_RUNTIME": 3,
+        "48_AI_ANALYSIS_REPORT": 4,
+        "49_LIVE_PREDICTION_ENGINE": 4,
+        "50_FEATURE_VALIDATION_ENGINE": 3,
+        "51_MODEL_OUTPUT_VALIDATOR": 3,
+        "52_AI_MATCH_REPORT_SYSTEM": 4,
+        "53_REAL_MATCH_QUERY_ENGINE": 3,
+        "54_FEATURE_BUILD_ENGINE": 3,
+        "55_MODEL_EXECUTION_RUNTIME": 3,
+        "56_AI_PREDICTION_PIPELINE": 4,
+        "57_PREDICTION_RESULT_STORAGE": 3,
+        "58_REAL_PREDICTION_CONTROLLER": 3,
+        "59_MODEL_FUSION_RUNTIME": 3,
+        "60_ODDS_VALUE_ENGINE": 3,
+        "61_MARKET_RISK_RUNTIME": 3,
+        "62_FINAL_AI_REPORT_GENERATOR": 3,
+        "63_REAL_MATCH_EXECUTION_ENGINE": 3,
+        "64_LIVE_FEATURE_PROCESSOR": 3,
+        "65_AI_FORECAST_SERVICE": 3,
+        "66_PREDICTION_DATABASE": 3,
+        "67_BACKTEST_COMPARE_ENGINE": 3,
+        "68_MATCH_REQUEST_GATEWAY": 3,
+        "68_REAL_ODDS_CONNECTOR": 1,
+        "69_LIVE_MATCH_FEATURE_ENGINE": 1,
+        "69_REAL_ODDS_IMPORTER": 3,
+        "70_AI_PREDICTION_CORE": 1,
+        "70_FEATURE_CALCULATION_ENGINE": 3,
+        "71_AI_PREDICTION_EXECUTOR": 3,
+        "71_SCORE_PROBABILITY_ENGINE": 1,
+        "72_FINAL_PREDICTION_OUTPUT": 3,
+        "72_HANDICAP_DECISION_ENGINE": 1,
+        "73_MARKET_GAME_ANALYSIS_ENGINE": 1,
+        "74_FINAL_MATCH_ADVISOR": 1,
+        "75_AUTO_LEARNING_FEEDBACK": 1,
+        "76_MODEL_FEATURE_INTEGRATION": 1,
+        "77_ELO_RUNTIME_ENGINE": 1,
+        "78_DIXON_COLES_RUNTIME_ENGINE": 1,
+        "79_POISSON_RUNTIME_ENGINE": 1,
+        "80_XGBOOST_RUNTIME_ENGINE": 1,
+        "81_MODEL_FUSION_PREDICTOR": 1,
+        "82_PROBABILITY_CALIBRATION_RUNTIME": 1,
+        "83_VALUE_BET_ENGINE": 1,
+        "84_KELLY_OPTIMIZATION_ENGINE": 1,
+        "85_FINAL_DECISION_ENGINE": 1,
+        "86_REAL_TIME_ODDS_ENGINE": 1,
+        "87_MARKET_MOVEMENT_ANALYZER": 1,
+        "87_MATCH_CONTEXT_ENGINE": 1,
+        "88_HANDICAP_PREDICTION_ENGINE": 1,
+        "88_TEAM_STRENGTH_DYNAMIC_ENGINE": 1,
+        "89_PLAYER_IMPACT_ENGINE": 1,
+        "89_SCORE_SIMULATION_ENGINE": 1,
+        "90_AI_MATCH_SELECTION_ENGINE": 1,
+        "90_FATIGUE_ANALYSIS_ENGINE": 1,
+        "91_CONFIDENCE_RANKING_ENGINE": 1,
+        "91_FORM_TREND_ENGINE": 1,
+        "92_MARKET_EMOTION_ENGINE": 1,
+        "92_RISK_CONTROL_ENGINE": 1,
+        "93_CAPITAL_FLOW_ENGINE": 1,
+        "93_PORTFOLIO_BET_ENGINE": 1,
+        "94_HANDICAP_PENETRATION_ENGINE": 1,
+        "94_MATCH_REVIEW_ENGINE": 1,
+        "95_MODEL_FEEDBACK_ENGINE": 1,
+        "96_AI_PREDICTION_ORCHESTRATOR": 1,
+        "96_MATCH_FEATURE_STORE": 1,
+        "97_FINAL_MATCH_FORECAST_ENGINE": 1,
+        "97_MODEL_WEIGHT_OPTIMIZER": 1,
+        "97_TESTS": 3,
+        "98_AI_DECISION_REPORT_ENGINE": 1,
+        "98_PREDICTION_CONFIDENCE_ENGINE": 1,
+        "99_AI_RISK_CONTROL_ENGINE": 1,
+        "99_DOCUMENTATION": 52,
+        "99_PRODUCTION_MONITOR_ENGINE": 1,
+        "AI_RUNTIME": 13,
+        "archive": 6,
+        "deploy": 14,
+        "deployment_scripts": 7,
+        "USER_INTERFACE_LAYER": 8
+    },
+    "registry": {
+        "status": "OK",
+        "version": "Architecture Registry V1.1",
+        "module_count": 1389
+    },
+    "recommendation": "review_before_cleanup"
+}

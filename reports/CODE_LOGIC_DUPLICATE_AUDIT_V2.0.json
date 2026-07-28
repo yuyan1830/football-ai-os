@@ -1,0 +1,388 @@
+{
+    "version": "CODE_LOGIC_DUPLICATE_AUDIT_V2.0",
+    "time": "2026-07-24 13:02:07",
+    "scan_files": 182,
+    "summary": {
+        "function_duplicate_groups": 33,
+        "class_duplicate_groups": 2
+    },
+    "function_duplicates": [
+        {
+            "function": "score",
+            "files": [
+                "E:\\football_v\\03_MODEL_LAYER\\confidence_model\\confidence_engine_V2.0.py",
+                "E:\\football_v\\03_MODEL_LAYER\\market_model\\market_value_model_V1.0.py",
+                "E:\\football_v\\03_MODEL_LAYER\\risk_model\\risk_engine_V2.0.py",
+                "E:\\football_v\\07_BACKTEST_AI\\confidence_evaluator.py",
+                "E:\\football_v\\27_MODEL_FUSION_ENGINE\\confidence_engine.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "predict",
+            "files": [
+                "E:\\football_v\\03_MODEL_LAYER\\fusion_engine\\fusion_engine_V2.3.py",
+                "E:\\football_v\\12_API_LAYER\\service\\football_prediction_service.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\prediction_core\\predictor.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\prediction_models\\dixon_coles_predictor.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\prediction_models\\elo_predictor.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\prediction_models\\poisson_predictor.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\prediction_models\\xgboost_predictor.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "__init__",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\cleaning\\cleaning_engine.py",
+                "E:\\football_v\\04_Data_Processing_AI\\data_intelligence_engine\\data_intelligence_engine.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_engine\\feature_engine.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\database_connection_pool.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\database_connector.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_cache_manager.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_connector.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_reader.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_service.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_session.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_match_reader.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_pipeline.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_pipeline_runner.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_schema.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_store.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_table_mapper.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_version_manager.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\historical_feature_database.py",
+                "E:\\football_v\\04_Data_Processing_AI\\pipeline\\processing_pipeline.py",
+                "E:\\football_v\\04_Data_Processing_AI\\transformation\\transformation_engine.py",
+                "E:\\football_v\\07_BACKTEST_AI\\backtest_runner.py",
+                "E:\\football_v\\07_BACKTEST_AI\\optimization_scheduler.py",
+                "E:\\football_v\\07_BACKTEST_AI\\roi_tracker.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "load_rules",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\cleaning\\cleaning_engine.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_engine\\feature_engine.py",
+                "E:\\football_v\\04_Data_Processing_AI\\transformation\\transformation_engine.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "run",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\cleaning\\cleaning_engine.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_pipeline.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_pipeline_runner.py",
+                "E:\\football_v\\04_Data_Processing_AI\\pipeline\\processing_pipeline.py",
+                "E:\\football_v\\07_BACKTEST_AI\\backtest_engine.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\prediction_pipeline\\prediction_pipeline.py",
+                "E:\\football_v\\27_MODEL_FUSION_ENGINE\\fusion_engine_V2.1.py",
+                "E:\\football_v\\28_PROBABILITY_CALIBRATION_ENGINE\\odds_calibrator.py",
+                "E:\\football_v\\44_PRODUCTION_PREDICTION_RUNTIME\\module.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "status",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\controller\\processing_controller.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_store.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "analyze",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\data_intelligence_engine\\data_intelligence_engine.py",
+                "E:\\football_v\\04_Data_Processing_AI\\dynamic_feature_weight_engine\\feature_weight_manager.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_importance_analyzer.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\prediction_error_analyzer.py",
+                "E:\\football_v\\07_BACKTEST_AI\\betting_result_analyzer.py",
+                "E:\\football_v\\07_BACKTEST_AI\\feature_feedback.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\market_intelligence\\market_sentiment_engine.py",
+                "E:\\football_v\\30_MARKET_GAME_ENGINE\\market_engine.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "route",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\data_intelligence_engine\\data_router.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_request_router.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "select",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\data_intelligence_engine\\feature_selector.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_selector_ai.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "list_models",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\dynamic_feature_weight_engine\\model_weight_manager.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_model_registry.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "calculate",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\dynamic_feature_weight_engine\\weight_engine.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\elo_history_feature_engine.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\home_away_feature_engine.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\team_form_feature_engine.py",
+                "E:\\football_v\\07_BACKTEST_AI\\accuracy_evaluator.py",
+                "E:\\football_v\\07_BACKTEST_AI\\roi_tracker.py",
+                "E:\\football_v\\27_MODEL_FUSION_ENGINE\\model_weight_engine.py",
+                "E:\\football_v\\29_DECISION_ENGINE\\kelly_decision.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "prepare",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\backtest_dataset_manager.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_model_interface.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "connect",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\database_connector.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_connector.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_reader.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_service.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_session.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\historical_feature_database.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "check",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\database_health_monitor.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_health_check.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_service_health.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\production_release_checker.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\validation_dataset_checker.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\output_engine\\risk_filter.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "get_version",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\database_migration_manager.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_version_manager.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "detect",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_anomaly_detector.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_drift_detector.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\market_intelligence\\capital_flow_detector.py",
+                "E:\\football_v\\30_MARKET_GAME_ENGINE\\capital_flow.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "generate",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_auto_generator.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_generator.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_feature_generator.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\output_engine\\prediction_report.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "build",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_context_builder.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_builder.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_builder_v2.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\historical_feature_builder.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\training_dataset_builder.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "create",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_crud_service.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_probability_schema.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "export",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_exporter.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\model_training_exporter.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "report",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_reporter.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_quality_reporter.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "validate",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_schema_validator.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_validation_service.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_validator.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "load",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_data_loader.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_loader.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_loader_service.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_schema.py",
+                "E:\\football_v\\07_BACKTEST_AI\\historical_match_loader.py",
+                "E:\\football_v\\07_BACKTEST_AI\\prediction_result_loader.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\prediction_pipeline\\feature_pipeline.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "optimize",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_feedback_optimizer.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_optimizer.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "schedule",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_ingestion_scheduler.py",
+                "E:\\football_v\\07_BACKTEST_AI\\optimization_scheduler.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "track",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_lineage_tracker.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\market_intelligence\\odds_tracker.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "get_elo_features",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_model_adapter.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\elo_feature_adapter.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "get_poisson_features",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_model_adapter.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\poisson_feature_adapter.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "get_xgb_features",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_model_adapter.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\xgboost_feature_adapter.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "transform",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\dixon_coles_adapter.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\elo_adapter.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\fusion_adapter.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\poisson_adapter.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\xgboost_adapter.py",
+                "E:\\football_v\\04_Data_Processing_AI\\transformation\\transformation_engine.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "test",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\ai_feature_dataset_test.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\environment_flow_test.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_database_health_test.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_database_integration_test.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_dataset_generation_test.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_ingestion_test.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_store_data_test.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_store_pipeline_test.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_store_test.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_store_v2.6_full_test.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\historical_feature_database_test.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\historical_feature_store_test.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\model_feature_adapter_test.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\postgres_runtime_test.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\training_dataset_pipeline_test.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "evaluate",
+            "files": [
+                "E:\\football_v\\07_BACKTEST_AI\\backtest_engine.py",
+                "E:\\football_v\\07_BACKTEST_AI\\confidence_evaluator.py",
+                "E:\\football_v\\07_BACKTEST_AI\\probability_evaluator.py",
+                "E:\\football_v\\07_BACKTEST_AI\\strategy_performance.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "function": "health_check",
+            "files": [
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\handicap_engine.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\kelly_optimizer.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\market_risk_engine.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\module.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\probability_engine.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\score_prediction_engine.py"
+            ],
+            "risk": "REVIEW"
+        }
+    ],
+    "class_duplicates": [
+        {
+            "class": "DatabaseConnector",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\database_connector.py",
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_connector.py"
+            ],
+            "risk": "REVIEW"
+        },
+        {
+            "class": "FeaturePipeline",
+            "files": [
+                "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_pipeline.py",
+                "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\prediction_pipeline\\feature_pipeline.py"
+            ],
+            "risk": "REVIEW"
+        }
+    ],
+    "merge_candidates": [],
+    "delete_candidates": []
+}

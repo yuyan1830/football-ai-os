@@ -1,0 +1,21 @@
+{
+    "version": "FOOTBALL_AI_OS_V4.0_LEARNING_DATABASE_SCHEMA_AUDIT",
+    "time": "2026-07-23 23:11:22.120646",
+    "database": "E:\\football_v\\07_LEARNING_LAYER\\database\\learning_feedback.db",
+    "tables": {
+        "learning_feedback_registry": [
+            {
+                "name": "id",
+                "type": "INTEGER"
+            },
+            {
+                "name": "status",
+                "type": "TEXT"
+            },
+            {
+                "name": "create_time",
+                "type": "TEXT"
+            }
+        ]
+    }
+}

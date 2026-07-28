@@ -1,0 +1,14 @@
+{
+    "module": "08_DECISION_INTELLIGENCE_LAYER",
+    "version": "V1.0",
+    "future_model_interface": true,
+    "interfaces": [
+        "Elo",
+        "Dixon-Coles",
+        "Poisson",
+        "XGBoost",
+        "Fusion",
+        "Handicap",
+        "MarketRisk"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "framework": "Football AI OS",
+    "module": "Feature Store",
+    "version": "V1.6",
+    "models": [
+        "ELO",
+        "DIXON_COLES",
+        "POISSON",
+        "XGBOOST",
+        "FUSION"
+    ],
+    "status": "READY"
+}

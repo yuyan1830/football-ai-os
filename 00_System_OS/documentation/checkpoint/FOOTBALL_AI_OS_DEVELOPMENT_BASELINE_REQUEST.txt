@@ -1,0 +1,27 @@
+﻿Football AI OS Development Baseline Request
+
+When starting new development, provide:
+
+[Framework]
+FOOTBALL_AI_OS_FRAMEWORK_V1.1_FROZEN.md
+
+
+[Database]
+FOOTBALL_AI_OS_DATABASE_ARCHITECTURE_V2.1_FROZEN.md
+
+
+[Checkpoint]
+FOOTBALL_V_CHECKPOINT_SYSTEM_SCAN_V4.0
+
+
+[Directory]
+football_v_structure.txt
+
+
+[Database Status]
+check_db_tables.py output
+
+
+[Task]
+Describe new development target.
+

@@ -1,0 +1,13 @@
+{
+    "framework": "Football AI OS",
+    "module": "02_DATA_PLATFORM",
+    "version": "V1.0",
+    "lineage": [
+        {
+            "source": "01_DATA_SOURCE",
+            "target": "02_DATA_PLATFORM/raw",
+            "process": "import",
+            "time": "2026-07-20 18:07:23.682222"
+        }
+    ]
+}

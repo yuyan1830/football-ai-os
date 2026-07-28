@@ -1,0 +1,8 @@
+{
+    "framework": "Football AI OS",
+    "module": "Feature Store",
+    "version": "V3.0",
+    "intelligent_feature": true,
+    "self_learning": true,
+    "legacy_project_access": false
+}

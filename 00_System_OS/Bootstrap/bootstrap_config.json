@@ -1,0 +1,15 @@
+{
+    "System":
+    "Football AI OS",
+
+    "Version":
+    "1.0",
+
+    "Required_Modules":
+    [
+        "File_Manager",
+        "Automation",
+        "Monitor",
+        "Recovery"
+    ]
+}

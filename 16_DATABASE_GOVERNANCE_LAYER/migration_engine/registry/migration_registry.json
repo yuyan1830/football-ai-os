@@ -1,0 +1,11 @@
+
+{
+    "module":
+    "Migration Engine",
+
+    "version":
+    "V1.0",
+
+    "migration_status":
+    "INITIALIZED"
+}

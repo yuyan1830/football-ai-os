@@ -1,0 +1,6 @@
+{
+    "environment": "development",
+    "database_path": "E:\\football_v\\database\\development",
+    "legacy_access": false,
+    "version": "V1.2"
+}

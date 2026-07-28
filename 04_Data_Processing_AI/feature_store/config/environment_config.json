@@ -1,0 +1,12 @@
+{
+    "framework": "Football AI OS",
+    "module": "Feature Store",
+    "version": "V1.7",
+    "environments": [
+        "development",
+        "validation",
+        "production"
+    ],
+    "data_flow": "development_to_validation_to_production",
+    "legacy_project_access": false
+}

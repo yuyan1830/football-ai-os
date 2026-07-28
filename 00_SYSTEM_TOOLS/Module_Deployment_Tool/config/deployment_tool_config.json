@@ -1,0 +1,12 @@
+{
+    "tool": "Module Deployment Tool",
+    "version": "V1.1",
+    "framework": "Football AI OS Ultimate Fusion Framework V1.5",
+    "validators": [
+        "syntax",
+        "encoding",
+        "path",
+        "json"
+    ],
+    "status": "active"
+}

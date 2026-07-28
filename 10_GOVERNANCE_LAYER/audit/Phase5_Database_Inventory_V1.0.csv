@@ -1,0 +1,6 @@
+Database,Path,Layer,Size_MB,Tables,Schema_Status,SHA256,Validation_Time
+market_value.db,E:\football_v\05_MARKET_LAYER\database\market_value.db,05_MARKET_LAYER,0.01,1,PASS,d83e5e7cf21690b19485828393217749ffe794447f7dfbe17aaf9dfd1d56ded2,2026-07-25 13:12:57.265772
+risk_manager.db,E:\football_v\06_RISK_LAYER\database\risk_manager.db,06_RISK_LAYER,0.01,1,PASS,a69070d4e4cd989662cb0fb6e424d83a1f9dae9a91a9450a429cc4a1c121e68b,2026-07-25 13:12:57.268732
+learning_feedback.db,E:\football_v\07_LEARNING_LAYER\database\learning_feedback.db,07_LEARNING_LAYER,0.02,3,PASS,d7ce39a0d7fb7c0f846368009fe7a7f56f710891e37d2505c55f829941d7ae27,2026-07-25 13:12:57.276712
+decision_history.db,E:\football_v\08_DECISION_LAYER\database\decision_history.db,08_DECISION_LAYER,0.01,2,PASS,b4e5d19ecbd75631a626860528cfc81d9ed21afdd43a2fff8069fa811d18abad,2026-07-25 13:12:57.279768
+application_runtime.db,E:\football_v\09_APPLICATION_LAYER\runtime\application_runtime.db,09_APPLICATION_LAYER,0.01,1,PASS,bd475ca4a278cada49fd2eea6dd62df8c04b7c7f02c38db1ffdefc79809e1f60,2026-07-25 13:12:57.283758

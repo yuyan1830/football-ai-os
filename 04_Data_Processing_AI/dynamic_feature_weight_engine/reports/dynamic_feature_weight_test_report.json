@@ -1,0 +1,32 @@
+{
+    "framework": "Football AI OS",
+    "module": "04_DATA_PROCESSING_AI",
+    "service": "dynamic_feature_weight_test",
+    "version": "V1.0",
+    "status": "PASS",
+    "total_tests": 4,
+    "failed": 0,
+    "tests": [
+        {
+            "test": "weight_engine",
+            "status": "PASS",
+            "message": "engine ready"
+        },
+        {
+            "test": "model_weight",
+            "status": "PASS",
+            "message": "weight sum=1.0"
+        },
+        {
+            "test": "model_registry_interface",
+            "status": "PASS",
+            "message": "['Elo', 'Dixon-Coles', 'Poisson', 'XGBoost', 'Fusion']"
+        },
+        {
+            "test": "future_model_interface",
+            "status": "PASS",
+            "message": "new model can register"
+        }
+    ],
+    "time": "2026-07-22 13:23:03.279176"
+}

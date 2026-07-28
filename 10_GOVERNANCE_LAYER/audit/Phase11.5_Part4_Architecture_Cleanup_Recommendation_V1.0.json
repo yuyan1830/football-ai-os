@@ -1,0 +1,52 @@
+{
+    "Phase": "PHASE11.5_PART4_ARCHITECTURE_CLEANUP_RECOMMENDATION",
+    "Architecture": "Football_AI_OS_Betting_Intelligence_System_Omega_V3.2",
+    "Baseline": "Football_AI_OS_Betting_Intelligence_System_Omega_V3.2_Baseline.md",
+    "Legacy_Source": "Football_AI_OS_Legacy_Asset_Index_V1.0",
+    "Rule_Source": "CLAUDE.md",
+    "Status": "RECOMMENDATION_ONLY",
+    "Recommendation": {
+        "KEEP_CORE_RUNTIME": [
+            "AI_RUNTIME",
+            "11_System_Intelligence",
+            "06_PREDICTION_INTELLIGENCE_ENGINE",
+            "18_MODEL_EXECUTION_ENGINE",
+            "27_MODEL_FUSION_ENGINE",
+            "08_DECISION_LAYER",
+            "12_API_LAYER"
+        ],
+        "OBSERVE_LAYER": [
+            "05_MODEL_AI",
+            "09_APPLICATION_LAYER",
+            "17_MODEL_STORE_LAYER",
+            "50_MODEL_REGISTRY"
+        ],
+        "FREEZE_CANDIDATE": [
+            "05_MODEL_AI",
+            "40_MODEL_TRAINING_PIPELINE",
+            "23_MODEL_TRAINING_ENGINE"
+        ],
+        "ARCHIVE_CANDIDATE": [
+            "archive",
+            "99_DOCUMENTATION\\architecture_cleanup",
+            "99_DOCUMENTATION\\DEPRECATED_ARCHIVE"
+        ],
+        "NO_MODIFY": [
+            "01_DATA_LAYER",
+            "02_FEATURE_LAYER",
+            "03_MODEL_LAYER",
+            "06_PREDICTION_INTELLIGENCE_ENGINE",
+            "08_DECISION_LAYER",
+            "10_GOVERNANCE_LAYER",
+            "11_SIMULATION_LAYER"
+        ]
+    },
+    "Execution": {
+        "Delete": false,
+        "Rename": false,
+        "Move": false,
+        "Code_Modification": false,
+        "Database_Modification": false
+    },
+    "Validation_Time": "2026-07-25 15:56:24.357056"
+}

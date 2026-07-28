@@ -1,0 +1,5 @@
+automation:
+  enabled: true
+  workflow: asset_maintenance
+  schedule: daily
+  time: 02:00

@@ -1,0 +1,127 @@
+{
+    "schema_version": "1.1",
+
+    "asset_definition": {
+
+        "Asset_ID": {
+            "type": "string",
+            "description": "Unique asset identifier"
+        },
+
+        "File_Name": {
+            "type": "string",
+            "description": "Original file name"
+        },
+
+        "Full_Path": {
+            "type": "string",
+            "description": "Physical storage location"
+        },
+
+
+        "Source": {
+            "type": "string",
+            "description": "Data source or origin"
+        },
+
+
+        "Data_Period": {
+            "type": "string",
+            "description": "Business period represented by data"
+        },
+
+
+        "Version": {
+            "type": "string",
+            "description": "File version"
+        },
+
+
+        "Category": {
+
+            "type": "string",
+
+            "allowed_values": [
+
+                "DATA",
+                "CODE",
+                "CONFIG",
+                "MODEL",
+                "DOCUMENT",
+                "UNKNOWN"
+
+            ]
+        },
+
+
+        "SHA256": {
+
+            "type": "string",
+
+            "description":
+            "File content fingerprint"
+
+        },
+
+
+        "Size": {
+
+            "type": "integer",
+
+            "description":
+            "File size in bytes"
+
+        },
+
+
+        "Create_Time": {
+
+            "type": "datetime"
+
+        },
+
+
+        "Modify_Time": {
+
+            "type": "datetime"
+
+        },
+
+
+        "Owner_Module": {
+
+            "type": "string",
+
+            "description":
+            "Module responsible for this asset"
+
+        },
+
+
+        "Lifecycle_Status": {
+
+            "type": "string",
+
+            "allowed_values": [
+
+                "NEW",
+                "REGISTERED",
+                "VALIDATED",
+                "ACTIVE",
+                "ARCHIVED",
+                "DEPRECATED",
+                "DELETED"
+
+            ]
+
+        },
+
+
+        "Last_Access_Time": {
+
+            "type": "datetime"
+
+        }
+
+    }
+}

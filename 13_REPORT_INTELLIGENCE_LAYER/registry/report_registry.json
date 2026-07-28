@@ -1,0 +1,15 @@
+{
+    "module": "13_REPORT_INTELLIGENCE_LAYER",
+    "version": "V1.0",
+    "outputs": [
+        "match_report",
+        "probability_report",
+        "model_report",
+        "market_report",
+        "risk_report",
+        "post_match_report",
+        "visualization",
+        "export"
+    ],
+    "future_interface": true
+}

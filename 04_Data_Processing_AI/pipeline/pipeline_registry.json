@@ -1,0 +1,28 @@
+﻿{
+    "framework":"Football AI OS",
+
+    "module":"04_DATA_PROCESSING_AI",
+
+    "service":"processing_pipeline",
+
+    "version":"V1.0",
+
+    "stages":[
+
+        {
+            "name":"cleaning",
+            "status":"ready"
+        },
+
+        {
+            "name":"transformation",
+            "status":"ready"
+        },
+
+        {
+            "name":"feature_engineering",
+            "status":"ready"
+        }
+
+    ]
+}

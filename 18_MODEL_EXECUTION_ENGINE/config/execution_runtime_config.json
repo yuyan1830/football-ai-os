@@ -1,0 +1,7 @@
+{
+  "environment": "production",
+  "model_layer": "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER",
+  "feature_store": "E:\\football_v\\04_Data_Processing_AI\\feature_store",
+  "fusion_engine": "fusion_engine_V1_2",
+  "pipeline_version": "V1.2"
+}

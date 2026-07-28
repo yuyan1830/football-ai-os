@@ -1,0 +1,30 @@
+﻿{
+    "version":  "FOOTBALL_AI_OS_V4.0_FINAL_AUDIT",
+    "decision":  "AUDIT_ONLY_NO_DELETE",
+    "duplicate_candidates":  [
+                                 "deploy_MODEL_LAYER_V2.10_OPTIMIZATION_ALL.ps1",
+                                 "deploy_MODEL_LAYER_V2.11_FEEDBACK_LOOP_ALL.ps1",
+                                 "deploy_Football_AI_OS_V2.7_REAL_SIMULATION_ALL.ps1",
+                                 "deploy_Football_AI_OS_V2.8_REAL_PREDICTION_API_ALL.ps1",
+                                 "deploy_Football_AI_OS_V2.9_REAL_END_TO_END_TEST_ALL.ps1",
+                                 "real_model_runtime_adapter_V3.2.py",
+                                 "real_model_runtime_adapter_V3.2.1.py"
+                             ],
+    "core_layers":  {
+                        "DATA":  "EXISTS",
+                        "SIMULATION":  "EXISTS",
+                        "OPERATION":  "EXISTS",
+                        "API":  "EXISTS",
+                        "MODEL":  "EXISTS",
+                        "PREDICTION":  "EXISTS"
+                    },
+    "time":  "2026-07-23 21:11:40",
+    "production_assets":  [
+                              "FINAL_RELEASE_V4.0",
+                              "FINAL_SYSTEM_COMPLETION_V4.0",
+                              "V4_RUNTIME_VALIDATION_V4.0",
+                              "FIRST_REAL_PREDICTION_TEST_V4.0",
+                              "MODEL_DATA_SNAPSHOT_V4.0",
+                              "MODEL_TRAINING_ENV_V4.0"
+                          ]
+}

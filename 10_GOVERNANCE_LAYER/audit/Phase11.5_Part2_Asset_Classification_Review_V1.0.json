@@ -1,0 +1,182 @@
+{
+    "Phase": "PHASE11.5_PART2_ASSET_CLASSIFICATION_REVIEW",
+    "Architecture": "Football_AI_OS_Betting_Intelligence_System_Omega_V3.2",
+    "Baseline": "Football_AI_OS_Betting_Intelligence_System_Omega_V3.2_Baseline.md",
+    "Legacy_Source": "Football_AI_OS_Legacy_Asset_Index_V1.0",
+    "Rule_Source": "CLAUDE.md",
+    "Status": "ASSET_SCAN_COMPLETED",
+    "Classification": {
+        "Runtime_Core": [
+            {
+                "Path": "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE",
+                "File_Count": 41,
+                "Sample_Files": [
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\connector_manager.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\dixon_coles_connector.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\elo_connector.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\poisson_connector.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\xgboost_connector.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\__pycache__\\connector_manager.cpython-312.pyc",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\confidence_calibration\\calibration_engine.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\confidence_calibration\\reliability.py",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\confidence_calibration\\__pycache__\\calibration_engine.cpython-312.pyc",
+                    "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\confidence_engine\\confidence_manager.py"
+                ]
+            },
+            {
+                "Path": "E:\\football_v\\11_System_Intelligence",
+                "File_Count": 242,
+                "Sample_Files": [
+                    "E:\\football_v\\11_System_Intelligence\\accuracy_report.py",
+                    "E:\\football_v\\11_System_Intelligence\\adaptive_feedback.py",
+                    "E:\\football_v\\11_System_Intelligence\\agent_fusion_engine.py",
+                    "E:\\football_v\\11_System_Intelligence\\agent_manager.py",
+                    "E:\\football_v\\11_System_Intelligence\\ai_prediction_os.py",
+                    "E:\\football_v\\11_System_Intelligence\\backtest_engine.py",
+                    "E:\\football_v\\11_System_Intelligence\\bankroll_manager.py",
+                    "E:\\football_v\\11_System_Intelligence\\beidan_engine.py",
+                    "E:\\football_v\\11_System_Intelligence\\betting_recommendation_engine.py",
+                    "E:\\football_v\\11_System_Intelligence\\bet_strategy_engine.py"
+                ]
+            },
+            {
+                "Path": "E:\\football_v\\18_MODEL_EXECUTION_ENGINE",
+                "File_Count": 15,
+                "Sample_Files": [
+                    "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\deploy_execution_engine_batch_01_V1.0.py",
+                    "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\fusion_engine.py",
+                    "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\module.py",
+                    "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\batch_predictor\\batch_predictor_V1.0.py",
+                    "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\confidence_engine\\confidence_engine_V1.0.py",
+                    "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\config\\execution_config.json",
+                    "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\execution_monitor\\execution_monitor_V1.0.py",
+                    "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\feature_loader\\feature_loader_V1.0.py",
+                    "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\fusion_engine\\fusion_engine_V1.0.py",
+                    "E:\\football_v\\18_MODEL_EXECUTION_ENGINE\\model_loader\\model_loader_V1.0.py"
+                ]
+            },
+            {
+                "Path": "E:\\football_v\\27_MODEL_FUSION_ENGINE",
+                "File_Count": 5,
+                "Sample_Files": [
+                    "E:\\football_v\\27_MODEL_FUSION_ENGINE\\confidence_engine.py",
+                    "E:\\football_v\\27_MODEL_FUSION_ENGINE\\fusion_engine_V2.1.py",
+                    "E:\\football_v\\27_MODEL_FUSION_ENGINE\\model_weight_engine.py",
+                    "E:\\football_v\\27_MODEL_FUSION_ENGINE\\registry\\27_MODEL_FUSION_ENGINE_registry.json",
+                    "E:\\football_v\\27_MODEL_FUSION_ENGINE\\registry\\fusion_registry.json"
+                ]
+            },
+            {
+                "Path": "E:\\football_v\\AI_RUNTIME",
+                "File_Count": 25,
+                "Sample_Files": [
+                    "E:\\football_v\\AI_RUNTIME\\ai_report.py",
+                    "E:\\football_v\\AI_RUNTIME\\console.py",
+                    "E:\\football_v\\AI_RUNTIME\\engine.py",
+                    "E:\\football_v\\AI_RUNTIME\\final_decision.py",
+                    "E:\\football_v\\AI_RUNTIME\\model_connector.py",
+                    "E:\\football_v\\AI_RUNTIME\\model_fusion.py",
+                    "E:\\football_v\\AI_RUNTIME\\model_outputs.py",
+                    "E:\\football_v\\AI_RUNTIME\\model_runtime_connector.py",
+                    "E:\\football_v\\AI_RUNTIME\\prediction_executor.py",
+                    "E:\\football_v\\AI_RUNTIME\\report.py"
+                ]
+            }
+        ],
+        "Governance_Asset": [
+            {
+                "Path": "E:\\football_v\\17_MODEL_STORE_LAYER",
+                "File_Count": 17,
+                "Sample_Files": [
+                    "E:\\football_v\\17_MODEL_STORE_LAYER\\deploy_model_store_batch_01_V1.0.py",
+                    "E:\\football_v\\17_MODEL_STORE_LAYER\\deploy_model_store_batch_02_V1.0.py",
+                    "E:\\football_v\\17_MODEL_STORE_LAYER\\model_loader.py",
+                    "E:\\football_v\\17_MODEL_STORE_LAYER\\module.py",
+                    "E:\\football_v\\17_MODEL_STORE_LAYER\\config\\model_store_config.json",
+                    "E:\\football_v\\17_MODEL_STORE_LAYER\\model_artifact_manager\\model_artifact_manager_V1.0.py",
+                    "E:\\football_v\\17_MODEL_STORE_LAYER\\model_cache_manager\\model_cache_manager_V1.0.py",
+                    "E:\\football_v\\17_MODEL_STORE_LAYER\\model_deployment_manager\\model_deployment_manager_V1.0.py",
+                    "E:\\football_v\\17_MODEL_STORE_LAYER\\model_loader\\model_loader_V1.0.py",
+                    "E:\\football_v\\17_MODEL_STORE_LAYER\\model_metrics_manager\\model_metrics_manager_V1.0.py"
+                ]
+            },
+            {
+                "Path": "E:\\football_v\\50_MODEL_REGISTRY",
+                "File_Count": 1,
+                "Sample_Files": [
+                    "E:\\football_v\\50_MODEL_REGISTRY\\models\\elo_model_V4.0.json"
+                ]
+            }
+        ],
+        "Training_Asset": [
+            {
+                "Path": "E:\\football_v\\23_MODEL_TRAINING_ENGINE",
+                "File_Count": 15,
+                "Sample_Files": [
+                    "E:\\football_v\\23_MODEL_TRAINING_ENGINE\\dixon_coles_trainer.py",
+                    "E:\\football_v\\23_MODEL_TRAINING_ENGINE\\elo_trainer.py",
+                    "E:\\football_v\\23_MODEL_TRAINING_ENGINE\\fusion_trainer.py",
+                    "E:\\football_v\\23_MODEL_TRAINING_ENGINE\\module.py",
+                    "E:\\football_v\\23_MODEL_TRAINING_ENGINE\\poisson_trainer.py",
+                    "E:\\football_v\\23_MODEL_TRAINING_ENGINE\\xgboost_trainer.py",
+                    "E:\\football_v\\23_MODEL_TRAINING_ENGINE\\backtest_connector\\backtest_connector_V2.0.py",
+                    "E:\\football_v\\23_MODEL_TRAINING_ENGINE\\dataset_manager\\dataset_manager_V2.0.py",
+                    "E:\\football_v\\23_MODEL_TRAINING_ENGINE\\evaluation_engine\\evaluation_engine_V2.0.py",
+                    "E:\\football_v\\23_MODEL_TRAINING_ENGINE\\feature_loader\\feature_loader_V2.0.py"
+                ]
+            },
+            {
+                "Path": "E:\\football_v\\40_MODEL_TRAINING_PIPELINE",
+                "File_Count": 9,
+                "Sample_Files": [
+                    "E:\\football_v\\40_MODEL_TRAINING_PIPELINE\\config\\training_config_V4.0.json",
+                    "E:\\football_v\\40_MODEL_TRAINING_PIPELINE\\reports\\TRAINING_EXECUTION_STATUS_V4.0.json",
+                    "E:\\football_v\\40_MODEL_TRAINING_PIPELINE\\trainer\\dixon_coles_trainer_V4.0.py",
+                    "E:\\football_v\\40_MODEL_TRAINING_PIPELINE\\trainer\\elo_trainer_V4.0.py",
+                    "E:\\football_v\\40_MODEL_TRAINING_PIPELINE\\trainer\\fusion_trainer_V4.0.py",
+                    "E:\\football_v\\40_MODEL_TRAINING_PIPELINE\\trainer\\poisson_trainer_V4.0.py",
+                    "E:\\football_v\\40_MODEL_TRAINING_PIPELINE\\trainer\\train_all_models_V4.0.json",
+                    "E:\\football_v\\40_MODEL_TRAINING_PIPELINE\\trainer\\train_all_models_V4.0.py",
+                    "E:\\football_v\\40_MODEL_TRAINING_PIPELINE\\trainer\\xgboost_trainer_V4.0.py"
+                ]
+            }
+        ],
+        "Legacy_Asset": [],
+        "Freeze_Candidate": [
+            {
+                "Path": "E:\\football_v\\05_MODEL_AI",
+                "File_Count": 18,
+                "Sample_Files": [
+                    "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\feature_store_connector.py",
+                    "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\model_interface.py",
+                    "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\model_loader.py",
+                    "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\model_registry.py",
+                    "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\model_runtime.py",
+                    "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\backtest\\backtest_engine.py",
+                    "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\backtest\\model_accuracy_report.py",
+                    "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\backtest\\prediction_tracker.py",
+                    "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\backtest\\roi_analyzer.py",
+                    "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\config\\model_config.json"
+                ]
+            }
+        ]
+    },
+    "Scanned_Path": [
+        "E:\\football_v\\05_MODEL_AI",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE",
+        "E:\\football_v\\11_System_Intelligence",
+        "E:\\football_v\\17_MODEL_STORE_LAYER",
+        "E:\\football_v\\18_MODEL_EXECUTION_ENGINE",
+        "E:\\football_v\\23_MODEL_TRAINING_ENGINE",
+        "E:\\football_v\\27_MODEL_FUSION_ENGINE",
+        "E:\\football_v\\40_MODEL_TRAINING_PIPELINE",
+        "E:\\football_v\\50_MODEL_REGISTRY",
+        "E:\\football_v\\AI_RUNTIME"
+    ],
+    "Modification": {
+        "Database_Content": false,
+        "Business_Logic": false,
+        "Model_Code": false
+    },
+    "Validation_Time": "2026-07-25 14:56:56.565161"
+}

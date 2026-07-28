@@ -1,0 +1,11 @@
+{
+    "module": "Dynamic Feature Weight Engine",
+    "version": "V1.0",
+    "default_weights": {
+        "Elo": 0.15,
+        "Dixon-Coles": 0.18,
+        "Poisson": 0.12,
+        "XGBoost": 0.25,
+        "Fusion": 0.3
+    }
+}

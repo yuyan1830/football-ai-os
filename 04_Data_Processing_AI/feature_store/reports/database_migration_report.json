@@ -1,0 +1,8 @@
+{
+    "framework": "Football AI OS",
+    "module": "Feature Store",
+    "version": "V2.1",
+    "database": "PostgreSQL",
+    "migration": "V2.1_create_historical_feature_tables.sql",
+    "status": "READY"
+}

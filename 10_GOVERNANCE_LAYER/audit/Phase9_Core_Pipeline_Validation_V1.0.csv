@@ -1,0 +1,7 @@
+Component,Exists,Database_Count,SQLite_PASS,Architecture,Baseline,Legacy_Source,Rule_Source,Validation_Time
+MODEL_LAYER,True,3,3,Football_AI_OS_Betting_Intelligence_System_Omega_V3.2,Football_AI_OS_Betting_Intelligence_System_Omega_V3.2_Baseline.md,Football_AI_OS_Legacy_Asset_Index_V1.0,CLAUDE.md,2026-07-25 13:53:35.989743
+PREDICTION_LAYER,True,3,3,Football_AI_OS_Betting_Intelligence_System_Omega_V3.2,Football_AI_OS_Betting_Intelligence_System_Omega_V3.2_Baseline.md,Football_AI_OS_Legacy_Asset_Index_V1.0,CLAUDE.md,2026-07-25 13:53:35.994730
+MARKET_LAYER,True,1,1,Football_AI_OS_Betting_Intelligence_System_Omega_V3.2,Football_AI_OS_Betting_Intelligence_System_Omega_V3.2_Baseline.md,Football_AI_OS_Legacy_Asset_Index_V1.0,CLAUDE.md,2026-07-25 13:53:35.995727
+RISK_LAYER,True,1,1,Football_AI_OS_Betting_Intelligence_System_Omega_V3.2,Football_AI_OS_Betting_Intelligence_System_Omega_V3.2_Baseline.md,Football_AI_OS_Legacy_Asset_Index_V1.0,CLAUDE.md,2026-07-25 13:53:35.997815
+DECISION_LAYER,True,1,1,Football_AI_OS_Betting_Intelligence_System_Omega_V3.2,Football_AI_OS_Betting_Intelligence_System_Omega_V3.2_Baseline.md,Football_AI_OS_Legacy_Asset_Index_V1.0,CLAUDE.md,2026-07-25 13:53:36.000511
+APPLICATION_LAYER,True,1,1,Football_AI_OS_Betting_Intelligence_System_Omega_V3.2,Football_AI_OS_Betting_Intelligence_System_Omega_V3.2_Baseline.md,Football_AI_OS_Legacy_Asset_Index_V1.0,CLAUDE.md,2026-07-25 13:53:36.002499

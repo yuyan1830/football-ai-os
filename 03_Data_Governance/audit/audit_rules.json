@@ -1,0 +1,40 @@
+﻿{
+    "framework":"Football AI OS",
+    "module":"03_DATA_GOVERNANCE",
+    "service":"audit_engine",
+    "version":"V1.0",
+
+    "rules":[
+
+        {
+            "name":"quality_engine",
+            "path":"quality/quality_engine.py"
+        },
+
+        {
+            "name":"validation_engine",
+            "path":"validation/validation_engine.py"
+        },
+
+        {
+            "name":"lineage_engine",
+            "path":"lineage/lineage_engine.py"
+        },
+
+        {
+            "name":"quality_report",
+            "path":"reports/quality_report.json"
+        },
+
+        {
+            "name":"validation_report",
+            "path":"reports/validation_report.json"
+        },
+
+        {
+            "name":"lineage_report",
+            "path":"reports/lineage_report.json"
+        }
+
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "version": "TRAIN_ALL_MODELS_V4.0",
+    "status": "TRAINING_ENGINE_READY",
+    "execution_order": [
+        "ELO",
+        "Dixon-Coles",
+        "Poisson",
+        "XGBoost",
+        "Fusion"
+    ],
+    "architecture_change": false,
+    "weight_change": false
+}

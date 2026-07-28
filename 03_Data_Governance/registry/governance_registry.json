@@ -1,0 +1,7 @@
+﻿{
+    "framework":"Football AI OS",
+    "module":"03_DATA_GOVERNANCE",
+    "service":"governance_controller",
+    "version":"V1.0",
+    "status":"active"
+}

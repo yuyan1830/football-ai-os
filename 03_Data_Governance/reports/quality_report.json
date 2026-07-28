@@ -1,0 +1,21 @@
+{
+    "framework": "Football AI OS",
+    "module": "03_DATA_GOVERNANCE",
+    "service": "quality_engine",
+    "version": "V1.0",
+    "score": 100,
+    "status": "PASS",
+    "checks": [
+        {
+            "check": "file_exists",
+            "path": "E:\\football_v\\02_Data_Platform",
+            "result": true
+        },
+        {
+            "check": "file_exists",
+            "path": "E:\\football_v\\01_Data_Source",
+            "result": true
+        }
+    ],
+    "time": "2026-07-20 18:19:20.659107"
+}
