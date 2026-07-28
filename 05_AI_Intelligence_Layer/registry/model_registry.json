@@ -1,0 +1,39 @@
+﻿{
+    "framework":"Football AI OS",
+
+    "module":"05_AI_INTELLIGENCE_LAYER",
+
+    "version":"V1.0",
+
+    "status":"active",
+
+    "models":[
+
+        {
+            "name":"Elo",
+            "status":"planned"
+        },
+
+        {
+            "name":"Dixon-Coles",
+            "status":"planned"
+        },
+
+        {
+            "name":"Poisson",
+            "status":"planned"
+        },
+
+        {
+            "name":"XGBoost",
+            "status":"planned"
+        },
+
+        {
+            "name":"Fusion",
+            "status":"planned"
+        }
+
+    ]
+
+}

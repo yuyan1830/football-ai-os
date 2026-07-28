@@ -1,0 +1,31 @@
+﻿Football AI OS
+
+Checkpoint-022
+
+Module:
+Exception Service
+
+Version:
+V1.0
+
+
+Completed:
+
+__init__.py
+
+base_exception.py
+
+error_codes.py
+
+exception_handler.py
+
+
+Status:
+
+Stable
+
+
+Architecture:
+
+Enterprise Architecture V1.1
+

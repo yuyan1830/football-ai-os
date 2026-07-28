@@ -1,0 +1,32 @@
+{
+    "version": "PREDICTION_ENGINE_V1.0",
+    "time": "2026-07-23T19:03:58.316743",
+    "database_check": {
+        "system": {
+            "exists": true,
+            "size": 28672,
+            "sha256": "2dda78c5c47fe3499df9a4f1c64eb1ffdb08d14aab749fa1d906cb8344bcffaf",
+            "tables": 6
+        },
+        "match": {
+            "exists": true,
+            "size": 268873728,
+            "sha256": "672fa9f2d3a30529e3e2a8eba1ec20807ecf400c7f31ab01ada634ac3e975aa9",
+            "tables": 21
+        },
+        "feature": {
+            "exists": true,
+            "size": 15728640,
+            "sha256": "3230801a815152209d1ba8f3d1a23d864646e4f9b43de3c24d70b852f1389377",
+            "tables": 8
+        },
+        "model": {
+            "exists": true,
+            "size": 36864,
+            "sha256": "03dcfd623d91089307e0372bf7b35098372451ba902b706515181cdd7755c08d",
+            "tables": 8
+        }
+    },
+    "prediction_records": 2,
+    "status": "PASS"
+}

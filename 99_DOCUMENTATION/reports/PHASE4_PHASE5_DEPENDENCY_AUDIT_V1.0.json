@@ -1,0 +1,92 @@
+﻿[
+    {
+        "Module":  "06_PREDICTION_ENGINE",
+        "Exists":  true,
+        "FileCount":  16,
+        "LegacyReferenceCount":  0,
+        "LegacyReferences":  [
+
+                             ]
+    },
+    {
+        "Module":  "07_BACKTEST_AI",
+        "Exists":  true,
+        "FileCount":  16,
+        "LegacyReferenceCount":  0,
+        "LegacyReferences":  [
+
+                             ]
+    },
+    {
+        "Module":  "08_DECISION_ENGINE",
+        "Exists":  true,
+        "FileCount":  14,
+        "LegacyReferenceCount":  0,
+        "LegacyReferences":  [
+
+                             ]
+    },
+    {
+        "Module":  "09_SELF_LEARNING",
+        "Exists":  false,
+        "FileCount":  0,
+        "LegacyReferenceCount":  0,
+        "LegacyReferences":  [
+
+                             ]
+    },
+    {
+        "Module":  "10_LEARNING_ENGINE",
+        "Exists":  false,
+        "FileCount":  0,
+        "LegacyReferenceCount":  0,
+        "LegacyReferences":  [
+
+                             ]
+    },
+    {
+        "Module":  "11_SIMULATION_LAYER",
+        "Exists":  true,
+        "FileCount":  5,
+        "LegacyReferenceCount":  0,
+        "LegacyReferences":  [
+
+                             ]
+    },
+    {
+        "Module":  "12_FEEDBACK_ENGINE",
+        "Exists":  false,
+        "FileCount":  0,
+        "LegacyReferenceCount":  0,
+        "LegacyReferences":  [
+
+                             ]
+    },
+    {
+        "Module":  "13_KNOWLEDGE_ENGINE",
+        "Exists":  false,
+        "FileCount":  0,
+        "LegacyReferenceCount":  0,
+        "LegacyReferences":  [
+
+                             ]
+    },
+    {
+        "Module":  "14_OPTIMIZATION_ENGINE",
+        "Exists":  false,
+        "FileCount":  0,
+        "LegacyReferenceCount":  0,
+        "LegacyReferences":  [
+
+                             ]
+    },
+    {
+        "Module":  "15_AUTONOMOUS_ENGINE",
+        "Exists":  false,
+        "FileCount":  0,
+        "LegacyReferenceCount":  0,
+        "LegacyReferences":  [
+
+                             ]
+    }
+]

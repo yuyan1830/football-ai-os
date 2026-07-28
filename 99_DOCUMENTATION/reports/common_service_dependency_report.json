@@ -1,0 +1,62 @@
+{
+    "time": "2026-07-20T10:11:08.503171",
+    "project": "E:\\football_v",
+    "scan_files": 94,
+    "old_core_dependencies": {
+        "core.db_connection": [
+            "00_System_OS\\01_DATA_LAYER\\main.py",
+            "00_System_OS\\01_DATA_LAYER\\import_pipeline\\duplicate_checker.py",
+            "00_System_OS\\01_DATA_LAYER\\quality\\quality_checker.py",
+            "00_System_OS\\01_DATA_LAYER\\quality\\quality_report.py",
+            "00_System_OS\\01_DATA_LAYER\\registry\\data_lineage.py",
+            "00_System_OS\\01_DATA_LAYER\\registry\\import_tracker.py",
+            "00_System_OS\\01_DATA_LAYER\\registry\\quality_score.py",
+            "00_System_OS\\01_DATA_LAYER\\registry\\registry_manager.py",
+            "00_System_OS\\01_DATA_LAYER\\scripts\\quality_rule_init.py",
+            "00_System_OS\\01_DATA_LAYER\\scripts\\registry_init.py",
+            "00_System_OS\\01_DATA_LAYER\\scripts\\retry_policy_init.py",
+            "00_System_OS\\01_DATA_LAYER\\scripts\\task_queue_init.py",
+            "00_System_OS\\01_DATA_LAYER\\task_queue\\manual_task.py",
+            "00_System_OS\\01_DATA_LAYER\\task_queue\\retry_engine.py",
+            "00_System_OS\\01_DATA_LAYER\\task_queue\\retry_logger.py",
+            "00_System_OS\\01_DATA_LAYER\\task_queue\\task_history.py",
+            "00_System_OS\\01_DATA_LAYER\\task_queue\\task_query.py",
+            "00_System_OS\\scripts\\common_service_migration_check.py"
+        ],
+        "core.logger": [
+            "00_System_OS\\01_DATA_LAYER\\main.py",
+            "00_System_OS\\scripts\\common_service_migration_check.py"
+        ],
+        "core.file_service": [
+            "00_System_OS\\scripts\\common_service_migration_check.py"
+        ],
+        "core.hash_service": [
+            "00_System_OS\\01_DATA_LAYER\\import_pipeline\\importer.py",
+            "00_System_OS\\01_DATA_LAYER\\scripts\\test_registry_flow.py",
+            "00_System_OS\\scripts\\common_service_migration_check.py"
+        ],
+        "core.version_service": [
+            "00_System_OS\\scripts\\common_service_migration_check.py"
+        ]
+    },
+    "new_common_services_dependencies": {
+        "common_services.logger": [
+            "00_System_OS\\scripts\\common_service_migration_check.py",
+            "90_COMMON_SERVICES\\common_services\\97_TESTS\\97_TESTS\\test_logger.py",
+            "Scripts\\setup_logger_module.py"
+        ],
+        "common_services.database": [
+            "00_System_OS\\scripts\\common_service_migration_check.py"
+        ],
+        "common_services.file_service": [
+            "00_System_OS\\scripts\\common_service_migration_check.py"
+        ],
+        "common_services.hash_service": [
+            "00_System_OS\\scripts\\common_service_migration_check.py"
+        ]
+    },
+    "summary": {
+        "old_reference_count": 25,
+        "new_reference_count": 6
+    }
+}

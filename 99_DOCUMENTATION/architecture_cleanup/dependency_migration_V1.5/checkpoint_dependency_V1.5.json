@@ -1,0 +1,8 @@
+{
+    "version": "Dependency Migration Checkpoint V1.5",
+    "time": "2026-07-23 13:31:56.807784",
+    "status": "CREATED",
+    "dependency_scan": "COMPLETED",
+    "delete": "DISABLED",
+    "rollback": true
+}

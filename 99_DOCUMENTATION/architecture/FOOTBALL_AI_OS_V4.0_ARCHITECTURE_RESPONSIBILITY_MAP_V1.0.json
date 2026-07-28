@@ -1,0 +1,94 @@
+﻿{
+    "version":"FOOTBALL_AI_OS_V4.0_ARCHITECTURE_RESPONSIBILITY_MAP_V1.0",
+
+    "rule":
+    "Before development check existing module responsibility. Do not create duplicate capability.",
+
+    "modules":{
+
+        "01_Data_Source":{
+            "responsibility":"external football data acquisition",
+            "status":"ACTIVE"
+        },
+
+        "02_Data_Platform":{
+            "responsibility":"data storage metadata lineage",
+            "status":"ACTIVE"
+        },
+
+        "03_Data_Governance":{
+            "responsibility":"data quality audit validation",
+            "status":"ACTIVE"
+        },
+
+        "04_Data_Processing_AI":{
+            "responsibility":"feature generation feature store optimization",
+            "status":"ACTIVE"
+        },
+
+        "05_MODEL_AI":{
+            "responsibility":"ELO Dixon-Coles Poisson XGBoost Fusion calculation",
+            "status":"ACTIVE"
+        },
+
+        "06_PREDICTION_INTELLIGENCE_ENGINE":{
+            "responsibility":"probability prediction confidence",
+            "status":"ACTIVE"
+        },
+
+        "07_LEARNING_LAYER":{
+            "responsibility":"prediction feedback database",
+            "database":
+            "learning_feedback.db",
+            "status":"ACTIVE"
+        },
+
+        "08_DECISION_INTELLIGENCE_LAYER":{
+            "responsibility":
+            "decision recommendation handicap market risk explanation feedback interface",
+            "status":"ACTIVE"
+        },
+
+        "10_AI_AUTONOMOUS_ENGINE":{
+            "responsibility":
+            "adaptive parameter learning",
+            "status":"ACTIVE"
+        },
+
+        "11_System_Intelligence":{
+            "responsibility":
+            "learning analysis error analysis model optimization trainer",
+            "status":"PRIMARY_LEARNING_CENTER"
+        },
+
+        "28_PROBABILITY_CALIBRATION_ENGINE":{
+            "responsibility":
+            "probability calibration",
+            "status":"ACTIVE"
+        },
+
+        "31_SELF_LEARNING_ENGINE":{
+            "responsibility":
+            "legacy compatibility learning interface",
+            "status":"COMPATIBILITY"
+        },
+
+        "40_MODEL_TRAINING_PIPELINE":{
+            "responsibility":
+            "official model training execution",
+            "status":"PRIMARY_TRAINING_ENGINE"
+        },
+
+        "95_MODEL_FEEDBACK_ENGINE":{
+            "responsibility":
+            "model feedback analysis",
+            "status":"ACTIVE"
+        },
+
+        "121_RESULT_FEEDBACK_ENGINE":{
+            "responsibility":
+            "match result feedback processing",
+            "status":"ACTIVE"
+        }
+    }
+}

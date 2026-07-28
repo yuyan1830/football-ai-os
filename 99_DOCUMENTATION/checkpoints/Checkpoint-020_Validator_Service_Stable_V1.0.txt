@@ -1,0 +1,14 @@
+﻿Football AI OS
+
+Checkpoint-020
+
+Validator Service V1.0
+
+Completed:
+validation_result.py
+data_validator.py
+schema_validator.py
+
+Status:
+Stable
+

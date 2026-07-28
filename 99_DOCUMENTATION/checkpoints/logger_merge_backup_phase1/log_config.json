@@ -1,0 +1,5 @@
+{
+    "level": "INFO",
+    "file": "logs/football_ai.log",
+    "console": true
+}

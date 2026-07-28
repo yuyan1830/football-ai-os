@@ -1,0 +1,40 @@
+﻿
+Football AI OS
+
+Checkpoint-025
+
+
+Module:
+
+Hash Service
+
+
+Version:
+
+V1.1
+
+
+Upgrade:
+
+1. SHA256 default support
+
+2. Algorithm parameter
+
+3. Hash verification
+
+4. Hash information API
+
+5. Logger integration
+
+
+
+Compatibility:
+
+Old hash service interface preserved
+
+
+Status:
+
+Stable
+
+

@@ -1,0 +1,35 @@
+{
+    "time": "2026-07-20T10:21:25.462308",
+    "old_core_path": "E:\\football_v\\00_System_OS\\core",
+    "new_common_path": "E:\\football_v\\90_COMMON_SERVICES\\common_services",
+    "old_core_file_count": 0,
+    "common_service_file_count": 9,
+    "service_mapping": {
+        "logger": {
+            "old_core_files": [],
+            "common_service_files": [
+                "97_TESTS\\97_TESTS\\test_logger.py",
+                "logger\\formatter.py",
+                "logger\\handlers.py",
+                "logger\\logger.py",
+                "logger\\log_config.json",
+                "logger\\__init__.py"
+            ],
+            "recommended_action": "add_to_core"
+        },
+        "validator": {
+            "old_core_files": [],
+            "common_service_files": [
+                "validator\\__init__.py"
+            ],
+            "recommended_action": "add_to_core"
+        },
+        "exception": {
+            "old_core_files": [],
+            "common_service_files": [
+                "exception\\__init__.py"
+            ],
+            "recommended_action": "add_to_core"
+        }
+    }
+}

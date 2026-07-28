@@ -1,0 +1,30 @@
+﻿
+Football AI OS
+
+Checkpoint-037
+Core Cleanup Patch V1.2
+
+Completed:
+
+[OK] framework_initializer migrated
+[OK] common_services references removed
+[OK] legacy Scripts path cleaned
+[OK] Core architecture preserved
+
+Current Core:
+
+00_System_OS
+ |
+ 01_DATA_LAYER
+ |
+ core
+ |
+ database
+ exception
+ file_service
+ hash_service
+ logger
+ validator
+ version_service
+
+

@@ -1,0 +1,2192 @@
+{
+    "version": "CODE_REFERENCE_IMPACT_SCAN_V1.0",
+    "time": "2026-07-24 13:17:14.315457",
+    "scan_root": "E:\\football_v",
+    "targets": [
+        {
+            "target": "04_Data_Processing_AI\\feature_store\\feature_database_connector.py",
+            "python_refs": [
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Module_Deployment_Tool\\modules\\deploy_feature_store_V1.1.py",
+                    "line": 92,
+                    "content": "r\"\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Module_Deployment_Tool\\modules\\deploy_feature_store_V1.1.py",
+                    "line": 363,
+                    "content": "\"feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_store_pipeline_test.py",
+                    "line": 19,
+                    "content": "\"feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\tools\\code_reference_impact_scan.py",
+                    "line": 16,
+                    "content": "r\"04_Data_Processing_AI\\feature_store\\feature_database_connector.py\","
+                }
+            ],
+            "powershell_refs": [],
+            "json_refs": [
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 341,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 1581,
+                    "content": "\"feature_database_connector.py\": {"
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 1582,
+                    "content": "\"path\": \"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 21,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 246,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 924,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 416,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 412,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 3268,
+                    "content": "\"file\": \"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 3269,
+                    "content": "\"module\": \"feature_database_connector\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 7126,
+                    "content": "\"file\": \"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 7130,
+                    "content": "\"file\": \"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 43,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 159,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 373,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\""
+                }
+            ],
+            "decision": "MIGRATE_FIRST"
+        },
+        {
+            "target": "04_Data_Processing_AI\\feature_store\\database_connector.py",
+            "python_refs": [
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Module_Deployment_Tool\\modules\\deploy_feature_store_V1.1.py",
+                    "line": 92,
+                    "content": "r\"\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Module_Deployment_Tool\\modules\\deploy_feature_store_V1.1.py",
+                    "line": 363,
+                    "content": "\"feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Module_Deployment_Tool\\modules\\deploy_feature_store_V2.2.py",
+                    "line": 109,
+                    "content": "r\"\\database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Module_Deployment_Tool\\modules\\deploy_feature_store_V2.2.py",
+                    "line": 556,
+                    "content": "\"database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Module_Deployment_Tool\\modules\\deploy_feature_store_V2.2.py",
+                    "line": 606,
+                    "content": "\"database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_store_pipeline_test.py",
+                    "line": 19,
+                    "content": "\"feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\postgres_runtime_test.py",
+                    "line": 21,
+                    "content": "\"database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\tools\\code_reference_impact_scan.py",
+                    "line": 16,
+                    "content": "r\"04_Data_Processing_AI\\feature_store\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\tools\\code_reference_impact_scan.py",
+                    "line": 17,
+                    "content": "r\"04_Data_Processing_AI\\feature_store\\database_connector.py\","
+                }
+            ],
+            "powershell_refs": [],
+            "json_refs": [
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 326,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 341,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Checkpoint\\feature_store_v2.2_checkpoint.json",
+                    "line": 7,
+                    "content": "\"database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 1506,
+                    "content": "\"database_connector.py\": {"
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 1507,
+                    "content": "\"path\": \"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 1581,
+                    "content": "\"feature_database_connector.py\": {"
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 1582,
+                    "content": "\"path\": \"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 20,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 21,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 244,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 246,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 923,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 924,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 416,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 412,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 3208,
+                    "content": "\"file\": \"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 3209,
+                    "content": "\"module\": \"database_connector\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 3268,
+                    "content": "\"file\": \"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 3269,
+                    "content": "\"module\": \"feature_database_connector\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 7126,
+                    "content": "\"file\": \"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 7130,
+                    "content": "\"file\": \"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 41,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 43,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 158,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 159,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 372,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\database_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 373,
+                    "content": "\"E:\\\\football_v\\\\04_Data_Processing_AI\\\\feature_store\\\\feature_database_connector.py\""
+                }
+            ],
+            "decision": "MIGRATE_FIRST"
+        },
+        {
+            "target": "03_MODEL_LAYER",
+            "python_refs": [
+                {
+                    "file": "E:\\football_v\\check_db_tables.py",
+                    "line": 7,
+                    "content": "r\"E:\\football_v\\03_MODEL_LAYER\\database\\model_store.db\""
+                },
+                {
+                    "file": "E:\\football_v\\database_migration_engine_V1.0.py",
+                    "line": 35,
+                    "content": "\"03_MODEL_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\migration_test.py",
+                    "line": 6,
+                    "content": "r'E:\\football_v\\03_MODEL_LAYER\\database\\model_store.db'"
+                },
+                {
+                    "file": "E:\\football_v\\00_System_OS\\deploy_architecture_cleanup_engine_V1.0.py",
+                    "line": 69,
+                    "content": "\"03_MODEL_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\00_System_OS\\deploy_architecture_cleanup_engine_V1.0.py",
+                    "line": 137,
+                    "content": "\"03_MODEL_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\00_System_OS\\ARCHITECTURE_CLEANUP\\architecture_classifier\\architecture_classifier_V1.0.py",
+                    "line": 15,
+                    "content": "\"03_MODEL_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\00_System_OS\\ARCHITECTURE_CLEANUP\\registry_manager\\registry_manager_V1.0.py",
+                    "line": 18,
+                    "content": "\"03_MODEL_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\00_System_OS\\ARCHITECTURE_CLEANUP\\registry_manager\\registry_manager_V1.1.py",
+                    "line": 23,
+                    "content": "\"03_MODEL_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\04_PREDICTION_LAYER\\engine\\prediction_intelligence_engine_V1.6.py",
+                    "line": 35,
+                    "content": "model_db=BASE+r\"\\00_SYSTEM_OS\\03_MODEL_LAYER\\database\\model_store.db\""
+                },
+                {
+                    "file": "E:\\football_v\\04_PREDICTION_LAYER\\engine\\prediction_pipeline_V1.6.py",
+                    "line": 10,
+                    "content": "model_db=BASE+r\"\\00_SYSTEM_OS\\03_MODEL_LAYER\\database\\model_store.db\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\tools\\code_reference_impact_scan.py",
+                    "line": 19,
+                    "content": "r\"03_MODEL_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\AI_RUNTIME\\model_connector.py",
+                    "line": 13,
+                    "content": "r\"E:\\football_v\\03_MODEL_LAYER\\database\\model_store.db\""
+                },
+                {
+                    "file": "E:\\football_v\\AI_RUNTIME\\model_runtime_connector.py",
+                    "line": 5,
+                    "content": "MODEL_DB=r\"E:\\football_v\\03_MODEL_LAYER\\database\\model_store.db\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\database_four_check_engine_V1.0.py",
+                    "line": 23,
+                    "content": "r\"E:\\football_v\\00_SYSTEM_OS\\03_MODEL_LAYER\\database\\model_store.db\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\database_init_system_db_V2.2.3.py",
+                    "line": 53,
+                    "content": "\"03_MODEL_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\database_system_db_validation_V2.2.4.py",
+                    "line": 44,
+                    "content": "\"03_MODEL_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\database_unified_validation_V2.2.1.py",
+                    "line": 42,
+                    "content": "\"03_MODEL_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_feature_model_layer_V1.0.py",
+                    "line": 45,
+                    "content": "\"03_MODEL_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_football_ai_os_unified_V2.1.py",
+                    "line": 23,
+                    "content": "r\"00_System_OS\\03_MODEL_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_football_ai_os_unified_V2.1.py",
+                    "line": 24,
+                    "content": "r\"00_System_OS\\03_MODEL_LAYER\\database\","
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_football_ai_os_unified_V2.1.py",
+                    "line": 140,
+                    "content": "r\"00_System_OS\\03_MODEL_LAYER\\database\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_prediction_engine_V1.0.py",
+                    "line": 41,
+                    "content": "\"03_MODEL_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_prediction_engine_V1.1_REAL_FIX.py",
+                    "line": 13,
+                    "content": "MODEL_DB = BASE + r\"\\00_SYSTEM_OS\\03_MODEL_LAYER\\database\\model_store.db\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_prediction_phase_V1.2_batch.py",
+                    "line": 12,
+                    "content": "MODEL_DB=ROOT+r\"\\00_SYSTEM_OS\\03_MODEL_LAYER\\database\\model_store.db\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\model_layer_V2.3_initializer.py",
+                    "line": 9,
+                    "content": "MODEL=r\"E:\\football_v\\03_MODEL_LAYER\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\model_migration_engine_V1.0.py",
+                    "line": 14,
+                    "content": "\"03_MODEL_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\model_migration_engine_V1.1.py",
+                    "line": 7,
+                    "content": "MODEL_DB=r\"E:\\football_v\\00_SYSTEM_OS\\03_MODEL_LAYER\\database\\model_store.db\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\prediction_database_test_V1.4.py",
+                    "line": 20,
+                    "content": "BASE+r\"\\00_SYSTEM_OS\\03_MODEL_LAYER\\database\\model_store.db\","
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\prediction_intelligence_init_V1.3_FIX.py",
+                    "line": 11,
+                    "content": "MODEL_DB = BASE + r\"\\00_SYSTEM_OS\\03_MODEL_LAYER\\database\\model_store.db\""
+                },
+                {
+                    "file": "E:\\football_v\\tools\\code_logic_duplicate_scanner_v2.py",
+                    "line": 19,
+                    "content": "\"03_MODEL_LAYER\","
+                }
+            ],
+            "powershell_refs": [
+                {
+                    "file": "E:\\football_v\\archive\\V4_CLEANUP_ARCHIVE\\deploy_MODEL_LAYER_V2.10_OPTIMIZATION_ALL.ps1",
+                    "line": 10,
+                    "content": "$layer=\"$root\\03_MODEL_LAYER\""
+                },
+                {
+                    "file": "E:\\football_v\\archive\\V4_CLEANUP_ARCHIVE\\deploy_MODEL_LAYER_V2.10_OPTIMIZATION_ALL.ps1",
+                    "line": 214,
+                    "content": "r\"E:\\football_v\\03_MODEL_LAYER\\reports\\model_optimization_report.json\","
+                },
+                {
+                    "file": "E:\\football_v\\archive\\V4_CLEANUP_ARCHIVE\\deploy_MODEL_LAYER_V2.10_OPTIMIZATION_ALL.ps1",
+                    "line": 240,
+                    "content": "db=r'E:\\football_v\\03_MODEL_LAYER\\runtime\\model_learning_runtime.db'"
+                },
+                {
+                    "file": "E:\\football_v\\archive\\V4_CLEANUP_ARCHIVE\\deploy_MODEL_LAYER_V2.11_FEEDBACK_LOOP_ALL.ps1",
+                    "line": 9,
+                    "content": "$layer=\"E:\\football_v\\03_MODEL_LAYER\""
+                },
+                {
+                    "file": "E:\\football_v\\archive\\V4_CLEANUP_ARCHIVE\\deploy_MODEL_LAYER_V2.11_FEEDBACK_LOOP_ALL.ps1",
+                    "line": 35,
+                    "content": "db=r'E:\\football_v\\03_MODEL_LAYER\\runtime\\model_feedback_runtime.db'"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_Football_AI_OS_V3.0_FINAL_FREEZE_CHECK.ps1",
+                    "line": 18,
+                    "content": "\"03_MODEL_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_Football_AI_OS_V3.0_FINAL_FREEZE_CHECK.ps1",
+                    "line": 85,
+                    "content": "\"$root\\03_MODEL_LAYER\\database\\model_store.db\","
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_MODEL_LAYER_V2.10_OPTIMIZATION_ALL.ps1",
+                    "line": 10,
+                    "content": "$layer=\"$root\\03_MODEL_LAYER\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_MODEL_LAYER_V2.10_OPTIMIZATION_ALL.ps1",
+                    "line": 214,
+                    "content": "r\"E:\\football_v\\03_MODEL_LAYER\\reports\\model_optimization_report.json\","
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_MODEL_LAYER_V2.10_OPTIMIZATION_ALL.ps1",
+                    "line": 240,
+                    "content": "db=r'E:\\football_v\\03_MODEL_LAYER\\runtime\\model_learning_runtime.db'"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_MODEL_LAYER_V2.11_FEEDBACK_LOOP_ALL.ps1",
+                    "line": 9,
+                    "content": "$layer=\"E:\\football_v\\03_MODEL_LAYER\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_MODEL_LAYER_V2.11_FEEDBACK_LOOP_ALL.ps1",
+                    "line": 35,
+                    "content": "db=r'E:\\football_v\\03_MODEL_LAYER\\runtime\\model_feedback_runtime.db'"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_model_layer_V2.3_REAL_ALL_FIX2.ps1",
+                    "line": 43,
+                    "content": "db=r'E:\\football_v\\03_MODEL_LAYER\\database\\model_store_v23.db'"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_model_layer_V2.3_REAL_ALL_FIX2.ps1",
+                    "line": 91,
+                    "content": "tree \"$base\\03_MODEL_LAYER\" /F"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_prediction_phase_V1.2_fix.ps1",
+                    "line": 165,
+                    "content": "r'$ROOT\\00_SYSTEM_OS\\03_MODEL_LAYER\\database\\model_store.db'"
+                }
+            ],
+            "json_refs": [
+                {
+                    "file": "E:\\football_v\\FINAL_FREEZE_REPORT.json",
+                    "line": 22,
+                    "content": "\"03_MODEL_LAYER\":  \"PASS\","
+                },
+                {
+                    "file": "E:\\football_v\\FINAL_FREEZE_REPORT.json",
+                    "line": 37,
+                    "content": "\"E:\\\\football_v\\\\03_MODEL_LAYER\\\\database\\\\model_store.db\":  \"PASS\""
+                },
+                {
+                    "file": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\reports\\database_migration_report.json",
+                    "line": 9,
+                    "content": "\"model_store\": \"E:\\\\football_v\\\\03_MODEL_LAYER\\\\database\\\\model_store.db\""
+                },
+                {
+                    "file": "E:\\football_v\\00_System_OS\\RELEASE_VALIDATION\\reports\\release_validation_report.json",
+                    "line": 15,
+                    "content": "\"03_MODEL_LAYER\": true,"
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\MODEL_DATA_SNAPSHOT_V4.0\\DATABASE_LOCATION_V4.0.json",
+                    "line": 8,
+                    "content": "\"E:\\\\FOOTBALL_V\\\\03_MODEL_LAYER\\\\database\\\\model_store.db\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\DATABASE_FOUR_CHECK_REPORT_V1.0.json",
+                    "line": 63,
+                    "content": "\"path\": \"E:\\\\football_v\\\\00_SYSTEM_OS\\\\03_MODEL_LAYER\\\\database\\\\model_store.db\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\DATABASE_SYSTEM_VALIDATION_V2.2.4_REPORT.json",
+                    "line": 69,
+                    "content": "\"path\": \"E:\\\\football_v\\\\00_SYSTEM_OS\\\\03_MODEL_LAYER\\\\database\\\\model_store.db\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\DATABASE_UNIFIED_VALIDATION_V2.2.1_REPORT.json",
+                    "line": 90,
+                    "content": "\"path\": \"E:\\\\football_v\\\\00_SYSTEM_OS\\\\03_MODEL_LAYER\\\\database\\\\model_store.db\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\SYSTEM_CHECKPOINTS\\SYSTEM_CHECKPOINTS\\FOOTBALL_V_CHECKPOINT_SYSTEM_SCAN_V4.0.json",
+                    "line": 26,
+                    "content": "\"03_MODEL_LAYER/database/model_store.db\""
+                },
+                {
+                    "file": "E:\\football_v\\checkpoint\\Football_AI_OS_Checkpoint_V3.0_FINAL.json",
+                    "line": 16,
+                    "content": "\"03_MODEL_LAYER\": \"PASS\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 13,
+                    "content": "\"E:\\\\football_v\\\\03_MODEL_LAYER\\\\confidence_model\\\\confidence_engine_V2.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 14,
+                    "content": "\"E:\\\\football_v\\\\03_MODEL_LAYER\\\\market_model\\\\market_value_model_V1.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 15,
+                    "content": "\"E:\\\\football_v\\\\03_MODEL_LAYER\\\\risk_model\\\\risk_engine_V2.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 24,
+                    "content": "\"E:\\\\football_v\\\\03_MODEL_LAYER\\\\fusion_engine\\\\fusion_engine_V2.3.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\FOOTBALL_AI_OS_V4_GLOBAL_AUDIT.json",
+                    "line": 135,
+                    "content": "\"E:\\\\football_v\\\\03_MODEL_LAYER\\\\analysis\\\\roi_analyzer_V2.11.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\FOOTBALL_AI_OS_V4_GLOBAL_AUDIT.json",
+                    "line": 136,
+                    "content": "\"E:\\\\football_v\\\\03_MODEL_LAYER\\\\reports\\\\model_feedback_report_V2.11.json\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\FOOTBALL_AI_OS_V4_GLOBAL_AUDIT.json",
+                    "line": 137,
+                    "content": "\"E:\\\\football_v\\\\03_MODEL_LAYER\\\\runtime\\\\model_feedback_runtime.db\","
+                }
+            ],
+            "decision": "MIGRATE_FIRST"
+        },
+        {
+            "target": "24_PREDICTION_INTELLIGENCE_LAYER",
+            "python_refs": [
+                {
+                    "file": "E:\\football_v\\deploy_ai_intelligence_V2.0.py",
+                    "line": 29,
+                    "content": "\"24_PREDICTION_INTELLIGENCE_LAYER\":["
+                },
+                {
+                    "file": "E:\\football_v\\release_final_patch_V2.0.1.py",
+                    "line": 33,
+                    "content": "\"24_PREDICTION_INTELLIGENCE_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\release_integration_V2.0.py",
+                    "line": 51,
+                    "content": "\"24_PREDICTION_INTELLIGENCE_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\test_ai_intelligence_V2.0.py",
+                    "line": 15,
+                    "content": "\"24_PREDICTION_INTELLIGENCE_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\validate_release_V2.0.py",
+                    "line": 75,
+                    "content": "\"path\":\"24_PREDICTION_INTELLIGENCE_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\consolidation_architecture_V1.4.py",
+                    "line": 99,
+                    "content": "\"24_PREDICTION_INTELLIGENCE_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\merge_architecture_V1.0.py",
+                    "line": 62,
+                    "content": "\"24_PREDICTION_INTELLIGENCE_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\handicap_engine.py",
+                    "line": 5,
+                    "content": "24_PREDICTION_INTELLIGENCE_LAYER"
+                },
+                {
+                    "file": "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\kelly_optimizer.py",
+                    "line": 5,
+                    "content": "24_PREDICTION_INTELLIGENCE_LAYER"
+                },
+                {
+                    "file": "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\market_risk_engine.py",
+                    "line": 5,
+                    "content": "24_PREDICTION_INTELLIGENCE_LAYER"
+                },
+                {
+                    "file": "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\module.py",
+                    "line": 5,
+                    "content": "24_PREDICTION_INTELLIGENCE_LAYER"
+                },
+                {
+                    "file": "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\probability_engine.py",
+                    "line": 5,
+                    "content": "24_PREDICTION_INTELLIGENCE_LAYER"
+                },
+                {
+                    "file": "E:\\football_v\\24_PREDICTION_INTELLIGENCE_LAYER\\score_prediction_engine.py",
+                    "line": 5,
+                    "content": "24_PREDICTION_INTELLIGENCE_LAYER"
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\tools\\code_reference_impact_scan.py",
+                    "line": 20,
+                    "content": "r\"24_PREDICTION_INTELLIGENCE_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\tools\\merge_planner_V1.0.py",
+                    "line": 19,
+                    "content": "\"24_PREDICTION_INTELLIGENCE_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_ai_intelligence_batch_02_06_V2.0.py",
+                    "line": 191,
+                    "content": "r\"24_PREDICTION_INTELLIGENCE_LAYER\\market_intelligence\\market_sentiment_engine.py\":"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_ai_intelligence_batch_02_06_V2.0.py",
+                    "line": 205,
+                    "content": "r\"24_PREDICTION_INTELLIGENCE_LAYER\\market_intelligence\\odds_tracker.py\":"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_ai_intelligence_batch_02_06_V2.0.py",
+                    "line": 217,
+                    "content": "r\"24_PREDICTION_INTELLIGENCE_LAYER\\market_intelligence\\capital_flow_detector.py\":"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_ai_intelligence_batch_02_06_V2.0.py",
+                    "line": 235,
+                    "content": "r\"24_PREDICTION_INTELLIGENCE_LAYER\\output_engine\\prediction_report.py\":"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_ai_intelligence_batch_02_06_V2.0.py",
+                    "line": 247,
+                    "content": "r\"24_PREDICTION_INTELLIGENCE_LAYER\\output_engine\\risk_filter.py\":"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_prediction_intelligence_batch_01_V2.0.py",
+                    "line": 14,
+                    "content": "r\"24_PREDICTION_INTELLIGENCE_LAYER\\prediction_core\\predictor.py\":"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_prediction_intelligence_batch_01_V2.0.py",
+                    "line": 29,
+                    "content": "r\"24_PREDICTION_INTELLIGENCE_LAYER\\prediction_models\\elo_predictor.py\":"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_prediction_intelligence_batch_01_V2.0.py",
+                    "line": 41,
+                    "content": "r\"24_PREDICTION_INTELLIGENCE_LAYER\\prediction_models\\poisson_predictor.py\":"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_prediction_intelligence_batch_01_V2.0.py",
+                    "line": 53,
+                    "content": "r\"24_PREDICTION_INTELLIGENCE_LAYER\\prediction_models\\dixon_coles_predictor.py\":"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_prediction_intelligence_batch_01_V2.0.py",
+                    "line": 65,
+                    "content": "r\"24_PREDICTION_INTELLIGENCE_LAYER\\prediction_models\\xgboost_predictor.py\":"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_prediction_intelligence_batch_01_V2.0.py",
+                    "line": 77,
+                    "content": "r\"24_PREDICTION_INTELLIGENCE_LAYER\\prediction_pipeline\\feature_pipeline.py\":"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_prediction_intelligence_batch_01_V2.0.py",
+                    "line": 89,
+                    "content": "r\"24_PREDICTION_INTELLIGENCE_LAYER\\prediction_pipeline\\prediction_pipeline.py\":"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_prediction_intelligence_batch_01_V2.0.py",
+                    "line": 103,
+                    "content": "r\"24_PREDICTION_INTELLIGENCE_LAYER\\registry\\prediction_registry.json\":"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_prediction_intelligence_batch_01_V2.0.py",
+                    "line": 113,
+                    "content": "r\"24_PREDICTION_INTELLIGENCE_LAYER\\reports\\prediction_activation_report.json\":"
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_prediction_intelligence_batch_01_V2.0.py",
+                    "line": 123,
+                    "content": "r\"24_PREDICTION_INTELLIGENCE_LAYER\\tests\\test_prediction_engine_V2.0.py\":"
+                },
+                {
+                    "file": "E:\\football_v\\tools\\code_logic_duplicate_scanner_v2.py",
+                    "line": 26,
+                    "content": "\"24_PREDICTION_INTELLIGENCE_LAYER\","
+                }
+            ],
+            "powershell_refs": [],
+            "json_refs": [
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1081,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\handicap_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1082,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\kelly_optimizer.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1083,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_risk_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1084,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\module.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1085,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\probability_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1086,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\score_prediction_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1087,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\capital_flow_detector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1088,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\market_sentiment_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1089,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\odds_tracker.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1090,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\prediction_report.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1091,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\risk_filter.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1092,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_core\\\\predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1093,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\dixon_coles_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1094,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\elo_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1095,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\poisson_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1096,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\xgboost_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1097,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\feature_pipeline.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1098,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\prediction_pipeline.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1099,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\tests\\\\test_prediction_engine_V2.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\merge_config_V1.0.json",
+                    "line": 15,
+                    "content": "\"24_PREDICTION_INTELLIGENCE_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\reports\\ARCHITECTURE_VALIDATION_REPORT_V1.1.json",
+                    "line": 207,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\feature_pipeline.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\reports\\ARCHITECTURE_VALIDATION_REPORT_V1.1.json",
+                    "line": 270,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\probability_engine.py\""
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\reports\\ARCHITECTURE_VALIDATION_REPORT_V1.1.json",
+                    "line": 281,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\score_prediction_engine.py\""
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\reports\\ARCHITECTURE_VALIDATION_REPORT_V1.1.json",
+                    "line": 348,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\prediction_pipeline.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\reports\\ARCHITECTURE_VALIDATION_REPORT_V1.1.json",
+                    "line": 421,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\module.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\reports\\ARCHITECTURE_VALIDATION_REPORT_V1.1.json",
+                    "line": 524,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\handicap_engine.py\""
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\reports\\ARCHITECTURE_VALIDATION_REPORT_V1.1.json",
+                    "line": 556,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\prediction_report.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\reports\\ARCHITECTURE_VALIDATION_REPORT_V1.1.json",
+                    "line": 572,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\xgboost_predictor.py\""
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\reports\\ARCHITECTURE_VALIDATION_REPORT_V1.1.json",
+                    "line": 606,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\risk_filter.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\reports\\ARCHITECTURE_VALIDATION_REPORT_V1.1.json",
+                    "line": 786,
+                    "content": "\"24_PREDICTION_INTELLIGENCE_LAYER\": 19,"
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\consolidation_plan_V1.4.json",
+                    "line": 13,
+                    "content": "\"prediction\": \"24_PREDICTION_INTELLIGENCE_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 2237,
+                    "content": "\"path\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\probability_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 2247,
+                    "content": "\"path\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\score_prediction_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 3257,
+                    "content": "\"path\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\handicap_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 3832,
+                    "content": "\"path\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\xgboost_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 4642,
+                    "content": "\"path\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\kelly_optimizer.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 4647,
+                    "content": "\"path\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_risk_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 4652,
+                    "content": "\"path\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\capital_flow_detector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 4657,
+                    "content": "\"path\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\market_sentiment_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 4662,
+                    "content": "\"path\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\odds_tracker.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 4672,
+                    "content": "\"path\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_core\\\\predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 4677,
+                    "content": "\"path\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\dixon_coles_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 4682,
+                    "content": "\"path\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\elo_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 4687,
+                    "content": "\"path\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\poisson_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 4692,
+                    "content": "\"path\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\tests\\\\test_prediction_engine_V2.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_CLEANUP_V2.1\\final_duplicate_scan_V2.1.json",
+                    "line": 107,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\feature_pipeline.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_CLEANUP_V2.1\\final_duplicate_scan_V2.1.json",
+                    "line": 170,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\probability_engine.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_CLEANUP_V2.1\\final_duplicate_scan_V2.1.json",
+                    "line": 181,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\score_prediction_engine.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_CLEANUP_V2.1\\final_duplicate_scan_V2.1.json",
+                    "line": 248,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\prediction_pipeline.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_CLEANUP_V2.1\\final_duplicate_scan_V2.1.json",
+                    "line": 321,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\module.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_CLEANUP_V2.1\\final_duplicate_scan_V2.1.json",
+                    "line": 424,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\handicap_engine.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_CLEANUP_V2.1\\final_duplicate_scan_V2.1.json",
+                    "line": 456,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\prediction_report.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_CLEANUP_V2.1\\final_duplicate_scan_V2.1.json",
+                    "line": 472,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\xgboost_predictor.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_CLEANUP_V2.1\\final_duplicate_scan_V2.1.json",
+                    "line": 506,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\risk_filter.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\duplicate_after_cleanup_V1.8.json",
+                    "line": 770,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\handicap_engine.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\duplicate_after_cleanup_V1.8.json",
+                    "line": 775,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\module.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\duplicate_after_cleanup_V1.8.json",
+                    "line": 780,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\probability_engine.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\duplicate_after_cleanup_V1.8.json",
+                    "line": 785,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\score_prediction_engine.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\duplicate_after_cleanup_V1.8.json",
+                    "line": 790,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\prediction_report.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\duplicate_after_cleanup_V1.8.json",
+                    "line": 795,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\xgboost_predictor.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\duplicate_after_cleanup_V1.8.json",
+                    "line": 800,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\feature_pipeline.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\duplicate_after_cleanup_V1.8.json",
+                    "line": 805,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\prediction_pipeline.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\duplicate_after_cleanup_V1.8.json",
+                    "line": 1039,
+                    "content": "\"path1\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\risk_filter.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\final_delete_plan_V1.8.json",
+                    "line": 773,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\handicap_engine.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\final_delete_plan_V1.8.json",
+                    "line": 778,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\module.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\final_delete_plan_V1.8.json",
+                    "line": 783,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\probability_engine.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\final_delete_plan_V1.8.json",
+                    "line": 788,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\score_prediction_engine.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\final_delete_plan_V1.8.json",
+                    "line": 793,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\prediction_report.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\final_delete_plan_V1.8.json",
+                    "line": 798,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\xgboost_predictor.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\final_delete_plan_V1.8.json",
+                    "line": 803,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\feature_pipeline.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\final_delete_plan_V1.8.json",
+                    "line": 808,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\prediction_pipeline.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\final_delete_plan_V1.8.json",
+                    "line": 1042,
+                    "content": "\"path1\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\risk_filter.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 34,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\feature_pipeline.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 122,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\prediction_pipeline.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 154,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\prediction_report.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 162,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\xgboost_predictor.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 419,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\prediction_pipeline.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 473,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\prediction_report.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 514,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\risk_filter.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 553,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\feature_pipeline.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 778,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\handicap_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 779,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\kelly_optimizer.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 780,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_risk_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 781,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\module.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 782,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\probability_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 783,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\score_prediction_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 855,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\market_sentiment_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 952,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\capital_flow_detector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 1048,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_core\\\\predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 1049,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\dixon_coles_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 1050,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\elo_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 1051,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\poisson_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\ARCHITECTURE_DUPLICATE_SCAN_V1.0.json",
+                    "line": 1052,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\xgboost_predictor.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\reports\\MERGE_RECOMMENDATION_PLAN_V1.0.json",
+                    "line": 5,
+                    "content": "\"24_PREDICTION_INTELLIGENCE_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 34,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\score_prediction_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 61,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\prediction_report.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 62,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\prediction_pipeline.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 63,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\tests\\\\test_prediction_engine_V2.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 97,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\score_prediction_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 129,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\prediction_report.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 130,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_core\\\\predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 131,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\dixon_coles_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 132,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\elo_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 133,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\poisson_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 134,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\xgboost_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 135,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\prediction_pipeline.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 136,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\tests\\\\test_prediction_engine_V2.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 245,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\handicap_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 246,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_risk_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 247,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\probability_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 248,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\score_prediction_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 327,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\market_sentiment_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 328,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\tests\\\\test_prediction_engine_V2.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 500,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\feature_pipeline.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 512,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_risk_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 524,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\market_sentiment_engine.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Cleanup_Report_V1.0.json",
+                    "line": 603,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\prediction_report.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 30,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\score_prediction_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 57,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\prediction_report.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 58,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\prediction_pipeline.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 59,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\tests\\\\test_prediction_engine_V2.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 93,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\score_prediction_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 125,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\prediction_report.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 126,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_core\\\\predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 127,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\dixon_coles_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 128,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\elo_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 129,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\poisson_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 130,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\xgboost_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 131,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\prediction_pipeline.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 132,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\tests\\\\test_prediction_engine_V2.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 241,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\handicap_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 242,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_risk_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 243,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\probability_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 244,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\score_prediction_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 323,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\market_sentiment_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 324,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\tests\\\\test_prediction_engine_V2.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 496,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\feature_pipeline.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 508,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_risk_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 520,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\market_sentiment_engine.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Duplicate_Report_V1.0.json",
+                    "line": 599,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\prediction_report.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 1644,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\handicap_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 1648,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\kelly_optimizer.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 1652,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_risk_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 1656,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\module.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 1660,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\probability_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 1664,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\score_prediction_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 4644,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\capital_flow_detector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 4648,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\market_sentiment_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 4652,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\odds_tracker.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 4656,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\prediction_report.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 4660,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\risk_filter.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 4664,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_core\\\\predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 4668,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\dixon_coles_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 4672,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\elo_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 4676,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\poisson_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 4680,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\xgboost_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 4684,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\feature_pipeline.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 4688,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\prediction_pipeline.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 4692,
+                    "content": "\"file\": \"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\tests\\\\test_prediction_engine_V2.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\FINAL_RELEASE_REPORT\\AI_OS_V2.0_FINAL_RELEASE_REPORT.json",
+                    "line": 48,
+                    "content": "\"component\": \"24_PREDICTION_INTELLIGENCE_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\FINAL_RELEASE_REPORT\\AI_OS_V2.0_RELEASE_VALIDATION_REPORT.json",
+                    "line": 61,
+                    "content": "\"path\": \"24_PREDICTION_INTELLIGENCE_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\FINAL_RELEASE_REPORT\\AI_OS_V2.0_TEST_REPORT.json",
+                    "line": 17,
+                    "content": "\"module\": \"24_PREDICTION_INTELLIGENCE_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\FINAL_RELEASE_REPORT\\AI_OS_V2.0_TEST_REPORT.json",
+                    "line": 18,
+                    "content": "\"path\": \"24_PREDICTION_INTELLIGENCE_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\FINAL_RELEASE_REPORT\\Football_AI_OS_V2.0_FINAL_RELEASE.json",
+                    "line": 50,
+                    "content": "\"component\": \"24_PREDICTION_INTELLIGENCE_LAYER\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 26,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_core\\\\predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 27,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\dixon_coles_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 28,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\elo_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 29,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\poisson_predictor.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 30,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_models\\\\xgboost_predictor.py\""
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 80,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\prediction_pipeline.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 104,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\market_sentiment_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 175,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\risk_filter.py\""
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 192,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\capital_flow_detector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 203,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\output_engine\\\\prediction_report.py\""
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 260,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\feature_pipeline.py\""
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 284,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_intelligence\\\\odds_tracker.py\""
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 358,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\handicap_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 359,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\kelly_optimizer.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 360,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\market_risk_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 361,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\module.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 362,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\probability_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 363,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\score_prediction_engine.py\""
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 381,
+                    "content": "\"E:\\\\football_v\\\\24_PREDICTION_INTELLIGENCE_LAYER\\\\prediction_pipeline\\\\feature_pipeline.py\""
+                }
+            ],
+            "decision": "MIGRATE_FIRST"
+        },
+        {
+            "target": "44_PRODUCTION_PREDICTION_RUNTIME",
+            "python_refs": [
+                {
+                    "file": "E:\\football_v\\deploy_phase11.py",
+                    "line": 27,
+                    "content": "\"44_PRODUCTION_PREDICTION_RUNTIME\":["
+                },
+                {
+                    "file": "E:\\football_v\\44_PRODUCTION_PREDICTION_RUNTIME\\module.py",
+                    "line": 1,
+                    "content": "# Football AI OS 44_PRODUCTION_PREDICTION_RUNTIME"
+                },
+                {
+                    "file": "E:\\football_v\\44_PRODUCTION_PREDICTION_RUNTIME\\module.py",
+                    "line": 10,
+                    "content": "print(\"44_PRODUCTION_PREDICTION_RUNTIME READY\")"
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_CLEANUP_V3.0\\DEPRECATED_ARCHIVE\\runtime_engine.py",
+                    "line": 1,
+                    "content": "# Football AI OS 44_PRODUCTION_PREDICTION_RUNTIME"
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_CLEANUP_V3.0\\DEPRECATED_ARCHIVE\\runtime_engine.py",
+                    "line": 10,
+                    "content": "print(\"44_PRODUCTION_PREDICTION_RUNTIME READY\")"
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\tools\\code_reference_impact_scan.py",
+                    "line": 21,
+                    "content": "r\"44_PRODUCTION_PREDICTION_RUNTIME\","
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\global_audit.py",
+                    "line": 30,
+                    "content": "r\"E:\\football_v\\44_PRODUCTION_PREDICTION_RUNTIME\","
+                },
+                {
+                    "file": "E:\\football_v\\tools\\code_logic_duplicate_scanner_v2.py",
+                    "line": 34,
+                    "content": "\"44_PRODUCTION_PREDICTION_RUNTIME\""
+                }
+            ],
+            "powershell_refs": [],
+            "json_refs": [
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1154,
+                    "content": "\"E:\\\\football_v\\\\44_PRODUCTION_PREDICTION_RUNTIME\\\\module.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1155,
+                    "content": "\"E:\\\\football_v\\\\44_PRODUCTION_PREDICTION_RUNTIME\\\\prediction_runner.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1156,
+                    "content": "\"E:\\\\football_v\\\\44_PRODUCTION_PREDICTION_RUNTIME\\\\runtime_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\reports\\ARCHITECTURE_VALIDATION_REPORT_V1.1.json",
+                    "line": 427,
+                    "content": "\"E:\\\\football_v\\\\44_PRODUCTION_PREDICTION_RUNTIME\\\\module.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\reports\\ARCHITECTURE_VALIDATION_REPORT_V1.1.json",
+                    "line": 628,
+                    "content": "\"E:\\\\football_v\\\\44_PRODUCTION_PREDICTION_RUNTIME\\\\prediction_runner.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\reports\\ARCHITECTURE_VALIDATION_REPORT_V1.1.json",
+                    "line": 802,
+                    "content": "\"44_PRODUCTION_PREDICTION_RUNTIME\": 3,"
+                },
+                {
+                    "file": "E:\\football_v\\44_PRODUCTION_PREDICTION_RUNTIME\\production_registry.json",
+                    "line": 2,
+                    "content": "\"module\": \"44_PRODUCTION_PREDICTION_RUNTIME\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 4892,
+                    "content": "\"path\": \"E:\\\\football_v\\\\44_PRODUCTION_PREDICTION_RUNTIME\\\\runtime_engine.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_CLEANUP_V2.1\\final_duplicate_scan_V2.1.json",
+                    "line": 327,
+                    "content": "\"E:\\\\football_v\\\\44_PRODUCTION_PREDICTION_RUNTIME\\\\module.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_CLEANUP_V2.1\\final_duplicate_scan_V2.1.json",
+                    "line": 528,
+                    "content": "\"E:\\\\football_v\\\\44_PRODUCTION_PREDICTION_RUNTIME\\\\prediction_runner.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\duplicate_after_cleanup_V1.8.json",
+                    "line": 890,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\44_PRODUCTION_PREDICTION_RUNTIME\\\\module.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\duplicate_after_cleanup_V1.8.json",
+                    "line": 959,
+                    "content": "\"path1\": \"E:\\\\football_v\\\\44_PRODUCTION_PREDICTION_RUNTIME\\\\prediction_runner.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\final_delete_plan_V1.8.json",
+                    "line": 893,
+                    "content": "\"path2\": \"E:\\\\football_v\\\\44_PRODUCTION_PREDICTION_RUNTIME\\\\module.py\""
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\FINAL_VALIDATION_V1.8\\final_delete_plan_V1.8.json",
+                    "line": 962,
+                    "content": "\"path1\": \"E:\\\\football_v\\\\44_PRODUCTION_PREDICTION_RUNTIME\\\\prediction_runner.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\SYSTEM_CHECKPOINTS\\SYSTEM_CHECKPOINTS\\FOOTBALL_V_CHECKPOINT_SYSTEM_SCAN_V4.0.json",
+                    "line": 83,
+                    "content": "\"44_PRODUCTION_PREDICTION_RUNTIME\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V2.0.json",
+                    "line": 83,
+                    "content": "\"E:\\\\football_v\\\\44_PRODUCTION_PREDICTION_RUNTIME\\\\module.py\""
+                },
+                {
+                    "file": "E:\\football_v\\reports\\FOOTBALL_AI_OS_V4_GLOBAL_AUDIT.json",
+                    "line": 15,
+                    "content": "\"path\": \"E:\\\\football_v\\\\44_PRODUCTION_PREDICTION_RUNTIME\""
+                }
+            ],
+            "decision": "MIGRATE_FIRST"
+        },
+        {
+            "target": "archive\\V4_CLEANUP_ARCHIVE",
+            "python_refs": [
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\tools\\code_reference_impact_scan.py",
+                    "line": 23,
+                    "content": "r\"archive\\V4_CLEANUP_ARCHIVE\","
+                }
+            ],
+            "powershell_refs": [],
+            "json_refs": [
+                {
+                    "file": "E:\\football_v\\checkpoint\\Football_AI_OS_Checkpoint_V4.0_PRODUCTION_OPERATION.json",
+                    "line": 10,
+                    "content": "\"archive\":  \"E:\\\\football_v\\\\archive\\\\V4_CLEANUP_ARCHIVE\","
+                },
+                {
+                    "file": "E:\\football_v\\checkpoint\\Football_AI_OS_Checkpoint_V4.0_PRODUCTION_OPERATION.json",
+                    "line": 22,
+                    "content": "\"V4_CLEANUP_ARCHIVE\""
+                },
+                {
+                    "file": "E:\\football_v\\checkpoint\\Football_AI_OS_V4.0_PRODUCTION_BASELINE.json",
+                    "line": 32,
+                    "content": "\"archive_status\":  \"V4_CLEANUP_ARCHIVE_COMPLETED\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V1.0.json",
+                    "line": 12,
+                    "content": "\"E:\\\\football_v\\\\archive\\\\V4_CLEANUP_ARCHIVE\\\\deploy_Football_AI_OS_V2.7_REAL_SIMULATION_ALL.ps1\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V1.0.json",
+                    "line": 21,
+                    "content": "\"E:\\\\football_v\\\\archive\\\\V4_CLEANUP_ARCHIVE\\\\deploy_Football_AI_OS_V2.8_REAL_PREDICTION_API_ALL.ps1\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V1.0.json",
+                    "line": 30,
+                    "content": "\"E:\\\\football_v\\\\archive\\\\V4_CLEANUP_ARCHIVE\\\\deploy_Football_AI_OS_V2.9_REAL_END_TO_END_TEST_ALL.ps1\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V1.0.json",
+                    "line": 39,
+                    "content": "\"E:\\\\football_v\\\\archive\\\\V4_CLEANUP_ARCHIVE\\\\deploy_MODEL_LAYER_V2.10_OPTIMIZATION_ALL.ps1\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V1.0.json",
+                    "line": 48,
+                    "content": "\"E:\\\\football_v\\\\archive\\\\V4_CLEANUP_ARCHIVE\\\\deploy_MODEL_LAYER_V2.11_FEEDBACK_LOOP_ALL.ps1\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\FOOTBALL_AI_OS_V4_GLOBAL_AUDIT.json",
+                    "line": 186,
+                    "content": "\"E:\\\\football_v\\\\archive\\\\V4_CLEANUP_ARCHIVE\\\\deploy_MODEL_LAYER_V2.11_FEEDBACK_LOOP_ALL.ps1\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\V4_CLEANUP_REPORT.json",
+                    "line": 6,
+                    "content": "\"archive\":  \"E:\\\\football_v\\\\archive\\\\V4_CLEANUP_ARCHIVE\\\\deploy_Football_AI_OS_V2.7_REAL_SIMULATION_ALL.ps1\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\V4_CLEANUP_REPORT.json",
+                    "line": 12,
+                    "content": "\"archive\":  \"E:\\\\football_v\\\\archive\\\\V4_CLEANUP_ARCHIVE\\\\deploy_Football_AI_OS_V2.8_REAL_PREDICTION_API_ALL.ps1\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\V4_CLEANUP_REPORT.json",
+                    "line": 18,
+                    "content": "\"archive\":  \"E:\\\\football_v\\\\archive\\\\V4_CLEANUP_ARCHIVE\\\\deploy_Football_AI_OS_V2.9_REAL_END_TO_END_TEST_ALL.ps1\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\V4_CLEANUP_REPORT.json",
+                    "line": 24,
+                    "content": "\"archive\":  \"E:\\\\football_v\\\\archive\\\\V4_CLEANUP_ARCHIVE\\\\deploy_MODEL_LAYER_V2.10_OPTIMIZATION_ALL.ps1\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\V4_CLEANUP_REPORT.json",
+                    "line": 30,
+                    "content": "\"archive\":  \"E:\\\\football_v\\\\archive\\\\V4_CLEANUP_ARCHIVE\\\\deploy_MODEL_LAYER_V2.11_FEEDBACK_LOOP_ALL.ps1\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\V4_PRODUCTION_BASELINE_REPORT.json",
+                    "line": 32,
+                    "content": "\"archive_status\":  \"V4_CLEANUP_ARCHIVE_COMPLETED\","
+                }
+            ],
+            "decision": "KEEP_ARCHIVE"
+        },
+        {
+            "target": "deployment_scripts",
+            "python_refs": [
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\tools\\code_reference_impact_scan.py",
+                    "line": 24,
+                    "content": "r\"deployment_scripts\","
+                }
+            ],
+            "powershell_refs": [
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_application_layer_V2.5_REAL_ALL_FIX.ps1",
+                    "line": 9,
+                    "content": "$py=\"$base\\deployment_scripts\\application_layer_V2.5_initializer.py\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_application_layer_V2.5_REAL_ALL_FIX.ps1",
+                    "line": 50,
+                    "content": "$tmp=\"$base\\deployment_scripts\\application_layer_db_test_tmp.py\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_decision_layer_V2.4_REAL_ALL_FIX.ps1",
+                    "line": 9,
+                    "content": "$py=\"$base\\deployment_scripts\\decision_layer_V2.4_initializer.py\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_decision_layer_V2.4_REAL_ALL_FIX.ps1",
+                    "line": 50,
+                    "content": "$test=\"$base\\deployment_scripts\\decision_layer_db_test_tmp.py\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_Football_AI_OS_V2.1_REAL_ALL_FIX2.ps1",
+                    "line": 4,
+                    "content": "$script=\"$base\\deployment_scripts\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_Football_AI_OS_V2.2_VALIDATION_REAL.ps1",
+                    "line": 14,
+                    "content": "python \"$base\\deployment_scripts\\prediction_database_test_V1.4.py\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_Football_AI_OS_V2.6_INTEGRATION_REAL_ALL.ps1",
+                    "line": 16,
+                    "content": "$script=\"$base\\deployment_scripts\\integration_layer_V2.6_initializer.py\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_model_layer_V2.3_REAL_ALL_FIX2.ps1",
+                    "line": 7,
+                    "content": "$script=\"$base\\deployment_scripts\\model_layer_V2.3_initializer.py\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_prediction_intelligence_V1.3_FIX.ps1",
+                    "line": 1,
+                    "content": "﻿$py=\"E:\\football_v\\deployment_scripts\\prediction_intelligence_init_V1.3.py\""
+                },
+                {
+                    "file": "E:\\football_v\\deployment_scripts\\deploy_prediction_phase_V1.2_fix.ps1",
+                    "line": 12,
+                    "content": "$DEPLOY=\"$ROOT\\deployment_scripts\\deploy_prediction_phase_V1.2_batch.py\""
+                }
+            ],
+            "json_refs": [
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1380,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\deploy_ai_intelligence_batch_02_06_V2.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1381,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\deploy_full_prediction_ai_V2.1.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1382,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\deploy_phase10_batch02_real_model_V1.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1383,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\deploy_prediction_intelligence_batch_01_V2.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1384,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\deploy_prediction_patch_V2.1.1.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1385,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\deploy_remaining_batch_V1.5.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\architecture_registry.json",
+                    "line": 1386,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\deploy_training_engine_batch_01_V2.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\00_SYSTEM_TOOLS\\Architecture_Migration_Tool\\reports\\ARCHITECTURE_VALIDATION_REPORT_V1.1.json",
+                    "line": 881,
+                    "content": "\"deployment_scripts\": 7,"
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 5267,
+                    "content": "\"path\": \"E:\\\\football_v\\\\deployment_scripts\\\\deploy_ai_intelligence_batch_02_06_V2.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 5272,
+                    "content": "\"path\": \"E:\\\\football_v\\\\deployment_scripts\\\\deploy_full_prediction_ai_V2.1.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 5277,
+                    "content": "\"path\": \"E:\\\\football_v\\\\deployment_scripts\\\\deploy_phase10_batch02_real_model_V1.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 5282,
+                    "content": "\"path\": \"E:\\\\football_v\\\\deployment_scripts\\\\deploy_prediction_intelligence_batch_01_V2.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 5287,
+                    "content": "\"path\": \"E:\\\\football_v\\\\deployment_scripts\\\\deploy_prediction_patch_V2.1.1.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 5292,
+                    "content": "\"path\": \"E:\\\\football_v\\\\deployment_scripts\\\\deploy_remaining_batch_V1.5.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\architecture_cleanup\\dependency_migration_V1.5\\dependency_graph_V1.5.json",
+                    "line": 5297,
+                    "content": "\"path\": \"E:\\\\football_v\\\\deployment_scripts\\\\deploy_training_engine_batch_01_V2.0.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 2396,
+                    "content": "\"file\": \"E:\\\\football_v\\\\deployment_scripts\\\\deploy_remaining_batch_V1.5.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 5390,
+                    "content": "\"file\": \"E:\\\\football_v\\\\deployment_scripts\\\\deploy_remaining_batch_V1.5.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 5394,
+                    "content": "\"file\": \"E:\\\\football_v\\\\deployment_scripts\\\\deploy_remaining_batch_V1.5.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\reports\\Architecture_Module_Map_V1.0.json",
+                    "line": 5398,
+                    "content": "\"file\": \"E:\\\\football_v\\\\deployment_scripts\\\\deploy_remaining_batch_V1.5.py\","
+                },
+                {
+                    "file": "E:\\football_v\\99_DOCUMENTATION\\SYSTEM_CHECKPOINTS\\SYSTEM_CHECKPOINTS\\FOOTBALL_V_CHECKPOINT_SYSTEM_SCAN_V4.0.json",
+                    "line": 111,
+                    "content": "\"deployment_scripts\": ["
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V1.0.json",
+                    "line": 13,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\deploy_Football_AI_OS_V2.7_REAL_SIMULATION_ALL.ps1\""
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V1.0.json",
+                    "line": 22,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\deploy_Football_AI_OS_V2.8_REAL_PREDICTION_API_ALL.ps1\""
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V1.0.json",
+                    "line": 31,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\deploy_Football_AI_OS_V2.9_REAL_END_TO_END_TEST_ALL.ps1\""
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V1.0.json",
+                    "line": 40,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\deploy_MODEL_LAYER_V2.10_OPTIMIZATION_ALL.ps1\""
+                },
+                {
+                    "file": "E:\\football_v\\reports\\CODE_LOGIC_DUPLICATE_AUDIT_V1.0.json",
+                    "line": 49,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\deploy_MODEL_LAYER_V2.11_FEEDBACK_LOOP_ALL.ps1\""
+                },
+                {
+                    "file": "E:\\football_v\\reports\\FOOTBALL_AI_OS_V4_GLOBAL_AUDIT.json",
+                    "line": 187,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\audit_feedback_flow_v4.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\FOOTBALL_AI_OS_V4_GLOBAL_AUDIT.json",
+                    "line": 188,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\audit_feedback_pipeline.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\FOOTBALL_AI_OS_V4_GLOBAL_AUDIT.json",
+                    "line": 189,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\audit_learning_database_schema_v4.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\FOOTBALL_AI_OS_V4_GLOBAL_AUDIT.json",
+                    "line": 190,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\audit_self_learning_engine_v4.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\FOOTBALL_AI_OS_V4_GLOBAL_AUDIT.json",
+                    "line": 191,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\check_feedback_tables.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\FOOTBALL_AI_OS_V4_GLOBAL_AUDIT.json",
+                    "line": 192,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\check_learning_feedback_db.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\FOOTBALL_AI_OS_V4_GLOBAL_AUDIT.json",
+                    "line": 193,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\check_prediction_feedback_count.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\FOOTBALL_AI_OS_V4_GLOBAL_AUDIT.json",
+                    "line": 194,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\check_prediction_feedback_table.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\FOOTBALL_AI_OS_V4_GLOBAL_AUDIT.json",
+                    "line": 195,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\create_prediction_feedback_table.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\FOOTBALL_AI_OS_V4_GLOBAL_AUDIT.json",
+                    "line": 196,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\deploy_MODEL_LAYER_V2.11_FEEDBACK_LOOP_ALL.ps1\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\FOOTBALL_AI_OS_V4_GLOBAL_AUDIT.json",
+                    "line": 197,
+                    "content": "\"E:\\\\football_v\\\\deployment_scripts\\\\test_feedback_connector.py\","
+                },
+                {
+                    "file": "E:\\football_v\\reports\\V4_CLEANUP_REPORT.json",
+                    "line": 9,
+                    "content": "\"file\":  \"deployment_scripts\\\\deploy_Football_AI_OS_V2.7_REAL_SIMULATION_ALL.ps1\""
+                },
+                {
+                    "file": "E:\\football_v\\reports\\V4_CLEANUP_REPORT.json",
+                    "line": 15,
+                    "content": "\"file\":  \"deployment_scripts\\\\deploy_Football_AI_OS_V2.8_REAL_PREDICTION_API_ALL.ps1\""
+                },
+                {
+                    "file": "E:\\football_v\\reports\\V4_CLEANUP_REPORT.json",
+                    "line": 21,
+                    "content": "\"file\":  \"deployment_scripts\\\\deploy_Football_AI_OS_V2.9_REAL_END_TO_END_TEST_ALL.ps1\""
+                },
+                {
+                    "file": "E:\\football_v\\reports\\V4_CLEANUP_REPORT.json",
+                    "line": 27,
+                    "content": "\"file\":  \"deployment_scripts\\\\deploy_MODEL_LAYER_V2.10_OPTIMIZATION_ALL.ps1\""
+                },
+                {
+                    "file": "E:\\football_v\\reports\\V4_CLEANUP_REPORT.json",
+                    "line": 33,
+                    "content": "\"file\":  \"deployment_scripts\\\\deploy_MODEL_LAYER_V2.11_FEEDBACK_LOOP_ALL.ps1\""
+                }
+            ],
+            "decision": "MIGRATE_FIRST"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "version": "V4.0",
+    "status": "TRAINING_READY",
+    "python": "Python312",
+    "data_version": "FROZEN",
+    "feature_version": "FROZEN",
+    "model_version": "V4.0"
+}

@@ -1,0 +1,12 @@
+{
+    "version": "V4.0",
+    "pipeline": [
+        "INPUT",
+        "FEATURE",
+        "MODEL",
+        "FUSION",
+        "RISK",
+        "OUTPUT"
+    ],
+    "status": "READY"
+}

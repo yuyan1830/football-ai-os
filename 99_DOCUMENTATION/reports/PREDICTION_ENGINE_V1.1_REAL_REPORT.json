@@ -1,0 +1,80 @@
+{
+    "version": "PREDICTION_ENGINE_V1.1_REAL",
+    "time": "2026-07-23T19:54:06.980079",
+    "database_check": {
+        "system": {
+            "exists": true,
+            "size": 28672,
+            "sha256": "492e6f4761fe6d3a9684460ad8c7dcde04bf60701915a7662bd6d1485a34fcde",
+            "tables": {
+                "system_registry": 1,
+                "database_registry": 8,
+                "model_registry": 10,
+                "runtime_registry": 0,
+                "task_registry": 0,
+                "prediction_registry": 7
+            }
+        },
+        "match": {
+            "exists": true,
+            "size": 268873728,
+            "sha256": "672fa9f2d3a30529e3e2a8eba1ec20807ecf400c7f31ab01ada634ac3e975aa9",
+            "tables": {
+                "matches_full": 96337,
+                "matches_clean": 96305,
+                "matches": 0,
+                "fixtures": 0,
+                "teams": 0,
+                "competitions": 0,
+                "seasons": 0,
+                "leagues": 0,
+                "match_stats": 0,
+                "odds_history": 139501,
+                "odds_history_clean": 139454,
+                "xg_match_history": 40958,
+                "xg_shot_history": 515218,
+                "xg_shot_history_clean": 515217,
+                "data_audit_report": 17,
+                "data_update_log": 1,
+                "system_registry": 0,
+                "database_registry": 0,
+                "model_registry": 0,
+                "runtime_log": 0
+            }
+        },
+        "feature": {
+            "exists": true,
+            "size": 15728640,
+            "sha256": "3230801a815152209d1ba8f3d1a23d864646e4f9b43de3c24d70b852f1389377",
+            "tables": {
+                "elo_history": 96305,
+                "dixon_coles_history": 96305,
+                "poisson_history": 96305,
+                "team_form_history": 96305,
+                "home_away_history": 96305,
+                "fatigue_rating": 96305,
+                "feature_vector": 96305
+            }
+        },
+        "model": {
+            "exists": true,
+            "size": 53248,
+            "sha256": "baf3aec35fd491db18a7d2c7245566b25d2b574916750a9cadccb119a77bbe4f",
+            "tables": {
+                "elo_model": 1,
+                "dixon_coles_model": 1,
+                "poisson_model": 1,
+                "xgboost_model": 1,
+                "fusion_model": 1,
+                "model_weight": 1,
+                "model_version": 0,
+                "prediction_history": 2,
+                "prediction_feature_snapshot": 0,
+                "prediction_result": 0,
+                "model_weight_history": 0
+            }
+        }
+    },
+    "prediction_status": "ACTIVE",
+    "status": "PASS"
+}

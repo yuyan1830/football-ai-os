@@ -1,0 +1,85 @@
+{
+    "version": "DATABASE_SYSTEM_VALIDATION_V2.2.4",
+    "time": "2026-07-23T18:49:31.805429",
+    "databases": {
+        "football_ai_os": {
+            "name": "football_ai_os",
+            "path": "E:\\football_v\\00_SYSTEM_OS\\01_DATA_LAYER\\database\\football_ai_os.db",
+            "exists": true,
+            "size": 24576,
+            "sha256": "d46080f90dfcecb81bb3c21e3b71af672243cb5f25ecb25b9561ace7d0d0e8a1",
+            "tables": {
+                "system_registry": 1,
+                "database_registry": 4,
+                "model_registry": 0,
+                "runtime_registry": 0,
+                "task_registry": 0
+            },
+            "status": "PASS"
+        },
+        "match_data": {
+            "name": "match_data",
+            "path": "E:\\football_v\\00_SYSTEM_OS\\01_DATA_LAYER\\database\\match_data.db",
+            "exists": true,
+            "size": 268873728,
+            "sha256": "672fa9f2d3a30529e3e2a8eba1ec20807ecf400c7f31ab01ada634ac3e975aa9",
+            "tables": {
+                "matches_full": 96337,
+                "matches_clean": 96305,
+                "matches": 0,
+                "fixtures": 0,
+                "teams": 0,
+                "competitions": 0,
+                "seasons": 0,
+                "leagues": 0,
+                "match_stats": 0,
+                "odds_history": 139501,
+                "odds_history_clean": 139454,
+                "xg_match_history": 40958,
+                "xg_shot_history": 515218,
+                "xg_shot_history_clean": 515217,
+                "data_audit_report": 17,
+                "data_update_log": 1,
+                "system_registry": 0,
+                "database_registry": 0,
+                "model_registry": 0,
+                "runtime_log": 0
+            },
+            "status": "PASS"
+        },
+        "feature_store": {
+            "name": "feature_store",
+            "path": "E:\\football_v\\00_SYSTEM_OS\\02_FEATURE_LAYER\\database\\feature_store.db",
+            "exists": true,
+            "size": 36864,
+            "sha256": "120c05ba80bd310cd5624ec9d2fe58d319e0ed2769fc972dbb7b364f4dd9f3c9",
+            "tables": {
+                "elo_history": 0,
+                "dixon_coles_history": 0,
+                "poisson_history": 0,
+                "team_form_history": 0,
+                "home_away_history": 0,
+                "fatigue_rating": 0,
+                "feature_vector": 0
+            },
+            "status": "PASS"
+        },
+        "model_store": {
+            "name": "model_store",
+            "path": "E:\\football_v\\00_SYSTEM_OS\\03_MODEL_LAYER\\database\\model_store.db",
+            "exists": true,
+            "size": 36864,
+            "sha256": "123b038bba0e9b9c513f3cfaa363d9da9a2afd43b4935186a0a005a0398a6fb5",
+            "tables": {
+                "elo_model": 0,
+                "dixon_coles_model": 0,
+                "poisson_model": 0,
+                "xgboost_model": 0,
+                "fusion_model": 0,
+                "model_weight": 0,
+                "model_version": 0
+            },
+            "status": "PASS"
+        }
+    }
+}

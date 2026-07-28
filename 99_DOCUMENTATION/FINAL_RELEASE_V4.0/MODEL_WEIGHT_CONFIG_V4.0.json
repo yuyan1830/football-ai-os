@@ -1,0 +1,16 @@
+{
+    "version": "MODEL_WEIGHT_CONFIG_V4.0",
+    "core_weight": {
+        "model_fusion": 0.3,
+        "elo": 0.2,
+        "dixon_coles": 0.2,
+        "poisson": 0.15,
+        "xgboost": 0.15
+    },
+    "auxiliary_weight": {
+        "market_sentiment": 0.05,
+        "risk_control": 0.05,
+        "capital_flow": 0.03,
+        "odds_movement": 0.02
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "version": "MODEL_DATA_SNAPSHOT_V4.0",
+    "time": "2026-07-23 14:51:14.078750",
+    "database": {
+        "path": "E:\\FOOTBALL_V\\data\\football.db",
+        "exists": false
+    },
+    "tables": {},
+    "training_mode": "TIME_SEQUENCE",
+    "status": "READY"
+}

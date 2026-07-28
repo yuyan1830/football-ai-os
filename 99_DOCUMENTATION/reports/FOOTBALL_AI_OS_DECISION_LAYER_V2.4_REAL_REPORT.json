@@ -1,0 +1,29 @@
+{
+    "version": "DECISION_LAYER_V2.4_REAL",
+    "time": "2026-07-23 20:08:05.534218",
+    "layer": "E:\\football_v\\08_DECISION_LAYER",
+    "database": {
+        "exists": true,
+        "tables": [
+            "decision_history",
+            "decision_registry"
+        ]
+    },
+    "modules": [
+        "Decision Engine V2.4",
+        "Recommendation Engine",
+        "Decision Service",
+        "Decision Monitor"
+    ],
+    "inputs": [
+        "ELO",
+        "Dixon-Coles",
+        "Poisson",
+        "XGBoost",
+        "Fusion",
+        "Market",
+        "Risk",
+        "Confidence"
+    ],
+    "status": "READY"
+}

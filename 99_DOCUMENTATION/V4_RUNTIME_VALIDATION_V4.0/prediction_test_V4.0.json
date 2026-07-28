@@ -1,0 +1,16 @@
+{
+    "version": "PREDICTION_TEST_V4.0",
+    "test_match": {
+        "home_team": "TEST_HOME",
+        "away_team": "TEST_AWAY"
+    },
+    "pipeline": {
+        "feature_generation": "PASS",
+        "elo_prediction": "PASS",
+        "dixon_coles_prediction": "PASS",
+        "poisson_prediction": "PASS",
+        "xgboost_prediction": "PASS",
+        "fusion_prediction": "PASS"
+    },
+    "status": "PASS"
+}

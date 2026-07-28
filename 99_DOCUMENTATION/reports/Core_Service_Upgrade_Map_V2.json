@@ -1,0 +1,80 @@
+{
+    "time": "2026-07-20T10:29:14.165171",
+    "old_core_path": "E:\\football_v\\00_System_OS\\01_DATA_LAYER\\core",
+    "new_common_path": "E:\\football_v\\90_COMMON_SERVICES\\common_services",
+    "old_core_file_count": 5,
+    "common_service_file_count": 9,
+    "upgrade_map": {
+        "database": {
+            "old_core": [],
+            "common_services": [],
+            "recommended_action": "none"
+        },
+        "db_connection": {
+            "old_core": [
+                "db_connection.py"
+            ],
+            "common_services": [],
+            "recommended_action": "keep"
+        },
+        "logger": {
+            "old_core": [
+                "logger.py"
+            ],
+            "common_services": [
+                "97_TESTS\\97_TESTS\\test_logger.py",
+                "logger\\formatter.py",
+                "logger\\handlers.py",
+                "logger\\logger.py",
+                "logger\\log_config.json",
+                "logger\\__init__.py"
+            ],
+            "recommended_action": "merge_upgrade"
+        },
+        "file_service": {
+            "old_core": [
+                "file_service.py"
+            ],
+            "common_services": [],
+            "recommended_action": "keep"
+        },
+        "hash_service": {
+            "old_core": [
+                "hash_service.py"
+            ],
+            "common_services": [],
+            "recommended_action": "keep"
+        },
+        "version_service": {
+            "old_core": [
+                "version_service.py"
+            ],
+            "common_services": [],
+            "recommended_action": "keep"
+        },
+        "config_loader": {
+            "old_core": [],
+            "common_services": [],
+            "recommended_action": "none"
+        },
+        "validator": {
+            "old_core": [],
+            "common_services": [
+                "validator\\__init__.py"
+            ],
+            "recommended_action": "add_to_core"
+        },
+        "exception": {
+            "old_core": [],
+            "common_services": [
+                "exception\\__init__.py"
+            ],
+            "recommended_action": "add_to_core"
+        },
+        "datetime_service": {
+            "old_core": [],
+            "common_services": [],
+            "recommended_action": "none"
+        }
+    }
+}

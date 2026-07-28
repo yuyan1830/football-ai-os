@@ -1,0 +1,76 @@
+﻿{
+    "phase":  "Phase 4 Decision Engine Audit",
+    "time":  "2026-07-28 00:26:12",
+    "project":  "Football AI OS",
+    "modules":  {
+                    "06_PREDICTION_ENGINE":  {
+                                                 "file_count":  16,
+                                                 "files":  [
+                                                               "E:\\football_v\\06_PREDICTION_ENGINE\\confidence_calculator.py",
+                                                               "E:\\football_v\\06_PREDICTION_ENGINE\\correct_score_calculator.py",
+                                                               "E:\\football_v\\06_PREDICTION_ENGINE\\goal_distribution.py",
+                                                               "E:\\football_v\\06_PREDICTION_ENGINE\\market_probability_compare.py",
+                                                               "E:\\football_v\\06_PREDICTION_ENGINE\\prediction_interface.py",
+                                                               "E:\\football_v\\06_PREDICTION_ENGINE\\prediction_registry.py",
+                                                               "E:\\football_v\\06_PREDICTION_ENGINE\\prediction_runtime.py",
+                                                               "E:\\football_v\\06_PREDICTION_ENGINE\\prediction_service.py",
+                                                               "E:\\football_v\\06_PREDICTION_ENGINE\\probability_calibrator.py",
+                                                               "E:\\football_v\\06_PREDICTION_ENGINE\\probability_engine.py",
+                                                               "E:\\football_v\\06_PREDICTION_ENGINE\\risk_engine.py",
+                                                               "E:\\football_v\\06_PREDICTION_ENGINE\\score_prediction_engine.py",
+                                                               "E:\\football_v\\06_PREDICTION_ENGINE\\value_analyzer.py",
+                                                               "E:\\football_v\\06_PREDICTION_ENGINE\\config\\prediction_config.json",
+                                                               "E:\\football_v\\06_PREDICTION_ENGINE\\reports\\prediction_engine_report.json",
+                                                               "E:\\football_v\\06_PREDICTION_ENGINE\\tests\\prediction_engine_v1.3_full_test.py"
+                                                           ],
+                                                 "exists":  true
+                                             },
+                    "07_BACKTEST_AI":  {
+                                           "file_count":  16,
+                                           "files":  [
+                                                         "E:\\football_v\\07_BACKTEST_AI\\accuracy_evaluator.py",
+                                                         "E:\\football_v\\07_BACKTEST_AI\\backtest_engine.py",
+                                                         "E:\\football_v\\07_BACKTEST_AI\\backtest_runner.py",
+                                                         "E:\\football_v\\07_BACKTEST_AI\\betting_result_analyzer.py",
+                                                         "E:\\football_v\\07_BACKTEST_AI\\confidence_evaluator.py",
+                                                         "E:\\football_v\\07_BACKTEST_AI\\feature_feedback.py",
+                                                         "E:\\football_v\\07_BACKTEST_AI\\historical_match_loader.py",
+                                                         "E:\\football_v\\07_BACKTEST_AI\\model_feedback.py",
+                                                         "E:\\football_v\\07_BACKTEST_AI\\optimization_scheduler.py",
+                                                         "E:\\football_v\\07_BACKTEST_AI\\prediction_result_loader.py",
+                                                         "E:\\football_v\\07_BACKTEST_AI\\probability_evaluator.py",
+                                                         "E:\\football_v\\07_BACKTEST_AI\\roi_tracker.py",
+                                                         "E:\\football_v\\07_BACKTEST_AI\\strategy_performance.py",
+                                                         "E:\\football_v\\07_BACKTEST_AI\\config\\backtest_config.json",
+                                                         "E:\\football_v\\07_BACKTEST_AI\\reports\\backtest_report.json",
+                                                         "E:\\football_v\\07_BACKTEST_AI\\tests\\backtest_system_v1.3_full_test.py"
+                                                     ],
+                                           "exists":  true
+                                       },
+                    "08_DECISION_ENGINE":  {
+                                               "file_count":  14,
+                                               "files":  [
+                                                             "E:\\football_v\\08_DECISION_ENGINE\\bankroll_manager.py",
+                                                             "E:\\football_v\\08_DECISION_ENGINE\\bet_selection_engine.py",
+                                                             "E:\\football_v\\08_DECISION_ENGINE\\decision_engine.py",
+                                                             "E:\\football_v\\08_DECISION_ENGINE\\decision_interface.py",
+                                                             "E:\\football_v\\08_DECISION_ENGINE\\decision_registry.py",
+                                                             "E:\\football_v\\08_DECISION_ENGINE\\decision_runtime.py",
+                                                             "E:\\football_v\\08_DECISION_ENGINE\\final_decision_report.py",
+                                                             "E:\\football_v\\08_DECISION_ENGINE\\portfolio_strategy.py",
+                                                             "E:\\football_v\\08_DECISION_ENGINE\\risk_control_engine.py",
+                                                             "E:\\football_v\\08_DECISION_ENGINE\\stake_calculator.py",
+                                                             "E:\\football_v\\08_DECISION_ENGINE\\value_filter_engine.py",
+                                                             "E:\\football_v\\08_DECISION_ENGINE\\config\\decision_config.json",
+                                                             "E:\\football_v\\08_DECISION_ENGINE\\reports\\decision_report.json",
+                                                             "E:\\football_v\\08_DECISION_ENGINE\\tests\\decision_engine_v1.3_full_test.py"
+                                                         ],
+                                               "exists":  true
+                                           }
+                },
+    "checks":  {
+                   "decision_engine_exists":  true,
+                   "prediction_engine_exists":  true,
+                   "backtest_exists":  true
+               }
+}

@@ -1,0 +1,76 @@
+{
+    "version": "FEATURE_MODEL_DEPLOYMENT_V1.0",
+    "time": "2026-07-23T18:57:44.138960",
+    "databases": {
+        "system": {
+            "exists": true,
+            "size": 24576,
+            "sha256": "22112db43249ebf1c3afc037cfe8821618df1e1338c2f37465a3289d1140a182",
+            "tables": [
+                "system_registry",
+                "database_registry",
+                "model_registry",
+                "runtime_registry",
+                "task_registry"
+            ]
+        },
+        "match": {
+            "exists": true,
+            "size": 268873728,
+            "sha256": "672fa9f2d3a30529e3e2a8eba1ec20807ecf400c7f31ab01ada634ac3e975aa9",
+            "tables": [
+                "matches_full",
+                "sqlite_sequence",
+                "matches_clean",
+                "matches",
+                "fixtures",
+                "teams",
+                "competitions",
+                "seasons",
+                "leagues",
+                "match_stats",
+                "odds_history",
+                "odds_history_clean",
+                "xg_match_history",
+                "xg_shot_history",
+                "xg_shot_history_clean",
+                "data_audit_report",
+                "data_update_log",
+                "system_registry",
+                "database_registry",
+                "model_registry",
+                "runtime_log"
+            ]
+        },
+        "feature": {
+            "exists": true,
+            "size": 36864,
+            "sha256": "120c05ba80bd310cd5624ec9d2fe58d319e0ed2769fc972dbb7b364f4dd9f3c9",
+            "tables": [
+                "elo_history",
+                "sqlite_sequence",
+                "dixon_coles_history",
+                "poisson_history",
+                "team_form_history",
+                "home_away_history",
+                "fatigue_rating",
+                "feature_vector"
+            ]
+        },
+        "model": {
+            "exists": true,
+            "size": 36864,
+            "sha256": "123b038bba0e9b9c513f3cfaa363d9da9a2afd43b4935186a0a005a0398a6fb5",
+            "tables": [
+                "elo_model",
+                "sqlite_sequence",
+                "dixon_coles_model",
+                "poisson_model",
+                "xgboost_model",
+                "fusion_model",
+                "model_weight",
+                "model_version"
+            ]
+        }
+    }
+}

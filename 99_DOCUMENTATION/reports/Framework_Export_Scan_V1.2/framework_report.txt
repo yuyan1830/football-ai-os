@@ -1,0 +1,41 @@
+﻿
+Football AI OS Framework Export Report
+
+Version:
+V1.2
+
+
+Root:
+
+E:\football_v
+
+
+Statistics:
+
+Total Files:
+313
+
+
+Python Files:
+151
+
+
+PowerShell Files:
+29
+
+
+
+Core:
+
+00_System_OS
+ |
+ 01_DATA_LAYER
+ |
+ core
+
+
+
+Generated:
+07/20/2026 15:51:46
+
+

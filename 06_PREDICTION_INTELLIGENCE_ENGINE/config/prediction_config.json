@@ -1,0 +1,7 @@
+{
+    "framework": "Football AI OS Ultimate Fusion Framework V1.5",
+    "module": "Prediction Intelligence Engine",
+    "version": "V1.0",
+    "main_prediction": "90_minutes",
+    "knockout_extension": "extra_time_penalty_advancement"
+}

@@ -1,0 +1,13 @@
+{
+    "version": "FEATURE_ENGINE_HISTORY_V1.0.1",
+    "time": "2026-07-23T19:00:56.948127",
+    "result": {
+        "elo_history": 96305,
+        "dixon_coles_history": 96305,
+        "poisson_history": 96305,
+        "team_form_history": 96305,
+        "home_away_history": 96305,
+        "fatigue_rating": 96305,
+        "feature_vector": 96305
+    }
+}

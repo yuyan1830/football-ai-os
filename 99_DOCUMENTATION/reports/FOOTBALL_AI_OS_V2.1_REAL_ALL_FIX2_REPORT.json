@@ -1,0 +1,22 @@
+﻿
+{
+    "version":"FOOTBALL_AI_OS_V2.1_REAL_ALL_FIX2",
+    "time":"07/23/2026 19:54:10",
+    "layers":
+    {
+        "prediction":"PASS",
+        "market":"PASS",
+        "risk":"PASS",
+        "learning":"PASS"
+    },
+    "models":
+    {
+        "ELO":true,
+        "Dixon-Coles":true,
+        "Poisson":true,
+        "XGBoost":true,
+        "Fusion":true
+    },
+    "status":"PASS"
+}
+

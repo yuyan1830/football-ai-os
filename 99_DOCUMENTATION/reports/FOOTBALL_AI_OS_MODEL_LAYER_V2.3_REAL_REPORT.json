@@ -1,0 +1,21 @@
+{
+    "version": "MODEL_LAYER_V2.3_REAL",
+    "time": "2026-07-23 20:05:57.324526",
+    "database": {
+        "exists": true,
+        "tables": [
+            "model_registry"
+        ]
+    },
+    "models": {
+        "ELO": "PASS",
+        "Dixon-Coles": "PASS",
+        "Poisson": "PASS",
+        "XGBoost": "PASS",
+        "Fusion_V2.3": "PASS",
+        "Market_Model": "PASS",
+        "Risk_Model": "PASS",
+        "Confidence_Model": "PASS"
+    },
+    "status": "READY"
+}

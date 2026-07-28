@@ -1,0 +1,9 @@
+{
+    "version": "FINAL_ADVICE_V4.0",
+    "decision": {
+        "prediction": "GENERATED",
+        "confidence": "CALCULATED",
+        "risk": "CONTROLLED"
+    },
+    "status": "READY"
+}

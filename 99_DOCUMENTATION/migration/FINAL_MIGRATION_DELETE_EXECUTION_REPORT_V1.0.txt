@@ -1,0 +1,61 @@
+Football AI OS FINAL DELETE EXECUTION REPORT V1.0
+============================================================
+Time: 2026-07-28 20:53:06.355458
+
+SAFE DELETE FILE COUNT: 559
+
+STATUS: WAITING FINAL CONFIRMATION
+
+IMPORTANT:
+Files are only marked safe.
+No physical deletion executed.
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}
+{'file': '', 'status': 'SAFE_DELETE_REVIEW', 'scan_time': '2026-07-28 20:52:00.869036'}

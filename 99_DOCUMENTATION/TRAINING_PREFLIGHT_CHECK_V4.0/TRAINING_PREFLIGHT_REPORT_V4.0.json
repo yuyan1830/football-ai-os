@@ -1,0 +1,31 @@
+{
+    "database": {
+        "path": "E:\\FOOTBALL_V\\data\\football.db",
+        "exists": false,
+        "status": "CHECKED"
+    },
+    "model_config": {
+        "version": "V4.0",
+        "ELO": 0.2,
+        "Dixon_Coles": 0.2,
+        "Poisson": 0.15,
+        "XGBoost": 0.15,
+        "Fusion": 0.3
+    },
+    "training_policy": {
+        "time_sequence_training": true,
+        "architecture_modify": false,
+        "auto_weight_change": false,
+        "framework": "Frozen V4.0"
+    },
+    "environment": {
+        "python": "Python312",
+        "system": "Windows",
+        "status": "READY"
+    },
+    "checkpoint": {
+        "version": "TRAINING_PREFLIGHT_CHECK_V4.0",
+        "time": "2026-07-23 14:42:44.668352",
+        "status": "READY_FOR_TRAINING"
+    }
+}

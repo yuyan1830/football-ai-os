@@ -1,0 +1,6 @@
+﻿Legacy Module,Current Module,Status
+00_System_OS/03_MODEL_LAYER/Model_Pool/Elo,05_MODEL_AI/MODEL_LAYER/models/elo_model.py,MIGRATED
+00_System_OS/03_MODEL_LAYER/Model_Pool/Dixon_Coles,05_MODEL_AI/MODEL_LAYER/models/dixon_coles_model.py,MIGRATED
+00_System_OS/03_MODEL_LAYER/Model_Pool/Poisson,05_MODEL_AI/MODEL_LAYER/models/poisson_model.py,MIGRATED
+Legacy XGBoost,05_MODEL_AI/MODEL_LAYER/models/xgboost_model.py,MIGRATED
+Legacy Fusion,05_AI_Intelligence_Layer/FUSION_DECISION_ENGINE/fusion_engine.py,MIGRATED

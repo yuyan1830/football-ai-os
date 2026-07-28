@@ -1,0 +1,11 @@
+{
+    "version": "Migration Execution Plan V1.5",
+    "time": "2026-07-23 13:31:56.807784",
+    "mode": "SAFE_DEPENDENCY_MIGRATION",
+    "rules": [
+        "NO_DELETE",
+        "REFERENCE_CHECK_FIRST",
+        "ARCHIVE_ONLY_AFTER_VALIDATION"
+    ],
+    "candidates": []
+}

@@ -1,0 +1,32 @@
+Football AI OS Model Registry Full Scan Report V1.0
+Time: 2026-07-28 20:18:39.598810
+============================================================
+
+MODEL: ELO
+----------------------------------------
+[OK] 05_MODEL_AI/MODEL_LAYER/models/elo_model.py
+[OK] 50_MODEL_REGISTRY/models/elo_model_V4.0.json
+STATUS: REGISTERED
+
+MODEL: Dixon-Coles
+----------------------------------------
+[OK] 05_MODEL_AI/MODEL_LAYER/models/dixon_coles_model.py
+STATUS: REGISTERED
+
+MODEL: Poisson
+----------------------------------------
+[OK] 05_MODEL_AI/MODEL_LAYER/models/poisson_model.py
+STATUS: REGISTERED
+
+MODEL: XGBoost
+----------------------------------------
+[OK] 05_MODEL_AI/MODEL_LAYER/models/xgboost_model.py
+STATUS: REGISTERED
+
+MODEL: Fusion
+----------------------------------------
+[OK] 05_AI_Intelligence_Layer/FUSION_DECISION_ENGINE/fusion_engine.py
+STATUS: REGISTERED
+
+============================================================
+[OK] 50_MODEL_REGISTRY exists

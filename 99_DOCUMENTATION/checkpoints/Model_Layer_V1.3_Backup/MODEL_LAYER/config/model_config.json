@@ -1,0 +1,13 @@
+{
+    "framework": "Football AI OS",
+    "module": "Model Layer",
+    "version": "V1.3",
+    "models": [
+        "Elo",
+        "Dixon-Coles",
+        "Poisson",
+        "XGBoost"
+    ],
+    "fusion": true,
+    "backtest": true
+}

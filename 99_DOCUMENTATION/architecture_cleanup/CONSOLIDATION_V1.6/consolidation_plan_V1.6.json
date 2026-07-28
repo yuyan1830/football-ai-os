@@ -1,0 +1,21 @@
+{
+    "version": "Architecture Consolidation Plan V1.6",
+    "time": "2026-07-23 13:34:05.766582",
+    "mode": "SAFE_CONSOLIDATION",
+    "rules": [
+        "one_function_one_location",
+        "keep_primary_module",
+        "archive_duplicate_module",
+        "redirect_dependency"
+    ],
+    "migration_items": 3,
+    "dependency_items": 4,
+    "deprecated_items": 3,
+    "operations": [
+        "duplicate_resolution",
+        "dependency_redirect",
+        "registry_prepare",
+        "archive_prepare",
+        "checkpoint"
+    ]
+}

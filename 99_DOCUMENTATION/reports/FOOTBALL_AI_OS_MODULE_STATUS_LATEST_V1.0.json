@@ -1,0 +1,1640 @@
+﻿{
+    "58_REAL_PREDICTION_CONTROLLER":  {
+                                          "python_files":  1,
+                                          "md_files":  0,
+                                          "total_files":  1,
+                                          "json_files":  0,
+                                          "exists":  true
+                                      },
+    "03_Data_Governance":  {
+                               "python_files":  5,
+                               "md_files":  8,
+                               "total_files":  29,
+                               "json_files":  14,
+                               "exists":  true
+                           },
+    "02_Data_Infrastructure":  {
+                                   "python_files":  0,
+                                   "md_files":  0,
+                                   "total_files":  0,
+                                   "json_files":  0,
+                                   "exists":  true
+                               },
+    "Database":  {
+                     "python_files":  0,
+                     "md_files":  0,
+                     "total_files":  0,
+                     "json_files":  0,
+                     "exists":  true
+                 },
+    "94_HANDICAP_PENETRATION_ENGINE":  {
+                                           "python_files":  1,
+                                           "md_files":  0,
+                                           "total_files":  1,
+                                           "json_files":  0,
+                                           "exists":  true
+                                       },
+    "USER_INTERFACE_LAYER":  {
+                                 "python_files":  4,
+                                 "md_files":  0,
+                                 "total_files":  5,
+                                 "json_files":  1,
+                                 "exists":  true
+                             },
+    "AI_RUNTIME":  {
+                       "python_files":  13,
+                       "md_files":  0,
+                       "total_files":  26,
+                       "json_files":  0,
+                       "exists":  true
+                   },
+    "48_AI_ANALYSIS_REPORT":  {
+                                  "python_files":  0,
+                                  "md_files":  0,
+                                  "total_files":  0,
+                                  "json_files":  0,
+                                  "exists":  true
+                              },
+    "120_AI_REPORT_SERVICE":  {
+                                  "python_files":  1,
+                                  "md_files":  0,
+                                  "total_files":  1,
+                                  "json_files":  0,
+                                  "exists":  true
+                              },
+    "96_AI_PREDICTION_ORCHESTRATOR":  {
+                                          "python_files":  1,
+                                          "md_files":  0,
+                                          "total_files":  1,
+                                          "json_files":  0,
+                                          "exists":  true
+                                      },
+    "97_FINAL_MATCH_FORECAST_ENGINE":  {
+                                           "python_files":  1,
+                                           "md_files":  0,
+                                           "total_files":  1,
+                                           "json_files":  0,
+                                           "exists":  true
+                                       },
+    "41_MATCH_INPUT_SERVICE":  {
+                                   "python_files":  1,
+                                   "md_files":  0,
+                                   "total_files":  1,
+                                   "json_files":  0,
+                                   "exists":  true
+                               },
+    "84_KELLY_OPTIMIZATION_ENGINE":  {
+                                         "python_files":  1,
+                                         "md_files":  0,
+                                         "total_files":  1,
+                                         "json_files":  0,
+                                         "exists":  true
+                                     },
+    "148_RUNTIME_ERROR_HANDLER":  {
+                                      "python_files":  1,
+                                      "md_files":  0,
+                                      "total_files":  1,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "26_AUTOMATION_LAYER":  {
+                                "python_files":  8,
+                                "md_files":  0,
+                                "total_files":  10,
+                                "json_files":  2,
+                                "exists":  true
+                            },
+    "39_MARKET_SENTIMENT_ENGINE":  {
+                                       "python_files":  0,
+                                       "md_files":  0,
+                                       "total_files":  1,
+                                       "json_files":  1,
+                                       "exists":  true
+                                   },
+    "100_FINAL_MATCH_DECISION_SYSTEM":  {
+                                            "python_files":  1,
+                                            "md_files":  0,
+                                            "total_files":  1,
+                                            "json_files":  0,
+                                            "exists":  true
+                                        },
+    "44_PRODUCTION_PREDICTION_RUNTIME":  {
+                                             "python_files":  1,
+                                             "md_files":  0,
+                                             "total_files":  2,
+                                             "json_files":  1,
+                                             "exists":  true
+                                         },
+    "98_PREDICTION_CONFIDENCE_ENGINE":  {
+                                            "python_files":  1,
+                                            "md_files":  0,
+                                            "total_files":  1,
+                                            "json_files":  0,
+                                            "exists":  true
+                                        },
+    "76_MODEL_FEATURE_INTEGRATION":  {
+                                         "python_files":  1,
+                                         "md_files":  0,
+                                         "total_files":  1,
+                                         "json_files":  0,
+                                         "exists":  true
+                                     },
+    "126_MODEL_EXPLANATION_ENGINE":  {
+                                         "python_files":  1,
+                                         "md_files":  0,
+                                         "total_files":  1,
+                                         "json_files":  0,
+                                         "exists":  true
+                                     },
+    "88_TEAM_STRENGTH_DYNAMIC_ENGINE":  {
+                                            "python_files":  1,
+                                            "md_files":  0,
+                                            "total_files":  1,
+                                            "json_files":  0,
+                                            "exists":  true
+                                        },
+    "archive":  {
+                    "python_files":  6,
+                    "md_files":  0,
+                    "total_files":  15,
+                    "json_files":  0,
+                    "exists":  true
+                },
+    "91_FORM_TREND_ENGINE":  {
+                                 "python_files":  1,
+                                 "md_files":  0,
+                                 "total_files":  1,
+                                 "json_files":  0,
+                                 "exists":  true
+                             },
+    ".continue":  {
+                      "python_files":  0,
+                      "md_files":  10,
+                      "total_files":  11,
+                      "json_files":  1,
+                      "exists":  true
+                  },
+    "60_PREDICTION_RUNTIME":  {
+                                  "python_files":  0,
+                                  "md_files":  0,
+                                  "total_files":  0,
+                                  "json_files":  0,
+                                  "exists":  true
+                              },
+    "114_MATCH_CONTEXT_ENGINE":  {
+                                     "python_files":  1,
+                                     "md_files":  0,
+                                     "total_files":  1,
+                                     "json_files":  0,
+                                     "exists":  true
+                                 },
+    "03_MODEL_LAYER":  {
+                           "python_files":  12,
+                           "md_files":  0,
+                           "total_files":  16,
+                           "json_files":  1,
+                           "exists":  true
+                       },
+    "10_GOVERNANCE_LAYER":  {
+                                "python_files":  49,
+                                "md_files":  52,
+                                "total_files":  267,
+                                "json_files":  107,
+                                "exists":  true
+                            },
+    "68_MATCH_REQUEST_GATEWAY":  {
+                                     "python_files":  1,
+                                     "md_files":  0,
+                                     "total_files":  1,
+                                     "json_files":  0,
+                                     "exists":  true
+                                 },
+    "122_MODEL_STORE_LAYER":  {
+                                  "python_files":  1,
+                                  "md_files":  0,
+                                  "total_files":  1,
+                                  "json_files":  0,
+                                  "exists":  true
+                              },
+    "07_LEARNING_LAYER":  {
+                              "python_files":  0,
+                              "md_files":  0,
+                              "total_files":  1,
+                              "json_files":  0,
+                              "exists":  true
+                          },
+    "72_FINAL_PREDICTION_OUTPUT":  {
+                                       "python_files":  0,
+                                       "md_files":  0,
+                                       "total_files":  0,
+                                       "json_files":  0,
+                                       "exists":  true
+                                   },
+    "RELEASE_CANDIDATE":  {
+                              "python_files":  0,
+                              "md_files":  0,
+                              "total_files":  0,
+                              "json_files":  0,
+                              "exists":  true
+                          },
+    "135_API_GATEWAY_CONNECTOR":  {
+                                      "python_files":  1,
+                                      "md_files":  0,
+                                      "total_files":  1,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "108_SMART_HANDICAP_ENGINE":  {
+                                      "python_files":  1,
+                                      "md_files":  0,
+                                      "total_files":  1,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "80_SELF_LEARNING":  {
+                             "python_files":  0,
+                             "md_files":  0,
+                             "total_files":  0,
+                             "json_files":  0,
+                             "exists":  true
+                         },
+    "60_ODDS_VALUE_ENGINE":  {
+                                 "python_files":  0,
+                                 "md_files":  0,
+                                 "total_files":  0,
+                                 "json_files":  0,
+                                 "exists":  true
+                             },
+    "121_DATABASE_GOVERNANCE_LAYER":  {
+                                          "python_files":  1,
+                                          "md_files":  0,
+                                          "total_files":  1,
+                                          "json_files":  0,
+                                          "exists":  true
+                                      },
+    "62_FINAL_AI_REPORT_GENERATOR":  {
+                                         "python_files":  0,
+                                         "md_files":  0,
+                                         "total_files":  0,
+                                         "json_files":  0,
+                                         "exists":  true
+                                     },
+    "54_FEATURE_BUILD_ENGINE":  {
+                                    "python_files":  0,
+                                    "md_files":  0,
+                                    "total_files":  0,
+                                    "json_files":  0,
+                                    "exists":  true
+                                },
+    "124_DASHBOARD_LAYER":  {
+                                "python_files":  1,
+                                "md_files":  0,
+                                "total_files":  1,
+                                "json_files":  0,
+                                "exists":  true
+                            },
+    "105_HANDICAP_VALUE_DECISION_ENGINE":  {
+                                               "python_files":  1,
+                                               "md_files":  0,
+                                               "total_files":  1,
+                                               "json_files":  0,
+                                               "exists":  true
+                                           },
+    "FINAL_RELEASE_REPORT":  {
+                                 "python_files":  0,
+                                 "md_files":  0,
+                                 "total_files":  86,
+                                 "json_files":  55,
+                                 "exists":  true
+                             },
+    "68_REAL_ODDS_CONNECTOR":  {
+                                   "python_files":  1,
+                                   "md_files":  0,
+                                   "total_files":  1,
+                                   "json_files":  0,
+                                   "exists":  true
+                               },
+    "14_OPERATION_LAYER":  {
+                               "python_files":  0,
+                               "md_files":  0,
+                               "total_files":  3,
+                               "json_files":  3,
+                               "exists":  true
+                           },
+    "05_MODEL_AI":  {
+                        "python_files":  17,
+                        "md_files":  0,
+                        "total_files":  22,
+                        "json_files":  2,
+                        "exists":  true
+                    },
+    "10_Dashboard":  {
+                         "python_files":  0,
+                         "md_files":  0,
+                         "total_files":  0,
+                         "json_files":  0,
+                         "exists":  true
+                     },
+    "53_REAL_MATCH_QUERY_ENGINE":  {
+                                       "python_files":  1,
+                                       "md_files":  0,
+                                       "total_files":  1,
+                                       "json_files":  0,
+                                       "exists":  true
+                                   },
+    "130_FINAL_SYSTEM_VALIDATION":  {
+                                        "python_files":  1,
+                                        "md_files":  0,
+                                        "total_files":  1,
+                                        "json_files":  0,
+                                        "exists":  true
+                                    },
+    "deployment_scripts":  {
+                               "python_files":  50,
+                               "md_files":  0,
+                               "total_files":  68,
+                               "json_files":  0,
+                               "exists":  true
+                           },
+    "109_VALUE_BET_SELECTION_ENGINE":  {
+                                           "python_files":  1,
+                                           "md_files":  0,
+                                           "total_files":  1,
+                                           "json_files":  0,
+                                           "exists":  true
+                                       },
+    "21_PRODUCT_PACKAGE":  {
+                               "python_files":  8,
+                               "md_files":  1,
+                               "total_files":  10,
+                               "json_files":  1,
+                               "exists":  true
+                           },
+    "143_MODEL_CALL_ORCHESTRATOR":  {
+                                        "python_files":  1,
+                                        "md_files":  0,
+                                        "total_files":  1,
+                                        "json_files":  0,
+                                        "exists":  true
+                                    },
+    "118_MODEL_INFERENCE_SERVICE":  {
+                                        "python_files":  1,
+                                        "md_files":  0,
+                                        "total_files":  1,
+                                        "json_files":  0,
+                                        "exists":  true
+                                    },
+    "31_SELF_LEARNING_ENGINE":  {
+                                    "python_files":  2,
+                                    "md_files":  0,
+                                    "total_files":  3,
+                                    "json_files":  1,
+                                    "exists":  true
+                                },
+    "12_API_LAYER":  {
+                         "python_files":  4,
+                         "md_files":  0,
+                         "total_files":  7,
+                         "json_files":  2,
+                         "exists":  true
+                     },
+    "100_SELF_EVOLUTION_ENGINE":  {
+                                      "python_files":  1,
+                                      "md_files":  0,
+                                      "total_files":  1,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "13_REPORT_INTELLIGENCE_LAYER":  {
+                                         "python_files":  8,
+                                         "md_files":  0,
+                                         "total_files":  11,
+                                         "json_files":  3,
+                                         "exists":  true
+                                     },
+    "70_FEATURE_CALCULATION_ENGINE":  {
+                                          "python_files":  0,
+                                          "md_files":  0,
+                                          "total_files":  0,
+                                          "json_files":  0,
+                                          "exists":  true
+                                      },
+    "113_PLAYER_IMPACT_ANALYSIS_ENGINE":  {
+                                              "python_files":  1,
+                                              "md_files":  0,
+                                              "total_files":  1,
+                                              "json_files":  0,
+                                              "exists":  true
+                                          },
+    "80_XGBOOST_RUNTIME_ENGINE":  {
+                                      "python_files":  1,
+                                      "md_files":  0,
+                                      "total_files":  1,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "reports":  {
+                    "python_files":  0,
+                    "md_files":  0,
+                    "total_files":  12,
+                    "json_files":  11,
+                    "exists":  true
+                },
+    "upload":  {
+                   "python_files":  0,
+                   "md_files":  0,
+                   "total_files":  1,
+                   "json_files":  0,
+                   "exists":  true
+               },
+    "10_AI_AUTONOMOUS_ENGINE":  {
+                                    "python_files":  99,
+                                    "md_files":  1,
+                                    "total_files":  153,
+                                    "json_files":  28,
+                                    "exists":  true
+                                },
+    ".pytest_cache":  {
+                          "python_files":  0,
+                          "md_files":  1,
+                          "total_files":  5,
+                          "json_files":  0,
+                          "exists":  true
+                      },
+    "145_REPORT_GENERATION_RUNTIME":  {
+                                          "python_files":  1,
+                                          "md_files":  0,
+                                          "total_files":  1,
+                                          "json_files":  0,
+                                          "exists":  true
+                                      },
+    "92_RISK_CONTROL_ENGINE":  {
+                                   "python_files":  1,
+                                   "md_files":  0,
+                                   "total_files":  1,
+                                   "json_files":  0,
+                                   "exists":  true
+                               },
+    "136_MODULE_DISPATCH_ENGINE":  {
+                                       "python_files":  1,
+                                       "md_files":  0,
+                                       "total_files":  1,
+                                       "json_files":  0,
+                                       "exists":  true
+                                   },
+    "139_SYSTEM_HEALTH_INTERFACE":  {
+                                        "python_files":  1,
+                                        "md_files":  0,
+                                        "total_files":  1,
+                                        "json_files":  0,
+                                        "exists":  true
+                                    },
+    "Storage":  {
+                    "python_files":  0,
+                    "md_files":  0,
+                    "total_files":  0,
+                    "json_files":  0,
+                    "exists":  true
+                },
+    "20_DASHBOARD_LAYER":  {
+                               "python_files":  8,
+                               "md_files":  0,
+                               "total_files":  8,
+                               "json_files":  0,
+                               "exists":  true
+                           },
+    "69_LIVE_MATCH_FEATURE_ENGINE":  {
+                                         "python_files":  1,
+                                         "md_files":  0,
+                                         "total_files":  1,
+                                         "json_files":  0,
+                                         "exists":  true
+                                     },
+    "89_SCORE_SIMULATION_ENGINE":  {
+                                       "python_files":  1,
+                                       "md_files":  0,
+                                       "total_files":  1,
+                                       "json_files":  0,
+                                       "exists":  true
+                                   },
+    "67_BACKTEST_COMPARE_ENGINE":  {
+                                       "python_files":  0,
+                                       "md_files":  0,
+                                       "total_files":  0,
+                                       "json_files":  0,
+                                       "exists":  true
+                                   },
+    "07_BACKTEST_SYSTEM":  {
+                               "python_files":  9,
+                               "md_files":  0,
+                               "total_files":  13,
+                               "json_files":  4,
+                               "exists":  true
+                           },
+    "43_AI_PREDICTION_REPORT_ENGINE":  {
+                                           "python_files":  1,
+                                           "md_files":  0,
+                                           "total_files":  1,
+                                           "json_files":  0,
+                                           "exists":  true
+                                       },
+    "86_REAL_TIME_ODDS_ENGINE":  {
+                                     "python_files":  1,
+                                     "md_files":  0,
+                                     "total_files":  1,
+                                     "json_files":  0,
+                                     "exists":  true
+                                 },
+    "07_BACKTEST_AI":  {
+                           "python_files":  17,
+                           "md_files":  0,
+                           "total_files":  22,
+                           "json_files":  2,
+                           "exists":  true
+                       },
+    "61_MARKET_RISK_RUNTIME":  {
+                                   "python_files":  0,
+                                   "md_files":  0,
+                                   "total_files":  0,
+                                   "json_files":  0,
+                                   "exists":  true
+                               },
+    "88_HANDICAP_PREDICTION_ENGINE":  {
+                                          "python_files":  1,
+                                          "md_files":  0,
+                                          "total_files":  1,
+                                          "json_files":  0,
+                                          "exists":  true
+                                      },
+    "09_APPLICATION_LAYER":  {
+                                 "python_files":  4,
+                                 "md_files":  0,
+                                 "total_files":  5,
+                                 "json_files":  0,
+                                 "exists":  true
+                             },
+    "104_MARKET_SENTIMENT_FUSION_ENGINE":  {
+                                               "python_files":  1,
+                                               "md_files":  0,
+                                               "total_files":  1,
+                                               "json_files":  0,
+                                               "exists":  true
+                                           },
+    "__pycache__":  {
+                        "python_files":  0,
+                        "md_files":  0,
+                        "total_files":  1,
+                        "json_files":  0,
+                        "exists":  true
+                    },
+    "07_AI_ORCHESTRATION_LAYER":  {
+                                      "python_files":  15,
+                                      "md_files":  0,
+                                      "total_files":  26,
+                                      "json_files":  4,
+                                      "exists":  true
+                                  },
+    "98_AI_DECISION_REPORT_ENGINE":  {
+                                         "python_files":  1,
+                                         "md_files":  0,
+                                         "total_files":  1,
+                                         "json_files":  0,
+                                         "exists":  true
+                                     },
+    "59_MODEL_FUSION_RUNTIME":  {
+                                    "python_files":  0,
+                                    "md_files":  0,
+                                    "total_files":  0,
+                                    "json_files":  0,
+                                    "exists":  true
+                                },
+    "83_VALUE_BET_ENGINE":  {
+                                "python_files":  1,
+                                "md_files":  0,
+                                "total_files":  1,
+                                "json_files":  0,
+                                "exists":  true
+                            },
+    "27_MODEL_FUSION_ENGINE":  {
+                                   "python_files":  3,
+                                   "md_files":  0,
+                                   "total_files":  5,
+                                   "json_files":  2,
+                                   "exists":  true
+                               },
+    "117_FEATURE_AUTO_GENERATOR":  {
+                                       "python_files":  1,
+                                       "md_files":  0,
+                                       "total_files":  1,
+                                       "json_files":  0,
+                                       "exists":  true
+                                   },
+    "123_MODEL_WEIGHT_UPDATE_ENGINE":  {
+                                           "python_files":  1,
+                                           "md_files":  0,
+                                           "total_files":  1,
+                                           "json_files":  0,
+                                           "exists":  true
+                                       },
+    "01_DATA_LAYER":  {
+                          "python_files":  0,
+                          "md_files":  0,
+                          "total_files":  1,
+                          "json_files":  0,
+                          "exists":  true
+                      },
+    "28_PROBABILITY_CALIBRATION_ENGINE":  {
+                                              "python_files":  2,
+                                              "md_files":  0,
+                                              "total_files":  4,
+                                              "json_files":  2,
+                                              "exists":  true
+                                          },
+    "51_MODEL_OUTPUT_VALIDATOR":  {
+                                      "python_files":  0,
+                                      "md_files":  0,
+                                      "total_files":  0,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "111_ADVANCED_FEATURE_ENGINE":  {
+                                        "python_files":  1,
+                                        "md_files":  0,
+                                        "total_files":  1,
+                                        "json_files":  0,
+                                        "exists":  true
+                                    },
+    "Documentation":  {
+                          "python_files":  0,
+                          "md_files":  6,
+                          "total_files":  6,
+                          "json_files":  0,
+                          "exists":  true
+                      },
+    "LEGACY_IMPORT":  {
+                          "python_files":  26,
+                          "md_files":  1,
+                          "total_files":  28,
+                          "json_files":  0,
+                          "exists":  true
+                      },
+    "40_MATCH_PREDICTION_ENGINE":  {
+                                       "python_files":  0,
+                                       "md_files":  0,
+                                       "total_files":  1,
+                                       "json_files":  1,
+                                       "exists":  true
+                                   },
+    "46_MODEL_INFERENCE_ENGINE":  {
+                                      "python_files":  0,
+                                      "md_files":  0,
+                                      "total_files":  0,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "37_MODEL_INTELLIGENCE_CONNECTOR":  {
+                                            "python_files":  1,
+                                            "md_files":  0,
+                                            "total_files":  2,
+                                            "json_files":  1,
+                                            "exists":  true
+                                        },
+    "121_RESULT_FEEDBACK_ENGINE":  {
+                                       "python_files":  1,
+                                       "md_files":  0,
+                                       "total_files":  1,
+                                       "json_files":  0,
+                                       "exists":  true
+                                   },
+    "132_NATURAL_LANGUAGE_ENGINE":  {
+                                        "python_files":  1,
+                                        "md_files":  0,
+                                        "total_files":  1,
+                                        "json_files":  0,
+                                        "exists":  true
+                                    },
+    "56_AI_PREDICTION_PIPELINE":  {
+                                      "python_files":  0,
+                                      "md_files":  0,
+                                      "total_files":  0,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "70_AI_PREDICTION_CORE":  {
+                                  "python_files":  1,
+                                  "md_files":  0,
+                                  "total_files":  1,
+                                  "json_files":  0,
+                                  "exists":  true
+                              },
+    "01_Data_Archive":  {
+                            "python_files":  0,
+                            "md_files":  0,
+                            "total_files":  0,
+                            "json_files":  0,
+                            "exists":  true
+                        },
+    "140_FINAL_INTERFACE_VALIDATION":  {
+                                           "python_files":  1,
+                                           "md_files":  0,
+                                           "total_files":  1,
+                                           "json_files":  0,
+                                           "exists":  true
+                                       },
+    "25_BACKTEST_ENGINE":  {
+                               "python_files":  9,
+                               "md_files":  0,
+                               "total_files":  11,
+                               "json_files":  2,
+                               "exists":  true
+                           },
+    "08_Model_Registry":  {
+                              "python_files":  0,
+                              "md_files":  0,
+                              "total_files":  0,
+                              "json_files":  0,
+                              "exists":  true
+                          },
+    "115_AI_FORECAST_ENHANCEMENT_ENGINE":  {
+                                               "python_files":  1,
+                                               "md_files":  0,
+                                               "total_files":  1,
+                                               "json_files":  0,
+                                               "exists":  true
+                                           },
+    "125_PRODUCT_RELEASE_LAYER":  {
+                                      "python_files":  1,
+                                      "md_files":  0,
+                                      "total_files":  1,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    ".vscode":  {
+                    "python_files":  0,
+                    "md_files":  0,
+                    "total_files":  1,
+                    "json_files":  1,
+                    "exists":  true
+                },
+    "01_Data_Source":  {
+                           "python_files":  7,
+                           "md_files":  0,
+                           "total_files":  14,
+                           "json_files":  4,
+                           "exists":  true
+                       },
+    "00_System_OS":  {
+                         "python_files":  149,
+                         "md_files":  6,
+                         "total_files":  291,
+                         "json_files":  53,
+                         "exists":  true
+                     },
+    "02_Data_Platform":  {
+                             "python_files":  19,
+                             "md_files":  0,
+                             "total_files":  31,
+                             "json_files":  7,
+                             "exists":  true
+                         },
+    "110_FINAL_MARKET_DECISION_ENGINE":  {
+                                             "python_files":  1,
+                                             "md_files":  0,
+                                             "total_files":  1,
+                                             "json_files":  0,
+                                             "exists":  true
+                                         },
+    "71_SCORE_PROBABILITY_ENGINE":  {
+                                        "python_files":  1,
+                                        "md_files":  0,
+                                        "total_files":  1,
+                                        "json_files":  0,
+                                        "exists":  true
+                                    },
+    "Logs":  {
+                 "python_files":  0,
+                 "md_files":  0,
+                 "total_files":  1,
+                 "json_files":  0,
+                 "exists":  true
+             },
+    "15_API_INTEGRATION_LAYER":  {
+                                     "python_files":  8,
+                                     "md_files":  0,
+                                     "total_files":  12,
+                                     "json_files":  4,
+                                     "exists":  true
+                                 },
+    "64_LIVE_FEATURE_PROCESSOR":  {
+                                      "python_files":  0,
+                                      "md_files":  0,
+                                      "total_files":  0,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "57_PREDICTION_RESULT_STORAGE":  {
+                                         "python_files":  0,
+                                         "md_files":  0,
+                                         "total_files":  0,
+                                         "json_files":  0,
+                                         "exists":  true
+                                     },
+    "06_Feature_Store":  {
+                             "python_files":  0,
+                             "md_files":  0,
+                             "total_files":  0,
+                             "json_files":  0,
+                             "exists":  true
+                         },
+    "14_SYSTEM_MONITORING_LAYER":  {
+                                       "python_files":  8,
+                                       "md_files":  0,
+                                       "total_files":  11,
+                                       "json_files":  3,
+                                       "exists":  true
+                                   },
+    "Config":  {
+                   "python_files":  0,
+                   "md_files":  0,
+                   "total_files":  1,
+                   "json_files":  0,
+                   "exists":  true
+               },
+    "107_MARKET_PATTERN_RECOGNITION_ENGINE":  {
+                                                  "python_files":  1,
+                                                  "md_files":  0,
+                                                  "total_files":  1,
+                                                  "json_files":  0,
+                                                  "exists":  true
+                                              },
+    "138_LOCAL_CHAT_RUNTIME":  {
+                                   "python_files":  1,
+                                   "md_files":  0,
+                                   "total_files":  1,
+                                   "json_files":  0,
+                                   "exists":  true
+                               },
+    "103_CAPITAL_FLOW_TRACKING_ENGINE":  {
+                                             "python_files":  1,
+                                             "md_files":  0,
+                                             "total_files":  1,
+                                             "json_files":  0,
+                                             "exists":  true
+                                         },
+    "10_MARKET_INTELLIGENCE_LAYER":  {
+                                         "python_files":  7,
+                                         "md_files":  0,
+                                         "total_files":  10,
+                                         "json_files":  3,
+                                         "exists":  true
+                                     },
+    "00_SYSTEM_TOOLS":  {
+                            "python_files":  109,
+                            "md_files":  1,
+                            "total_files":  149,
+                            "json_files":  31,
+                            "exists":  true
+                        },
+    "40_MODEL_TRAINING_PIPELINE":  {
+                                       "python_files":  6,
+                                       "md_files":  0,
+                                       "total_files":  9,
+                                       "json_files":  3,
+                                       "exists":  true
+                                   },
+    "87_MARKET_MOVEMENT_ANALYZER":  {
+                                        "python_files":  1,
+                                        "md_files":  0,
+                                        "total_files":  1,
+                                        "json_files":  0,
+                                        "exists":  true
+                                    },
+    "63_REAL_MATCH_EXECUTION_ENGINE":  {
+                                           "python_files":  1,
+                                           "md_files":  0,
+                                           "total_files":  1,
+                                           "json_files":  0,
+                                           "exists":  true
+                                       },
+    "90_FATIGUE_ANALYSIS_ENGINE":  {
+                                       "python_files":  1,
+                                       "md_files":  0,
+                                       "total_files":  1,
+                                       "json_files":  0,
+                                       "exists":  true
+                                   },
+    "deployment_reports":  {
+                               "python_files":  0,
+                               "md_files":  0,
+                               "total_files":  1,
+                               "json_files":  1,
+                               "exists":  true
+                           },
+    "87_MATCH_CONTEXT_ENGINE":  {
+                                    "python_files":  1,
+                                    "md_files":  0,
+                                    "total_files":  1,
+                                    "json_files":  0,
+                                    "exists":  true
+                                },
+    "19_API_LAYER":  {
+                         "python_files":  8,
+                         "md_files":  0,
+                         "total_files":  8,
+                         "json_files":  0,
+                         "exists":  true
+                     },
+    "89_PLAYER_IMPACT_ENGINE":  {
+                                    "python_files":  1,
+                                    "md_files":  0,
+                                    "total_files":  1,
+                                    "json_files":  0,
+                                    "exists":  true
+                                },
+    ".venv":  {
+                  "python_files":  411,
+                  "md_files":  0,
+                  "total_files":  862,
+                  "json_files":  0,
+                  "exists":  true
+              },
+    "08_DECISION_LAYER":  {
+                              "python_files":  4,
+                              "md_files":  0,
+                              "total_files":  5,
+                              "json_files":  0,
+                              "exists":  true
+                          },
+    "52_AI_MATCH_REPORT_SYSTEM":  {
+                                      "python_files":  0,
+                                      "md_files":  0,
+                                      "total_files":  0,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "45_FEATURE_PIPELINE_RUNTIME":  {
+                                        "python_files":  0,
+                                        "md_files":  0,
+                                        "total_files":  0,
+                                        "json_files":  0,
+                                        "exists":  true
+                                    },
+    "82_PROBABILITY_CALIBRATION_RUNTIME":  {
+                                               "python_files":  1,
+                                               "md_files":  0,
+                                               "total_files":  1,
+                                               "json_files":  0,
+                                               "exists":  true
+                                           },
+    "30_MARKET_GAME_ENGINE":  {
+                                  "python_files":  2,
+                                  "md_files":  0,
+                                  "total_files":  4,
+                                  "json_files":  2,
+                                  "exists":  true
+                              },
+    "02_FEATURE_LAYER":  {
+                             "python_files":  0,
+                             "md_files":  0,
+                             "total_files":  1,
+                             "json_files":  0,
+                             "exists":  true
+                         },
+    "116_REAL_MATCH_PIPELINE":  {
+                                    "python_files":  1,
+                                    "md_files":  0,
+                                    "total_files":  1,
+                                    "json_files":  0,
+                                    "exists":  true
+                                },
+    "09_Prediction_System":  {
+                                 "python_files":  10,
+                                 "md_files":  0,
+                                 "total_files":  24,
+                                 "json_files":  0,
+                                 "exists":  true
+                             },
+    "24_PREDICTION_INTELLIGENCE_LAYER":  {
+                                             "python_files":  19,
+                                             "md_files":  0,
+                                             "total_files":  21,
+                                             "json_files":  2,
+                                             "exists":  true
+                                         },
+    "141_REAL_CHAT_EXECUTION_ENGINE":  {
+                                           "python_files":  1,
+                                           "md_files":  0,
+                                           "total_files":  1,
+                                           "json_files":  0,
+                                           "exists":  true
+                                       },
+    "11_SIMULATION_LAYER":  {
+                                "python_files":  2,
+                                "md_files":  0,
+                                "total_files":  6,
+                                "json_files":  3,
+                                "exists":  true
+                            },
+    "55_MODEL_EXECUTION_RUNTIME":  {
+                                       "python_files":  0,
+                                       "md_files":  0,
+                                       "total_files":  0,
+                                       "json_files":  0,
+                                       "exists":  true
+                                   },
+    "74_FINAL_MATCH_ADVISOR":  {
+                                   "python_files":  1,
+                                   "md_files":  0,
+                                   "total_files":  1,
+                                   "json_files":  0,
+                                   "exists":  true
+                               },
+    "85_FINAL_DECISION_ENGINE":  {
+                                     "python_files":  1,
+                                     "md_files":  0,
+                                     "total_files":  1,
+                                     "json_files":  0,
+                                     "exists":  true
+                                 },
+    "29_DECISION_ENGINE":  {
+                               "python_files":  2,
+                               "md_files":  0,
+                               "total_files":  4,
+                               "json_files":  2,
+                               "exists":  true
+                           },
+    "119_PREDICTION_OUTPUT_SERVICE":  {
+                                          "python_files":  1,
+                                          "md_files":  0,
+                                          "total_files":  1,
+                                          "json_files":  0,
+                                          "exists":  true
+                                      },
+    "142_DATABASE_QUERY_RUNTIME":  {
+                                       "python_files":  1,
+                                       "md_files":  0,
+                                       "total_files":  1,
+                                       "json_files":  0,
+                                       "exists":  true
+                                   },
+    "tools":  {
+                  "python_files":  4,
+                  "md_files":  0,
+                  "total_files":  5,
+                  "json_files":  0,
+                  "exists":  true
+              },
+    "08_DECISION_ENGINE":  {
+                               "python_files":  12,
+                               "md_files":  0,
+                               "total_files":  14,
+                               "json_files":  2,
+                               "exists":  true
+                           },
+    "deploy":  {
+                   "python_files":  14,
+                   "md_files":  0,
+                   "total_files":  14,
+                   "json_files":  0,
+                   "exists":  true
+               },
+    "08_DECISION_INTELLIGENCE_LAYER":  {
+                                           "python_files":  15,
+                                           "md_files":  0,
+                                           "total_files":  20,
+                                           "json_files":  4,
+                                           "exists":  true
+                                       },
+    "42_REAL_FEATURE_GENERATOR":  {
+                                      "python_files":  1,
+                                      "md_files":  0,
+                                      "total_files":  2,
+                                      "json_files":  1,
+                                      "exists":  true
+                                  },
+    "49_LIVE_PREDICTION_ENGINE":  {
+                                      "python_files":  1,
+                                      "md_files":  0,
+                                      "total_files":  1,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "97_MODEL_WEIGHT_OPTIMIZER":  {
+                                      "python_files":  1,
+                                      "md_files":  0,
+                                      "total_files":  1,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "112_TEAM_STRENGTH_EVOLUTION_ENGINE":  {
+                                               "python_files":  1,
+                                               "md_files":  0,
+                                               "total_files":  1,
+                                               "json_files":  0,
+                                               "exists":  true
+                                           },
+    "17_MODEL_STORE_LAYER":  {
+                                 "python_files":  13,
+                                 "md_files":  0,
+                                 "total_files":  17,
+                                 "json_files":  4,
+                                 "exists":  true
+                             },
+    "92_MARKET_EMOTION_ENGINE":  {
+                                     "python_files":  1,
+                                     "md_files":  0,
+                                     "total_files":  1,
+                                     "json_files":  0,
+                                     "exists":  true
+                                 },
+    "05_Master_Data":  {
+                           "python_files":  0,
+                           "md_files":  0,
+                           "total_files":  0,
+                           "json_files":  0,
+                           "exists":  true
+                       },
+    "66_PREDICTION_DATABASE":  {
+                                   "python_files":  0,
+                                   "md_files":  0,
+                                   "total_files":  0,
+                                   "json_files":  0,
+                                   "exists":  true
+                               },
+    "04_PREDICTION_LAYER":  {
+                                "python_files":  7,
+                                "md_files":  0,
+                                "total_files":  10,
+                                "json_files":  0,
+                                "exists":  true
+                            },
+    "131_USER_INTERFACE_LAYER":  {
+                                     "python_files":  1,
+                                     "md_files":  0,
+                                     "total_files":  1,
+                                     "json_files":  0,
+                                     "exists":  true
+                                 },
+    "32_PRODUCTION_ORCHESTRATOR":  {
+                                       "python_files":  2,
+                                       "md_files":  0,
+                                       "total_files":  4,
+                                       "json_files":  2,
+                                       "exists":  true
+                                   },
+    "06_PREDICTION_INTELLIGENCE_ENGINE":  {
+                                              "python_files":  21,
+                                              "md_files":  0,
+                                              "total_files":  41,
+                                              "json_files":  7,
+                                              "exists":  true
+                                          },
+    "93_CAPITAL_FLOW_ENGINE":  {
+                                   "python_files":  1,
+                                   "md_files":  0,
+                                   "total_files":  1,
+                                   "json_files":  0,
+                                   "exists":  true
+                               },
+    "09_MODEL_EXPLANATION_ENGINE":  {
+                                        "python_files":  6,
+                                        "md_files":  0,
+                                        "total_files":  9,
+                                        "json_files":  3,
+                                        "exists":  true
+                                    },
+    "129_API_GATEWAY_LAYER":  {
+                                  "python_files":  1,
+                                  "md_files":  0,
+                                  "total_files":  1,
+                                  "json_files":  0,
+                                  "exists":  true
+                              },
+    "checkpoint":  {
+                       "python_files":  0,
+                       "md_files":  0,
+                       "total_files":  4,
+                       "json_files":  4,
+                       "exists":  true
+                   },
+    "75_AUTO_LEARNING_FEEDBACK":  {
+                                      "python_files":  1,
+                                      "md_files":  0,
+                                      "total_files":  1,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "106_REAL_ODDS_HISTORY_ENGINE":  {
+                                         "python_files":  1,
+                                         "md_files":  0,
+                                         "total_files":  1,
+                                         "json_files":  0,
+                                         "exists":  true
+                                     },
+    "12_AUTONOMOUS_LEARNING_ENGINE":  {
+                                          "python_files":  8,
+                                          "md_files":  0,
+                                          "total_files":  11,
+                                          "json_files":  3,
+                                          "exists":  true
+                                      },
+    "81_MODEL_FUSION_PREDICTOR":  {
+                                      "python_files":  1,
+                                      "md_files":  0,
+                                      "total_files":  1,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "101_REAL_MARKET_INTELLIGENCE_ENGINE":  {
+                                                "python_files":  1,
+                                                "md_files":  0,
+                                                "total_files":  1,
+                                                "json_files":  0,
+                                                "exists":  true
+                                            },
+    "18_MODEL_EXECUTION_ENGINE":  {
+                                      "python_files":  25,
+                                      "md_files":  0,
+                                      "total_files":  37,
+                                      "json_files":  3,
+                                      "exists":  true
+                                  },
+    "44_REAL_DATA_CONNECTOR":  {
+                                   "python_files":  1,
+                                   "md_files":  0,
+                                   "total_files":  1,
+                                   "json_files":  0,
+                                   "exists":  true
+                               },
+    "144_MATCH_ANALYSIS_EXECUTOR":  {
+                                        "python_files":  1,
+                                        "md_files":  0,
+                                        "total_files":  1,
+                                        "json_files":  0,
+                                        "exists":  true
+                                    },
+    "128_SYSTEM_MONITORING_CENTER":  {
+                                         "python_files":  1,
+                                         "md_files":  0,
+                                         "total_files":  1,
+                                         "json_files":  0,
+                                         "exists":  true
+                                     },
+    ".claude":  {
+                    "python_files":  0,
+                    "md_files":  0,
+                    "total_files":  1,
+                    "json_files":  1,
+                    "exists":  true
+                },
+    "95_MODEL_FEEDBACK_ENGINE":  {
+                                     "python_files":  1,
+                                     "md_files":  0,
+                                     "total_files":  1,
+                                     "json_files":  0,
+                                     "exists":  true
+                                 },
+    "93_PORTFOLIO_BET_ENGINE":  {
+                                    "python_files":  1,
+                                    "md_files":  0,
+                                    "total_files":  1,
+                                    "json_files":  0,
+                                    "exists":  true
+                                },
+    "91_CONFIDENCE_RANKING_ENGINE":  {
+                                         "python_files":  1,
+                                         "md_files":  0,
+                                         "total_files":  1,
+                                         "json_files":  0,
+                                         "exists":  true
+                                     },
+    "79_POISSON_RUNTIME_ENGINE":  {
+                                      "python_files":  1,
+                                      "md_files":  0,
+                                      "total_files":  1,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "72_HANDICAP_DECISION_ENGINE":  {
+                                        "python_files":  1,
+                                        "md_files":  0,
+                                        "total_files":  1,
+                                        "json_files":  0,
+                                        "exists":  true
+                                    },
+    "50_FEATURE_VALIDATION_ENGINE":  {
+                                         "python_files":  0,
+                                         "md_files":  0,
+                                         "total_files":  0,
+                                         "json_files":  0,
+                                         "exists":  true
+                                     },
+    "97_TESTS":  {
+                     "python_files":  3,
+                     "md_files":  0,
+                     "total_files":  3,
+                     "json_files":  0,
+                     "exists":  true
+                 },
+    "50_MODEL_REGISTRY":  {
+                              "python_files":  0,
+                              "md_files":  0,
+                              "total_files":  1,
+                              "json_files":  1,
+                              "exists":  true
+                          },
+    "102_ODDS_MOVEMENT_ANALYSIS_ENGINE":  {
+                                              "python_files":  1,
+                                              "md_files":  0,
+                                              "total_files":  1,
+                                              "json_files":  0,
+                                              "exists":  true
+                                          },
+    "123_EXECUTION_ENGINE":  {
+                                 "python_files":  1,
+                                 "md_files":  0,
+                                 "total_files":  1,
+                                 "json_files":  0,
+                                 "exists":  true
+                             },
+    "09_AI_ORCHESTRATION_LAYER":  {
+                                      "python_files":  8,
+                                      "md_files":  0,
+                                      "total_files":  10,
+                                      "json_files":  2,
+                                      "exists":  true
+                                  },
+    "127_AUTONOMOUS_LEARNING_LOOP":  {
+                                         "python_files":  1,
+                                         "md_files":  0,
+                                         "total_files":  1,
+                                         "json_files":  0,
+                                         "exists":  true
+                                     },
+    "22_AI_FEATURE_STORE_LAYER":  {
+                                      "python_files":  4,
+                                      "md_files":  0,
+                                      "total_files":  4,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "149_SYSTEM_LOG_MANAGER":  {
+                                   "python_files":  1,
+                                   "md_files":  0,
+                                   "total_files":  1,
+                                   "json_files":  0,
+                                   "exists":  true
+                               },
+    "16_DATABASE_GOVERNANCE_LAYER":  {
+                                         "python_files":  22,
+                                         "md_files":  0,
+                                         "total_files":  33,
+                                         "json_files":  11,
+                                         "exists":  true
+                                     },
+    "96_MATCH_FEATURE_STORE":  {
+                                   "python_files":  1,
+                                   "md_files":  0,
+                                   "total_files":  1,
+                                   "json_files":  0,
+                                   "exists":  true
+                               },
+    "122_ERROR_ANALYSIS_ENGINE":  {
+                                      "python_files":  1,
+                                      "md_files":  0,
+                                      "total_files":  1,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "06_PREDICTION_ENGINE":  {
+                                 "python_files":  14,
+                                 "md_files":  0,
+                                 "total_files":  16,
+                                 "json_files":  2,
+                                 "exists":  true
+                             },
+    "134_COMMAND_ROUTER_ENGINE":  {
+                                      "python_files":  1,
+                                      "md_files":  0,
+                                      "total_files":  1,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "47_MATCH_PREDICTION_RUNTIME":  {
+                                        "python_files":  0,
+                                        "md_files":  0,
+                                        "total_files":  0,
+                                        "json_files":  0,
+                                        "exists":  true
+                                    },
+    "146_HISTORY_CONVERSATION_STORE":  {
+                                           "python_files":  1,
+                                           "md_files":  0,
+                                           "total_files":  1,
+                                           "json_files":  0,
+                                           "exists":  true
+                                       },
+    "73_MARKET_GAME_ANALYSIS_ENGINE":  {
+                                           "python_files":  1,
+                                           "md_files":  0,
+                                           "total_files":  1,
+                                           "json_files":  0,
+                                           "exists":  true
+                                       },
+    "133_CONVERSATION_MEMORY_LAYER":  {
+                                          "python_files":  1,
+                                          "md_files":  0,
+                                          "total_files":  1,
+                                          "json_files":  0,
+                                          "exists":  true
+                                      },
+    "23_MODEL_TRAINING_ENGINE":  {
+                                     "python_files":  13,
+                                     "md_files":  0,
+                                     "total_files":  15,
+                                     "json_files":  2,
+                                     "exists":  true
+                                 },
+    "04_Data_Processing_AI":  {
+                                  "python_files":  125,
+                                  "md_files":  0,
+                                  "total_files":  191,
+                                  "json_files":  54,
+                                  "exists":  true
+                              },
+    "99_AI_RISK_CONTROL_ENGINE":  {
+                                      "python_files":  1,
+                                      "md_files":  0,
+                                      "total_files":  1,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "99_PRODUCTION_MONITOR_ENGINE":  {
+                                         "python_files":  1,
+                                         "md_files":  0,
+                                         "total_files":  1,
+                                         "json_files":  0,
+                                         "exists":  true
+                                     },
+    "77_ELO_RUNTIME_ENGINE":  {
+                                  "python_files":  1,
+                                  "md_files":  0,
+                                  "total_files":  1,
+                                  "json_files":  0,
+                                  "exists":  true
+                              },
+    "04_RUNTIME":  {
+                       "python_files":  0,
+                       "md_files":  0,
+                       "total_files":  0,
+                       "json_files":  0,
+                       "exists":  true
+                   },
+    "05_AI_Intelligence_Layer":  {
+                                     "python_files":  13,
+                                     "md_files":  0,
+                                     "total_files":  22,
+                                     "json_files":  4,
+                                     "exists":  true
+                                 },
+    "124_AUTO_BACKTEST_ENGINE":  {
+                                     "python_files":  1,
+                                     "md_files":  0,
+                                     "total_files":  1,
+                                     "json_files":  0,
+                                     "exists":  true
+                                 },
+    "11_System_Intelligence":  {
+                                   "python_files":  145,
+                                   "md_files":  0,
+                                   "total_files":  242,
+                                   "json_files":  26,
+                                   "exists":  true
+                               },
+    "99_DOCUMENTATION":  {
+                             "python_files":  169,
+                             "md_files":  21,
+                             "total_files":  453,
+                             "json_files":  120,
+                             "exists":  true
+                         },
+    "05_MARKET_LAYER":  {
+                            "python_files":  0,
+                            "md_files":  0,
+                            "total_files":  1,
+                            "json_files":  0,
+                            "exists":  true
+                        },
+    "71_AI_PREDICTION_EXECUTOR":  {
+                                      "python_files":  0,
+                                      "md_files":  0,
+                                      "total_files":  0,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "13_TEST_LAYER":  {
+                          "python_files":  2,
+                          "md_files":  0,
+                          "total_files":  5,
+                          "json_files":  2,
+                          "exists":  true
+                      },
+    "10_INTEGRATION_LAYER":  {
+                                 "python_files":  3,
+                                 "md_files":  0,
+                                 "total_files":  4,
+                                 "json_files":  0,
+                                 "exists":  true
+                             },
+    "38_HANDICAP_VALUE_ENGINE":  {
+                                     "python_files":  0,
+                                     "md_files":  0,
+                                     "total_files":  1,
+                                     "json_files":  1,
+                                     "exists":  true
+                                 },
+    "78_DIXON_COLES_RUNTIME_ENGINE":  {
+                                          "python_files":  1,
+                                          "md_files":  0,
+                                          "total_files":  1,
+                                          "json_files":  0,
+                                          "exists":  true
+                                      },
+    "150_FINAL_RUNTIME_VALIDATION":  {
+                                         "python_files":  1,
+                                         "md_files":  0,
+                                         "total_files":  1,
+                                         "json_files":  0,
+                                         "exists":  true
+                                     },
+    "65_AI_FORECAST_SERVICE":  {
+                                   "python_files":  0,
+                                   "md_files":  0,
+                                   "total_files":  0,
+                                   "json_files":  0,
+                                   "exists":  true
+                               },
+    "94_MATCH_REVIEW_ENGINE":  {
+                                   "python_files":  1,
+                                   "md_files":  0,
+                                   "total_files":  1,
+                                   "json_files":  0,
+                                   "exists":  true
+                               },
+    "137_REPORT_PRESENTATION_LAYER":  {
+                                          "python_files":  1,
+                                          "md_files":  0,
+                                          "total_files":  1,
+                                          "json_files":  0,
+                                          "exists":  true
+                                      },
+    "69_REAL_ODDS_IMPORTER":  {
+                                  "python_files":  0,
+                                  "md_files":  0,
+                                  "total_files":  0,
+                                  "json_files":  0,
+                                  "exists":  true
+                              },
+    "147_TASK_SCHEDULER_ENGINE":  {
+                                      "python_files":  1,
+                                      "md_files":  0,
+                                      "total_files":  1,
+                                      "json_files":  0,
+                                      "exists":  true
+                                  },
+    "07_Model_Engine":  {
+                            "python_files":  0,
+                            "md_files":  0,
+                            "total_files":  0,
+                            "json_files":  0,
+                            "exists":  true
+                        },
+    "11_AI_ORCHESTRATION_LAYER":  {
+                                      "python_files":  8,
+                                      "md_files":  0,
+                                      "total_files":  11,
+                                      "json_files":  3,
+                                      "exists":  true
+                                  },
+    "90_AI_MATCH_SELECTION_ENGINE":  {
+                                         "python_files":  1,
+                                         "md_files":  0,
+                                         "total_files":  1,
+                                         "json_files":  0,
+                                         "exists":  true
+                                     },
+    "125_AI_VERSION_MANAGER":  {
+                                   "python_files":  1,
+                                   "md_files":  0,
+                                   "total_files":  1,
+                                   "json_files":  0,
+                                   "exists":  true
+                               },
+    "06_RISK_LAYER":  {
+                          "python_files":  0,
+                          "md_files":  0,
+                          "total_files":  1,
+                          "json_files":  0,
+                          "exists":  true
+                      }
+}

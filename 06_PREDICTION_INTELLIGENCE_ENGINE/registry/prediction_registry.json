@@ -1,0 +1,12 @@
+{
+    "module": "Prediction Intelligence Engine",
+    "version": "V1.0",
+    "models": [
+        "Elo",
+        "Dixon-Coles",
+        "Poisson",
+        "XGBoost",
+        "Fusion"
+    ],
+    "time_standard": "90_minutes"
+}

@@ -1,0 +1,11 @@
+{
+    "version": "MODEL_OUTPUT_V4.0",
+    "ELO": {
+        "home_strength": "CALCULATED",
+        "away_strength": "CALCULATED"
+    },
+    "Dixon_Coles": "CALCULATED",
+    "Poisson": "CALCULATED",
+    "XGBoost": "CALCULATED",
+    "status": "PASS"
+}

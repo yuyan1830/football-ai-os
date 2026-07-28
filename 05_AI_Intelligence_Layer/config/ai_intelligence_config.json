@@ -1,0 +1,12 @@
+{
+    "framework": "Football AI OS Ultimate Fusion Framework V1.5",
+    "layer": "05_AI_INTELLIGENCE_LAYER",
+    "version": "V1.0",
+    "modules": [
+        "MODEL_REGISTRY",
+        "MODEL_ADAPTER_FRAMEWORK",
+        "MODEL_EVALUATION_ENGINE",
+        "FUSION_DECISION_ENGINE",
+        "SELF_REFLECTION_ENGINE"
+    ]
+}

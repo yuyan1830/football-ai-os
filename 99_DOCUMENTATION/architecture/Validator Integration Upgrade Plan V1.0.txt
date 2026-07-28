@@ -1,0 +1,407 @@
+# Football AI OS Enterprise Architecture V1.1
+
+# Validator Integration Upgrade Plan V1.0
+
+版本：
+V1.0
+
+日期：
+2026-07-20
+
+状态：
+待执行
+
+==================================================
+一、升级背景
+======
+
+当前系统已经存在多个验证能力：
+
+1. import_pipeline.validator.py
+
+位置：
+
+00_System_OS
+└──01_DATA_LAYER
+└──import_pipeline
+└──validator.py
+
+作用：
+
+数据导入过程验证。
+
+---
+
+2. quality模块
+
+位置：
+
+00_System_OS
+└──01_DATA_LAYER
+└──quality
+
+包含：
+
+quality_checker.py
+
+quality_engine.py
+
+quality_report.py
+
+作用：
+
+数据质量检测。
+
+---
+
+3. common_services.validator
+
+位置：
+
+90_COMMON_SERVICES
+└──common_services
+└──validator
+
+当前：
+
+仅初始化模块。
+
+==================================================
+二、升级原则
+======
+
+遵循：
+
+Core Service Upgrade Fusion Strategy V1.0
+
+原则：
+
+1. 不迁移已有业务验证代码。
+
+2. 不替代import_pipeline.validator。
+
+3. 不破坏quality模块。
+
+4. 建立统一验证服务入口。
+
+5. 保持旧接口兼容。
+
+==================================================
+三、升级目标
+======
+
+建立：
+
+00_System_OS
+
+└──01_DATA_LAYER
+
+```
+└──core
+
+    └──validator
+```
+
+作为：
+
+Football AI OS Enterprise Validation Service
+
+==================================================
+四、目标结构
+======
+
+core
+
+└──validator
+
+```
+├──__init__.py
+
+├──validator_service.py
+
+├──data_validator.py
+
+├──schema_validator.py
+
+├──rule_engine.py
+
+└──validation_result.py
+```
+
+==================================================
+五、模块职责
+======
+
+validator_service.py
+
+职责：
+
+统一验证入口。
+
+负责：
+
+* 调度验证任务
+* 返回验证结果
+* 调用验证组件
+
+---
+
+data_validator.py
+
+职责：
+
+数据级验证。
+
+包括：
+
+* 空值检查
+* 类型检查
+* 数据格式检查
+* 异常值检查
+
+---
+
+schema_validator.py
+
+职责：
+
+结构验证。
+
+包括：
+
+* 表结构检查
+* 字段检查
+* 数据模型检查
+
+---
+
+rule_engine.py
+
+职责：
+
+验证规则管理。
+
+包括：
+
+* 规则加载
+* 规则执行
+* 规则扩展
+
+---
+
+validation_result.py
+
+职责：
+
+统一输出。
+
+格式：
+
+{
+status,
+errors,
+warnings,
+details
+}
+
+==================================================
+六、现有模块接入方案
+==========
+
+import_pipeline.validator.py
+
+保持。
+
+调整：
+
+调用：
+
+core.validator.validator_service
+
+---
+
+quality_engine.py
+
+接入：
+
+core.validator
+
+负责：
+
+质量规则验证。
+
+---
+
+registry_manager.py
+
+接入：
+
+core.validator
+
+负责：
+
+注册数据完整性检查。
+
+==================================================
+七、实施流程
+======
+
+Step 1
+
+创建Checkpoint。
+
+↓
+
+Step 2
+
+创建：
+
+core/validator
+
+↓
+
+Step 3
+
+实现基础Validator Service。
+
+↓
+
+Step 4
+
+接入import_pipeline。
+
+↓
+
+Step 5
+
+接入quality。
+
+↓
+
+Step 6
+
+接入registry。
+
+↓
+
+Step 7
+
+测试。
+
+==================================================
+八、测试计划
+======
+
+测试1：
+
+数据导入测试
+
+验证：
+
+import_pipeline
+
+---
+
+测试2：
+
+质量检测测试
+
+验证：
+
+quality_engine
+
+---
+
+测试3：
+
+注册流程测试
+
+验证：
+
+registry_manager
+
+---
+
+测试4：
+
+异常数据测试
+
+输入：
+
+错误字段
+
+缺失字段
+
+非法格式
+
+==================================================
+九、风险控制
+======
+
+风险：
+
+重复验证逻辑。
+
+解决：
+
+core.validator只负责统一入口。
+
+---
+
+风险：
+
+影响已有模块。
+
+解决：
+
+保持旧validator.py。
+
+---
+
+风险：
+
+规则冲突。
+
+解决：
+
+建立统一rule_engine。
+
+==================================================
+十、完成标准
+======
+
+完成后：
+
+Core结构：
+
+core
+
+├── logger
+
+├── validator
+
+├── file_service
+
+├── hash_service
+
+├── version_service
+
+├── db_connection.py
+
+状态：
+
+Logger Service:
+
+Stable
+
+Validator Service:
+
+Stable
+
+Core Fusion:
+
+Phase 2 Completed
+
+==================================================
+END
+===

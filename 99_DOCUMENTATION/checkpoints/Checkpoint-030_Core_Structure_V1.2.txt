@@ -1,0 +1,31 @@
+﻿
+Football AI OS
+
+Checkpoint-030
+
+Core Structure V1.2
+
+Completed:
+
+- Core service layer cleanup
+- Database service separation
+- File service separation
+- Hash service separation
+- Version service separation
+- Deployment scripts relocation
+
+Legacy:
+
+90_COMMON_SERVICES Removed
+
+Current:
+
+00_System_OS
+ └──01_DATA_LAYER
+      └──core
+
+
+Status:
+
+Stable
+

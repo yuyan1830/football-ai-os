@@ -1,0 +1,60 @@
+﻿卷 本地磁盘 的文件夹 PATH 列表
+卷序列号为 EE5B-0C2A
+E:\FOOTBALL_V\00_SYSTEM_OS\01_DATA_LAYER\CORE
++---database
+|   |   db_connection.py
+|   |   
+|   \---__pycache__
+|           db_connection.cpython-312.pyc
+|           
++---exception
+|   |   base_exception.py
+|   |   database_exception.py
+|   |   error_codes.py
+|   |   exception_handler.py
+|   |   file_exception.py
+|   |   validation_exception.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           base_exception.cpython-312.pyc
+|           database_exception.cpython-312.pyc
+|           file_exception.cpython-312.pyc
+|           validation_exception.cpython-312.pyc
+|           __init__.cpython-312.pyc
+|           
++---file_service
+|       file_service.py
+|       
++---hash_service
+|       hash_service.py
+|       
++---logger
+|   |   compatibility.py
+|   |   formatter.py
+|   |   handlers.py
+|   |   logger.py
+|   |   log_config.json
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           formatter.cpython-312.pyc
+|           handlers.cpython-312.pyc
+|           logger.cpython-312.pyc
+|           __init__.cpython-312.pyc
+|           
++---validator
+|   |   data_validator.py
+|   |   schema_validator.py
+|   |   schema_validator_status.txt
+|   |   validation_result.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           data_validator.cpython-312.pyc
+|           validation_result.cpython-312.pyc
+|           __init__.cpython-312.pyc
+|           
+\---version_service
+        version_service.py
+        

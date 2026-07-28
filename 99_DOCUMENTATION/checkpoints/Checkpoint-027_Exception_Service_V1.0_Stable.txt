@@ -1,0 +1,43 @@
+﻿
+Football AI OS
+
+Checkpoint-027
+
+Module:
+
+Exception Service
+
+
+Version:
+
+V1.0
+
+
+Created:
+
+core/exception
+
+
+Components:
+
+base_exception.py
+
+database_exception.py
+
+validation_exception.py
+
+file_exception.py
+
+
+Integration:
+
+Logger compatible
+
+Core Service compatible
+
+
+Status:
+
+Stable
+
+

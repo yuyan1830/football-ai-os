@@ -1,0 +1,13 @@
+{
+    "module": "Prediction Engine Batch Expansion",
+    "version": "V1.0",
+    "framework": "Football AI OS Ultimate Fusion Framework V1.5",
+    "models": [
+        "Elo",
+        "Dixon-Coles",
+        "Poisson",
+        "XGBoost",
+        "Fusion"
+    ],
+    "time_standard": "90_minutes"
+}

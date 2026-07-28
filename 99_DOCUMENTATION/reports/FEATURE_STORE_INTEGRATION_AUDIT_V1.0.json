@@ -1,0 +1,1371 @@
+{
+  "project": "Football AI OS",
+  "phase": "Phase 2 Feature Store Integration Audit",
+  "time": "2026-07-27 23:56:40.431335",
+  "scan": {
+    "04_Data_Processing_AI\\feature_store": {
+      "exists": true,
+      "files": [
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\backtest_dataset_manager.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\database_connection_pool.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\database_connector.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\database_health_monitor.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\database_migration_manager.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\dataset_split_manager.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\data_promotion_service.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\data_source_registry.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\elo_history_feature_engine.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\environment_manager.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_anomaly_detector.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_api_service.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_audit_logger.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_auto_generator.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_cache_manager.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_context_builder.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_crud_service.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_connector.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_health_check.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_reader.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_service.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_session.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_builder.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_builder_v2.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_exporter.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_generator.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_reporter.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_schema_validator.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_version_manager.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_data_ingestion.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_data_loader.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_drift_detector.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_feature_generator.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_feedback_optimizer.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_importance_analyzer.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_ingestion_scheduler.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_interaction_engine.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_lineage_tracker.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_loader.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_loader_service.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_match_reader.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_model_adapter.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_model_interface.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_model_registry.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_optimizer.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_pattern_miner.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_pipeline.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_pipeline_runner.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_probability_schema.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_quality_monitor.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_quality_reporter.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_quality_rules.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_query_engine.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_query_service.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_reduction_engine.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_registry.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_request_router.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_response_formatter.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_schema.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_selector_ai.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_service.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_service_health.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_snapshot_manager.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_store.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_table_mapper.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_time_series_manager.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_validation_service.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_validator.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_version_manager.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\historical_feature_builder.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\historical_feature_database.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\historical_feature_registry.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\historical_feature_repository.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\historical_feature_repository_v2.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\historical_feature_table_creator.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\home_away_feature_engine.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\intelligent_feature_store.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\model_feedback_collector.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\model_training_exporter.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\prediction_error_analyzer.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\production_release_checker.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\team_form_feature_engine.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\training_dataset_builder.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\validation_dataset_checker.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\validation_production_switch.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\dixon_coles_adapter.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\dixon_coles_feature_adapter.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\elo_adapter.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\elo_feature_adapter.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\fusion_adapter.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\fusion_feature_adapter.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\poisson_adapter.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\poisson_feature_adapter.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\xgboost_adapter.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\xgboost_feature_adapter.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\catalog\\feature_catalog.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\database_config.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\database_runtime.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\database_service_config.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\environment_config.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\feature_store_config.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\ingestion_config.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\intelligent_feature_config.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\match_data_runtime.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\postgres_runtime_config.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\production_feature_config.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\training_dataset_config.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\registry\\adapter_registry.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\registry\\feature_registry.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\ai_feature_dataset_report.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\database_migration_report.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\database_runtime_report.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\data_promotion_report.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\feature_database_report.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\feature_dataset_generation_report.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\feature_pipeline_report.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\feature_store_report.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\feature_store_test_report.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\historical_feature_database_report.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\historical_feature_report.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\ingestion_report.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\intelligent_feature_report.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\model_feature_mapping_report.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\production_readiness_report.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\training_dataset_report.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\schema\\ai_feature_dataset_schema.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\schema\\feature_schema.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\schema\\historical_feature_schema.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\schema\\match_dataset_schema.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\schema\\match_schema.json",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\ai_feature_dataset_test.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\environment_flow_test.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_database_health_test.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_database_integration_test.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_dataset_generation_test.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_ingestion_test.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_store_data_test.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_store_pipeline_test.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_store_test.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_store_v2.6_full_test.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_store_v3.0_full_test.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\historical_feature_database_test.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\historical_feature_store_test.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\model_feature_adapter_test.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\postgres_runtime_test.py",
+        "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\training_dataset_pipeline_test.py"
+      ],
+      "matches": [
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\database_connection_pool.py",
+          "keywords": [
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\database_connector.py",
+          "keywords": [
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\database_health_monitor.py",
+          "keywords": [
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\database_migration_manager.py",
+          "keywords": [
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\data_promotion_service.py",
+          "keywords": [
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\data_source_registry.py",
+          "keywords": [
+            "database",
+            "registry"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\elo_history_feature_engine.py",
+          "keywords": [
+            "feature",
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\environment_manager.py",
+          "keywords": [
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_anomaly_detector.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_api_service.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_audit_logger.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_auto_generator.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_cache_manager.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_context_builder.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_crud_service.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_connector.py",
+          "keywords": [
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_health_check.py",
+          "keywords": [
+            "feature",
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_reader.py",
+          "keywords": [
+            "feature",
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_service.py",
+          "keywords": [
+            "feature",
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_database_session.py",
+          "keywords": [
+            "feature",
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_builder.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_builder_v2.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_exporter.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_generator.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_reporter.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_dataset_version_manager.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_data_ingestion.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_data_loader.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_drift_detector.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_feature_generator.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_feedback_optimizer.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_importance_analyzer.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_ingestion_scheduler.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_interaction_engine.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_lineage_tracker.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_loader.py",
+          "keywords": [
+            "feature",
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_loader_service.py",
+          "keywords": [
+            "feature",
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_match_reader.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_model_adapter.py",
+          "keywords": [
+            "feature",
+            "elo",
+            "poisson"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_model_interface.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_model_registry.py",
+          "keywords": [
+            "feature",
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost",
+            "registry"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_optimizer.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_pattern_miner.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_pipeline.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_pipeline_runner.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_probability_schema.py",
+          "keywords": [
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_quality_monitor.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_quality_reporter.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_quality_rules.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_query_engine.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_query_service.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_reduction_engine.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_registry.py",
+          "keywords": [
+            "feature_store",
+            "feature",
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost",
+            "registry"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_request_router.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_response_formatter.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_schema.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_selector_ai.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_service.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_service_health.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_snapshot_manager.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_store.py",
+          "keywords": [
+            "feature_store",
+            "FeatureStore",
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_table_mapper.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_time_series_manager.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_validation_service.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_validator.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\feature_version_manager.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\historical_feature_builder.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\historical_feature_database.py",
+          "keywords": [
+            "feature",
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\historical_feature_registry.py",
+          "keywords": [
+            "feature",
+            "elo",
+            "registry"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\historical_feature_repository.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\historical_feature_repository_v2.py",
+          "keywords": [
+            "feature",
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\historical_feature_table_creator.py",
+          "keywords": [
+            "feature",
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\home_away_feature_engine.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\intelligent_feature_store.py",
+          "keywords": [
+            "FeatureStore",
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\production_release_checker.py",
+          "keywords": [
+            "feature",
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\team_form_feature_engine.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\training_dataset_builder.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\dixon_coles_adapter.py",
+          "keywords": [
+            "feature",
+            "dixon"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\dixon_coles_feature_adapter.py",
+          "keywords": [
+            "feature",
+            "dixon"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\elo_adapter.py",
+          "keywords": [
+            "feature",
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\elo_feature_adapter.py",
+          "keywords": [
+            "feature",
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\fusion_adapter.py",
+          "keywords": [
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\fusion_feature_adapter.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\poisson_adapter.py",
+          "keywords": [
+            "feature",
+            "poisson"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\poisson_feature_adapter.py",
+          "keywords": [
+            "feature",
+            "poisson"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\xgboost_adapter.py",
+          "keywords": [
+            "feature",
+            "xgboost"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\adapters\\xgboost_feature_adapter.py",
+          "keywords": [
+            "feature",
+            "xgboost"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\database_config.json",
+          "keywords": [
+            "database",
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\database_runtime.json",
+          "keywords": [
+            "database",
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\database_service_config.json",
+          "keywords": [
+            "feature",
+            "database",
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\environment_config.json",
+          "keywords": [
+            "feature",
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\feature_store_config.json",
+          "keywords": [
+            "feature_store",
+            "feature",
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\ingestion_config.json",
+          "keywords": [
+            "feature",
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\intelligent_feature_config.json",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\match_data_runtime.json",
+          "keywords": [
+            "feature",
+            "database",
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\postgres_runtime_config.json",
+          "keywords": [
+            "feature",
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\production_feature_config.json",
+          "keywords": [
+            "feature",
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\config\\training_dataset_config.json",
+          "keywords": [
+            "feature",
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\registry\\adapter_registry.json",
+          "keywords": [
+            "feature",
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\registry\\feature_registry.json",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\ai_feature_dataset_report.json",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\database_migration_report.json",
+          "keywords": [
+            "feature",
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\database_runtime_report.json",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\data_promotion_report.json",
+          "keywords": [
+            "feature",
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\feature_database_report.json",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\feature_dataset_generation_report.json",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\feature_pipeline_report.json",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\feature_store_test_report.json",
+          "keywords": [
+            "feature_store",
+            "feature",
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost",
+            "registry"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\historical_feature_database_report.json",
+          "keywords": [
+            "feature",
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\historical_feature_report.json",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\ingestion_report.json",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\intelligent_feature_report.json",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\model_feature_mapping_report.json",
+          "keywords": [
+            "feature",
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\production_readiness_report.json",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\reports\\training_dataset_report.json",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\schema\\ai_feature_dataset_schema.json",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\schema\\feature_schema.json",
+          "keywords": [
+            "feature",
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\schema\\historical_feature_schema.json",
+          "keywords": [
+            "feature",
+            "database",
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\ai_feature_dataset_test.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\environment_flow_test.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_database_health_test.py",
+          "keywords": [
+            "feature",
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_database_integration_test.py",
+          "keywords": [
+            "feature",
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_dataset_generation_test.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_ingestion_test.py",
+          "keywords": [
+            "feature",
+            "registry"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_store_data_test.py",
+          "keywords": [
+            "feature",
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_store_pipeline_test.py",
+          "keywords": [
+            "feature",
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_store_test.py",
+          "keywords": [
+            "feature_store",
+            "feature",
+            "registry"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_store_v2.6_full_test.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\feature_store_v3.0_full_test.py",
+          "keywords": [
+            "feature_store",
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\historical_feature_database_test.py",
+          "keywords": [
+            "feature",
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\historical_feature_store_test.py",
+          "keywords": [
+            "feature",
+            "elo",
+            "registry"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\model_feature_adapter_test.py",
+          "keywords": [
+            "feature",
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost",
+            "registry"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\postgres_runtime_test.py",
+          "keywords": [
+            "feature",
+            "database"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\04_Data_Processing_AI\\feature_store\\tests\\training_dataset_pipeline_test.py",
+          "keywords": [
+            "feature"
+          ]
+        }
+      ]
+    },
+    "05_MODEL_AI\\MODEL_LAYER": {
+      "exists": true,
+      "files": [
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\feature_store_connector.py",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\model_interface.py",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\model_loader.py",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\model_registry.py",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\model_runtime.py",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\backtest\\backtest_engine.py",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\backtest\\model_accuracy_report.py",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\backtest\\prediction_tracker.py",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\backtest\\roi_analyzer.py",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\config\\model_config.json",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\fusion\\fusion_engine.py",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\fusion\\probability_calculator.py",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\models\\dixon_coles_model.py",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\models\\elo_model.py",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\models\\poisson_model.py",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\models\\xgboost_model.py",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\reports\\model_layer_report.json",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\tests\\model_layer_v1.3_full_test.py",
+        "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\tests\\test_elo_model_migration.py"
+      ],
+      "matches": [
+        {
+          "file": "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\feature_store_connector.py",
+          "keywords": [
+            "FeatureStore",
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\model_interface.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\model_registry.py",
+          "keywords": [
+            "registry"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\config\\model_config.json",
+          "keywords": [
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\fusion\\fusion_engine.py",
+          "keywords": [
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\models\\dixon_coles_model.py",
+          "keywords": [
+            "feature",
+            "dixon"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\models\\elo_model.py",
+          "keywords": [
+            "feature",
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\models\\poisson_model.py",
+          "keywords": [
+            "feature",
+            "poisson"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\models\\xgboost_model.py",
+          "keywords": [
+            "feature",
+            "xgboost"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\tests\\model_layer_v1.3_full_test.py",
+          "keywords": [
+            "feature_store",
+            "feature",
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost",
+            "registry"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\05_MODEL_AI\\MODEL_LAYER\\tests\\test_elo_model_migration.py",
+          "keywords": [
+            "elo"
+          ]
+        }
+      ]
+    },
+    "06_PREDICTION_ENGINE": {
+      "exists": true,
+      "files": [
+        "E:\\football_v\\06_PREDICTION_ENGINE\\confidence_calculator.py",
+        "E:\\football_v\\06_PREDICTION_ENGINE\\correct_score_calculator.py",
+        "E:\\football_v\\06_PREDICTION_ENGINE\\goal_distribution.py",
+        "E:\\football_v\\06_PREDICTION_ENGINE\\market_probability_compare.py",
+        "E:\\football_v\\06_PREDICTION_ENGINE\\prediction_interface.py",
+        "E:\\football_v\\06_PREDICTION_ENGINE\\prediction_registry.py",
+        "E:\\football_v\\06_PREDICTION_ENGINE\\prediction_runtime.py",
+        "E:\\football_v\\06_PREDICTION_ENGINE\\prediction_service.py",
+        "E:\\football_v\\06_PREDICTION_ENGINE\\probability_calibrator.py",
+        "E:\\football_v\\06_PREDICTION_ENGINE\\probability_engine.py",
+        "E:\\football_v\\06_PREDICTION_ENGINE\\risk_engine.py",
+        "E:\\football_v\\06_PREDICTION_ENGINE\\score_prediction_engine.py",
+        "E:\\football_v\\06_PREDICTION_ENGINE\\value_analyzer.py",
+        "E:\\football_v\\06_PREDICTION_ENGINE\\config\\prediction_config.json",
+        "E:\\football_v\\06_PREDICTION_ENGINE\\reports\\prediction_engine_report.json",
+        "E:\\football_v\\06_PREDICTION_ENGINE\\tests\\prediction_engine_v1.3_full_test.py"
+      ],
+      "matches": [
+        {
+          "file": "E:\\football_v\\06_PREDICTION_ENGINE\\goal_distribution.py",
+          "keywords": [
+            "poisson"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\06_PREDICTION_ENGINE\\prediction_registry.py",
+          "keywords": [
+            "registry"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\06_PREDICTION_ENGINE\\prediction_service.py",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\06_PREDICTION_ENGINE\\config\\prediction_config.json",
+          "keywords": [
+            "feature"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\06_PREDICTION_ENGINE\\tests\\prediction_engine_v1.3_full_test.py",
+          "keywords": [
+            "registry"
+          ]
+        }
+      ]
+    },
+    "06_PREDICTION_INTELLIGENCE_ENGINE": {
+      "exists": true,
+      "files": [
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\connector_manager.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\dixon_coles_connector.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\elo_connector.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\poisson_connector.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\xgboost_connector.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\confidence_calibration\\calibration_engine.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\confidence_calibration\\reliability.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\confidence_engine\\confidence_manager.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\config\\prediction_config.json",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\knockout_extension\\knockout_engine.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\model_connector\\model_connector.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\prediction_api\\api_service.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\probability_engine\\probability_fusion.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\real_probability_engine\\fusion_calculator.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\real_probability_engine\\probability_service.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\registry\\batch_registry.json",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\registry\\prediction_registry.json",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\regular_time_prediction\\prediction_engine.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\reports\\batch_deploy_report.json",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\reports\\batch_test_report.json",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\reports\\prediction_deploy_report.json",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\reports\\prediction_test_report.json",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\risk_engine\\risk_manager.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\risk_intelligence_engine\\model_conflict.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\risk_intelligence_engine\\upset_detector.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\score_prediction\\score_predictor.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\score_probability_engine\\score_distribution.py",
+        "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\score_probability_engine\\score_service.py"
+      ],
+      "matches": [
+        {
+          "file": "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\connector_manager.py",
+          "keywords": [
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\dixon_coles_connector.py",
+          "keywords": [
+            "dixon"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\elo_connector.py",
+          "keywords": [
+            "elo"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\poisson_connector.py",
+          "keywords": [
+            "poisson"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\advanced_model_connector\\xgboost_connector.py",
+          "keywords": [
+            "xgboost"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\model_connector\\model_connector.py",
+          "keywords": [
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\registry\\batch_registry.json",
+          "keywords": [
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\registry\\prediction_registry.json",
+          "keywords": [
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\reports\\batch_test_report.json",
+          "keywords": [
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost"
+          ]
+        },
+        {
+          "file": "E:\\football_v\\06_PREDICTION_INTELLIGENCE_ENGINE\\reports\\prediction_test_report.json",
+          "keywords": [
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost"
+          ]
+        }
+      ]
+    },
+    "27_MODEL_FUSION_ENGINE": {
+      "exists": true,
+      "files": [
+        "E:\\football_v\\27_MODEL_FUSION_ENGINE\\confidence_engine.py",
+        "E:\\football_v\\27_MODEL_FUSION_ENGINE\\fusion_engine_V2.1.py",
+        "E:\\football_v\\27_MODEL_FUSION_ENGINE\\model_weight_engine.py",
+        "E:\\football_v\\27_MODEL_FUSION_ENGINE\\registry\\27_MODEL_FUSION_ENGINE_registry.json",
+        "E:\\football_v\\27_MODEL_FUSION_ENGINE\\registry\\fusion_registry.json"
+      ],
+      "matches": [
+        {
+          "file": "E:\\football_v\\27_MODEL_FUSION_ENGINE\\model_weight_engine.py",
+          "keywords": [
+            "elo",
+            "dixon",
+            "poisson",
+            "xgboost"
+          ]
+        }
+      ]
+    },
+    "50_MODEL_REGISTRY": {
+      "exists": true,
+      "files": [
+        "E:\\football_v\\50_MODEL_REGISTRY\\models\\elo_model_V4.0.json"
+      ],
+      "matches": [
+        {
+          "file": "E:\\football_v\\50_MODEL_REGISTRY\\models\\elo_model_V4.0.json",
+          "keywords": [
+            "elo"
+          ]
+        }
+      ]
+    }
+  }
+}

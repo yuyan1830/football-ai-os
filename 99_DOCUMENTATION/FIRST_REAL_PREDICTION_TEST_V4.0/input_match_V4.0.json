@@ -1,0 +1,9 @@
+{
+    "version": "INPUT_MATCH_V4.0",
+    "time": "2026-07-23 14:32:45.214421",
+    "match": {
+        "home_team": "TEST_HOME",
+        "away_team": "TEST_AWAY",
+        "competition": "TEST_LEAGUE"
+    }
+}

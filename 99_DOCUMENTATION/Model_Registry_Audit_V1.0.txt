@@ -1,0 +1,91 @@
+﻿Football AI OS Model Registry Audit V1.0
+
+生成时间: 07/28/2026 20:16:20
+
+==============================
+Model Registry 检查
+==============================
+
+Registry目录:
+
+E:\football_v\50_MODEL_REGISTRY
+
+
+==============================
+模型状态
+==============================
+
+
+[1] Elo Model
+
+位置:
+05_MODEL_AI\MODEL_LAYER\models\elo_model.py
+
+状态:
+REGISTERED
+
+
+[2] Dixon-Coles Model
+
+检查:
+05_MODEL_AI\MODEL_LAYER\models\dixon_coles_model.py
+
+状态:
+PENDING_VERIFY
+
+
+[3] Poisson Model
+
+检查:
+05_MODEL_AI\MODEL_LAYER\models\poisson_model.py
+
+状态:
+PENDING_VERIFY
+
+
+[4] XGBoost Model
+
+检查:
+05_MODEL_AI\MODEL_LAYER\models\xgboost_model.py
+
+状态:
+PENDING_VERIFY
+
+
+[5] Fusion Model
+
+检查:
+Fusion Decision Engine
+
+状态:
+PENDING_VERIFY
+
+
+==============================
+数据库层
+==============================
+
+model_store.db
+
+检查表:
+
+- model_registry
+- model_metadata
+- model_history
+
+
+==============================
+结论
+==============================
+
+Elo:
+迁移完成
+
+其他模型:
+等待Registry扫描
+
+
+下一阶段:
+执行五模型Registry扫描
+
+

@@ -1,0 +1,21 @@
+{
+    "version": "MODEL_MIGRATION_V1.1",
+    "time": "2026-07-23T19:02:47.230109",
+    "result": {
+        "elo_model": "INSERT",
+        "dixon_coles_model": "INSERT",
+        "poisson_model": "INSERT",
+        "xgboost_model": "INSERT",
+        "fusion_model": "INSERT"
+    },
+    "tables": [
+        "elo_model",
+        "sqlite_sequence",
+        "dixon_coles_model",
+        "poisson_model",
+        "xgboost_model",
+        "fusion_model",
+        "model_weight",
+        "model_version"
+    ]
+}

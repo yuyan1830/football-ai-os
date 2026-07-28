@@ -1,0 +1,7 @@
+{
+    "version": "V4.0",
+    "learning": "ENABLED",
+    "architecture_modify": false,
+    "weight_auto_modify": false,
+    "status": "READY"
+}

@@ -1,0 +1,42 @@
+{
+    "version": "PREDICTION_INTELLIGENCE_V1.3_FIX",
+    "time": "2026-07-23T19:24:52.522298",
+    "system_database": {
+        "exists": true,
+        "size": 28672,
+        "sha256": "24bdc0bb46a969109b037d4225183f8826a986c6ce0de248c9bd5b477a431837",
+        "tables": {
+            "system_registry": 1,
+            "database_registry": 8,
+            "model_registry": 5,
+            "runtime_registry": 0,
+            "task_registry": 0,
+            "prediction_registry": 7
+        }
+    },
+    "model_database": {
+        "exists": true,
+        "size": 53248,
+        "sha256": "260188f10d06a9f7a0a95e75b21af9fe26ae407be3626c8e42b3f9072b50733e",
+        "tables": {
+            "elo_model": 1,
+            "dixon_coles_model": 1,
+            "poisson_model": 1,
+            "xgboost_model": 1,
+            "fusion_model": 1,
+            "model_weight": 1,
+            "model_version": 0,
+            "prediction_history": 1,
+            "prediction_feature_snapshot": 0,
+            "prediction_result": 0,
+            "model_weight_history": 0
+        }
+    },
+    "modules": [
+        "Prediction Intelligence Service",
+        "Prediction Monitor",
+        "Model Weight Monitor",
+        "Prediction Runtime Registry"
+    ],
+    "status": "PASS"
+}

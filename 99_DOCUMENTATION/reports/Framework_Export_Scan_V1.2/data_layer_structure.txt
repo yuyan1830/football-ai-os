@@ -1,0 +1,160 @@
+﻿卷 本地磁盘 的文件夹 PATH 列表
+卷序列号为 EE5B-0C2A
+E:\FOOTBALL_V\00_SYSTEM_OS\01_DATA_LAYER
+|   deploy_schema_validator_final.ps1
+|   main.py
+|   upgrade_validator_schema_v1.ps1
+|   
++---archive
++---config
+|   |   database_config.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           database_config.cpython-312.pyc
+|           __init__.cpython-312.pyc
+|           
++---core
+|   +---database
+|   |   |   db_connection.py
+|   |   |   
+|   |   \---__pycache__
+|   |           db_connection.cpython-312.pyc
+|   |           
+|   +---exception
+|   |   |   base_exception.py
+|   |   |   database_exception.py
+|   |   |   error_codes.py
+|   |   |   exception_handler.py
+|   |   |   file_exception.py
+|   |   |   validation_exception.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           base_exception.cpython-312.pyc
+|   |           database_exception.cpython-312.pyc
+|   |           file_exception.cpython-312.pyc
+|   |           validation_exception.cpython-312.pyc
+|   |           __init__.cpython-312.pyc
+|   |           
+|   +---file_service
+|   |       file_service.py
+|   |       
+|   +---hash_service
+|   |       hash_service.py
+|   |       
+|   +---logger
+|   |   |   compatibility.py
+|   |   |   formatter.py
+|   |   |   handlers.py
+|   |   |   logger.py
+|   |   |   log_config.json
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           formatter.cpython-312.pyc
+|   |           handlers.cpython-312.pyc
+|   |           logger.cpython-312.pyc
+|   |           __init__.cpython-312.pyc
+|   |           
+|   +---validator
+|   |   |   data_validator.py
+|   |   |   schema_validator.py
+|   |   |   schema_validator_status.txt
+|   |   |   validation_result.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           data_validator.cpython-312.pyc
+|   |           validation_result.cpython-312.pyc
+|   |           __init__.cpython-312.pyc
+|   |           
+|   \---version_service
+|           version_service.py
+|           
++---database
+|       football_ai_os.db
+|       新建文本文档.txt
+|       
++---import_pipeline
+|       archive_manager.py
+|       duplicate_checker.py
+|       importer.py
+|       scanner.py
+|       validator.py
+|       __init__.py
+|       
++---logs
+|       2026-07-19.log
+|       football_ai.log
+|       
++---market
+|       bookmaker_manager.py
+|       market_type_manager.py
+|       odds_manager.py
+|       
++---processed_data
++---quality
+|       quality_checker.py
+|       quality_engine.py
+|       quality_report.py
+|       quality__init__.py
+|       
++---raw_data
+|   +---external
+|   +---market
+|   |   +---correct_score
+|   |   +---exchange
+|   |   +---handicap
+|   |   +---odds_1x2
+|   |   \---over_under
+|   +---match
+|   +---player
+|   \---team
++---registry
+|       data_lineage.py
+|       import_tracker.py
+|       quality_score.py
+|       registry_manager.py
+|       
++---scripts
+|       create_data_layer.py
+|       database_alert_final_upgrade.py
+|       database_init.py
+|       database_market_init.py
+|       database_quality_alert_upgrade.py
+|       database_quality_init.py
+|       database_task_reliability_init.py
+|       database_task_table_upgrade.py
+|       quality_rule_init.py
+|       registry_init.py
+|       registry_manager.py
+|       retry_policy_init.py
+|       task_queue_init.py
+|       test.csv
+|       test_quality_engine.py
+|       test_registry_flow.py
+|       test_retry_logger.py
+|       test_scheduler.py
+|       test_scheduler_reliability.py
+|       test_task_history.py
+|       test_task_manager_reliability.py
+|       test_task_queue.py
+|       test_task_reliability_full.py
+|       
++---task_queue
+|       manual_task.py
+|       retry_engine.py
+|       retry_logger.py
+|       scheduler.py
+|       task_history.py
+|       task_manager.py
+|       task_query.py
+|       task_queue_init.py
+|       task_status.py
+|       __init__.py
+|       新建文本文档.txt
+|       
+\---test_data
+        test_odds.csv
+        

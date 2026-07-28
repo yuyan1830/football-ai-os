@@ -1,0 +1,26 @@
+{
+    "version": "APPLICATION_LAYER_V2.5_REAL",
+    "time": "2026-07-23 20:09:45.881796",
+    "layer": "E:\\football_v\\09_APPLICATION_LAYER",
+    "modules": [
+        "Prediction API",
+        "Decision API",
+        "Match Analysis",
+        "Football AI Service"
+    ],
+    "connections": [
+        "MODEL_LAYER",
+        "PREDICTION_LAYER",
+        "MARKET_LAYER",
+        "RISK_LAYER",
+        "LEARNING_LAYER",
+        "DECISION_LAYER"
+    ],
+    "database": {
+        "exists": true,
+        "tables": [
+            "application_registry"
+        ]
+    },
+    "status": "READY"
+}

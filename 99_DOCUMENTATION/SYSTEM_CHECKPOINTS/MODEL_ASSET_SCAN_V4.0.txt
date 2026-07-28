@@ -1,0 +1,6 @@
+﻿
+FullName                                                   Length LastWriteTime      
+--------                                                   ------ -------------      
+E:\FOOTBALL_V\50_MODEL_REGISTRY\models\elo_model_V4.0.json    146 2026-07-23 14:57:48
+
+

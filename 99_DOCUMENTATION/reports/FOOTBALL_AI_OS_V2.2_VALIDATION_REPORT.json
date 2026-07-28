@@ -1,0 +1,33 @@
+﻿
+{
+    "version":
+    "FOOTBALL_AI_OS_V2.2_VALIDATION_REAL",
+
+    "time":
+    "07/23/2026 19:56:43",
+
+    "layers":
+    {
+        "system":"PASS",
+        "data":"PASS",
+        "feature":"PASS",
+        "model":"PASS",
+        "prediction":"PASS",
+        "market":"PASS",
+        "risk":"PASS",
+        "learning":"PASS"
+    },
+
+    "models":
+    {
+        "ELO":true,
+        "Dixon-Coles":true,
+        "Poisson":true,
+        "XGBoost":true,
+        "Fusion":true
+    },
+
+    "status":
+    "READY"
+}
+

@@ -1,0 +1,10 @@
+{
+    "version": "DATABASE_LOCATION_DISCOVERY_V4.0",
+    "time": "2026-07-23 14:59:40.511480",
+    "databases": [
+        "E:\\FOOTBALL_V\\00_System_OS\\01_DATA_LAYER\\database\\football_ai_os.db",
+        "E:\\FOOTBALL_V\\01_DATA_LAYER\\database\\match_data.db",
+        "E:\\FOOTBALL_V\\02_FEATURE_LAYER\\database\\feature_store.db",
+        "E:\\FOOTBALL_V\\03_MODEL_LAYER\\database\\model_store.db"
+    ]
+}

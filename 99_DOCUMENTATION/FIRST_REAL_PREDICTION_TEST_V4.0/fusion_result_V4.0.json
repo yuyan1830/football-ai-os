@@ -1,0 +1,16 @@
+{
+    "version": "FUSION_RESULT_V4.0",
+    "models": {
+        "ELO": 0.2,
+        "Dixon_Coles": 0.2,
+        "Poisson": 0.15,
+        "XGBoost": 0.15,
+        "Fusion": 0.3
+    },
+    "probability": {
+        "home_win": 0.4,
+        "draw": 0.3,
+        "away_win": 0.3
+    },
+    "status": "PASS"
+}

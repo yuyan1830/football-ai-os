@@ -1,0 +1,9 @@
+{
+    "version": "DATABASE_SYSTEM_INITIALIZE_V2.2.3",
+    "time": "2026-07-23T18:48:20.229606",
+    "database": "E:\\football_v\\00_SYSTEM_OS\\01_DATA_LAYER\\database\\football_ai_os.db",
+    "tables": {
+        "system_registry": 1
+    },
+    "status": "PASS"
+}

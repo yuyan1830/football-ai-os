@@ -1,0 +1,915 @@
+{
+  "project": "Football AI OS",
+  "architecture": "Omega V3.2",
+  "phase": "PHASE5 Runtime Dependency Audit",
+  "time": "2026-07-28T15:58:09.433122",
+  "modules": {
+    "04_Data_Processing_AI": {
+      "exists": true,
+      "python_files": 125,
+      "imports": [
+        "sqlite3",
+        "os",
+        "os",
+        "sqlite3",
+        "os",
+        "sqlite3",
+        "json",
+        "json",
+        "json",
+        "os",
+        "json",
+        "feature_validator",
+        "feature_dataset_builder",
+        "feature_data_loader",
+        "feature_dataset_exporter",
+        "json",
+        "os",
+        "json",
+        "os",
+        "json",
+        "os",
+        "json",
+        "os",
+        "json",
+        "os",
+        "json",
+        "os",
+        "json",
+        "os",
+        "json",
+        "os",
+        "json",
+        "os",
+        "json",
+        "os",
+        "json",
+        "os",
+        "json",
+        "os",
+        "json",
+        "os",
+        "json",
+        "os",
+        "json",
+        "os",
+        "json",
+        "os",
+        "json",
+        "os",
+        "json",
+        "os",
+        "json"
+      ],
+      "keyword_hits": [
+        {
+          "file": "04_Data_Processing_AI\\data_intelligence_engine\\data_router.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "04_Data_Processing_AI\\data_intelligence_engine\\data_router.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\data_intelligence_engine\\data_router.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "04_Data_Processing_AI\\data_intelligence_engine\\data_router.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "04_Data_Processing_AI\\data_intelligence_engine\\data_router.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "04_Data_Processing_AI\\data_intelligence_engine\\feature_selector.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "04_Data_Processing_AI\\data_intelligence_engine\\model_interface.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "04_Data_Processing_AI\\data_intelligence_engine\\model_interface.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\data_intelligence_engine\\model_interface.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "04_Data_Processing_AI\\data_intelligence_engine\\model_interface.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "04_Data_Processing_AI\\data_intelligence_engine\\model_interface.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "04_Data_Processing_AI\\dynamic_feature_weight_engine\\model_weight_manager.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "04_Data_Processing_AI\\dynamic_feature_weight_engine\\model_weight_manager.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\dynamic_feature_weight_engine\\model_weight_manager.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "04_Data_Processing_AI\\dynamic_feature_weight_engine\\model_weight_manager.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "04_Data_Processing_AI\\dynamic_feature_weight_engine\\model_weight_manager.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "04_Data_Processing_AI\\dynamic_feature_weight_engine\\weight_calculator.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "04_Data_Processing_AI\\dynamic_feature_weight_engine\\weight_calculator.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\dynamic_feature_weight_engine\\weight_calculator.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "04_Data_Processing_AI\\dynamic_feature_weight_engine\\weight_calculator.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "04_Data_Processing_AI\\dynamic_feature_weight_engine\\weight_calculator.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_engine\\feature_engine.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\data_promotion_service.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\data_source_registry.py",
+          "keyword": "registry"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\elo_history_feature_engine.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\environment_manager.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_feedback_optimizer.py",
+          "keyword": "feedback"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_loader.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_loader_service.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_model_adapter.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_model_adapter.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_model_registry.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_model_registry.py",
+          "keyword": "registry"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_model_registry.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_model_registry.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_model_registry.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_model_registry.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_probability_schema.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_probability_schema.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_probability_schema.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_probability_schema.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_probability_schema.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_registry.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_registry.py",
+          "keyword": "registry"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_registry.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_registry.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_registry.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\feature_registry.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\historical_feature_registry.py",
+          "keyword": "registry"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\historical_feature_registry.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\historical_feature_table_creator.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\intelligent_feature_store.py",
+          "keyword": "feedback"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\model_feedback_collector.py",
+          "keyword": "feedback"
+        },
+        {
+          "file": "04_Data_Processing_AI\\pipeline\\processing_pipeline.py",
+          "keyword": "registry"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\adapters\\dixon_coles_adapter.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\adapters\\dixon_coles_feature_adapter.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\adapters\\elo_adapter.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\adapters\\elo_feature_adapter.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\adapters\\fusion_adapter.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\adapters\\fusion_adapter.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\adapters\\fusion_adapter.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\adapters\\fusion_adapter.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\adapters\\fusion_adapter.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\adapters\\fusion_feature_adapter.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\adapters\\poisson_adapter.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\adapters\\poisson_feature_adapter.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\adapters\\xgboost_adapter.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\adapters\\xgboost_feature_adapter.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\tests\\feature_ingestion_test.py",
+          "keyword": "registry"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\tests\\feature_store_test.py",
+          "keyword": "registry"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\tests\\feature_store_v3.0_full_test.py",
+          "keyword": "feedback"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\tests\\historical_feature_store_test.py",
+          "keyword": "registry"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\tests\\historical_feature_store_test.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\tests\\model_feature_adapter_test.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\tests\\model_feature_adapter_test.py",
+          "keyword": "registry"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\tests\\model_feature_adapter_test.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\tests\\model_feature_adapter_test.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\tests\\model_feature_adapter_test.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "04_Data_Processing_AI\\feature_store\\tests\\model_feature_adapter_test.py",
+          "keyword": "xgboost"
+        }
+      ]
+    },
+    "05_MODEL_AI": {
+      "exists": true,
+      "python_files": 17,
+      "imports": [
+        "abc",
+        "json",
+        "sqlite3",
+        "collections",
+        "pathlib",
+        "model_interface",
+        "os",
+        "json",
+        "sqlite3",
+        "sys",
+        "pathlib",
+        "models.elo_model"
+      ],
+      "keyword_hits": [
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\model_registry.py",
+          "keyword": "registry"
+        },
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\fusion\\fusion_engine.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\fusion\\fusion_engine.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\fusion\\fusion_engine.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\fusion\\fusion_engine.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\fusion\\fusion_engine.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\models\\dixon_coles_model.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\models\\elo_model.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\models\\poisson_model.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\models\\xgboost_model.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\tests\\model_layer_v1.3_full_test.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\tests\\model_layer_v1.3_full_test.py",
+          "keyword": "registry"
+        },
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\tests\\model_layer_v1.3_full_test.py",
+          "keyword": "model_loader"
+        },
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\tests\\model_layer_v1.3_full_test.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\tests\\model_layer_v1.3_full_test.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\tests\\model_layer_v1.3_full_test.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\tests\\model_layer_v1.3_full_test.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "05_MODEL_AI\\MODEL_LAYER\\tests\\test_elo_model_migration.py",
+          "keyword": "elo"
+        }
+      ]
+    },
+    "06_PREDICTION_ENGINE": {
+      "exists": true,
+      "python_files": 14,
+      "imports": [
+        "math",
+        "abc",
+        "goal_distribution",
+        "correct_score_calculator",
+        "os",
+        "json"
+      ],
+      "keyword_hits": [
+        {
+          "file": "06_PREDICTION_ENGINE\\goal_distribution.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "06_PREDICTION_ENGINE\\prediction_registry.py",
+          "keyword": "registry"
+        },
+        {
+          "file": "06_PREDICTION_ENGINE\\tests\\prediction_engine_v1.3_full_test.py",
+          "keyword": "registry"
+        }
+      ]
+    },
+    "07_BACKTEST_AI": {
+      "exists": true,
+      "python_files": 17,
+      "imports": [
+        "os",
+        "json"
+      ],
+      "keyword_hits": [
+        {
+          "file": "07_BACKTEST_AI\\feature_feedback.py",
+          "keyword": "feedback"
+        },
+        {
+          "file": "07_BACKTEST_AI\\model_feedback.py",
+          "keyword": "feedback"
+        },
+        {
+          "file": "07_BACKTEST_AI\\optimization_scheduler.py",
+          "keyword": "feedback"
+        },
+        {
+          "file": "07_BACKTEST_AI\\optimization_scheduler.py",
+          "keyword": "optimization"
+        },
+        {
+          "file": "07_BACKTEST_AI\\learning_core\\feature_feedback_engine.py",
+          "keyword": "feedback"
+        },
+        {
+          "file": "07_BACKTEST_AI\\tests\\backtest_system_v1.3_full_test.py",
+          "keyword": "feedback"
+        },
+        {
+          "file": "07_BACKTEST_AI\\tests\\backtest_system_v1.3_full_test.py",
+          "keyword": "optimization"
+        },
+        {
+          "file": "07_BACKTEST_AI\\learning_core\\tests\\test_learning_core_basic.py",
+          "keyword": "feedback"
+        }
+      ]
+    },
+    "08_DECISION_ENGINE": {
+      "exists": true,
+      "python_files": 12,
+      "imports": [
+        "value_filter_engine",
+        "risk_control_engine",
+        "abc",
+        "os",
+        "json"
+      ],
+      "keyword_hits": [
+        {
+          "file": "08_DECISION_ENGINE\\decision_registry.py",
+          "keyword": "registry"
+        },
+        {
+          "file": "08_DECISION_ENGINE\\tests\\decision_engine_v1.3_full_test.py",
+          "keyword": "registry"
+        }
+      ]
+    },
+    "17_MODEL_STORE_LAYER": {
+      "exists": true,
+      "python_files": 13,
+      "imports": [
+        "json",
+        "json",
+        "os",
+        "datetime",
+        "json",
+        "datetime"
+      ],
+      "keyword_hits": [
+        {
+          "file": "17_MODEL_STORE_LAYER\\deploy_model_store_batch_01_V1.0.py",
+          "keyword": "registry"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\deploy_model_store_batch_01_V1.0.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\deploy_model_store_batch_01_V1.0.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\deploy_model_store_batch_01_V1.0.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\deploy_model_store_batch_01_V1.0.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\deploy_model_store_batch_02_V1.0.py",
+          "keyword": "model_loader"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\deploy_model_store_batch_02_V1.0.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\deploy_model_store_batch_02_V1.0.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\deploy_model_store_batch_02_V1.0.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\deploy_model_store_batch_02_V1.0.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\module.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\module.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\module.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\module.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\model_loader\\model_loader_V1.0.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\model_loader\\model_loader_V1.0.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\model_loader\\model_loader_V1.0.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\model_loader\\model_loader_V1.0.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\model_registry\\model_registry_V1.0.py",
+          "keyword": "registry"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\model_registry\\model_registry_V1.0.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\model_registry\\model_registry_V1.0.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\model_registry\\model_registry_V1.0.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "17_MODEL_STORE_LAYER\\model_registry\\model_registry_V1.0.py",
+          "keyword": "xgboost"
+        }
+      ]
+    },
+    "18_MODEL_EXECUTION_ENGINE": {
+      "exists": true,
+      "python_files": 25,
+      "imports": [
+        "module",
+        "module"
+      ],
+      "keyword_hits": [
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\deploy_execution_engine_batch_01_V1.0.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\deploy_execution_engine_batch_01_V1.0.py",
+          "keyword": "model_loader"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\deploy_execution_engine_batch_01_V1.0.py",
+          "keyword": "prediction_pipeline"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\deploy_execution_engine_batch_01_V1.0.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\deploy_execution_engine_batch_01_V1.0.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\deploy_execution_engine_batch_01_V1.0.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\deploy_execution_engine_batch_01_V1.0.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\module.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\module.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\module.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\module.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\feature_loader\\feature_loader_V1.0.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\feature_loader\\feature_loader_V1.0.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\feature_loader\\feature_loader_V1.0.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\feature_loader\\feature_loader_V1.2.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\feature_loader\\feature_loader_V1.2.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\feature_loader\\feature_loader_V1.2.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\feature_loader\\feature_loader_V1.3.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\feature_loader\\feature_loader_V1.3.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\feature_loader\\feature_loader_V1.3.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\fusion_engine\\fusion_engine_V1_2.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\fusion_engine\\fusion_engine_V1_2.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\fusion_engine\\fusion_engine_V1_2.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\fusion_engine\\fusion_engine_V1_2.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\model_loader\\model_adapter_V1.2.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\model_loader\\model_adapter_V1.2.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\model_loader\\model_adapter_V1.2.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\model_loader\\model_loader_V1.0.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\model_loader\\model_loader_V1.0.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\model_loader\\model_loader_V1.0.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\model_loader\\model_loader_V1.0.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\model_loader\\model_loader_V1.0.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\output_manager\\output_manager_V1.0.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\prediction_pipeline\\prediction_pipeline_V1.0.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\prediction_pipeline\\prediction_pipeline_V1.0.py",
+          "keyword": "model_loader"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\prediction_pipeline\\prediction_pipeline_V1.0.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\prediction_pipeline\\prediction_pipeline_V1.0.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\prediction_pipeline\\prediction_pipeline_V1.0.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\prediction_pipeline\\prediction_pipeline_V1.2.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\prediction_pipeline\\prediction_pipeline_V1.2.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\prediction_pipeline\\prediction_pipeline_V1.2.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\prediction_pipeline\\prediction_pipeline_V1.2.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\prediction_pipeline\\prediction_pipeline_V1.2.py",
+          "keyword": "xgboost"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\tests\\test_fusion_engine.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\archive\\fusion_engine\\fusion_engine_V1.0.py",
+          "keyword": "fusion"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\archive\\fusion_engine\\fusion_engine_V1.0.py",
+          "keyword": "elo"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\archive\\fusion_engine\\fusion_engine_V1.0.py",
+          "keyword": "dixon"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\archive\\fusion_engine\\fusion_engine_V1.0.py",
+          "keyword": "poisson"
+        },
+        {
+          "file": "18_MODEL_EXECUTION_ENGINE\\archive\\fusion_engine\\fusion_engine_v1.py",
+          "keyword": "fusion"
+        }
+      ]
+    }
+  },
+  "runtime_paths": {
+    "fusion_engine": [
+      {
+        "path": "05_MODEL_AI\\MODEL_LAYER\\fusion",
+        "exists": true
+      },
+      {
+        "path": "18_MODEL_EXECUTION_ENGINE\\fusion_engine",
+        "exists": true
+      }
+    ],
+    "model_registry": [
+      {
+        "path": "05_MODEL_AI\\MODEL_LAYER\\model_registry.py",
+        "exists": true
+      },
+      {
+        "path": "17_MODEL_STORE_LAYER\\model_registry",
+        "exists": true
+      }
+    ],
+    "prediction_pipeline": [
+      {
+        "path": "18_MODEL_EXECUTION_ENGINE\\prediction_pipeline",
+        "exists": true
+      }
+    ],
+    "feedback": [
+      {
+        "path": "07_BACKTEST_AI\\model_feedback.py",
+        "exists": true
+      },
+      {
+        "path": "07_BACKTEST_AI\\optimization_scheduler.py",
+        "exists": true
+      }
+    ]
+  }
+}

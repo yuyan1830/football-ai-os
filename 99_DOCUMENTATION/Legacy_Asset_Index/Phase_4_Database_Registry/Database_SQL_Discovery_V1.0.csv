@@ -1,0 +1,6 @@
+﻿sql,file
+CREATE TABLE IF NOT EXISTS team_form_history (,E:\football_v\04_Data_Processing_AI\feature_store\migrations\V2.1_create_historical_feature_tables.sql
+CREATE TABLE IF NOT EXISTS home_away_history (,E:\football_v\04_Data_Processing_AI\feature_store\migrations\V2.1_create_historical_feature_tables.sql
+CREATE TABLE IF NOT EXISTS elo_history (,E:\football_v\04_Data_Processing_AI\feature_store\migrations\V2.1_create_historical_feature_tables.sql
+CREATE TABLE IF NOT EXISTS attack_defence_history (,E:\football_v\04_Data_Processing_AI\feature_store\migrations\V2.1_create_historical_feature_tables.sql
+CREATE TABLE IF NOT EXISTS model_feature_snapshot (,E:\football_v\04_Data_Processing_AI\feature_store\migrations\V2.1_create_historical_feature_tables.sql

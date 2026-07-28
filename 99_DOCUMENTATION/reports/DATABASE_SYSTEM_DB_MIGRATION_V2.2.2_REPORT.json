@@ -1,0 +1,8 @@
+{
+    "version": "DATABASE_SYSTEM_DB_MIGRATION_V2.2.2",
+    "time": "2026-07-23T18:43:50.072376",
+    "old_database": "E:\\football_v\\database\\football_ai_os.db",
+    "new_database": "E:\\football_v\\00_SYSTEM_OS\\01_DATA_LAYER\\database\\football_ai_os.db",
+    "status": "FAIL",
+    "reason": "old database missing"
+}

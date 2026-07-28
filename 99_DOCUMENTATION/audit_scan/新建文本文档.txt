@@ -1,0 +1,78 @@
+cd E:\football_v
+
+
+@'
+import os,json
+
+root=r"E:\football_v"
+
+keywords=[
+"MODEL_LAYER",
+"model_layer",
+"elo_model",
+"dixon_coles",
+"poisson",
+"xgboost",
+"model_registry",
+"model_store.db"
+]
+
+
+result=[]
+
+for path,dirs,files in os.walk(root):
+
+    dirs[:]=[
+        d for d in dirs
+        if d not in [
+            "__pycache__",
+            ".git",
+            ".pytest_cache"
+        ]
+    ]
+
+    for f in files:
+
+        if f.endswith((".pyc",".pyo")):
+            continue
+
+        fp=os.path.join(path,f)
+
+        try:
+            with open(fp,"r",encoding="utf-8",errors="ignore") as file:
+                text=file.read()
+
+            hits=[]
+
+            for k in keywords:
+                if k.lower() in text.lower():
+                    hits.append(k)
+
+            if hits:
+                result.append({
+                    "file":fp,
+                    "references":hits
+                })
+
+        except:
+            pass
+
+
+out=r"E:\football_v\99_Documentation\audit_scan\MODEL_LAYER_REFERENCE_REPORT.json"
+
+
+with open(out,"w",encoding="utf-8") as f:
+    json.dump(
+        result,
+        f,
+        indent=2,
+        ensure_ascii=False
+    )
+
+
+print(out)
+print("FILES:",len(result))
+'@ | Out-File scan_model_layer.py -Encoding UTF8
+
+
+python scan_model_layer.py

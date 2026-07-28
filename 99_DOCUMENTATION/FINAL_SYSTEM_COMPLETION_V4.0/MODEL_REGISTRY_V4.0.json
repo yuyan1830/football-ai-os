@@ -1,0 +1,11 @@
+{
+    "version": "V4.0",
+    "models": [
+        "ELO",
+        "DIXON_COLES",
+        "POISSON",
+        "XGBOOST",
+        "FUSION"
+    ],
+    "status": "READY"
+}

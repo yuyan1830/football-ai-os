@@ -1,0 +1,60 @@
+{
+    "version": "PREDICTION_PHASE_V1.2_BATCH",
+    "time": "2026-07-23T19:54:08.822829",
+    "modules": [
+        "Prediction Service V1.2",
+        "Feature Snapshot V1.0",
+        "Prediction Result Manager V1.0",
+        "Backtest Engine V1.0",
+        "Prediction Monitor V1.0",
+        "Model Weight Manager V1.0"
+    ],
+    "databases": {
+        "system": {
+            "exists": true,
+            "size": 28672,
+            "tables": {
+                "system_registry": 1,
+                "database_registry": 8,
+                "model_registry": 10,
+                "runtime_registry": 0,
+                "task_registry": 0,
+                "prediction_registry": 12
+            },
+            "sha256": "a55fbab41473dfaba62668d3fa95cd77b55b650d48b89b00ace1abc3f101cc68"
+        },
+        "feature": {
+            "exists": true,
+            "size": 15728640,
+            "tables": {
+                "elo_history": 96305,
+                "dixon_coles_history": 96305,
+                "poisson_history": 96305,
+                "team_form_history": 96305,
+                "home_away_history": 96305,
+                "fatigue_rating": 96305,
+                "feature_vector": 96305
+            },
+            "sha256": "3230801a815152209d1ba8f3d1a23d864646e4f9b43de3c24d70b852f1389377"
+        },
+        "model": {
+            "exists": true,
+            "size": 53248,
+            "tables": {
+                "elo_model": 1,
+                "dixon_coles_model": 1,
+                "poisson_model": 1,
+                "xgboost_model": 1,
+                "fusion_model": 1,
+                "model_weight": 1,
+                "model_version": 0,
+                "prediction_history": 2,
+                "prediction_feature_snapshot": 0,
+                "prediction_result": 0,
+                "model_weight_history": 0
+            },
+            "sha256": "baf3aec35fd491db18a7d2c7245566b25d2b574916750a9cadccb119a77bbe4f"
+        }
+    },
+    "status": "PASS"
+}
