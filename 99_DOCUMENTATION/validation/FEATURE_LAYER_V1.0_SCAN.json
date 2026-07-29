@@ -1,0 +1,18 @@
+﻿{
+    "framework":"Football AI OS",
+    "module":"Feature Layer V1.0",
+    "batch":"V3.2.2",
+    "status":"PASS",
+    "checks":{
+        "feature_store_db":true,
+        "database_size":88891392,
+        "feature_table_count":15,
+        "elo_history":true,
+        "dixon_coles_history":true,
+        "poisson_history":true,
+        "team_form_history":true,
+        "fatigue_history":true,
+        "home_away_history":true,
+        "xg_features_history":true
+    }
+}
