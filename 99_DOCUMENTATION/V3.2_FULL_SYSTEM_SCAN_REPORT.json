@@ -1,0 +1,194 @@
+﻿[
+    {
+        "Module":  "00_System_OS",
+        "Python":  149,
+        "DataFiles":  75,
+        "SubFolders":  126
+    },
+    {
+        "Module":  "01_Data_Source",
+        "Python":  7,
+        "DataFiles":  4,
+        "SubFolders":  8
+    },
+    {
+        "Module":  "02_FEATURE_LAYER",
+        "Python":  0,
+        "DataFiles":  1,
+        "SubFolders":  1
+    },
+    {
+        "Module":  "03_MODEL_LAYER",
+        "Python":  12,
+        "DataFiles":  4,
+        "SubFolders":  19
+    },
+    {
+        "Module":  "04_DATA_PROCESSING_AI",
+        "Python":  125,
+        "DataFiles":  54,
+        "SubFolders":  30
+    },
+    {
+        "Module":  "05_MODEL_AI",
+        "Python":  17,
+        "DataFiles":  2,
+        "SubFolders":  12
+    },
+    {
+        "Module":  "06_PREDICTION_ENGINE",
+        "Python":  14,
+        "DataFiles":  2,
+        "SubFolders":  3
+    },
+    {
+        "Module":  "07_AI_ORCHESTRATION_LAYER",
+        "Python":  15,
+        "DataFiles":  4,
+        "SubFolders":  18
+    },
+    {
+        "Module":  "08_DECISION_ENGINE",
+        "Python":  12,
+        "DataFiles":  2,
+        "SubFolders":  3
+    },
+    {
+        "Module":  "09_Prediction_System",
+        "Python":  10,
+        "DataFiles":  0,
+        "SubFolders":  3
+    },
+    {
+        "Module":  "10_AI_AUTONOMOUS_ENGINE",
+        "Python":  99,
+        "DataFiles":  28,
+        "SubFolders":  10
+    },
+    {
+        "Module":  "11_System_Intelligence",
+        "Python":  145,
+        "DataFiles":  26,
+        "SubFolders":  5
+    },
+    {
+        "Module":  "12_AUTONOMOUS_LEARNING_ENGINE",
+        "Python":  8,
+        "DataFiles":  3,
+        "SubFolders":  10
+    },
+    {
+        "Module":  "16_DATABASE_GOVERNANCE_LAYER",
+        "Python":  22,
+        "DataFiles":  11,
+        "SubFolders":  24
+    },
+    {
+        "Module":  "17_MODEL_STORE_LAYER",
+        "Python":  13,
+        "DataFiles":  4,
+        "SubFolders":  12
+    },
+    {
+        "Module":  "18_MODEL_EXECUTION_ENGINE",
+        "Python":  25,
+        "DataFiles":  3,
+        "SubFolders":  18
+    },
+    {
+        "Module":  "22_AI_FEATURE_STORE_LAYER",
+        "Python":  4,
+        "DataFiles":  0,
+        "SubFolders":  4
+    },
+    {
+        "Module":  "23_MODEL_TRAINING_ENGINE",
+        "Python":  13,
+        "DataFiles":  2,
+        "SubFolders":  10
+    },
+    {
+        "Module":  "24_PREDICTION_INTELLIGENCE_LAYER",
+        "Python":  19,
+        "DataFiles":  2,
+        "SubFolders":  9
+    },
+    {
+        "Module":  "25_BACKTEST_ENGINE",
+        "Python":  9,
+        "DataFiles":  2,
+        "SubFolders":  9
+    },
+    {
+        "Module":  "27_MODEL_FUSION_ENGINE",
+        "Python":  3,
+        "DataFiles":  2,
+        "SubFolders":  4
+    },
+    {
+        "Module":  "28_PROBABILITY_CALIBRATION_ENGINE",
+        "Python":  2,
+        "DataFiles":  2,
+        "SubFolders":  4
+    },
+    {
+        "Module":  "30_MARKET_GAME_ENGINE",
+        "Python":  2,
+        "DataFiles":  2,
+        "SubFolders":  4
+    },
+    {
+        "Module":  "38_HANDICAP_VALUE_ENGINE",
+        "Python":  0,
+        "DataFiles":  1,
+        "SubFolders":  4
+    },
+    {
+        "Module":  "39_MARKET_SENTIMENT_ENGINE",
+        "Python":  0,
+        "DataFiles":  1,
+        "SubFolders":  4
+    },
+    {
+        "Module":  "40_MATCH_PREDICTION_ENGINE",
+        "Python":  0,
+        "DataFiles":  1,
+        "SubFolders":  4
+    },
+    {
+        "Module":  "75_AUTO_LEARNING_FEEDBACK",
+        "Python":  1,
+        "DataFiles":  0,
+        "SubFolders":  0
+    },
+    {
+        "Module":  "95_MODEL_FEEDBACK_ENGINE",
+        "Python":  1,
+        "DataFiles":  0,
+        "SubFolders":  0
+    },
+    {
+        "Module":  "121_RESULT_FEEDBACK_ENGINE",
+        "Python":  1,
+        "DataFiles":  0,
+        "SubFolders":  0
+    },
+    {
+        "Module":  "124_AUTO_BACKTEST_ENGINE",
+        "Python":  1,
+        "DataFiles":  0,
+        "SubFolders":  0
+    },
+    {
+        "Module":  "130_FINAL_SYSTEM_VALIDATION",
+        "Python":  1,
+        "DataFiles":  0,
+        "SubFolders":  0
+    },
+    {
+        "Module":  "150_FINAL_RUNTIME_VALIDATION",
+        "Python":  1,
+        "DataFiles":  0,
+        "SubFolders":  0
+    }
+]

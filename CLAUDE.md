@@ -1,662 +1,256 @@
-# ==========================================================
-# Football AI OS ��+ V3.2.2
-# Claude Code AI Governance Rules
-# Version: V3.2.2 FINAL
-# ==========================================================
+﻿# Football AI OS Ω+ V3.2
+# Architecture Governance Rules V4.0
 
 
-# ==========================================================
-# 1. PROJECT IDENTITY
-# ==========================================================
+# 1. 项目身份
 
-Project:
+本项目：
 
-Football AI OS Betting Intelligence System ��+
+Football AI OS Betting Intelligence System Ω+ V3.2
 
 
-Current Version:
+当前状态：
 
-V3.2.2
+Architecture Frozen
 
+Production Development Mode
 
-Project Type:
 
-Enterprise AI Football Intelligence System
+禁止推翻已有架构。
 
 
-Purpose:
+--------------------------------------------------
 
-Build a football intelligence operating system containing:
 
-- Data Intelligence
-- Feature Engineering
-- Model Prediction
-- Market Intelligence
-- Risk Control
-- Decision Intelligence
-- Self Learning Capability
+# 2. 最高优先级参考文件
 
 
+所有AI助手必须优先读取：
 
-IMPORTANT:
 
-This is NOT a new development project.
+E:\football_v\99_DOCUMENTATION\Architecture_Audit\
 
-Current mission:
 
-Restore, validate and stabilize Omega V3.2.2.
+核心文件：
 
 
+01_PROJECT_ASSET_AUDIT_REPORT_V1.0.md
 
-# ==========================================================
-# 2. CURRENT SYSTEM STATUS
-# ==========================================================
+04_REAL_ARCHITECTURE_REPORT_V1.0.md
 
+06_MODULE_FREEZE_REGISTRY_V1.0.md
 
-Current Architecture:
+07_DEVELOPMENT_BASELINE_V1.0.md
 
-Football AI OS Betting Intelligence System ��+ V3.2.2
 
 
+这些文件定义：
 
-Architecture Status:
+- 当前真实架构
+- 已完成资产
+- 冻结模块
+- 后续开发方向
 
-FROZEN BASELINE
 
 
+--------------------------------------------------
 
-Current Development Phase:
 
-Omega V3.2.2 Runtime Stabilization
+# 3. 已冻结模块
 
 
+以下模块禁止重构：
 
-Completed:
 
+02_FEATURE_LAYER
 
-[Completed]
 
-- Legacy Asset Audit
+03_MODEL_LAYER
 
-- Model Layer Migration
-
-- Elo Integration
-
-- Dixon-Coles Integration
-
-- Poisson Integration
-
-- XGBoost Integration
-
-- Fusion Engine Integration
-
-- Backtest Framework
-
-
-
-Current Production Model Layer:
-
-
-E:\football_v\05_MODEL_AI\MODEL_LAYER
-
-
-
-Legacy Reference Model Layer:
-
-
-E:\football_v\00_System_OS\03_MODEL_LAYER
-
-
-
-IMPORTANT:
-
-
-Production development uses:
-
-
-E:\football_v\05_MODEL_AI\MODEL_LAYER
-
-
-
-Legacy model layer is:
-
-
-Historical Reference Only
-
-
-
-Do NOT create another MODEL_LAYER.
-
-
-
-# ==========================================================
-# 3. ARCHITECTURE FREEZE RULES
-# ==========================================================
-
-
-Current frozen architecture:
-
-
-Football AI OS ��+ V3.2.2
-
-
-
-The following architecture must remain unchanged:
-
-
-00_SYSTEM_OS
-
-01_DATA_SOURCE
-
-04_DATA_PROCESSING_AI
 
 05_MODEL_AI
 
+
 06_PREDICTION_INTELLIGENCE_ENGINE
 
-50_MODEL_REGISTRY
 
-99_DOCUMENTATION
 
+包括：
 
+Elo
 
-��ֹ:
+Dixon-Coles
 
+Poisson
 
-- Redesign architecture
+XGBoost
 
-- Replace core models
+Fusion
 
-- Create duplicate modules
 
-- Delete historical assets
 
-- Change data flow without review
+允许：
 
-- Create new MODEL_LAYER
+参数优化
 
+性能优化
 
+接口优化
 
-Any architecture change requires:
 
 
-Architecture Review
+禁止：
 
+重新创建同类模块。
 
 
-# ==========================================================
-# 4. AI STARTUP PROTOCOL
-# ==========================================================
 
+--------------------------------------------------
 
-When AI Agent enters this project:
 
+# 4. 当前开发方向
 
-FIRST READ:
 
+只允许进入：
 
-1.
 
-CLAUDE.md
+Market Intelligence
 
 
 
-2.
+Decision Engine
 
-AI_PROJECT_CONTEXT.md
 
 
+Output Service
 
-3.
 
-Omega V3.2 Baseline
 
+当前重点：
 
-Path:
+101_REAL_MARKET_INTELLIGENCE_ENGINE
 
 
-03_Data_Governance/
+104_MARKET_SENTIMENT_FUSION_ENGINE
 
-Architecture_Baseline/
 
-Football_AI_OS_Betting_Intelligence_System_Omega_V3.2_Baseline.md
+105_HANDICAP_VALUE_DECISION_ENGINE
 
 
+107_MARKET_PATTERN_RECOGNITION_ENGINE
 
-4.
 
-Legacy Asset Index
+110_FINAL_MARKET_DECISION_ENGINE
 
 
-Path:
+144_MATCH_ANALYSIS_EXECUTOR
 
 
-10_GOVERNANCE_LAYER/
 
-registry/
+--------------------------------------------------
 
-Football_AI_OS_Legacy_Asset_Index_V1.0.csv
 
+# 5. 禁止行为
 
 
-Before modifying code:
+AI不得：
 
+1. 创建新的Prediction Engine
 
-AI MUST:
+2. 创建新的Model Layer
 
+3. 删除历史资产
 
-- Understand current architecture
+4. 自动重构架构
 
-- Check existing modules
+5. 修改冻结模块职责
 
-- Check Legacy assets
+6. 绕过测试直接提交代码
 
-- Check dependencies
 
-- Check impact scope
 
+--------------------------------------------------
 
 
-Without analysis:
+# 6. 开发流程
 
-NO CODE MODIFICATION.
 
+任何代码修改必须：
 
+Step 1
 
-# ==========================================================
-# 5. CODE MODIFICATION RULES
-# ==========================================================
+读取Architecture_Audit
 
 
-All changes follow:
+Step 2
 
+确认模块职责
 
-Scan
 
-��
+Step 3
 
-Analysis
+提出修改方案
 
-��
+
+Step 4
+
+执行代码
+
+
+Step 5
+
+测试
+
+
+Step 6
+
+保存Checkpoint
+
+
+
+--------------------------------------------------
+
+
+# 7. Git规则
+
+
+所有重要修改必须：
+
+commit
+
+
+提交信息必须说明：
+
+- 修改模块
+- 修改目的
+- 测试结果
+
+
+
+--------------------------------------------------
+
+
+# 8. 最终目标
+
+
+将系统完善为：
+
+
+Prediction
+
+
+
+Market Intelligence
+
+
+
+Decision
+
+
 
 Report
 
-��
 
-Review
+完整智能决策系统。
 
-��
 
-Modify
-
-��
-
-Test
-
-��
-
-Commit
-
-
-
-Before changing:
-
-
-Must determine:
-
-
-A.
-
-Why change?
-
-
-B.
-
-Affected modules?
-
-
-C.
-
-Architecture impact?
-
-
-D.
-
-Rollback method?
-
-
-E.
-
-Testing plan?
-
-
-
-Small bug fixes:
-
-
-Allowed.
-
-
-Core architecture changes:
-
-
-Require approval.
-
-
-
-# ==========================================================
-# 6. MODEL LAYER RULES
-# ==========================================================
-
-
-Core Models:
-
-
-- Elo
-
-- Dixon-Coles
-
-- Poisson
-
-- XGBoost
-
-- Fusion Engine
-
-
-
-Model Layer:
-
-
-E:\football_v\05_MODEL_AI\MODEL_LAYER
-
-
-
-��ֹ:
-
-
-- Changing mathematical formulas
-
-- Changing training logic
-
-- Changing feature definitions
-
-- Replacing models
-
-
-
-Unless:
-
-
-Model Review Approved.
-
-
-
-# ==========================================================
-# 7. DATA GOVERNANCE RULES
-# ==========================================================
-
-
-Data Flow:
-
-
-Database
-
-��
-
-Feature Store
-
-��
-
-Model Layer
-
-��
-
-Prediction Engine
-
-��
-
-Decision Output
-
-
-
-��ֹ:
-
-
-- Data leakage
-
-- Future information leakage
-
-- Train/test contamination
-
-- Unauthorized database changes
-
-
-
-Database changes require:
-
-
-Schema Review.
-
-
-
-# ==========================================================
-# 8. LEGACY ASSET RULES
-# ==========================================================
-
-
-Legacy assets are valuable historical resources.
-
-
-
-Location:
-
-
-E:\football_v\00_System_OS
-
-
-
-Rules:
-
-
-Never directly delete Legacy files.
-
-
-
-Before migration:
-
-
-Must check:
-
-
-- Existing implementation
-
-- Function capability
-
-- Dependencies
-
-- Runtime usage
-
-
-
-Migration process:
-
-
-Legacy Asset
-
-��
-
-Analysis
-
-��
-
-Interface Adaptation
-
-��
-
-Omega Implementation
-
-
-
-# ==========================================================
-# 9. TESTING REQUIREMENTS
-# ==========================================================
-
-
-Every modification requires testing.
-
-
-Required checks:
-
-
-- Import test
-
-- Runtime test
-
-- Database connection test
-
-- Model loading test
-
-- Prediction pipeline test
-
-
-
-Testing results must be recorded.
-
-
-Output location:
-
-
-99_DOCUMENTATION/validation/
-
-
-
-# ==========================================================
-# 10. GIT VERSION CONTROL
-# ==========================================================
-
-
-All modifications must use Git.
-
-
-Required:
-
-
-Commit message contains:
-
-
-Version
-
-+
-
-Purpose
-
-
-
-Example:
-
-
-V3.2.2 Fix Runtime Import Error
-
-
-
-Major changes require:
-
-
-- Version update
-
-- Change log update
-
-- Documentation update
-
-
-
-Never overwrite history.
-
-
-
-# ==========================================================
-# 11. FORBIDDEN ACTIONS
-# ==========================================================
-
-
-AI MUST NOT:
-
-
-- Create duplicate architecture
-
-- Create new MODEL_LAYER
-
-- Delete Legacy assets
-
-- Modify frozen architecture
-
-- Change model formulas
-
-- Modify database blindly
-
-- Perform large refactoring automatically
-
-
-
-# ==========================================================
-# 12. CURRENT DEVELOPMENT TASK
-# ==========================================================
-
-
-Current Task:
-
-
-Omega V3.2.2 Runtime Stabilization
-
-
-
-Priority:
-
-
-1.
-
-Make system runnable
-
-
-
-2.
-
-Fix existing logical errors
-
-
-
-3.
-
-Validate model execution
-
-
-
-4.
-
-Improve testing coverage
-
-
-
-5.
-
-Optimize performance
-
-
-
-NOT CURRENTLY ALLOWED:
-
-
-- V3.3 redesign
-
-- New models
-
-- New architecture
-
-- Large refactoring
-
-
-
-# ==========================================================
-# END
-# Football AI OS ��+ V3.2.2
-# ==========================================================

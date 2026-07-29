@@ -1,0 +1,31 @@
+﻿# 模块冻结登记表 V1.0
+
+## 冻结模块
+
+02_FEATURE_LAYER
+
+03_MODEL_LAYER
+
+05_MODEL_AI
+
+06_PREDICTION_INTELLIGENCE_ENGINE
+
+
+## 可扩展模块
+
+Market Layer
+
+Decision Layer
+
+Output Layer
+
+Runtime Layer
+
+
+禁止：
+
+NEW_PREDICTION_ENGINE
+
+PREDICTION_ENGINE_V2
+
+NEW_MODEL_LAYER

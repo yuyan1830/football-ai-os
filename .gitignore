@@ -15,3 +15,39 @@ archive/
 *.cache
 
 .env
+# Football AI OS V4.0 Governance
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Raw Data
+raw_data/
+data/raw/
+
+# Model Files
+*.pkl
+*.joblib
+*.pt
+*.bin
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.venv/
+venv/
+
+# Logs
+logs/
+*.log
+
+# Temporary
+tmp/
+temp/
+
+# Archives
+*.zip
+
