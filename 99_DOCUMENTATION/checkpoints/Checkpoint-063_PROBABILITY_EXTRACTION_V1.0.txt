@@ -1,0 +1,33 @@
+﻿====================================
+
+Football AI OS Ω+ V3.2.1
+
+Checkpoint-063
+
+Probability Extraction
+
+====================================
+
+
+STATUS:
+
+COMPLETED
+
+
+Completed:
+
+
+[X] Probability Normalization
+
+[X] Four Model Output Format
+
+[X] Fusion Input Preparation
+
+
+Next:
+
+Fusion Runtime Connection
+
+
+
+====================================
