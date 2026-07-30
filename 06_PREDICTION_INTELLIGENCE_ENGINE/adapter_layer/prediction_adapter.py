@@ -5,52 +5,99 @@ Football AI OS Ω+ V3.2.1
 
 Prediction Adapter
 
-统一预测模型调用入口
+连接 Model Connector
 """
+
+
+import sys
+import os
+
+
+ROOT = os.path.dirname(
+    os.path.dirname(
+        os.path.abspath(__file__)
+    )
+)
+
+
+sys.path.append(ROOT)
+
+
+from advanced_model_connector.elo_connector import EloConnector
+from advanced_model_connector.dixon_coles_connector import DixonColesConnector
+from advanced_model_connector.poisson_connector import PoissonConnector
+from advanced_model_connector.xgboost_connector import XGBoostConnector
+
 
 
 class PredictionAdapter:
 
 
+
     def __init__(self):
 
-        self.status = "READY"
+        self.status="READY"
 
 
 
-    def predict(self, match):
+    def connect_models(self):
 
 
-        result = {
+        return {
 
 
-            "match": match,
+            "elo":
+
+            EloConnector().connect(),
 
 
-            "models": {
+            "dixon_coles":
+
+            DixonColesConnector().connect(),
 
 
-                "elo": "READY",
+            "poisson":
 
-                "dixon_coles": "READY",
-
-                "poisson": "READY",
-
-                "xgboost": "READY"
+            PoissonConnector().connect(),
 
 
-            },
+            "xgboost":
 
-
-            "status":
-
-            "PREDICTION_ADAPTER_READY"
+            XGBoostConnector().connect()
 
 
         }
 
 
-        return result
+
+
+    def predict(self,match):
+
+
+        models = self.connect_models()
+
+
+
+        return {
+
+
+            "match":
+
+            match,
+
+
+            "models":
+
+            models,
+
+
+            "status":
+
+            "REAL_CONNECTOR_READY"
+
+
+        }
+
 
 
 
@@ -74,10 +121,10 @@ class PredictionAdapter:
 
 
 
-if __name__ == "__main__":
+if __name__=="__main__":
 
 
-    adapter = PredictionAdapter()
+    adapter=PredictionAdapter()
 
 
     print(
