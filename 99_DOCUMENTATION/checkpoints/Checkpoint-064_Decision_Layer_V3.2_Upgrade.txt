@@ -1,0 +1,265 @@
+﻿# Football AI OS Ω+ V3.2
+
+# Checkpoint-064_Decision_Layer_V3.2_Upgrade
+
+
+日期:
+
+2026-07-31
+
+
+==================================================
+
+当前阶段:
+
+Decision Layer Upgrade
+
+
+==================================================
+
+架构确认:
+
+
+Football AI OS Ω+ V3.2
+
+
+DATA
+
+
+
+FEATURE
+
+
+
+MODEL
+
+
+
+PREDICTION
+
+
+
+MARKET
+
+
+
+DECISION
+
+
+
+OUTPUT
+
+
+
+==================================================
+
+当前模块:
+
+
+08_DECISION_LAYER
+
+
+
+现有资产:
+
+
+engine:
+
+- decision_engine_V2.4.py
+
+- recommendation_engine.py
+
+
+service:
+
+- decision_service.py
+
+
+database:
+
+- decision_history.db
+
+
+
+==================================================
+
+冻结规则:
+
+
+禁止:
+
+
+- 创建 NEW_DECISION_LAYER
+
+- 创建重复 Decision Engine
+
+- 修改 Model Layer
+
+- 修改 Feature Layer
+
+- 创建 NEW_PREDICTION_ENGINE
+
+
+
+==================================================
+
+升级目标:
+
+
+将 08_DECISION_LAYER 升级为:
+
+
+Decision Intelligence Layer V3.2
+
+
+
+新增能力:
+
+
+1. 模型一致性分析
+
+
+输入:
+
+Elo
+
+Dixon-Coles
+
+Poisson
+
+XGBoost
+
+
+
+输出:
+
+模型支持方向
+
+一致性评分
+
+
+
+--------------------------------------------------
+
+
+2. 风险分析
+
+
+包括:
+
+
+- 概率差距
+
+- 模型分歧
+
+- 爆冷风险
+
+
+
+--------------------------------------------------
+
+
+3. 价值判断接口
+
+
+预留:
+
+Market Layer
+
+盘口数据
+
+
+
+--------------------------------------------------
+
+
+4. 推荐引擎升级
+
+
+输出:
+
+
+- 推荐方向
+
+- 置信等级
+
+- 风险提示
+
+
+
+==================================================
+
+版本策略:
+
+
+保留:
+
+
+decision_engine_V2.4.py
+
+
+新增:
+
+
+decision_engine_V3.2.py
+
+
+
+不覆盖历史版本。
+
+
+
+==================================================
+
+目标链路:
+
+
+AI_RUNTIME
+
+
+
+08_DECISION_LAYER
+
+
+
+13_OUTPUT_SERVICE_LAYER
+
+
+
+==================================================
+
+下一阶段:
+
+
+开发:
+
+
+1.
+
+decision_engine_V3.2.py
+
+
+2.
+
+consensus_engine.py
+
+
+3.
+
+risk_engine.py
+
+
+4.
+
+decision_service.py 接入
+
+
+==================================================
+
+
+状态:
+
+
+DESIGN_APPROVED
+
+
