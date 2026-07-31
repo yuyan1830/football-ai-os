@@ -1,20 +1,4 @@
-﻿# -*- coding: utf-8 -*-
-
-"""
-Football AI OS
-Runtime Prediction Service V1.1
-
-
-API Layer
-    |
-AI Runtime Adapter
-    |
-AI Runtime Engine
-
-"""
-
-
-import sys
+﻿import sys
 
 
 sys.path.insert(
@@ -22,18 +6,25 @@ sys.path.insert(
     r"E:\football_v"
 )
 
-
 sys.path.insert(
     0,
     r"E:\football_v\12_API_LAYER"
 )
 
+sys.path.insert(
+    0,
+    r"E:\football_v\13_OUTPUT_SERVICE_LAYER"
+)
+
 
 from adapter.ai_runtime_adapter import run_ai_runtime
+
+from output_adapter import generate_output
 
 
 
 class RuntimePredictionService:
+
 
 
     def predict(self, match):
@@ -50,11 +41,7 @@ class RuntimePredictionService:
         )
 
 
-        return {
-
-
-            "service":
-                "RuntimePredictionService",
+        api_result = {
 
 
             "match":
@@ -87,18 +74,18 @@ class RuntimePredictionService:
                         {}
                     ),
 
-
                 "model_runtime":
                     result.get(
                         "model_runtime",
                         {}
                     )
 
-                },
-
-
-            "status":
-                "READY"
+                }
 
         }
+
+
+        return generate_output(
+            api_result
+        )
 
