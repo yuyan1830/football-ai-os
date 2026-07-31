@@ -1,0 +1,31 @@
+﻿# Legacy Cleanup Phase 1
+
+日期:
+2026-07-31
+
+
+已迁移:
+
+12_API_LAYER/api/prediction_api_backup_before_runtime.py
+
+12_API_LAYER/service/football_prediction_service.py
+
+
+原因:
+
+旧Prediction API入口
+
+旧Prediction Service
+
+已被RuntimePredictionService替代。
+
+
+归档位置:
+
+E:\Football_AI_OS_Legacy_Cleanup_Archive
+
+
+状态:
+
+COMPLETED
+
