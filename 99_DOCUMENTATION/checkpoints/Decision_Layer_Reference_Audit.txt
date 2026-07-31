@@ -1,0 +1,156 @@
+﻿
+deploy_phase18_20.py:10:"72_HANDICAP_DECISION_ENGINE",
+deploy_phase21_25.py:15:"85_FINAL_DECISION_ENGINE"
+deploy_phase31_35.py:10:"105_HANDICAP_VALUE_DECISION_ENGINE"
+deploy_phase36_40.py:10:"110_FINAL_MARKET_DECISION_ENGINE"
+phase21_25_test.py:13:"85_FINAL_DECISION_ENGINE"
+phase36_40_test.py:8:"110_FINAL_MARKET_DECISION_ENGINE"
+phase51_validation.py:17:"85_FINAL_DECISION_ENGINE",
+phase52_backtest.py:27:"85_FINAL_DECISION_ENGINE",
+00_System_OS\ARCHITECTURE_CLEANUP\registry_manager\registry_manager_V1.1.py:37:"08_DECISI
+ON_ENGINE",
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\consolidation_architecture_V1.4.py:109:      
+  "29_DECISION_ENGINE",
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\create_architecture_merge_tool_V1.0.py:35:"08
+_DECISION_ENGINE",
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\create_architecture_merge_tool_V1.0.py:96:"DE
+CISION_ENGINE":
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\create_architecture_merge_tool_V1.0.py:99:"29
+_DECISION_ENGINE",
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\merge_architecture_V1.0.py:75:"08_DECISION_EN
+GINE",
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\merge_architecture_V1.0.py:80:"29_DECISION_EN
+GINE",
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V2.1_V2.2_
+BATCH.py:212:"upgrade_decision_engine.py":r'''
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V2.1_V2.2_
+BATCH.py:218:class UpgradeDecisionEngine:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V2.1_V2.2_
+BATCH.py:770:"upgrade_decision_engine.py",
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_intelligence_layer_core_V1.0.py:
+215:"FUSION_DECISION_ENGINE":{
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_intelligence_layer_core_V1.0.py:
+377:"FUSION_DECISION_ENGINE",
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_intelligence_layer_test_V1.0.py:
+168:        "FUSION_DECISION_ENGINE",
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_orchestration_layer_batch_V1.0.p
+y:143:"decision_interface/decision_service.py":
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_orchestration_layer_batch_V1.0.p
+y:145:class DecisionService:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:12:DEC
+ISION_ENGINE_PATH = os.path.join(
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:16:   
+ "08_DECISION_ENGINE"
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:118:  
+      DECISION_ENGINE_PATH,
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:121:  
+      DECISION_ENGINE_PATH+r"\config",
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:124:  
+      DECISION_ENGINE_PATH+r"\reports",
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:127:  
+      DECISION_ENGINE_PATH+r"\tests",
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:152:  
+      DECISION_ENGINE_PATH+
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:205:  
+      DECISION_ENGINE_PATH+
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:206:  
+      r"\decision_engine.py",
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:213:cl
+ass DecisionEngine:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:306:  
+      DECISION_ENGINE_PATH+
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:371:  
+      DECISION_ENGINE_PATH+
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:443:  
+      DECISION_ENGINE_PATH+
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:535:  
+      DECISION_ENGINE_PATH+
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:625:  
+      DECISION_ENGINE_PATH+
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:757:  
+      DECISION_ENGINE_PATH+
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:825:  
+      DECISION_ENGINE_PATH+
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:927:  
+      DECISION_ENGINE_PATH+
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:1049: 
+       DECISION_ENGINE_PATH+
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:1152: 
+       DECISION_ENGINE_PATH+
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:1212: 
+       DECISION_ENGINE_PATH+
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:1267: 
+       r"\decision_engine_v1.3_checkpoint.json",
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:1294:"
+decision_engine",
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:1320: 
+       DECISION_ENGINE_PATH+
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:1321: 
+       r"\tests\decision_engine_v1.3_full_test.py",
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:1345:"
+decision_engine.py",
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:1450: 
+       DECISION_ENGINE_PATH
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_intelligence_layer_test_V1
+.0.py:16:"test":"decision_engine",
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_intelligence_layer_V1.0.py
+:14:r"decision_core\decision_engine.py":
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_intelligence_layer_V1.0.py
+:20:class DecisionEngine:
+07_AI_ORCHESTRATION_LAYER\decision_interface\decision_service.py:2:class DecisionService:
+08_DECISION_ENGINE\decision_engine.py:6:class DecisionEngine:
+08_DECISION_ENGINE\tests\decision_engine_v1.3_full_test.py:23:"decision_engine.py",
+08_DECISION_INTELLIGENCE_LAYER\decision_core\decision_engine.py:5:class DecisionEngine:
+08_DECISION_LAYER\engine\decision_engine_V2.4.py:2:class DecisionEngineV24:
+08_DECISION_LAYER\engine\decision_engine_V3.2.py:14:class DecisionEngineV32:
+08_DECISION_LAYER\service\decision_service.py:2:class DecisionService:
+08_DECISION_LAYER\service\decision_service_V3.2.py:34:    "decision_engine",
+08_DECISION_LAYER\service\decision_service_V3.2.py:35:    r"E:\football_v\08_DECISION_LAY
+ER\engine\decision_engine_V3.2.py"
+08_DECISION_LAYER\service\decision_service_V3.2.py:39:DecisionEngineV32 = decision_module
+.DecisionEngineV32
+08_DECISION_LAYER\service\decision_service_V3.2.py:48:class DecisionServiceV32:
+08_DECISION_LAYER\service\decision_service_V3.2.py:54:        self.decision_engine = Deci
+sionEngineV32()
+08_DECISION_LAYER\service\decision_service_V3.2.py:79:        decision = self.decision_en
+gine.evaluate(
+08_DECISION_LAYER\service\decision_service_V3.2.py:110:                "DECISION_SERVICE_
+V3.2_READY"
+08_DECISION_LAYER\test\decision_service_test.py:11:from service.decision_service_V3.2 imp
+ort DecisionServiceV32
+08_DECISION_LAYER\test\decision_service_test.py:14:service = DecisionServiceV32()
+105_HANDICAP_VALUE_DECISION_ENGINE\module.py:1:# Football AI OS 105_HANDICAP_VALUE_DECISI
+ON_ENGINE
+10_AI_AUTONOMOUS_ENGINE\upgrade_decision_engine.py:7:class UpgradeDecisionEngine:
+10_AI_AUTONOMOUS_ENGINE\tests\autonomous_engine_v2_2_batch_full_test.py:19:"upgrade_decis
+ion_engine.py",
+110_FINAL_MARKET_DECISION_ENGINE\module.py:1:# Football AI OS 110_FINAL_MARKET_DECISION_E
+NGINE
+29_DECISION_ENGINE\decision_engine.py:4:class DecisionEngine:
+72_HANDICAP_DECISION_ENGINE\module.py:1:# Football AI OS 72_HANDICAP_DECISION_ENGINE
+85_FINAL_DECISION_ENGINE\module.py:1:# Football AI OS 85_FINAL_DECISION_ENGINE
+99_DOCUMENTATION\OMEGA_RUNTIME_PATH_AUDIT_V1.0.py:11:"08_DECISION_ENGINE",
+99_DOCUMENTATION\PHASE5_RUNTIME_DEPENDENCY_AUDIT_V1.0.py:23:    "08_DECISION_ENGINE",
+99_DOCUMENTATION\versions\v3.2.0\fix_model_registry_snapshot.py:40:    "05_AI_Intelligenc
+e_Layer/FUSION_DECISION_ENGINE/fusion_engine.py",
+deploy\deploy_v15_phase2.py:5:python -m pytest 03_Data_Governance/tests 04_Data_Processin
+g_AI/feature_store/tests 05_MODEL_AI/MODEL_LAYER/tests 06_PREDICTION_ENGINE/tests 07_BACK
+TEST_AI/tests 08_DECISION_ENGINE/tests 09_AI_ORCHESTRATION_LAYER/tests 10_AI_AUTONOMOUS_E
+NGINE/tests 11_SYSTEM_INTELLIGENCE/tests
+deployment_scripts\decision_layer_V2.4_initializer.py:46:"engine\\decision_engine_V2.4.py
+":
+deployment_scripts\decision_layer_V2.4_initializer.py:49:class DecisionEngineV24:
+deployment_scripts\decision_layer_V2.4_initializer.py:79:"service\\decision_service.py":
+deployment_scripts\decision_layer_V2.4_initializer.py:82:class DecisionService:
+deployment_scripts\deploy_full_prediction_ai_V2.1.py:103:r"29_DECISION_ENGINE\decision_en
+gine.py":
+deployment_scripts\deploy_full_prediction_ai_V2.1.py:107:class DecisionEngine:
+deployment_scripts\deploy_full_prediction_ai_V2.1.py:117:r"29_DECISION_ENGINE\kelly_decis
+ion.py":
+deployment_scripts\deploy_full_prediction_ai_V2.1.py:129:r"29_DECISION_ENGINE\registry\de
+cision_registry.json":
+deployment_scripts\deploy_prediction_patch_V2.1.1.py:27:"29_DECISION_ENGINE":[
+deployment_scripts\deploy_prediction_patch_V2.1.1.py:28:"decision_engine.py",
+tools\code_logic_duplicate_scanner_v2.py:29:"29_DECISION_ENGINE",
+
+

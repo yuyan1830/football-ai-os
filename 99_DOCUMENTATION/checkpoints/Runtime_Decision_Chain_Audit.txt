@@ -1,0 +1,47 @@
+﻿
+deploy_phase17.py:21:"71_AI_PREDICTION_EXECUTOR":[
+deploy_phase17.py:23:"prediction_executor.py",
+deploy_phase21_25.py:15:"85_FINAL_DECISION_ENGINE"
+phase17_test.py:7:"71_AI_PREDICTION_EXECUTOR",
+phase21_25_test.py:13:"85_FINAL_DECISION_ENGINE"
+phase51_55_final_validation.py:35:"FINAL_DECISION_OUTPUT"
+phase51_validation.py:17:"85_FINAL_DECISION_ENGINE",
+phase52_backtest.py:27:"85_FINAL_DECISION_ENGINE",
+00_System_OS\Bootstrap\bootstrap.py:142:def generate_report(data):
+00_System_OS\Bootstrap\bootstrap.py:227:    generate_report(
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:1050: 
+       r"\final_decision_report.py",
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:1183:"
+final_decision_output"
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:1302:"
+final_decision_report"
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:1366:"
+final_decision_report.py"
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_prediction_engine_V1.0_V1.3.py:144:
+    def generate_report(
+01_Data_Source\acceptance\acceptance_check.py:78:def generate_report():
+01_Data_Source\acceptance\acceptance_check.py:153:    result=generate_report()
+06_PREDICTION_ENGINE\prediction_interface.py:26:    def generate_report(
+08_DECISION_ENGINE\tests\decision_engine_v1.3_full_test.py:44:"final_decision_report.py"
+08_DECISION_LAYER\service\decision_service_V3.2.py:48:class DecisionServiceV32:
+08_DECISION_LAYER\test\decision_service_test.py:11:from service.decision_service_V3.2 imp
+ort DecisionServiceV32
+08_DECISION_LAYER\test\decision_service_test.py:14:service = DecisionServiceV32()
+10_AI_AUTONOMOUS_ENGINE\error_analysis_engine.py:60:    def generate_report(self,data):
+12_API_LAYER\service\runtime_prediction_service.py:63:                    "final_decision
+",
+85_FINAL_DECISION_ENGINE\module.py:1:# Football AI OS 85_FINAL_DECISION_ENGINE
+AI_RUNTIME\ai_report.py:1:def generate_report(prediction,decision):
+AI_RUNTIME\ai_report.py:19:        "final_decision":
+AI_RUNTIME\engine.py:3:from .prediction_executor import run_prediction
+AI_RUNTIME\engine.py:32:            prediction=run_prediction(
+AI_RUNTIME\final_decision.py:1:def final_decision(fusion):
+AI_RUNTIME\prediction_executor.py:6:from .final_decision import final_decision
+AI_RUNTIME\prediction_executor.py:7:from .ai_report import generate_report
+AI_RUNTIME\prediction_executor.py:10:def run_prediction(home, away):
+AI_RUNTIME\prediction_executor.py:24:    decision = final_decision(
+AI_RUNTIME\prediction_executor.py:47:    return generate_report(
+deployment_scripts\database_init_system_db_V2.2.3.py:218:def generate_report():
+deployment_scripts\database_init_system_db_V2.2.3.py:298:    generate_report()
+
+

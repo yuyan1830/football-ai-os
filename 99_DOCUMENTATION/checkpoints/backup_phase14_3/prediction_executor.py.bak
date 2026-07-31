@@ -3,7 +3,7 @@
 from .model_runtime_connector import model_runtime_check
 from .model_outputs import run_models
 from .model_fusion import fusion_predict
-from .decision_service_bridge import run_decision
+from .final_decision import final_decision
 from .ai_report import generate_report
 
 
@@ -21,11 +21,9 @@ def run_prediction(home, away):
         models["xgb"]
     )
 
-    decision = run_decision(
-        models,
+    decision = final_decision(
         fusion
     )
-
 
     prediction = {
 

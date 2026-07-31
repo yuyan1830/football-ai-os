@@ -1,0 +1,443 @@
+﻿def final_decision(fusion):
+
+    probs={
+        "主胜":fusion["home_win_probability"],
+        "平局":fusion["draw_probability"],
+        "客胜":fusion["away_win_probability"]
+    }
+
+    result=max(probs,key=probs.get)
+
+    confidence=max(probs.values())
+
+    if confidence>=0.55:
+        risk="LOW"
+    elif confidence>=0.45:
+        risk="MEDIUM"
+    else:
+        risk="HIGH"
+
+    return {
+        "decision":result,
+        "confidence":round(confidence,4),
+        "risk_level":risk,
+        "probabilities":probs,
+        "status":"DECISION_COMPLETED"
+    }
+def generate_report(prediction,decision):
+
+
+    return {
+
+
+        "system":
+            "Football AI OS",
+
+
+        "match":
+            prediction["match"],
+
+
+        "model_result":
+            prediction["fusion"],
+
+
+        "final_decision":
+            decision,
+
+
+        "status":
+            "REPORT_READY"
+
+    }
+
+# -*- coding: utf-8 -*-
+
+from .model_runtime_connector import model_runtime_check
+from .model_outputs import run_models
+from .model_fusion import fusion_predict
+from .final_decision import final_decision
+from .ai_report import generate_report
+
+
+def run_prediction(home, away):
+
+    models = run_models(
+        home,
+        away
+    )
+
+    fusion = fusion_predict(
+        models["elo"],
+        models["dixon"],
+        models["poisson"],
+        models["xgb"]
+    )
+
+    decision = final_decision(
+        fusion
+    )
+
+    prediction = {
+
+        "match":{
+            "home":home,
+            "away":away
+        },
+
+        "models":models,
+
+        "fusion":fusion,
+
+        "runtime":model_runtime_check(),
+
+        "prediction_status":
+            "PREDICTION_COMPLETED"
+
+    }
+
+
+    return generate_report(
+        prediction,
+        decision
+    )
+
+class DecisionService:
+
+
+    def run(self):
+
+        return "Decision Service READY"
+
+# -*- coding: utf-8 -*-
+
+"""
+Football AI OS Ω+
+
+Decision Service V3.2
+
+
+职责:
+
+连接:
+
+Decision Engine
+
+Consensus Engine
+
+Risk Engine
+
+"""
+
+
+import sys
+
+from importlib.machinery import SourceFileLoader
+
+
+sys.path.insert(
+    0,
+    r"E:\football_v\08_DECISION_LAYER"
+)
+
+
+decision_module = SourceFileLoader(
+    "decision_engine",
+    r"E:\football_v\08_DECISION_LAYER\engine\decision_engine_V3.2.py"
+).load_module()
+
+
+DecisionEngineV32 = decision_module.DecisionEngineV32
+
+
+from engine.consensus_engine import ConsensusEngine
+
+from engine.risk_engine import RiskEngine
+
+
+
+class DecisionServiceV32:
+
+
+    def __init__(self):
+
+
+        self.decision_engine = DecisionEngineV32()
+
+
+        self.consensus_engine = ConsensusEngine()
+
+
+        self.risk_engine = RiskEngine()
+
+
+
+    def run(self, data):
+
+
+        fusion = data.get(
+            "fusion",
+            {}
+        )
+
+
+        models = data.get(
+            "models",
+            {}
+        )
+
+
+        decision = self.decision_engine.evaluate(
+            fusion
+        )
+
+
+        consensus = self.consensus_engine.analyze(
+            models
+        )
+
+
+        risk = self.risk_engine.analyze(
+            decision
+        )
+
+
+        return {
+
+
+            "decision":
+                decision,
+
+
+            "consensus":
+                consensus,
+
+
+            "risk":
+                risk,
+
+
+            "status":
+                "DECISION_SERVICE_V3.2_READY"
+
+        }
+
+class DecisionEngineV24:
+
+
+    def evaluate(self,data):
+
+        return {
+
+        "decision":"A",
+
+        "status":"READY"
+
+        }
+
+# -*- coding: utf-8 -*-
+
+"""
+Football AI OS Ω+
+Decision Engine V3.2
+
+职责:
+
+接收 Fusion 输出
+生成基础决策结果
+"""
+
+
+class DecisionEngineV32:
+
+
+    def evaluate(self, fusion):
+
+
+        probabilities = {
+
+            "主胜":
+            fusion.get(
+                "home_win_probability",
+                0
+            ),
+
+            "平局":
+            fusion.get(
+                "draw_probability",
+                0
+            ),
+
+            "客胜":
+            fusion.get(
+                "away_win_probability",
+                0
+            )
+
+        }
+
+
+        decision=max(
+            probabilities,
+            key=probabilities.get
+        )
+
+
+        confidence=probabilities[decision]
+
+
+        return {
+
+            "decision":
+                decision,
+
+
+            "confidence":
+                round(
+                    confidence,
+                    4
+                ),
+
+
+            "probabilities":
+                probabilities,
+
+
+            "status":
+                "DECISION_V3.2_READY"
+
+        }
+# -*- coding: utf-8 -*-
+
+"""
+Decision Consensus Engine V3.2
+
+分析四模型一致性
+"""
+
+
+class ConsensusEngine:
+
+
+    def analyze(self, models):
+
+
+        result={
+
+            "主胜":0,
+
+            "平局":0,
+
+            "客胜":0
+
+        }
+
+
+        mapping={
+
+            "home":
+            "主胜",
+
+            "draw":
+            "平局",
+
+            "away":
+            "客胜"
+
+        }
+
+
+        for model in models.values():
+
+            value=max(
+                model,
+                key=model.get
+            )
+
+
+            result[
+                mapping[value]
+            ] += 1
+
+
+
+        decision=max(
+            result,
+            key=result.get
+        )
+
+
+        return {
+
+            "support":
+                result,
+
+
+            "consensus":
+                decision,
+
+
+            "status":
+                "CONSENSUS_READY"
+
+        }
+# -*- coding: utf-8 -*-
+
+"""
+Decision Risk Engine V3.2
+
+风险分析
+"""
+
+
+class RiskEngine:
+
+
+    def analyze(self, decision):
+
+
+        confidence = decision.get(
+            "confidence",
+            0
+        )
+
+
+        if confidence >= 0.55:
+
+            level="LOW"
+
+
+        elif confidence >= 0.45:
+
+            level="MEDIUM"
+
+
+        else:
+
+            level="HIGH"
+
+
+
+        return {
+
+
+            "risk_level":
+                level,
+
+
+            "confidence":
+                confidence,
+
+
+            "status":
+                "RISK_READY"
+
+        }
+
+class RecommendationEngine:
+
+
+    def recommend(self,score):
+
+        return "BET"
+

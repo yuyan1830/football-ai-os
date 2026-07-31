@@ -1,0 +1,671 @@
+﻿
+check_db_tables.py:19:    tables=conn.execute(
+check_feature_db.py:11:for row in cur.execute("select name from sqlite_master where type=
+'table'"):
+check_feature_schema.py:19:        cur.execute(
+check_history_schema.py:39:        cur.execute(
+check_history_schema.py:50:        cur.execute(
+check_history_schema.py:71:        cur.execute(
+check_model_db.py:11:for row in cur.execute("select name from sqlite_master where type='t
+able'"):
+check_model_history.py:34:    result = cur.execute(
+check_model_history.py:47:        count = cur.execute(
+check_model_history.py:55:        columns = cur.execute(
+check_old_history.py:37:        cur.execute(
+check_target_history_schema.py:64:    cur.execute(
+check_target_history_schema.py:87:            cur.execute(
+check_xg_date.py:18:columns = cur.execute(
+database_inspector.py:15:tables = cur.execute(
+database_inspector.py:41:        count=cur.execute(
+database_migration_engine_V1.0.py:117:        exists = sc.execute(
+database_migration_engine_V1.0.py:127:        sql = sc.execute(
+database_migration_engine_V1.0.py:135:            dc.execute(sql)
+database_migration_engine_V1.0.py:138:        rows = sc.execute(
+deploy_phase21_25.py:15:"85_FINAL_DECISION_ENGINE"
+deploy_v15_phase2_patch3.py:59:def execute(data=None):
+final_deploy.py:41:def execute(task):
+final_deploy.py:73:    result=execute(task)
+migrate_model_history.py:46:    schema = src.execute(sql,(table,)).fetchone()
+migrate_model_history.py:54:    dst.execute(schema[0])
+migrate_model_history.py:57:    rows = src.execute(
+migration_test.py:18:    tables=conn.execute(
+phase21_25_test.py:13:"85_FINAL_DECISION_ENGINE"
+phase4_database_scan.py:55:                cur.execute(
+phase4_database_scan.py:68:                    cur.execute(
+phase4_database_scan.py:76:                    cur.execute(
+phase51_55_final_validation.py:35:"FINAL_DECISION_OUTPUT"
+phase51_validation.py:17:"85_FINAL_DECISION_ENGINE",
+phase52_backtest.py:27:"85_FINAL_DECISION_ENGINE",
+time_leakage_check.py:39:    result = cur.execute(
+time_leakage_check.py:50:    future = cur.execute(
+00_System_OS\01_DATA_LAYER\core\database\db_connection.py:109:        cursor.execute(
+00_System_OS\01_DATA_LAYER\import_pipeline\duplicate_checker.py:13:    cursor.execute(
+00_System_OS\01_DATA_LAYER\market\bookmaker_manager.py:66:        cursor.execute(
+00_System_OS\01_DATA_LAYER\market\market_type_manager.py:43:        cursor.execute(
+00_System_OS\01_DATA_LAYER\market\odds_manager.py:38:    cursor.execute(
+00_System_OS\01_DATA_LAYER\quality\quality_checker.py:79:    cursor.execute(
+00_System_OS\01_DATA_LAYER\quality\quality_engine.py:76:    cursor.execute(
+00_System_OS\01_DATA_LAYER\quality\quality_engine.py:218:    cursor.execute(
+00_System_OS\01_DATA_LAYER\quality\quality_engine.py:263:        cursor.execute(
+00_System_OS\01_DATA_LAYER\quality\quality_engine.py:314:        cursor.execute(
+00_System_OS\01_DATA_LAYER\quality\quality_report.py:15:    cursor.execute(
+00_System_OS\01_DATA_LAYER\quality\quality_report.py:44:    cursor.execute(
+00_System_OS\01_DATA_LAYER\registry\data_lineage.py:26:    cursor.execute(
+00_System_OS\01_DATA_LAYER\registry\import_tracker.py:27:    cursor.execute(
+00_System_OS\01_DATA_LAYER\registry\quality_score.py:30:    cursor.execute(
+00_System_OS\01_DATA_LAYER\registry\registry_manager.py:57:    cursor.execute(
+00_System_OS\01_DATA_LAYER\scripts\database_alert_final_upgrade.py:29:    cursor.execute(
+00_System_OS\01_DATA_LAYER\scripts\database_alert_final_upgrade.py:44:        cursor.exec
+ute(
+00_System_OS\01_DATA_LAYER\scripts\database_alert_final_upgrade.py:63:    cursor.execute(
+00_System_OS\01_DATA_LAYER\scripts\database_init.py:26:    cursor.execute("""
+00_System_OS\01_DATA_LAYER\scripts\database_init.py:57:    cursor.execute("""
+00_System_OS\01_DATA_LAYER\scripts\database_init.py:78:    cursor.execute("""
+00_System_OS\01_DATA_LAYER\scripts\database_market_init.py:23:    cursor.execute("""
+00_System_OS\01_DATA_LAYER\scripts\database_market_init.py:48:    cursor.execute("""
+00_System_OS\01_DATA_LAYER\scripts\database_market_init.py:67:    cursor.execute("""
+00_System_OS\01_DATA_LAYER\scripts\database_quality_alert_upgrade.py:31:    cursor.execut
+e(
+00_System_OS\01_DATA_LAYER\scripts\database_quality_alert_upgrade.py:48:        cursor.ex
+ecute(
+00_System_OS\01_DATA_LAYER\scripts\database_quality_alert_upgrade.py:69:        cursor.ex
+ecute(
+00_System_OS\01_DATA_LAYER\scripts\database_quality_alert_upgrade.py:90:        cursor.ex
+ecute(
+00_System_OS\01_DATA_LAYER\scripts\database_quality_init.py:24:    cursor.execute(
+00_System_OS\01_DATA_LAYER\scripts\database_quality_init.py:65:    cursor.execute(
+00_System_OS\01_DATA_LAYER\scripts\database_quality_init.py:109:    cursor.execute(
+00_System_OS\01_DATA_LAYER\scripts\database_task_reliability_init.py:25:    cursor.execut
+e(
+00_System_OS\01_DATA_LAYER\scripts\database_task_reliability_init.py:61:    cursor.execut
+e(
+00_System_OS\01_DATA_LAYER\scripts\database_task_reliability_init.py:94:    cursor.execut
+e(
+00_System_OS\01_DATA_LAYER\scripts\database_task_table_upgrade.py:46:    cursor.execute(
+00_System_OS\01_DATA_LAYER\scripts\database_task_table_upgrade.py:74:        cursor.execu
+te(
+00_System_OS\01_DATA_LAYER\scripts\database_task_table_upgrade.py:96:        cursor.execu
+te(
+00_System_OS\01_DATA_LAYER\scripts\quality_rule_init.py:170:        cursor.execute(
+00_System_OS\01_DATA_LAYER\scripts\registry_init.py:31:    cursor.execute("""
+00_System_OS\01_DATA_LAYER\scripts\registry_init.py:58:    cursor.execute("""
+00_System_OS\01_DATA_LAYER\scripts\registry_init.py:77:    cursor.execute("""
+00_System_OS\01_DATA_LAYER\scripts\registry_init.py:98:    cursor.execute("""
+00_System_OS\01_DATA_LAYER\scripts\registry_manager.py:72:    cursor.execute(
+00_System_OS\01_DATA_LAYER\scripts\retry_policy_init.py:138:        cursor.execute(
+00_System_OS\01_DATA_LAYER\scripts\task_queue_init.py:30:    cursor.execute("""
+00_System_OS\01_DATA_LAYER\task_queue\manual_task.py:23:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\retry_engine.py:36:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\retry_engine.py:113:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\retry_engine.py:186:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\retry_engine.py:332:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\retry_logger.py:42:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\retry_logger.py:111:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\retry_logger.py:171:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\scheduler.py:37:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\scheduler.py:100:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\scheduler.py:138:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\scheduler.py:210:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\scheduler.py:260:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\task_history.py:35:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\task_history.py:100:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\task_history.py:158:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\task_manager.py:67:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\task_manager.py:172:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\task_manager.py:272:    cursor.execute(
+00_System_OS\01_DATA_LAYER\task_queue\task_query.py:13:    cursor.execute(
+00_System_OS\03_MODEL_LAYER\check_match_source.py:17:cur.execute(
+00_System_OS\03_MODEL_LAYER\database_test.py:41:        cur.execute(
+00_System_OS\03_MODEL_LAYER\history_check.py:39:    cur.execute(
+00_System_OS\03_MODEL_LAYER\history_check.py:50:        cur.execute(
+00_System_OS\03_MODEL_LAYER\old_history_check.py:17:cur.execute(
+00_System_OS\03_MODEL_LAYER\Model_Pool\Dixon_Coles\dixon_coles.py:25:    cursor.execute("
+""
+00_System_OS\03_MODEL_LAYER\Model_Pool\Dixon_Coles\dixon_coles.py:123:    cursor.execute(
+00_System_OS\03_MODEL_LAYER\Model_Pool\Dixon_Coles\dixon_coles.py:129:    cursor.execute(
+"""
+00_System_OS\03_MODEL_LAYER\Model_Pool\Dixon_Coles\dixon_coles.py:148:        cursor.exec
+ute("""
+00_System_OS\03_MODEL_LAYER\Model_Pool\Dixon_Coles\dixon_coles_history_engine.py:15:    m
+atches = cursor.execute("""
+00_System_OS\03_MODEL_LAYER\Model_Pool\Dixon_Coles\dixon_coles_history_engine.py:23:    c
+ursor.execute("""
+00_System_OS\03_MODEL_LAYER\Model_Pool\Dixon_Coles\dixon_coles_history_engine.py:34:    c
+ursor.execute("DELETE FROM dixon_coles_history")
+00_System_OS\03_MODEL_LAYER\Model_Pool\Dixon_Coles\dixon_coles_history_engine.py:47:     
+       cursor.execute("""
+00_System_OS\03_MODEL_LAYER\Model_Pool\Elo\elo_engine.py:24:    cursor.execute(
+00_System_OS\03_MODEL_LAYER\Model_Pool\Elo\elo_engine.py:153:    cursor.execute(
+00_System_OS\03_MODEL_LAYER\Model_Pool\Elo\elo_engine.py:158:    cursor.execute(
+00_System_OS\03_MODEL_LAYER\Model_Pool\Elo\elo_engine.py:186:        cursor.execute(
+00_System_OS\03_MODEL_LAYER\Model_Pool\Elo\elo_engine.py:210:        cursor.execute(
+00_System_OS\03_MODEL_LAYER\Model_Pool\Elo\elo_engine.py:238:    cursor.execute(
+00_System_OS\03_MODEL_LAYER\Model_Pool\Elo\elo_engine.py:243:    cursor.execute(
+00_System_OS\03_MODEL_LAYER\Model_Pool\Elo\elo_engine.py:259:        cursor.execute(
+00_System_OS\03_MODEL_LAYER\Model_Pool\Poisson\poisson_engine.py:59:    cursor.execute(""
+"
+00_System_OS\03_MODEL_LAYER\Model_Pool\Poisson\poisson_engine.py:71:    cursor.execute(""
+"
+00_System_OS\03_MODEL_LAYER\Model_Pool\Poisson\poisson_engine.py:148:    cursor.execute("
+""
+00_System_OS\03_MODEL_LAYER\Model_Pool\Poisson\poisson_engine.py:169:    cursor.execute(
+00_System_OS\03_MODEL_LAYER\Model_Pool\Poisson\poisson_engine.py:204:        cursor.execu
+te("""
+00_System_OS\03_MODEL_LAYER\Model_Pool\Poisson\poisson_history_engine.py:15:    matches =
+ cursor.execute("""
+00_System_OS\03_MODEL_LAYER\Model_Pool\Poisson\poisson_history_engine.py:28:    cursor.ex
+ecute("""
+00_System_OS\03_MODEL_LAYER\Model_Pool\Poisson\poisson_history_engine.py:42:    cursor.ex
+ecute("DELETE FROM poisson_history")
+00_System_OS\03_MODEL_LAYER\Model_Pool\Poisson\poisson_history_engine.py:81:            c
+ursor.execute("""
+00_System_OS\03_MODEL_LAYER\Model_Pool\Poisson\poisson_history_engine.py:112:    cursor.e
+xecute("""
+00_System_OS\03_MODEL_LAYER\Model_Pool\XGBoost\backup_xgboost_fusion_v3_engine.py:22:    
+conn.execute(
+00_System_OS\03_MODEL_LAYER\Model_Pool\XGBoost\xgboost_fusion_v2_engine.py:23:    conn.ex
+ecute(
+00_System_OS\03_MODEL_LAYER\Model_Pool\XGBoost\xgboost_fusion_v2_engine.py:28:    conn.ex
+ecute(
+00_System_OS\03_MODEL_LAYER\Model_Pool\XGBoost\xgboost_fusion_v2_engine_backup.py:28:    
+conn.execute("""
+00_System_OS\03_MODEL_LAYER\Model_Pool\XGBoost\xgboost_fusion_v2_engine_backup.py:35:    
+conn.execute("""
+00_System_OS\03_MODEL_LAYER\Model_Pool\XGBoost\xgboost_fusion_v3_engine.py:28:    conn.ex
+ecute(
+00_System_OS\03_MODEL_LAYER\Model_Pool\XGBoost\xgboost_fusion_v3_engine_backup.py:22:    
+conn.execute(
+00_SYSTEM_TOOLS\data_schema_validation_V4.0.py:34:cursor.execute(
+00_SYSTEM_TOOLS\data_schema_validation_V4.0.py:68:    cursor.execute(
+00_SYSTEM_TOOLS\data_schema_validation_V4.0.py:93:    cursor.execute(
+00_SYSTEM_TOOLS\data_schema_validation_V4.0.py:112:    cursor.execute(
+00_SYSTEM_TOOLS\model_data_snapshot_V4.0.py:58:        cursor.execute(
+00_SYSTEM_TOOLS\model_data_snapshot_V4.0.py:65:        cursor.execute(
+00_SYSTEM_TOOLS\schema_check_V4.0.py:21:cursor.execute(
+00_SYSTEM_TOOLS\schema_check_V4.0.py:41:cursor.execute(
+00_SYSTEM_TOOLS\schema_check_V4.0.py:55:cursor.execute(
+00_SYSTEM_TOOLS\training_preflight_check_V4.0.py:43:        cursor.execute(
+00_SYSTEM_TOOLS\deploy_scripts\deploy_v15_phase2.py:37:    def execute(self, data):
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V2.3_V2.4_
+BATCH.py:383:    def execute(self):
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_orchestration_layer_batch_V1.0.p
+y:22:    def execute(self,task):
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_orchestration_layer_V1.0.py:48: 
+   def execute(self,steps):
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_orchestration_layer_V1.0_V1.3.py
+:126:    def execute(self,task):
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_orchestration_layer_V1.0_V1.3.py
+:451:    def execute(
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_backtest_system_V1.0_V1.3.py:303:  
+  def execute(
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:1050: 
+       r"\final_decision_report.py",
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:1183:"
+final_decision_output"
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:1302:"
+final_decision_report"
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py:1366:"
+final_decision_report.py"
+02_Data_Platform\raw\raw_manager.py:31:    def execute(self):
+02_Data_Platform\raw\raw_manager.py:59:    result=manager.execute()
+03_MODEL_LAYER\legacy_import\01_Data_Engine\data_engine\dixon_coles.py:25:    cursor.exec
+ute("""
+03_MODEL_LAYER\legacy_import\01_Data_Engine\data_engine\dixon_coles.py:123:    cursor.exe
+cute(
+03_MODEL_LAYER\legacy_import\01_Data_Engine\data_engine\dixon_coles.py:129:    cursor.exe
+cute("""
+03_MODEL_LAYER\legacy_import\01_Data_Engine\data_engine\dixon_coles.py:148:        cursor
+.execute("""
+03_MODEL_LAYER\legacy_import\01_Data_Engine\data_engine\elo_engine.py:24:    cursor.execu
+te(
+03_MODEL_LAYER\legacy_import\01_Data_Engine\data_engine\elo_engine.py:153:    cursor.exec
+ute(
+03_MODEL_LAYER\legacy_import\01_Data_Engine\data_engine\elo_engine.py:158:    cursor.exec
+ute(
+03_MODEL_LAYER\legacy_import\01_Data_Engine\data_engine\elo_engine.py:186:        cursor.
+execute(
+03_MODEL_LAYER\legacy_import\01_Data_Engine\data_engine\elo_engine.py:210:        cursor.
+execute(
+03_MODEL_LAYER\legacy_import\01_Data_Engine\data_engine\elo_engine.py:238:    cursor.exec
+ute(
+03_MODEL_LAYER\legacy_import\01_Data_Engine\data_engine\elo_engine.py:243:    cursor.exec
+ute(
+03_MODEL_LAYER\legacy_import\01_Data_Engine\data_engine\elo_engine.py:259:        cursor.
+execute(
+03_MODEL_LAYER\legacy_import\01_Data_Engine\data_engine\poisson_engine.py:59:    cursor.e
+xecute("""
+03_MODEL_LAYER\legacy_import\01_Data_Engine\data_engine\poisson_engine.py:71:    cursor.e
+xecute("""
+03_MODEL_LAYER\legacy_import\01_Data_Engine\data_engine\poisson_engine.py:148:    cursor.
+execute("""
+03_MODEL_LAYER\legacy_import\01_Data_Engine\data_engine\poisson_engine.py:169:    cursor.
+execute(
+03_MODEL_LAYER\legacy_import\01_Data_Engine\data_engine\poisson_engine.py:204:        cur
+sor.execute("""
+04_PREDICTION_LAYER\engine\match_simulation_engine_V2.7.py:94:cur.execute(
+04_PREDICTION_LAYER\engine\match_simulation_engine_V2.7.py:107:cur.execute(
+04_PREDICTION_LAYER\engine\prediction_intelligence_engine_V1.6.py:61:    cur.execute("""
+04_PREDICTION_LAYER\engine\prediction_intelligence_engine_V1.6.py:72:    cur.execute("""
+04_PREDICTION_LAYER\engine\prediction_intelligence_engine_V1.6.py:85:    cur.execute("""
+04_PREDICTION_LAYER\engine\prediction_intelligence_engine_V1.6.py:96:    cur.execute("""
+04_PREDICTION_LAYER\engine\prediction_intelligence_engine_V1.6.py:106:    cur.execute(
+04_PREDICTION_LAYER\engine\prediction_pipeline_V1.6.py:70:        c.execute(sql)
+04_PREDICTION_LAYER\engine\prediction_pipeline_V1.6.py:73:    c.execute(
+05_MODEL_AI\MODEL_LAYER\models\elo_model.py:33:        conn.execute(
+05_MODEL_AI\MODEL_LAYER\models\elo_model.py:44:        conn.execute(
+05_MODEL_AI\MODEL_LAYER\models\elo_model.py:56:        conn.execute(
+05_MODEL_AI\MODEL_LAYER\models\elo_model.py:67:        conn.execute("DELETE FROM elo_hist
+ory")
+05_MODEL_AI\MODEL_LAYER\models\elo_model.py:68:        conn.execute("DELETE FROM team_rat
+ing")
+05_MODEL_AI\MODEL_LAYER\models\elo_model.py:71:            conn.execute(
+05_MODEL_AI\MODEL_LAYER\models\elo_model.py:80:            conn.execute(
+05_MODEL_AI\MODEL_LAYER\models\elo_model.py:92:        rows = conn.execute(
+05_MODEL_AI\MODEL_LAYER\tests\test_elo_model_migration.py:15:    conn.execute(
+05_MODEL_AI\MODEL_LAYER\tests\test_elo_model_migration.py:26:    conn.execute(
+05_MODEL_AI\MODEL_LAYER\tests\test_elo_model_migration.py:38:    conn.execute(
+05_MODEL_AI\MODEL_LAYER\tests\test_elo_model_migration.py:66:    history_count = conn.exe
+cute("SELECT COUNT(*) FROM elo_history").fetchone()[0]
+05_MODEL_AI\MODEL_LAYER\tests\test_elo_model_migration.py:67:    team_count = conn.execut
+e("SELECT COUNT(*) FROM team_rating").fetchone()[0]
+07_AI_ORCHESTRATION_LAYER\learning_hook\feedback_receiver.py:27:        cursor.execute(
+07_AI_ORCHESTRATION_LAYER\learning_hook\feedback_receiver.py:50:        cursor.execute(
+07_AI_ORCHESTRATION_LAYER\orchestration_core\orchestrator.py:8:    def execute(self,task)
+:
+07_BACKTEST_AI\backtest_runner.py:19:    def execute(
+08_DECISION_ENGINE\tests\decision_engine_v1.3_full_test.py:44:"final_decision_report.py"
+08_DECISION_INTELLIGENCE_LAYER\feedback_interface\feedback_connector.py:111:        curso
+r.execute(sql,values)
+08_DECISION_LAYER\service\decision_service_V3.2.py:48:class DecisionServiceV32:
+08_DECISION_LAYER\test\decision_service_test.py:11:from service.decision_service_V3.2 imp
+ort DecisionServiceV32
+08_DECISION_LAYER\test\decision_service_test.py:14:service = DecisionServiceV32()
+09_AI_ORCHESTRATION_LAYER\orchestration_interface.py:14:    def execute(self,task):
+09_AI_ORCHESTRATION_LAYER\pipeline_controller.py:32:    def execute(
+09_Prediction_System\prediction_service_adapter.py:4:    def execute(self, data):
+10_AI_AUTONOMOUS_ENGINE\autonomous_engine_v3.py:13:    def execute(self):
+10_AI_AUTONOMOUS_ENGINE\autonomous_engine_v3.py:31:        return self.execute()
+10_AI_AUTONOMOUS_ENGINE\safe_upgrade_executor.py:10:    def execute(self):
+10_AI_AUTONOMOUS_ENGINE\tests\test_autonomous_compatibility.py:29:    result = engine.exe
+cute()
+10_GOVERNANCE_LAYER\audit\database_schema_validation.py:68:                cur.execute(
+10_GOVERNANCE_LAYER\audit\database_sqlite_comparison.py:40:    tables=cur.execute(
+10_GOVERNANCE_LAYER\audit\database_sqlite_comparison.py:50:        cols=cur.execute(
+10_GOVERNANCE_LAYER\audit\database_sqlite_comparison.py:54:        count=cur.execute(
+10_GOVERNANCE_LAYER\audit\database_table_comparison.py:36:        for x in cur.execute(
+10_GOVERNANCE_LAYER\audit\database_table_comparison.py:45:        cols=cur.execute(
+10_GOVERNANCE_LAYER\audit\database_table_comparison.py:49:        count=cur.execute(
+10_GOVERNANCE_LAYER\audit\feature_asset_alignment.py:22:    tables=conn.execute(
+10_GOVERNANCE_LAYER\audit\feature_asset_alignment.py:30:        cols=conn.execute(
+10_GOVERNANCE_LAYER\audit\feature_asset_alignment.py:34:        count=conn.execute(
+10_GOVERNANCE_LAYER\audit\model_asset_alignment.py:25:    for t in conn.execute(
+10_GOVERNANCE_LAYER\audit\model_asset_alignment.py:30:        count=conn.execute(
+10_GOVERNANCE_LAYER\audit\model_asset_alignment.py:35:            conn.execute(
+10_GOVERNANCE_LAYER\audit\model_store_deep_comparison.py:22:    tables = cur.execute(
+10_GOVERNANCE_LAYER\audit\model_store_deep_comparison.py:29:        cols = cur.execute(
+10_GOVERNANCE_LAYER\audit\model_store_deep_comparison.py:33:        count = cur.execute(
+10_GOVERNANCE_LAYER\audit\phase5_batch_governance.py:82:                    cur.execute(
+10_GOVERNANCE_LAYER\audit\phase6_batch_governance.py:47:        cur.execute(
+10_GOVERNANCE_LAYER\audit\Phase8_Runtime_Governance_Batch.py:90:        cursor.execute(
+10_GOVERNANCE_LAYER\audit\Phase8_Runtime_Governance_Batch.py:105:        cursor.execute(
+10_GOVERNANCE_LAYER\audit\Phase9_Full_System_Verification_Batch.py:104:        cur.execut
+e(
+10_GOVERNANCE_LAYER\audit\Phase9_Full_System_Verification_Batch.py:119:        cur.execut
+e(
+10_GOVERNANCE_LAYER\audit\prediction_layer_discovery.py:58:        cur.execute(
+10_GOVERNANCE_LAYER\audit\prediction_service_validation.py:40:    cur.execute(
+10_GOVERNANCE_LAYER\audit\prediction_service_validation.py:49:        cur.execute(
+10_GOVERNANCE_LAYER\audit\prediction_service_validation.py:56:        cur.execute(
+10_GOVERNANCE_LAYER\migration\validate_database_schema.py:34:            cur.execute(
+11_AI_ORCHESTRATION_LAYER\pipeline_manager\pipeline.py:8:    def execute(self,steps):
+11_SIMULATION_LAYER\engine\match_simulation_engine_V2.7.1.py:90:    cur.execute(
+11_SIMULATION_LAYER\engine\match_simulation_engine_V2.7.1.py:105:    cur.execute(
+11_SIMULATION_LAYER\engine\match_simulation_engine_V2.7.py:101:cur.execute(
+11_SIMULATION_LAYER\engine\match_simulation_engine_V2.7.py:116:cur.execute(
+11_System_Intelligence\decision_api.py:5:    def execute(self,data):
+11_System_Intelligence\intelligence_controller.py:61:    def execute(self, input_data=Non
+e):
+11_System_Intelligence\tests\test_phase3_system_intelligence.py:15:def test_controller_ex
+ecute():
+11_System_Intelligence\tests\test_phase3_system_intelligence.py:19:    result=engine.exec
+ute(
+12_API_LAYER\adapter\ai_runtime_adapter.py:81:    result = execute(
+12_API_LAYER\service\runtime_prediction_service.py:63:                    "final_decision
+",
+12_API_LAYER\test\api_integration_test.py:17:cur.execute(
+13_TEST_LAYER\engine\end_to_end_test_engine_V2.9.py:146:cur.execute(
+13_TEST_LAYER\engine\end_to_end_test_engine_V2.9.py:160:cur.execute(
+13_TEST_LAYER\validation\database_validation.py:14:cur.execute(
+16_DATABASE_GOVERNANCE_LAYER\validation_engine\deploy_validation_engine_V1.0.py:97:      
+      cursor.execute(
+16_DATABASE_GOVERNANCE_LAYER\validation_engine\validation_engine_V1.0.py:35:            c
+ursor.execute(
+18_MODEL_EXECUTION_ENGINE\feature_loader\feature_loader_V1.0.py:45:                cur.ex
+ecute(sql,(team,team))
+18_MODEL_EXECUTION_ENGINE\feature_loader\feature_loader_V1.0.py:59:                cur.ex
+ecute(sql,(team,date))
+18_MODEL_EXECUTION_ENGINE\feature_loader\feature_loader_V1.2.py:22:        cur.execute(
+18_MODEL_EXECUTION_ENGINE\feature_loader\feature_loader_V1.2.py:42:        cur.execute(
+18_MODEL_EXECUTION_ENGINE\feature_loader\feature_loader_V1.2.py:65:        cur.execute(
+18_MODEL_EXECUTION_ENGINE\feature_loader\feature_loader_V1.3.py:21:        cur.execute(
+18_MODEL_EXECUTION_ENGINE\feature_loader\feature_loader_V1.3.py:44:        cur.execute(
+18_MODEL_EXECUTION_ENGINE\feature_loader\feature_loader_V1.3.py:67:        cur.execute(
+18_MODEL_EXECUTION_ENGINE\output_manager\output_manager_V1.0.py:23:    cursor.execute(
+26_AUTOMATION_LAYER\prediction_job\prediction_job_V2.0.py:6:    def execute(self):
+40_MODEL_TRAINING_PIPELINE\trainer\elo_trainer_V4.0.py:57:    cursor.execute(
+85_FINAL_DECISION_ENGINE\module.py:1:# Football AI OS 85_FINAL_DECISION_ENGINE
+99_DOCUMENTATION\architecture_cleanup\FINAL_CLEANUP_V3.0\DEPRECATED_ARCHIVE\db_connection
+.py:109:        cursor.execute(
+99_DOCUMENTATION\checkpoints\Elo_Model_Migration_V1.0.py:33:        conn.execute(
+99_DOCUMENTATION\checkpoints\Elo_Model_Migration_V1.0.py:44:        conn.execute(
+99_DOCUMENTATION\checkpoints\Elo_Model_Migration_V1.0.py:56:        conn.execute(
+99_DOCUMENTATION\checkpoints\Elo_Model_Migration_V1.0.py:67:        conn.execute("DELETE 
+FROM elo_history")
+99_DOCUMENTATION\checkpoints\Elo_Model_Migration_V1.0.py:68:        conn.execute("DELETE 
+FROM team_rating")
+99_DOCUMENTATION\checkpoints\Elo_Model_Migration_V1.0.py:71:            conn.execute(
+99_DOCUMENTATION\checkpoints\Elo_Model_Migration_V1.0.py:80:            conn.execute(
+99_DOCUMENTATION\checkpoints\Elo_Model_Migration_V1.0.py:92:        rows = conn.execute(
+99_DOCUMENTATION\checkpoints\database_backup_v11\db_connection_backup.py:109:        curs
+or.execute(
+99_DOCUMENTATION\checkpoints\Model_Layer_V1.3_Backup\MODEL_LAYER\models\elo_model.py:33: 
+       conn.execute(
+99_DOCUMENTATION\checkpoints\Model_Layer_V1.3_Backup\MODEL_LAYER\models\elo_model.py:44: 
+       conn.execute(
+99_DOCUMENTATION\checkpoints\Model_Layer_V1.3_Backup\MODEL_LAYER\models\elo_model.py:56: 
+       conn.execute(
+99_DOCUMENTATION\checkpoints\Model_Layer_V1.3_Backup\MODEL_LAYER\models\elo_model.py:67: 
+       conn.execute("DELETE FROM elo_history")
+99_DOCUMENTATION\checkpoints\Model_Layer_V1.3_Backup\MODEL_LAYER\models\elo_model.py:68: 
+       conn.execute("DELETE FROM team_rating")
+99_DOCUMENTATION\checkpoints\Model_Layer_V1.3_Backup\MODEL_LAYER\models\elo_model.py:71: 
+           conn.execute(
+99_DOCUMENTATION\checkpoints\Model_Layer_V1.3_Backup\MODEL_LAYER\models\elo_model.py:80: 
+           conn.execute(
+99_DOCUMENTATION\checkpoints\Model_Layer_V1.3_Backup\MODEL_LAYER\models\elo_model.py:92: 
+       rows = conn.execute(
+99_DOCUMENTATION\checkpoints\Model_Layer_V1.3_Backup\MODEL_LAYER\tests\test_elo_model_mig
+ration.py:15:    conn.execute(
+99_DOCUMENTATION\checkpoints\Model_Layer_V1.3_Backup\MODEL_LAYER\tests\test_elo_model_mig
+ration.py:26:    conn.execute(
+99_DOCUMENTATION\checkpoints\Model_Layer_V1.3_Backup\MODEL_LAYER\tests\test_elo_model_mig
+ration.py:38:    conn.execute(
+99_DOCUMENTATION\checkpoints\Model_Layer_V1.3_Backup\MODEL_LAYER\tests\test_elo_model_mig
+ration.py:66:    history_count = conn.execute("SELECT COUNT(*) FROM elo_history").fetchon
+e()[0]
+99_DOCUMENTATION\checkpoints\Model_Layer_V1.3_Backup\MODEL_LAYER\tests\test_elo_model_mig
+ration.py:67:    team_count = conn.execute("SELECT COUNT(*) FROM team_rating").fetchone()
+[0]
+AI_RUNTIME\ai_report.py:19:        "final_decision":
+AI_RUNTIME\engine.py:3:from .prediction_executor import run_prediction
+AI_RUNTIME\engine.py:7:def execute(task, message):
+AI_RUNTIME\engine.py:32:            prediction=run_prediction(
+AI_RUNTIME\final_decision.py:1:def final_decision(fusion):
+AI_RUNTIME\model_connector.py:50:    tables=cursor.execute(
+AI_RUNTIME\model_outputs.py:30:        cur.execute(
+AI_RUNTIME\model_outputs.py:70:        cur.execute(
+AI_RUNTIME\model_outputs.py:112:        cur.execute(
+AI_RUNTIME\model_runtime_connector.py:12:    tables=conn.execute(
+AI_RUNTIME\model_runtime_connector.py:51:    tables=conn.execute(
+AI_RUNTIME\prediction_executor.py:6:from .final_decision import final_decision
+AI_RUNTIME\prediction_executor.py:10:def run_prediction(home, away):
+AI_RUNTIME\prediction_executor.py:24:    decision = final_decision(
+deploy\deploy_v15_phase2_patch2.py:70:    def execute(self,data=None):
+deploy\deploy_v15_phase2_patch2.py:161:    result = engine.execute()
+deploy\deploy_v15_phase3_12_15_core_intelligence.py:284:    def execute(self,data):
+deployment_scripts\application_layer_db_test_tmp.py:14:for x in conn.execute(
+deployment_scripts\application_layer_db_test_tmp.py:32:conn.execute(
+deployment_scripts\application_layer_V2.5_initializer.py:111:    cur.execute(
+deployment_scripts\application_layer_V2.5_initializer.py:137:        cur.execute(
+deployment_scripts\application_layer_V2.5_initializer.py:171:    for x in conn.execute(
+deployment_scripts\audit_feedback_flow_v4.py:52:        cursor.execute(
+deployment_scripts\audit_learning_database_schema_v4.py:13:cursor.execute(
+deployment_scripts\audit_learning_database_schema_v4.py:38:    cursor.execute(
+deployment_scripts\audit_learning_pipeline_final.py:26:    tables=cursor.execute(
+deployment_scripts\audit_learning_pipeline_final.py:41:        cols=cursor.execute(
+deployment_scripts\audit_learning_pipeline_final.py:61:        result["prediction_feedbac
+k_count"]=cursor.execute(
+deployment_scripts\check_database_migration_V1.0.py:27:        tables=cur.execute(
+deployment_scripts\check_database_migration_V1.0.py:37:                data["counts"][t]=
+cur.execute(
+deployment_scripts\check_feedback_tables.py:10:cursor.execute("""
+deployment_scripts\check_learning_feedback_db.py:11:cursor.execute(
+deployment_scripts\check_prediction_feedback_count.py:10:cursor.execute("select count(*) 
+from prediction_feedback")
+deployment_scripts\check_prediction_feedback_count.py:14:cursor.execute("select * from pr
+ediction_feedback limit 5")
+deployment_scripts\check_prediction_feedback_table.py:10:cursor.execute("""
+deployment_scripts\check_prediction_feedback_table.py:21:    cursor.execute("""
+deployment_scripts\create_prediction_feedback_table.py:10:cursor.execute("""
+deployment_scripts\create_prediction_feedback_table.py:47:cursor.execute("""
+deployment_scripts\database_four_check_engine_V1.0.py:81:    tables=cur.execute(
+deployment_scripts\database_four_check_engine_V1.0.py:106:            count=cur.execute(
+deployment_scripts\database_init_system_db_V2.2.3.py:147:        cur.execute(sql)
+deployment_scripts\database_init_system_db_V2.2.3.py:150:    cur.execute(
+deployment_scripts\database_init_system_db_V2.2.3.py:186:        cur.execute(
+deployment_scripts\database_init_system_db_V2.2.3.py:226:    for row in cur.execute(
+deployment_scripts\database_init_system_db_V2.2.3.py:232:        count=cur.execute(
+deployment_scripts\database_system_db_validation_V2.2.4.py:120:    for row in cur.execute
+(
+deployment_scripts\database_system_db_validation_V2.2.4.py:133:            count=cur.exec
+ute(
+deployment_scripts\database_unified_migration_engine_V2.2.py:54:    rows = cur.execute(
+deployment_scripts\database_unified_migration_engine_V2.2.py:78:            result[t]=cur
+.execute(
+deployment_scripts\database_unified_migration_engine_V2.2.py:149:        schema=src.execu
+te(
+deployment_scripts\database_unified_migration_engine_V2.2.py:159:        dst.execute(sche
+ma)
+deployment_scripts\database_unified_migration_engine_V2.2.py:162:        rows=src.execute
+(
+deployment_scripts\database_unified_validation_V2.2.1.py:98:    cur.execute(
+deployment_scripts\database_unified_validation_V2.2.1.py:124:            cur.execute(
+deployment_scripts\db_check_tmp.py:8:rows=cur.execute(
+deployment_scripts\decision_layer_db_test_tmp.py:14:for x in conn.execute(
+deployment_scripts\decision_layer_db_test_tmp.py:40:        c=conn.execute(
+deployment_scripts\decision_layer_V2.4_initializer.py:136:    cur.execute(
+deployment_scripts\decision_layer_V2.4_initializer.py:169:    cur.execute(
+deployment_scripts\decision_layer_V2.4_initializer.py:208:        cur.execute(
+deployment_scripts\decision_layer_V2.4_initializer.py:243:    for x in conn.execute(
+deployment_scripts\deploy_ai_intelligence_batch_02_06_V2.0.py:146:    def execute(self):
+deployment_scripts\deploy_feature_engine_history_V1.0.1.py:93:        cur.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.1.py:109:                cur.execut
+e(
+deployment_scripts\deploy_feature_engine_history_V1.0.1.py:133:    sc.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.1.py:150:        dc.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.1.py:160:        dc.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.1.py:170:        dc.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.1.py:180:        dc.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.1.py:190:        dc.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.1.py:200:        dc.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.1.py:210:        dc.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.1.py:245:        cur.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.py:102:        cur.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.py:126:    sc.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.py:146:        dc.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.py:156:        dc.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.py:166:        dc.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.py:176:        dc.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.py:186:        dc.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.py:196:        dc.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.py:206:        dc.execute(
+deployment_scripts\deploy_feature_engine_history_V1.0.py:258:        cur.execute(
+deployment_scripts\deploy_feature_model_layer_V1.0.py:101:        cur.execute(
+deployment_scripts\deploy_feature_model_layer_V1.0.py:140:        cur.execute(
+deployment_scripts\deploy_feature_model_layer_V1.0.py:165:    cur.execute(
+deployment_scripts\deploy_feature_model_layer_V1.0.py:223:        cur.execute(
+deployment_scripts\deploy_feature_model_layer_V1.0.py:252:    cur.execute(
+deployment_scripts\deploy_football_ai_os_unified_V2.1.py:117:        cur.execute(sql)
+deployment_scripts\deploy_prediction_engine_V1.0.py:77:    cur.execute(
+deployment_scripts\deploy_prediction_engine_V1.0.py:124:        cur.execute(
+deployment_scripts\deploy_prediction_engine_V1.0.py:161:    cur.execute(
+deployment_scripts\deploy_prediction_engine_V1.0.py:203:    cur.execute(
+deployment_scripts\deploy_prediction_engine_V1.1_REAL_FIX.py:55:    tables=cur.execute(
+deployment_scripts\deploy_prediction_engine_V1.1_REAL_FIX.py:68:            count=cur.exe
+cute(
+deployment_scripts\deploy_prediction_engine_V1.1_REAL_FIX.py:92:    cur.execute("""
+deployment_scripts\deploy_prediction_engine_V1.1_REAL_FIX.py:105:    cur.execute("""
+deployment_scripts\deploy_prediction_engine_V1.1_REAL_FIX.py:116:    cur.execute("""
+deployment_scripts\deploy_prediction_engine_V1.1_REAL_FIX.py:142:    cur.execute("""
+deployment_scripts\deploy_prediction_engine_V1.1_REAL_FIX.py:167:        cur.execute(
+deployment_scripts\deploy_prediction_engine_V1.1_REAL_FIX.py:200:    cur.execute(
+deployment_scripts\deploy_prediction_intelligence_V1.4_REAL.py:38:    cur.execute("""
+deployment_scripts\deploy_prediction_intelligence_V1.4_REAL.py:54:    cur.execute("""
+deployment_scripts\deploy_prediction_intelligence_V1.4_REAL.py:93:    tables=cur.execute(
+deployment_scripts\deploy_prediction_intelligence_V1.4_REAL.py:105:        count=cur.exec
+ute(
+deployment_scripts\deploy_prediction_phase_V1.2_batch.py:53:    tables=cur.execute(
+deployment_scripts\deploy_prediction_phase_V1.2_batch.py:67:            count=cur.execute
+(
+deployment_scripts\deploy_prediction_phase_V1.2_batch.py:92:    cur.execute("""
+deployment_scripts\deploy_prediction_phase_V1.2_batch.py:110:    cur.execute("""
+deployment_scripts\deploy_prediction_phase_V1.2_batch.py:121:    cur.execute("""
+deployment_scripts\deploy_prediction_phase_V1.2_batch.py:132:    cur.execute("""
+deployment_scripts\deploy_prediction_phase_V1.2_batch.py:156:    cur.execute("""
+deployment_scripts\deploy_prediction_phase_V1.2_batch.py:179:        cur.execute(
+deployment_scripts\football_ai_os_V2.0_real_engine.py:42:    cur.execute(
+deployment_scripts\football_ai_os_V2.0_real_engine.py:54:    cur.execute(
+deployment_scripts\global_audit.py:113:    cursor.execute(
+deployment_scripts\global_audit.py:129:        cursor.execute(
+deployment_scripts\integration_layer_V2.6_initializer.py:139:    cur.execute(
+deployment_scripts\integration_layer_V2.6_initializer.py:177:        cur.execute(
+deployment_scripts\integration_layer_V2.6_initializer.py:218:    count=conn.execute(
+deployment_scripts\model_history_migration_engine_V1.0.py:84:    src.execute(
+deployment_scripts\model_history_migration_engine_V1.0.py:101:    src.execute(
+deployment_scripts\model_history_migration_engine_V1.0.py:108:    dst.execute(
+deployment_scripts\model_history_migration_engine_V1.0.py:125:        dst.execute(schema)
+deployment_scripts\model_history_migration_engine_V1.0.py:137:    dst.execute(
+deployment_scripts\model_history_migration_engine_V1.0.py:145:    src.execute(
+deployment_scripts\model_layer_V2.3_initializer.py:95:    cur.execute("""
+deployment_scripts\model_layer_V2.3_initializer.py:119:        cur.execute(
+deployment_scripts\model_layer_V2.3_initializer.py:155:    for x in conn.execute(
+deployment_scripts\model_migration_engine_V1.0.py:128:        cur.execute(
+deployment_scripts\model_migration_engine_V1.0.py:178:        cur.execute(
+deployment_scripts\model_migration_engine_V1.0.py:192:    cur.execute(
+deployment_scripts\model_migration_engine_V1.0.py:206:    cur.execute(
+deployment_scripts\model_migration_engine_V1.0.py:230:    cur.execute(
+deployment_scripts\model_migration_engine_V1.0.py:269:        cur.execute(
+deployment_scripts\model_migration_engine_V1.0.py:305:        cur.execute(
+deployment_scripts\model_migration_engine_V1.1.py:17:    cur.execute(
+deployment_scripts\model_migration_engine_V1.1.py:44:    cur.execute(
+deployment_scripts\model_migration_engine_V1.1.py:142:    cur.execute(
+deployment_scripts\prediction_database_test_V1.3.py:12:for x in cur.execute(
+deployment_scripts\prediction_database_test_V1.3.py:32:        cur.execute(
+deployment_scripts\prediction_database_test_V1.4.py:53:        tables=cur.execute(
+deployment_scripts\prediction_intelligence_init_V1.3_FIX.py:43:    tables=cur.execute(
+deployment_scripts\prediction_intelligence_init_V1.3_FIX.py:52:            count=cur.exec
+ute(
+deployment_scripts\upgrade_model_registry_schema_V1.0.py:11:cols=cur.execute(
+deployment_scripts\upgrade_model_registry_schema_V1.0.py:20:    cur.execute(
+deployment_scripts\upgrade_model_registry_schema_V1.0.py:29:    cur.execute(
+deployment_scripts\upgrade_model_registry_schema_V1.0.py:44:cur.execute(
+LEGACY_IMPORT\01_PREDICTION_MODELS\Dixon_Coles\dixon_coles.py:25:    cursor.execute("""
+LEGACY_IMPORT\01_PREDICTION_MODELS\Dixon_Coles\dixon_coles.py:123:    cursor.execute(
+LEGACY_IMPORT\01_PREDICTION_MODELS\Dixon_Coles\dixon_coles.py:129:    cursor.execute("""
+LEGACY_IMPORT\01_PREDICTION_MODELS\Dixon_Coles\dixon_coles.py:148:        cursor.execute(
+"""
+LEGACY_IMPORT\01_PREDICTION_MODELS\Dixon_Coles\dixon_coles_history_engine.py:15:    match
+es = cursor.execute("""
+LEGACY_IMPORT\01_PREDICTION_MODELS\Dixon_Coles\dixon_coles_history_engine.py:23:    curso
+r.execute("""
+LEGACY_IMPORT\01_PREDICTION_MODELS\Dixon_Coles\dixon_coles_history_engine.py:34:    curso
+r.execute("DELETE FROM dixon_coles_history")
+LEGACY_IMPORT\01_PREDICTION_MODELS\Dixon_Coles\dixon_coles_history_engine.py:47:         
+   cursor.execute("""
+LEGACY_IMPORT\01_PREDICTION_MODELS\Elo\elo_engine.py:24:    cursor.execute(
+LEGACY_IMPORT\01_PREDICTION_MODELS\Elo\elo_engine.py:153:    cursor.execute(
+LEGACY_IMPORT\01_PREDICTION_MODELS\Elo\elo_engine.py:158:    cursor.execute(
+LEGACY_IMPORT\01_PREDICTION_MODELS\Elo\elo_engine.py:186:        cursor.execute(
+LEGACY_IMPORT\01_PREDICTION_MODELS\Elo\elo_engine.py:210:        cursor.execute(
+LEGACY_IMPORT\01_PREDICTION_MODELS\Elo\elo_engine.py:238:    cursor.execute(
+LEGACY_IMPORT\01_PREDICTION_MODELS\Elo\elo_engine.py:243:    cursor.execute(
+LEGACY_IMPORT\01_PREDICTION_MODELS\Elo\elo_engine.py:259:        cursor.execute(
+LEGACY_IMPORT\01_PREDICTION_MODELS\Poisson\poisson_engine.py:59:    cursor.execute("""
+LEGACY_IMPORT\01_PREDICTION_MODELS\Poisson\poisson_engine.py:71:    cursor.execute("""
+LEGACY_IMPORT\01_PREDICTION_MODELS\Poisson\poisson_engine.py:148:    cursor.execute("""
+LEGACY_IMPORT\01_PREDICTION_MODELS\Poisson\poisson_engine.py:169:    cursor.execute(
+LEGACY_IMPORT\01_PREDICTION_MODELS\Poisson\poisson_engine.py:204:        cursor.execute("
+""
+LEGACY_IMPORT\01_PREDICTION_MODELS\Poisson\poisson_history_engine.py:15:    matches = cur
+sor.execute("""
+LEGACY_IMPORT\01_PREDICTION_MODELS\Poisson\poisson_history_engine.py:28:    cursor.execut
+e("""
+LEGACY_IMPORT\01_PREDICTION_MODELS\Poisson\poisson_history_engine.py:42:    cursor.execut
+e("DELETE FROM poisson_history")
+LEGACY_IMPORT\01_PREDICTION_MODELS\Poisson\poisson_history_engine.py:81:            curso
+r.execute("""
+LEGACY_IMPORT\01_PREDICTION_MODELS\Poisson\poisson_history_engine.py:112:    cursor.execu
+te("""
+LEGACY_IMPORT\02_DATA_ENGINE\clean_matches.py:24:    cursor.execute("""
+LEGACY_IMPORT\02_DATA_ENGINE\clean_matches.py:29:    cursor.execute("""
+LEGACY_IMPORT\02_DATA_ENGINE\clean_matches.py:57:    cursor.execute(
+LEGACY_IMPORT\02_DATA_ENGINE\clean_matches.py:74:    cursor.execute(
+LEGACY_IMPORT\02_DATA_ENGINE\competition_loader.py:30:        cursor.execute(
+LEGACY_IMPORT\02_DATA_ENGINE\fatigue_engine_v2.py:30:    matches = cursor.execute("""
+LEGACY_IMPORT\02_DATA_ENGINE\fatigue_engine_v2.py:55:    cursor.execute("""
+LEGACY_IMPORT\02_DATA_ENGINE\fatigue_engine_v2.py:74:    cursor.execute("DELETE FROM fati
+gue_rating")
+LEGACY_IMPORT\02_DATA_ENGINE\fatigue_engine_v2.py:129:        cursor.execute("""
+LEGACY_IMPORT\02_DATA_ENGINE\fatigue_history_engine.py:23:    matches = cursor.execute(""
+"
+LEGACY_IMPORT\02_DATA_ENGINE\fatigue_history_engine.py:36:    cursor.execute("""
+LEGACY_IMPORT\02_DATA_ENGINE\fatigue_history_engine.py:51:    cursor.execute("DELETE FROM
+ fatigue_history")
+LEGACY_IMPORT\02_DATA_ENGINE\fatigue_history_engine.py:104:            cursor.execute("""
+LEGACY_IMPORT\02_DATA_ENGINE\fatigue_history_engine.py:130:    cursor.execute("""
+LEGACY_IMPORT\02_DATA_ENGINE\form_engine.py:27:    matches = cursor.execute(sql).fetchall
+()
+LEGACY_IMPORT\02_DATA_ENGINE\form_engine.py:64:    cursor.execute("""
+LEGACY_IMPORT\02_DATA_ENGINE\form_engine.py:87:    cursor.execute("DELETE FROM team_form"
+)
+LEGACY_IMPORT\02_DATA_ENGINE\form_engine.py:108:        cursor.execute("""
+LEGACY_IMPORT\02_DATA_ENGINE\home_away_engine.py:16:    matches = cursor.execute("""
+LEGACY_IMPORT\02_DATA_ENGINE\home_away_engine.py:57:    cursor.execute("""
+LEGACY_IMPORT\02_DATA_ENGINE\home_away_engine.py:90:    cursor.execute("DELETE FROM home_
+away_rating")
+LEGACY_IMPORT\02_DATA_ENGINE\home_away_engine.py:108:        cursor.execute("""
+LEGACY_IMPORT\02_DATA_ENGINE\home_away_history_engine.py:15:    matches = cursor.execute(
+"""
+LEGACY_IMPORT\02_DATA_ENGINE\home_away_history_engine.py:28:    cursor.execute("""
+LEGACY_IMPORT\02_DATA_ENGINE\home_away_history_engine.py:48:    cursor.execute("DELETE FR
+OM home_away_history")
+LEGACY_IMPORT\02_DATA_ENGINE\home_away_history_engine.py:80:            cursor.execute(""
+"
+LEGACY_IMPORT\02_DATA_ENGINE\team_form_history_engine.py:15:    matches = cursor.execute(
+"""
+LEGACY_IMPORT\02_DATA_ENGINE\team_form_history_engine.py:28:    cursor.execute("""
+LEGACY_IMPORT\02_DATA_ENGINE\team_form_history_engine.py:45:    cursor.execute("DELETE FR
+OM team_form_history")
+LEGACY_IMPORT\02_DATA_ENGINE\team_form_history_engine.py:92:            cursor.execute(""
+"
+LEGACY_IMPORT\03_SUPPORTING\data_audit_engine.py:15:    tables = cursor.execute("""
+LEGACY_IMPORT\03_SUPPORTING\data_audit_engine.py:26:        count = cursor.execute(
+LEGACY_IMPORT\03_SUPPORTING\data_audit_engine.py:30:        columns = cursor.execute(
+LEGACY_IMPORT\03_SUPPORTING\data_audit_engine.py:69:    cursor.execute("""
+LEGACY_IMPORT\03_SUPPORTING\data_audit_engine.py:79:    cursor.execute(
+LEGACY_IMPORT\03_SUPPORTING\dixon_coles_data.py:25:    cursor.execute("""
+LEGACY_IMPORT\03_SUPPORTING\dixon_coles_data.py:123:    cursor.execute(
+LEGACY_IMPORT\03_SUPPORTING\dixon_coles_data.py:129:    cursor.execute("""
+LEGACY_IMPORT\03_SUPPORTING\dixon_coles_data.py:148:        cursor.execute("""
+LEGACY_IMPORT\03_SUPPORTING\elo_engine_data.py:24:    cursor.execute(
+LEGACY_IMPORT\03_SUPPORTING\elo_engine_data.py:153:    cursor.execute(
+LEGACY_IMPORT\03_SUPPORTING\elo_engine_data.py:158:    cursor.execute(
+LEGACY_IMPORT\03_SUPPORTING\elo_engine_data.py:186:        cursor.execute(
+LEGACY_IMPORT\03_SUPPORTING\elo_engine_data.py:210:        cursor.execute(
+LEGACY_IMPORT\03_SUPPORTING\elo_engine_data.py:238:    cursor.execute(
+LEGACY_IMPORT\03_SUPPORTING\elo_engine_data.py:243:    cursor.execute(
+LEGACY_IMPORT\03_SUPPORTING\elo_engine_data.py:259:        cursor.execute(
+LEGACY_IMPORT\03_SUPPORTING\import_full_data.py:22:    cursor.execute("""
+LEGACY_IMPORT\03_SUPPORTING\import_full_data.py:128:        conn.execute(
+LEGACY_IMPORT\03_SUPPORTING\import_local_data.py:48:    cursor.execute(
+LEGACY_IMPORT\03_SUPPORTING\model_data_registry_engine.py:15:    cursor.execute("""
+LEGACY_IMPORT\03_SUPPORTING\model_data_registry_engine.py:90:        cursor.execute("""
+LEGACY_IMPORT\03_SUPPORTING\model_data_registry_engine.py:105:    rows = cursor.execute(
+LEGACY_IMPORT\03_SUPPORTING\poisson_engine_data.py:59:    cursor.execute("""
+LEGACY_IMPORT\03_SUPPORTING\poisson_engine_data.py:71:    cursor.execute("""
+LEGACY_IMPORT\03_SUPPORTING\poisson_engine_data.py:148:    cursor.execute("""
+LEGACY_IMPORT\03_SUPPORTING\poisson_engine_data.py:169:    cursor.execute(
+LEGACY_IMPORT\03_SUPPORTING\poisson_engine_data.py:204:        cursor.execute("""
+tools\SCAN_DATA_PROCESSING_AI_V1.py:66:    tables=cur.execute(
+
+
