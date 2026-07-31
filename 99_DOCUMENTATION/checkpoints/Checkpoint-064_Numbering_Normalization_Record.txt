@@ -1,0 +1,49 @@
+﻿Football AI OS Ω+ V3.2
+
+
+Checkpoint Numbering Normalization Record
+
+
+Issue:
+
+Historical commits contained multiple Checkpoint-064 labels during Decision Layer V3.2 development.
+
+
+Reason:
+
+Design, Architecture Approval, and Implementation stages were initially recorded under the same checkpoint number.
+
+
+Normalization:
+
+
+Checkpoint-063.8
+
+Decision Layer V3.2 Upgrade Design
+
+
+Checkpoint-064
+
+Decision Layer V3.2 Architecture Approved
+
+
+Checkpoint-065
+
+Decision Layer V3.2 Base Implementation
+
+
+Checkpoint-066
+
+Runtime Integration
+
+
+Policy:
+
+Existing Git history is preserved.
+
+No destructive history rewrite performed.
+
+
+Status:
+
+NORMALIZED
