@@ -1,0 +1,825 @@
+Football AI OS Ω+ Phase14.4 Runtime API Output Audit
+====================================================
+
+
+
+========== AI_RUNTIME ==========
+
+FILE:
+AI_RUNTIME\ai_report.py
+MATCH:
+final_decision,decision_layer,prediction
+1: def generate_report(prediction,decision):
+10: prediction["match"],
+13: prediction["fusion"],
+15: "final_decision":
+17: "final_decision",
+21: "decision_layer":
+23: "decision_layer",
+
+FILE:
+AI_RUNTIME\decision_service_bridge.py
+MATCH:
+decision_service,DecisionService,final_decision,decision_layer,v32
+14: from service.decision_service_v32 import DecisionServiceV32
+14: from service.decision_service_v32 import DecisionServiceV32
+14: from service.decision_service_v32 import DecisionServiceV32
+17: from .final_decision import final_decision
+26: service=DecisionServiceV32()
+44: "final_decision":
+50: "decision_layer":
+63: "final_decision":
+64: final_decision(
+68: "decision_layer":{},
+
+FILE:
+AI_RUNTIME\engine.py
+MATCH:
+run_prediction,prediction
+3: from .prediction_executor import run_prediction
+3: from .prediction_executor import run_prediction
+10: prediction={}
+32: prediction=run_prediction(
+32: prediction=run_prediction(
+39: prediction={
+59: "prediction":
+60: prediction,
+
+FILE:
+AI_RUNTIME\final_decision.py
+MATCH:
+final_decision
+1: ﻿def final_decision(fusion):
+
+FILE:
+AI_RUNTIME\prediction_executor.py
+MATCH:
+run_prediction,decision_service,prediction
+6: from .decision_service_bridge import run_decision
+10: def run_prediction(home, away):
+10: def run_prediction(home, away):
+30: prediction = {
+43: "prediction_status":
+50: prediction,
+
+
+========== 08_DECISION_LAYER ==========
+
+FILE:
+08_DECISION_LAYER\engine\consensus_engine.py
+MATCH:
+V3.2
+4: Decision Consensus Engine V3.2
+
+FILE:
+08_DECISION_LAYER\engine\decision_engine_V2.4.py
+MATCH:
+DecisionEngine
+2: class DecisionEngineV24:
+
+FILE:
+08_DECISION_LAYER\engine\decision_engine_V3.2.py
+MATCH:
+DecisionEngine,V3.2
+5: Decision Engine V3.2
+14: class DecisionEngineV32:
+70: "DECISION_V3.2_READY"
+
+FILE:
+08_DECISION_LAYER\engine\decision_engine_v32.py
+MATCH:
+DecisionEngine
+5: class DecisionEngineV32:
+
+FILE:
+08_DECISION_LAYER\engine\risk_engine.py
+MATCH:
+V3.2
+4: Decision Risk Engine V3.2
+
+FILE:
+08_DECISION_LAYER\service\decision_service.py
+MATCH:
+DecisionService
+2: class DecisionService:
+
+FILE:
+08_DECISION_LAYER\service\decision_service_V3.2.py
+MATCH:
+DecisionService,DecisionEngine,SourceFileLoader,V3.2
+6: Decision Service V3.2
+24: from importlib.machinery import SourceFileLoader
+33: decision_module = SourceFileLoader(
+35: r"E:\football_v\08_DECISION_LAYER\engine\decision_engine_V3.2.py"
+39: DecisionEngineV32 = decision_module.DecisionEngineV32
+48: class DecisionServiceV32:
+54: self.decision_engine = DecisionEngineV32()
+110: "DECISION_SERVICE_V3.2_READY"
+
+FILE:
+08_DECISION_LAYER\service\decision_service_v32.py
+MATCH:
+DecisionService,DecisionEngine,v32
+5: from engine.decision_engine_v32 import DecisionEngineV32
+5: from engine.decision_engine_v32 import DecisionEngineV32
+13: class DecisionServiceV32:
+18: self.decision_engine = DecisionEngineV32()
+
+FILE:
+08_DECISION_LAYER\test\decision_service_test.py
+MATCH:
+decision_service,DecisionService,v32
+11: from service.decision_service_v32 import DecisionServiceV32
+11: from service.decision_service_v32 import DecisionServiceV32
+11: from service.decision_service_v32 import DecisionServiceV32
+14: service = DecisionServiceV32()
+
+
+========== 12_API_LAYER ==========
+
+FILE:
+12_API_LAYER\adapter\ai_runtime_adapter.py
+MATCH:
+AI_RUNTIME
+9: Connect API Layer with AI_RUNTIME.
+19: AI_RUNTIME execution
+31: from AI_RUNTIME.engine import execute
+45: Convert to AI_RUNTIME format:
+
+FILE:
+12_API_LAYER\api\decision_api.py
+MATCH:
+prediction
+15: from service.runtime_prediction_service import RuntimePredictionService
+
+FILE:
+12_API_LAYER\api\prediction_api.py
+MATCH:
+prediction
+15: from service.runtime_prediction_service import RuntimePredictionService
+19: def prediction_api(match):
+31: result = prediction_api(
+
+FILE:
+12_API_LAYER\service\runtime_prediction_service.py
+MATCH:
+final_decision,generate_output,prediction
+22: from output_adapter import generate_output
+38: prediction = result.get(
+39: "prediction",
+48: prediction.get(
+55: prediction.get(
+62: prediction.get(
+63: "final_decision",
+88: return generate_output(
+
+FILE:
+12_API_LAYER\test\runtime_service_test.py
+MATCH:
+prediction
+16: from service.runtime_prediction_service import RuntimePredictionService
+
+
+========== 13_OUTPUT_SERVICE_LAYER ==========
+
+FILE:
+13_OUTPUT_SERVICE_LAYER\output_adapter.py
+MATCH:
+generate_output
+22: def generate_output(data):
+
+FILE:
+13_OUTPUT_SERVICE_LAYER\report_service.py
+MATCH:
+prediction
+12: def generate(self, prediction):
+23: prediction.get(
+34: prediction.get(
+41: prediction.get(
+49: prediction.get(
+
+
+========== 13_TEST_LAYER ==========
+
+FILE:
+13_TEST_LAYER\engine\end_to_end_test_engine_V2.9.py
+MATCH:
+prediction
+103: "prediction":
+
+FILE:
+13_TEST_LAYER\runtime\decision_runtime_integration_test.py
+MATCH:
+AI_RUNTIME,decision_service,final_decision,decision_layer
+1: ﻿from AI_RUNTIME.decision_service_bridge import run_decision
+1: ﻿from AI_RUNTIME.decision_service_bridge import run_decision
+56: assert "final_decision" in result
+58: assert "decision_layer" in result
+
+
+========== 00_SYSTEM_TOOLS ==========
+
+FILE:
+00_SYSTEM_TOOLS\deploy_execution_engine_stabilization_V1.0.py
+MATCH:
+prediction,V3.2
+122: "test_prediction_pipeline.py":
+253: Omega V3.2
+
+FILE:
+00_SYSTEM_TOOLS\phase14_4_runtime_api_output_audit.py
+MATCH:
+AI_RUNTIME,run_prediction,decision_service,DecisionService,DecisionEngine,final_decision,decision_layer,generate_output,prediction,SourceFileLoader,V3.2,v32
+15: "AI_RUNTIME",
+32: "AI_RUNTIME",
+34: "run_prediction",
+34: "run_prediction",
+36: "decision_service",
+38: "DecisionService",
+40: "DecisionEngine",
+42: "final_decision",
+44: "decision_layer",
+46: "generate_output",
+48: "prediction",
+50: "SourceFileLoader",
+52: "V3.2",
+54: "v32"
+
+FILE:
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\consolidation_architecture_V1.4.py
+MATCH:
+prediction
+97: "prediction":
+
+FILE:
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\create_architecture_merge_tool_V1.0.py
+MATCH:
+prediction
+31: "prediction":
+
+FILE:
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\merge_architecture_V1.0.py
+MATCH:
+prediction
+52: "prediction":
+
+FILE:
+00_SYSTEM_TOOLS\deploy_scripts\deploy_phase3_2_memory_bridge.py
+MATCH:
+prediction
+116: prediction,
+121: "prediction":prediction,
+
+FILE:
+00_SYSTEM_TOOLS\deploy_scripts\deploy_v15_phase1.py
+MATCH:
+prediction
+22: "09_Prediction_System/prediction_pipeline.py":
+38: "09_Prediction_System/prediction_history.py":
+52: "09_Prediction_System/prediction_monitor.py":
+67: "09_Prediction_System/prediction_report_generator.py":
+76: "prediction_report":data
+82: "09_Prediction_System/tests/test_prediction_system.py":
+85: from prediction_pipeline import PredictionPipeline
+88: def test_prediction():
+
+FILE:
+00_SYSTEM_TOOLS\deploy_scripts\deploy_v15_phase1_patch.py
+MATCH:
+prediction
+51: "09_Prediction_System/tests/test_prediction_system.py":
+62: from prediction_pipeline import PredictionPipeline
+66: def test_prediction():
+
+FILE:
+00_SYSTEM_TOOLS\deploy_scripts\deploy_v15_phase2.py
+MATCH:
+prediction
+31: "09_Prediction_System/prediction_service_adapter.py":
+40: "prediction": data,
+71: "score_prediction":data
+
+FILE:
+00_SYSTEM_TOOLS\FIRST_REAL_PREDICTION_TEST_V4.0\first_real_prediction_test_V4.0.py
+MATCH:
+prediction
+168: "prediction":
+
+FILE:
+00_SYSTEM_TOOLS\RUNTIME_VALIDATION_V4.0\runtime_validation_V4.0.py
+MATCH:
+prediction
+120: prediction_test={
+150: "elo_prediction":
+154: "dixon_coles_prediction":
+158: "poisson_prediction":
+162: "xgboost_prediction":
+166: "fusion_prediction":
+222: "prediction_test_V4.0.json":
+223: prediction_test,
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V2.1_V2.2_BATCH.py
+MATCH:
+DecisionEngine
+218: class UpgradeDecisionEngine:
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V2.3_V2.4_BATCH.py
+MATCH:
+prediction
+341: "failure_prediction_engine.py":r'''
+611: "failure_prediction_engine.py",
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V2.9_V3.0_BATCH.py
+MATCH:
+prediction
+410: "prediction_explanation_engine.py":
+419: def explain(self,prediction):
+538: "prediction_explanation_engine.py"
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_intelligence_layer_core_V1.0.py
+MATCH:
+prediction
+178: def evaluate(self,prediction,result):
+184: abs(prediction-result)
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_orchestration_layer_batch_V1.0.py
+MATCH:
+decision_service,DecisionService
+143: "decision_interface/decision_service.py":
+145: class DecisionService:
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_orchestration_layer_V1.0_V1.3.py
+MATCH:
+prediction
+540: prediction,
+570: "prediction":
+572: prediction,
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_autonomous_learning_engine_test_V1.0.py
+MATCH:
+prediction
+31: "message":"prediction error analysis ready"
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_autonomous_learning_engine_V1.0.py
+MATCH:
+prediction
+48: def analyze(self,prediction,actual):
+52: "prediction":
+53: prediction,
+59: abs(prediction-actual)
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_backtest_system_V1.0.py
+MATCH:
+prediction
+20: def run(self, prediction, result):
+23: "prediction": prediction,
+37: def calculate(self, predictions):
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_backtest_system_V1.0_V1.3.py
+MATCH:
+prediction
+170: r"\prediction_result_loader.py",
+183: prediction_source
+190: "prediction":
+192: prediction_source,
+225: prediction,
+233: "prediction":
+235: prediction,
+245: prediction == result
+342: predictions,
+349: predictions
+358: for prediction,result in zip(
+360: predictions,
+367: if prediction == result:
+933: predictions,
+942: for prediction,result in zip(
+944: predictions,
+951: if prediction != result:
+960: "prediction":
+962: prediction,
+1359: "prediction_result_loader.py",
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py
+MATCH:
+DecisionEngine,final_decision,prediction
+175: prediction
+213: class DecisionEngine:
+229: prediction
+237: prediction.values()
+1050: r"\final_decision_report.py",
+1183: "final_decision_output"
+1302: "final_decision_report"
+1366: "final_decision_report.py"
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_intelligence_layer_test_V1.0.py
+MATCH:
+decision_layer
+88: "decision_layer_test",
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_intelligence_layer_V1.0.py
+MATCH:
+DecisionEngine
+20: class DecisionEngine:
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_V2.7_V3.0.py
+MATCH:
+prediction
+422: prediction,
+445: FEATURE_STORE_PATH+r"\prediction_error_analyzer.py",
+457: prediction,
+742: "prediction_error_analyzer.py",
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_model_layer_V1.0_V1.3.py
+MATCH:
+prediction
+734: predictions
+746: for model,data in predictions.items():
+861: predictions,
+890: MODEL_LAYER_PATH+r"\backtest\prediction_tracker.py",
+903: prediction,
+911: "prediction":
+913: prediction,
+1245: "backtest/prediction_tracker.py",
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_phase14_3_runtime_decision_integration.py
+MATCH:
+AI_RUNTIME,run_prediction,decision_service,DecisionService,DecisionEngine,final_decision,decision_layer,prediction,V3.2,v32
+99: r"AI_RUNTIME\prediction_executor.py",
+99: r"AI_RUNTIME\prediction_executor.py",
+101: r"AI_RUNTIME\ai_report.py",
+103: r"08_DECISION_LAYER\test\decision_service_test.py"
+112: # decision_engine_v32
+117: r"08_DECISION_LAYER\engine\decision_engine_v32.py",
+123: class DecisionEngineV32:
+172: # decision_service_v32
+172: # decision_service_v32
+177: r"08_DECISION_LAYER\service\decision_service_v32.py",
+177: r"08_DECISION_LAYER\service\decision_service_v32.py",
+183: from engine.decision_engine_v32 import DecisionEngineV32
+183: from engine.decision_engine_v32 import DecisionEngineV32
+191: class DecisionServiceV32:
+196: self.decision_engine = DecisionEngineV32()
+257: r"AI_RUNTIME\decision_service_bridge.py",
+257: r"AI_RUNTIME\decision_service_bridge.py",
+272: from service.decision_service_v32 import DecisionServiceV32
+272: from service.decision_service_v32 import DecisionServiceV32
+272: from service.decision_service_v32 import DecisionServiceV32
+275: from .final_decision import final_decision
+284: service=DecisionServiceV32()
+302: "final_decision":
+308: "decision_layer":
+321: "final_decision":
+322: final_decision(
+326: "decision_layer":{},
+347: from AI_RUNTIME.decision_service_bridge import run_decision
+347: from AI_RUNTIME.decision_service_bridge import run_decision
+383: assert "final_decision" in result
+399: r"AI_RUNTIME\prediction_executor.py",
+399: r"AI_RUNTIME\prediction_executor.py",
+405: from .decision_service_bridge import run_decision
+409: def run_prediction(home, away):
+409: def run_prediction(home, away):
+429: prediction = {
+442: "prediction_status":
+449: prediction,
+460: r"AI_RUNTIME\ai_report.py",
+461: r'''def generate_report(prediction,decision):
+470: prediction["match"],
+473: prediction["fusion"],
+475: "final_decision":
+477: "final_decision",
+481: "decision_layer":
+483: "decision_layer",
+506: r"08_DECISION_LAYER\test\decision_service_test.py"
+521: "service.decision_service_V3.2",
+521: "service.decision_service_V3.2",
+522: "service.decision_service_v32"
+522: "service.decision_service_v32"
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_prediction_engine_batch_test_V1.0.py
+MATCH:
+prediction
+240: BASE+"/prediction_api/api_service.py"
+250: "prediction_api",
+259: "prediction_api",
+291: "prediction_engine_batch_test",
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_prediction_engine_batch_V1.0.py
+MATCH:
+prediction
+221: "prediction_api/api_service.py":
+254: "prediction_api",
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_prediction_engine_V1.0_V1.3.py
+MATCH:
+prediction
+117: r"\prediction_interface.py",
+146: prediction
+161: r"\prediction_service.py",
+221: r"\prediction_runtime.py",
+281: r"\prediction_registry.py",
+364: model_predictions
+378: model_predictions
+402: for prediction in model_predictions:
+405: home += prediction.get(
+414: draw += prediction.get(
+423: away += prediction.get(
+862: r"\score_prediction_engine.py",
+1175: r"\config\prediction_config.json",
+1199: "score_prediction",
+1233: r"\reports\prediction_engine_report.json",
+1285: r"\prediction_engine_v1.3_checkpoint.json",
+1312: "prediction_interface",
+1316: "score_prediction_engine",
+1339: r"\tests\prediction_engine_v1.3_full_test.py",
+1361: "prediction_interface.py",
+1363: "prediction_service.py",
+1365: "prediction_runtime.py",
+1367: "prediction_registry.py",
+1381: "score_prediction_engine.py",
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_prediction_intelligence_engine_V1.0.py
+MATCH:
+prediction
+14: "regular_time_prediction/prediction_engine.py":
+62: "score_prediction/score_predictor.py":
+194: "regular_time_prediction",
+198: "score_prediction",
+274: "main_prediction":
+294: "config/prediction_config.json"
+361: "registry/prediction_registry.json"
+423: "reports/prediction_deploy_report.json"
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_prediction_intelligence_test_V1.0.py
+MATCH:
+prediction
+15: "prediction_test_report.json"
+56: "prediction_engine",
+57: BASE+"/regular_time_prediction/prediction_engine.py"
+70: "regular_time_prediction",
+79: "regular_time_prediction",
+135: BASE+"/score_prediction/score_predictor.py"
+148: "score_prediction",
+157: "score_prediction",
+325: "prediction_intelligence_test",
+
+
+========== DIRECTORY SUMMARY ==========
+
+[AI_RUNTIME]
+AI_RUNTIME\ai_report.py
+AI_RUNTIME\decision_service_bridge.py
+AI_RUNTIME\engine.py
+AI_RUNTIME\final_decision.py
+AI_RUNTIME\model_connector.py
+AI_RUNTIME\model_fusion.py
+AI_RUNTIME\model_outputs.py
+AI_RUNTIME\model_runtime_connector.py
+AI_RUNTIME\prediction_executor.py
+AI_RUNTIME\report.py
+AI_RUNTIME\router.py
+AI_RUNTIME\runtime.py
+AI_RUNTIME\__init__.py
+AI_RUNTIME\__pycache__\ai_report.cpython-312.pyc
+AI_RUNTIME\__pycache__\console.cpython-312.pyc
+AI_RUNTIME\__pycache__\decision_service_bridge.cpython-312.pyc
+AI_RUNTIME\__pycache__\engine.cpython-312.pyc
+AI_RUNTIME\__pycache__\final_decision.cpython-312.pyc
+AI_RUNTIME\__pycache__\model_connector.cpython-312.pyc
+AI_RUNTIME\__pycache__\model_fusion.cpython-312.pyc
+AI_RUNTIME\__pycache__\model_outputs.cpython-312.pyc
+AI_RUNTIME\__pycache__\model_runtime_connector.cpython-312.pyc
+AI_RUNTIME\__pycache__\prediction_executor.cpython-312.pyc
+AI_RUNTIME\__pycache__\report.cpython-312.pyc
+AI_RUNTIME\__pycache__\router.cpython-312.pyc
+AI_RUNTIME\__pycache__\runtime.cpython-312.pyc
+AI_RUNTIME\__pycache__\__init__.cpython-312.pyc
+
+[08_DECISION_LAYER]
+08_DECISION_LAYER\database\decision_history.db
+08_DECISION_LAYER\engine\consensus_engine.py
+08_DECISION_LAYER\engine\decision_engine_V2.4.py
+08_DECISION_LAYER\engine\decision_engine_V3.2.py
+08_DECISION_LAYER\engine\decision_engine_v32.py
+08_DECISION_LAYER\engine\recommendation_engine.py
+08_DECISION_LAYER\engine\risk_engine.py
+08_DECISION_LAYER\monitor\decision_monitor.py
+08_DECISION_LAYER\service\decision_service.py
+08_DECISION_LAYER\service\decision_service_V3.2.py
+08_DECISION_LAYER\service\decision_service_v32.py
+08_DECISION_LAYER\test\decision_service_test.py
+08_DECISION_LAYER\engine\__pycache__\consensus_engine.cpython-312.pyc
+08_DECISION_LAYER\engine\__pycache__\decision_engine_V3.2.cpython-312.pyc
+08_DECISION_LAYER\engine\__pycache__\decision_engine_v32.cpython-312.pyc
+08_DECISION_LAYER\engine\__pycache__\risk_engine.cpython-312.pyc
+08_DECISION_LAYER\service\__pycache__\decision_service_V3.2.cpython-312.pyc
+08_DECISION_LAYER\service\__pycache__\decision_service_v32.cpython-312.pyc
+
+[12_API_LAYER]
+12_API_LAYER\adapter\ai_runtime_adapter.py
+12_API_LAYER\adapter\__init__.py
+12_API_LAYER\api\decision_api.py
+12_API_LAYER\api\prediction_api.py
+12_API_LAYER\reports\api_validation_report.json
+12_API_LAYER\reports\real_model_runtime_report.json
+12_API_LAYER\runtime\api_runtime.db
+12_API_LAYER\service\runtime_prediction_service.py
+12_API_LAYER\test\adapter_test.py
+12_API_LAYER\test\api_integration_test.py
+12_API_LAYER\test\runtime_service_test.py
+12_API_LAYER\adapter\__pycache__\ai_runtime_adapter.cpython-312.pyc
+12_API_LAYER\adapter\__pycache__\__init__.cpython-312.pyc
+12_API_LAYER\api\__pycache__\prediction_api.cpython-312.pyc
+12_API_LAYER\service\__pycache__\runtime_prediction_service.cpython-312.pyc
+12_API_LAYER\test\__pycache__\adapter_test.cpython-312.pyc
+
+[13_OUTPUT_SERVICE_LAYER]
+13_OUTPUT_SERVICE_LAYER\output_adapter.py
+13_OUTPUT_SERVICE_LAYER\report_service.py
+13_OUTPUT_SERVICE_LAYER\test\report_test.py
+13_OUTPUT_SERVICE_LAYER\__pycache__\output_adapter.cpython-312.pyc
+13_OUTPUT_SERVICE_LAYER\__pycache__\report_service.cpython-312.pyc
+
+[13_TEST_LAYER]
+13_TEST_LAYER\cases\match_cases.json
+13_TEST_LAYER\engine\end_to_end_test_engine_V2.9.py
+13_TEST_LAYER\reports\final_system_test_report.json
+13_TEST_LAYER\runtime\decision_runtime_integration_test.py
+13_TEST_LAYER\runtime\test_runtime.db
+13_TEST_LAYER\validation\database_validation.py
+13_TEST_LAYER\runtime\__pycache__\decision_runtime_integration_test.cpython-312-pytest-9.1.1.pyc
+
+[00_SYSTEM_TOOLS]
+00_SYSTEM_TOOLS\check_database_location_V4.0.py
+00_SYSTEM_TOOLS\database_location_discovery_V4.0.py
+00_SYSTEM_TOOLS\data_schema_validation_V4.0.py
+00_SYSTEM_TOOLS\deploy_execution_engine_stabilization_V1.0.py
+00_SYSTEM_TOOLS\deploy_training_engine_V4.0.py
+00_SYSTEM_TOOLS\deploy_training_system_V4.0.py
+00_SYSTEM_TOOLS\final_system_completion_V4.0.py
+00_SYSTEM_TOOLS\model_data_snapshot_V4.0.py
+00_SYSTEM_TOOLS\phase14_4_runtime_api_output_audit.py
+00_SYSTEM_TOOLS\schema_check_V4.0.py
+00_SYSTEM_TOOLS\training_preflight_check_V4.0.py
+00_SYSTEM_TOOLS\V3.2.2_STABILIZATION_EXECUTOR.ps1
+00_SYSTEM_TOOLS\Architecture_Duplicate_Cleanup_V2.0\duplicate_cleanup_engine_V2.0.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\architecture_cleanup_engine_V3.0.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\architecture_cleanup_engine_V4.0.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\architecture_registry.json
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\architecture_registry_V1.9.json
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\consolidation_architecture_V1.4.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\consolidation_architecture_V1.6.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\consolidation_engine_V1.6.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\create_architecture_merge_tool_V1.0.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\deprecated_archive_engine_V1.7.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\deprecated_registry.json
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\final_architecture_validator_V1.8.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\final_cleanup_engine_V2.1.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\final_delete_engine_V1.9.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\merge_architecture_cleanup_V1.3.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\merge_architecture_V1.0.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\merge_architecture_V1.1.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\merge_config_V1.0.json
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\MERGE_README.md
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\migration_executor_V1.2.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\validate_architecture_V1.1.py
+00_SYSTEM_TOOLS\Checkpoint\ai_autonomous_engine_hil_v1.4_checkpoint.json
+00_SYSTEM_TOOLS\Checkpoint\ai_autonomous_engine_hil_v1.6_checkpoint.json
+00_SYSTEM_TOOLS\Checkpoint\ai_autonomous_engine_hil_v1.8_checkpoint.json
+00_SYSTEM_TOOLS\Checkpoint\ai_orchestration_layer_v1.3_checkpoint.json
+00_SYSTEM_TOOLS\Checkpoint\backtest_system_v1.3_checkpoint.json
+00_SYSTEM_TOOLS\Checkpoint\decision_engine_v1.3_checkpoint.json
+00_SYSTEM_TOOLS\Checkpoint\feature_store_v1.9_checkpoint.json
+00_SYSTEM_TOOLS\Checkpoint\feature_store_v2.0_checkpoint.json
+00_SYSTEM_TOOLS\Checkpoint\feature_store_v2.1_checkpoint.json
+00_SYSTEM_TOOLS\Checkpoint\feature_store_v2.2_checkpoint.json
+00_SYSTEM_TOOLS\Checkpoint\feature_store_v2.3_checkpoint.json
+00_SYSTEM_TOOLS\Checkpoint\feature_store_v2.6_checkpoint.json
+00_SYSTEM_TOOLS\Checkpoint\feature_store_v3.0_checkpoint.json
+00_SYSTEM_TOOLS\Checkpoint\model_layer_v1.3_checkpoint.json
+00_SYSTEM_TOOLS\Checkpoint\prediction_engine_v1.3_checkpoint.json
+00_SYSTEM_TOOLS\deploy_scripts\deploy_phase3_2_memory_bridge.py
+00_SYSTEM_TOOLS\deploy_scripts\deploy_v15_phase1.py
+00_SYSTEM_TOOLS\deploy_scripts\deploy_v15_phase1_patch.py
+00_SYSTEM_TOOLS\deploy_scripts\deploy_v15_phase2.py
+00_SYSTEM_TOOLS\FINAL_DEPLOYMENT_V4.0\deploy_final_V4.0.py
+00_SYSTEM_TOOLS\FIRST_REAL_PREDICTION_TEST_V4.0\first_real_prediction_test_V4.0.py
+00_SYSTEM_TOOLS\RUNTIME_VALIDATION_V4.0\runtime_validation_V4.0.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\cleanup_engine\cleanup_planner_V1.2.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\dependency_migration\dependency_migration_engine_V1.5.py
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\reports\ARCHITECTURE_MERGE_CHECKPOINT_V1.1.json
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\reports\ARCHITECTURE_VALIDATION_CHECKPOINT_V1.1.json
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\reports\ARCHITECTURE_VALIDATION_REPORT_V1.1.json
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\reports\CONSOLIDATION_REPORT_V1.4.json
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\reports\FINAL_DELETE_REPORT_V1.9.json
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\reports\MERGE_ANALYSIS_REPORT_V1.0.json
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\reports\MERGE_EXECUTION_REPORT_V1.1.json
+00_SYSTEM_TOOLS\Architecture_Migration_Tool\reports\MIGRATION_EXECUTION_REPORT_V1.2.json
+00_SYSTEM_TOOLS\Module_Deployment_Tool\config\deployment_tool_config.json
+00_SYSTEM_TOOLS\Module_Deployment_Tool\core\deployment_engine.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\core\encoding_validator.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\core\json_validator.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\core\path_validator.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\core\syntax_validator.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V1.0_V1.4.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V1.2.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V1.3_V1.4.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V1.5_V1.6.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V1.7_V1.8.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V1.9_V2.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V2.1_V2.2_BATCH.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V2.3_V2.4_BATCH.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V2.5_V2.6_BATCH.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V2.7_V2.8_BATCH.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V2.9_V3.0_BATCH.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_V1.0_V1.3.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_intelligence_layer_core_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_intelligence_layer_test_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_orchestration_layer_batch_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_orchestration_layer_test_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_orchestration_layer_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_orchestration_layer_V1.0_V1.3.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_api_integration_layer_test_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_api_integration_layer_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_autonomous_learning_engine_test_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_autonomous_learning_engine_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_backtest_system_test_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_backtest_system_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_backtest_system_V1.0_V1.3.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_data_intelligence_checkpoint_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_data_intelligence_engine_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_data_intelligence_test_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_intelligence_layer_test_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_intelligence_layer_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_dynamic_feature_weight_checkpoint_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_dynamic_feature_weight_engine_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_dynamic_feature_weight_test_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_adapter_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_core_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_test_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_V1.1.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_V1.2.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_V1.3.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_V1.4.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_V1.5.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_V1.6.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_V1.7.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_V1.8.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_V1.9.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_V2.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_V2.1.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_V2.2.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_V2.3.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_V2.4_V2.6.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_feature_store_V2.7_V3.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_market_intelligence_layer_test_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_market_intelligence_layer_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_model_explanation_engine_test_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_model_explanation_engine_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_model_layer_V1.0_V1.3.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_module_deployment_tool_test_V1.1.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_module_deployment_tool_V1.1.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_phase14_3_runtime_decision_integration.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_prediction_engine_batch_test_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_prediction_engine_batch_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_prediction_engine_V1.0_V1.3.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_prediction_intelligence_engine_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_prediction_intelligence_test_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_report_intelligence_layer_test_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_report_intelligence_layer_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_system_monitoring_layer_test_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_system_monitoring_layer_V1.0.py
+00_SYSTEM_TOOLS\Module_Deployment_Tool\registry\deployment_tool_registry.json
+00_SYSTEM_TOOLS\Module_Deployment_Tool\reports\deployment_tool_deploy_report.json
+00_SYSTEM_TOOLS\Module_Deployment_Tool\reports\deployment_tool_test_report.json
+00_SYSTEM_TOOLS\Module_Deployment_Tool\core\__pycache__\deployment_engine.cpython-312.pyc
+00_SYSTEM_TOOLS\Module_Deployment_Tool\core\__pycache__\encoding_validator.cpython-312.pyc
+00_SYSTEM_TOOLS\Module_Deployment_Tool\core\__pycache__\json_validator.cpython-312.pyc
+00_SYSTEM_TOOLS\Module_Deployment_Tool\core\__pycache__\path_validator.cpython-312.pyc
+00_SYSTEM_TOOLS\Module_Deployment_Tool\core\__pycache__\syntax_validator.cpython-312.pyc
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\__pycache__\deploy_ai_autonomous_engine_HIL_V2.7_V2.8_BATCH.cpython-312.pyc
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\__pycache__\deploy_ai_autonomous_engine_HIL_V2.9_V3.0_BATCH.cpython-312.pyc
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\__pycache__\deploy_decision_engine_V1.0_V1.3.cpython-312.pyc

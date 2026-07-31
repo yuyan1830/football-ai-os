@@ -518,7 +518,6 @@ if os.path.exists(test_file):
 
 
     content=content.replace(
-        "service.decision_service_V3.2",
         "service.decision_service_v32"
     )
 

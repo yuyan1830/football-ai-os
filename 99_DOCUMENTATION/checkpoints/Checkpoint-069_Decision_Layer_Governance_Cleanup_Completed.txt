@@ -1,0 +1,94 @@
+﻿Football AI OS Ω+
+
+Checkpoint-069
+
+Decision Layer Governance Cleanup Completed
+
+
+==================================================
+
+Phase:
+
+14.5 Decision Layer Governance Cleanup
+
+
+==================================================
+
+Completed:
+
+
+1. Decision Layer V3.2 production entry unified
+
+
+2. Legacy decision_service_V3.2 removed
+
+
+3. Legacy decision_engine_V3.2 removed
+
+
+4. Old Python cache cleaned
+
+
+5. Runtime decision bridge verified
+
+
+==================================================
+
+Current Production Chain:
+
+
+AI_RUNTIME
+
+
+
+decision_service_bridge.py
+
+
+
+08_DECISION_LAYER/service/decision_service_v32.py
+
+
+
+08_DECISION_LAYER/engine/decision_engine_v32.py
+
+
+==================================================
+
+Retained:
+
+
+decision_engine_V2.4.py
+
+
+Reason:
+
+Historical compatibility asset.
+
+
+==================================================
+
+Validation:
+
+
+Runtime Import:
+
+PASS
+
+
+Decision Runtime Integration Test:
+
+PASS
+
+
+Legacy V3.2 Reference Scan:
+
+PASS
+
+
+==================================================
+
+Status:
+
+
+DECISION_LAYER_V32_GOVERNANCE_COMPLETE
+
