@@ -1,0 +1,315 @@
+﻿Football AI OS Ω+ V3.2
+
+Checkpoint-067
+
+Runtime Integration Implementation Design
+
+
+Status:
+
+IMPLEMENTATION_DESIGN_APPROVED
+
+
+==================================================
+
+Phase:
+
+14.3 Runtime Integration
+
+
+==================================================
+
+Purpose:
+
+
+Integrate AI_RUNTIME with Decision Layer V3.2
+
+
+Decision authority migration:
+
+
+FROM:
+
+AI_RUNTIME/final_decision.py
+
+
+TO:
+
+08_DECISION_LAYER/DecisionServiceV32
+
+
+==================================================
+
+Architecture Adjustment:
+
+
+During implementation review,
+
+
+Python module naming compatibility issue discovered.
+
+
+
+Existing files:
+
+
+decision_engine_V3.2.py
+
+
+decision_service_V3.2.py
+
+
+
+Problem:
+
+
+Python import syntax does not support module names containing "."
+
+
+Example:
+
+
+from service.decision_service_V3.2 import DecisionServiceV32
+
+
+Invalid Python module import.
+
+
+
+==================================================
+
+Solution:
+
+
+Create standardized Python module entry files.
+
+
+
+New files:
+
+
+08_DECISION_LAYER/engine/decision_engine_v32.py
+
+
+08_DECISION_LAYER/service/decision_service_v32.py
+
+
+
+Purpose:
+
+
+Provide valid Python import interfaces.
+
+
+
+==================================================
+
+Legacy Preservation Rule:
+
+
+Original files will NOT be deleted.
+
+
+
+Keep:
+
+
+decision_engine_V3.2.py
+
+
+decision_service_V3.2.py
+
+
+
+Reason:
+
+
+- Historical compatibility
+
+- Rollback support
+
+- Architecture traceability
+
+
+
+Status:
+
+
+LEGACY_COMPATIBILITY
+
+
+
+==================================================
+
+Service Layer Improvement:
+
+
+Old implementation:
+
+
+SourceFileLoader loading with absolute path.
+
+
+
+Problems:
+
+
+- Fixed local path dependency
+
+- Environment migration risk
+
+- Runtime deployment instability
+
+
+
+New implementation:
+
+
+Standard Python imports:
+
+
+from engine.decision_engine_v32 import DecisionEngineV32
+
+
+from engine.consensus_engine import ConsensusEngine
+
+
+from engine.risk_engine import RiskEngine
+
+
+
+==================================================
+
+Runtime Integration:
+
+
+AI_RUNTIME
+
+
+        |
+
+
+        
+
+
+decision_service_bridge.py
+
+
+        |
+
+
+        
+
+
+DecisionService_v32
+
+
+        |
+
+
+        
+
+
+Decision Layer V3.2
+
+
+
+==================================================
+
+Test Update:
+
+
+Existing:
+
+
+08_DECISION_LAYER/test/decision_service_test.py
+
+
+Update:
+
+
+from service.decision_service_v32 import DecisionServiceV32
+
+
+
+==================================================
+
+Files Impact:
+
+
+ADD:
+
+
+AI_RUNTIME/decision_service_bridge.py
+
+
+08_DECISION_LAYER/engine/decision_engine_v32.py
+
+
+08_DECISION_LAYER/service/decision_service_v32.py
+
+
+
+MODIFY:
+
+
+AI_RUNTIME/prediction_executor.py
+
+
+AI_RUNTIME/ai_report.py
+
+
+08_DECISION_LAYER/test/decision_service_test.py
+
+
+
+KEEP:
+
+
+AI_RUNTIME/final_decision.py
+
+
+08_DECISION_LAYER legacy V3.2 files
+
+
+
+==================================================
+
+Validation:
+
+
+Required tests:
+
+
+1. Decision Layer import test
+
+
+2. Runtime bridge test
+
+
+3. API output compatibility test
+
+
+4. Fallback decision test
+
+
+
+==================================================
+
+Deployment Rule:
+
+
+No manual editing.
+
+
+Use unified deployment script.
+
+
+
+==================================================
+
+Status:
+
+
+APPROVED_FOR_IMPLEMENTATION
+
