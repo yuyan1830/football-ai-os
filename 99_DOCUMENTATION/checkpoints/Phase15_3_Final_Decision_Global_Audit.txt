@@ -1,0 +1,265 @@
+
+Football AI OS Ω+
+
+Phase15.3 Final Decision Global Audit
+
+Purpose:
+
+Confirm single decision brain
+
+==================================================
+
+
+========== AI_RUNTIME ==========
+
+FILE:
+AI_RUNTIME\ai_report.py
+KEYWORDS:final_decision,fallback
+15: "final_decision":
+17: "final_decision",
+27: "fallback":
+29: "fallback",
+
+FILE:
+AI_RUNTIME\decision_service_bridge.py
+KEYWORDS:final_decision,DecisionService,decision_service,fallback,run_decision,DecisionServiceV32
+12: from service.decision_service_v32 import DecisionServiceV32
+16: def run_decision(models, fusion):
+19: service = DecisionServiceV32()
+38: "final_decision":
+51: "fallback":
+
+FILE:
+AI_RUNTIME\prediction_executor.py
+KEYWORDS:decision_service,run_decision
+6: from .decision_service_bridge import run_decision
+24: decision = run_decision(
+
+========== 08_DECISION_LAYER ==========
+
+FILE:
+08_DECISION_LAYER\engine\decision_engine_V2.4.py
+KEYWORDS:DecisionEngine
+2: class DecisionEngineV24:
+
+FILE:
+08_DECISION_LAYER\engine\decision_engine_v32.py
+KEYWORDS:DecisionEngine,DecisionEngineV32
+5: class DecisionEngineV32:
+
+FILE:
+08_DECISION_LAYER\service\decision_service_v32.py
+KEYWORDS:DecisionEngine,DecisionService,decision_engine,DecisionEngineV32,DecisionServiceV32
+5: from engine.decision_engine_v32 import DecisionEngineV32
+13: class DecisionServiceV32:
+18: self.decision_engine = DecisionEngineV32()
+41: decision=self.decision_engine.evaluate(
+
+FILE:
+08_DECISION_LAYER\test\decision_service_test.py
+KEYWORDS:DecisionService,decision_service,DecisionServiceV32
+11: from service.decision_service_v32 import DecisionServiceV32
+14: service = DecisionServiceV32()
+
+========== 12_API_LAYER ==========
+
+FILE:
+12_API_LAYER\service\runtime_prediction_service.py
+KEYWORDS:final_decision
+63: "final_decision",
+
+========== 13_TEST_LAYER ==========
+
+FILE:
+13_TEST_LAYER\runtime\decision_runtime_integration_test.py
+KEYWORDS:final_decision,decision_service,run_decision
+1: ﻿from AI_RUNTIME.decision_service_bridge import run_decision
+47: result=run_decision(
+56: assert "final_decision" in result
+
+========== 00_SYSTEM_TOOLS ==========
+
+FILE:
+00_SYSTEM_TOOLS\phase14_4_runtime_api_output_audit.py
+KEYWORDS:final_decision,DecisionEngine,DecisionService,decision_service
+36: "decision_service",
+38: "DecisionService",
+40: "DecisionEngine",
+42: "final_decision",
+
+FILE:
+00_SYSTEM_TOOLS\phase15_2_single_brain_audit.py
+KEYWORDS:final_decision,DecisionEngine,DecisionService,decision_engine,decision_service
+36: "final_decision",
+38: "DecisionEngine",
+40: "DecisionService",
+42: "decision_engine",
+54: "decision_service_V3.2",
+56: "decision_engine_V3.2",
+58: "decision_service_v32",
+60: "decision_engine_v32"
+188: decision_service_bridge.py
+192: 08_DECISION_LAYER/service/decision_service_v32.py
+196: 08_DECISION_LAYER/engine/decision_engine_v32.py
+
+FILE:
+00_SYSTEM_TOOLS\phase15_3_final_decision_global_audit.py
+KEYWORDS:final_decision,DecisionEngine,DecisionService,decision_engine,decision_service,fallback,run_decision,DecisionEngineV32,DecisionServiceV32
+22: "final_decision",
+23: "DecisionEngine",
+24: "DecisionService",
+25: "decision_engine",
+26: "decision_service",
+27: "fallback",
+28: "run_decision",
+29: "DecisionEngineV32",
+30: "DecisionServiceV32"
+132: final_decision output field
+146: DecisionServiceV32
+150: DecisionEngineV32
+
+FILE:
+00_SYSTEM_TOOLS\phase15_full_pipeline_audit.py
+KEYWORDS:final_decision,DecisionEngine,DecisionService
+43: "DecisionService",
+45: "DecisionEngine",
+49: "final_decision",
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V2.1_V2.2_BATCH.py
+KEYWORDS:DecisionEngine,decision_engine
+212: "upgrade_decision_engine.py":r'''
+218: class UpgradeDecisionEngine:
+770: "upgrade_decision_engine.py",
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_orchestration_layer_batch_V1.0.py
+KEYWORDS:DecisionService,decision_service
+143: "decision_interface/decision_service.py":
+145: class DecisionService:
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py
+KEYWORDS:final_decision,DecisionEngine,decision_engine
+206: r"\decision_engine.py",
+213: class DecisionEngine:
+1050: r"\final_decision_report.py",
+1183: "final_decision_output"
+1267: r"\decision_engine_v1.3_checkpoint.json",
+1294: "decision_engine",
+1302: "final_decision_report"
+1321: r"\tests\decision_engine_v1.3_full_test.py",
+1345: "decision_engine.py",
+1366: "final_decision_report.py"
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_intelligence_layer_test_V1.0.py
+KEYWORDS:decision_engine
+16: "test":"decision_engine",
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_intelligence_layer_V1.0.py
+KEYWORDS:DecisionEngine,decision_engine
+14: r"decision_core\decision_engine.py":
+20: class DecisionEngine:
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_phase14_3_runtime_decision_integration.py
+KEYWORDS:final_decision,DecisionEngine,DecisionService,decision_engine,decision_service,fallback,run_decision,DecisionEngineV32,DecisionServiceV32
+103: r"08_DECISION_LAYER\test\decision_service_test.py"
+112: # decision_engine_v32
+117: r"08_DECISION_LAYER\engine\decision_engine_v32.py",
+123: class DecisionEngineV32:
+172: # decision_service_v32
+177: r"08_DECISION_LAYER\service\decision_service_v32.py",
+183: from engine.decision_engine_v32 import DecisionEngineV32
+191: class DecisionServiceV32:
+196: self.decision_engine = DecisionEngineV32()
+219: decision=self.decision_engine.evaluate(
+257: r"AI_RUNTIME\decision_service_bridge.py",
+272: from service.decision_service_v32 import DecisionServiceV32
+278: def run_decision(models,fusion):
+283: service=DecisionServiceV32()
+301: "final_decision":
+310: "fallback":False
+320: "final_decision":
+326: "fallback":True,
+345: from AI_RUNTIME.decision_service_bridge import run_decision
+372: result=run_decision(
+381: assert "final_decision" in result
+403: from .decision_service_bridge import run_decision
+421: decision = run_decision(
+473: "final_decision":
+475: "final_decision",
+485: "fallback":
+487: "fallback",
+504: r"08_DECISION_LAYER\test\decision_service_test.py"
+519: "service.decision_service_v32"
+
+========== deployment_scripts ==========
+
+FILE:
+deployment_scripts\decision_layer_V2.4_initializer.py
+KEYWORDS:DecisionEngine,DecisionService,decision_engine,decision_service
+46: "engine\\decision_engine_V2.4.py":
+49: class DecisionEngineV24:
+79: "service\\decision_service.py":
+82: class DecisionService:
+
+FILE:
+deployment_scripts\deploy_full_prediction_ai_V2.1.py
+KEYWORDS:DecisionEngine,decision_engine
+103: r"29_DECISION_ENGINE\decision_engine.py":
+107: class DecisionEngine:
+
+FILE:
+deployment_scripts\deploy_prediction_patch_V2.1.1.py
+KEYWORDS:decision_engine
+28: "decision_engine.py",
+
+========== 08_DECISION_ENGINE ==========
+
+FILE:
+08_DECISION_ENGINE\decision_engine.py
+KEYWORDS:DecisionEngine
+6: class DecisionEngine:
+
+FILE:
+08_DECISION_ENGINE\tests\decision_engine_v1.3_full_test.py
+KEYWORDS:final_decision,decision_engine
+23: "decision_engine.py",
+44: "final_decision_report.py"
+
+========== 85_FINAL_DECISION_ENGINE ==========
+
+
+==================================================
+
+Judgement Rules:
+
+
+Allowed:
+
+final_decision output field
+
+
+Forbidden:
+
+AI_RUNTIME independent decision calculation
+
+
+Target:
+
+AI_RUNTIME
+
+
+
+DecisionServiceV32
+
+
+
+DecisionEngineV32
+
+
+==================================================
+

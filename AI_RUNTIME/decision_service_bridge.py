@@ -1,6 +1,4 @@
-
-# -*- coding: utf-8 -*-
-
+﻿# -*- coding: utf-8 -*-
 
 import sys
 
@@ -14,61 +12,45 @@ sys.path.insert(
 from service.decision_service_v32 import DecisionServiceV32
 
 
-from .final_decision import final_decision
+
+def run_decision(models, fusion):
 
 
-
-def run_decision(models,fusion):
-
-
-    try:
-
-        service=DecisionServiceV32()
+    service = DecisionServiceV32()
 
 
-        result=service.run(
+    result = service.run(
 
-            {
+        {
 
-                "models":models,
+            "models": models,
 
-                "fusion":fusion
+            "fusion": fusion
 
-            }
+        }
 
-        )
+    )
 
 
-        return {
+    return {
 
-            "final_decision":
+
+        "final_decision":
+
             result.get(
                 "decision",
                 {}
             ),
 
-            "decision_layer":
+
+        "decision_layer":
+
             result,
 
-            "fallback":False
 
-        }
+        "fallback":
 
+            False
 
-    except Exception as e:
+    }
 
-
-        return {
-
-            "final_decision":
-            final_decision(
-                fusion
-            ),
-
-            "decision_layer":{},
-
-            "fallback":True,
-
-            "error":str(e)
-
-        }

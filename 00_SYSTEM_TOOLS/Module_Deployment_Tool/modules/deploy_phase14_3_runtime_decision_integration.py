@@ -272,7 +272,6 @@ sys.path.insert(
 from service.decision_service_v32 import DecisionServiceV32
 
 
-from .final_decision import final_decision
 
 
 
@@ -313,23 +312,7 @@ def run_decision(models,fusion):
         }
 
 
-    except Exception as e:
-
-
-        return {
-
-            "final_decision":
-            final_decision(
-                fusion
-            ),
-
-            "decision_layer":{},
-
-            "fallback":True,
-
-            "error":str(e)
-
-        }
+    
 '''
 )
 
@@ -535,5 +518,6 @@ if os.path.exists(test_file):
         "Update:",
         test_file
     )
+
 
 

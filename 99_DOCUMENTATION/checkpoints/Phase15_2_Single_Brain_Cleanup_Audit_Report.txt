@@ -1,0 +1,396 @@
+
+Football AI OS Ω+
+
+Phase15.2 Single Brain Architecture Cleanup Audit
+
+Purpose:
+
+Remove duplicate decision brain
+Remove duplicate prediction path
+Confirm single production architecture
+
+==================================================
+
+
+
+========== AI_RUNTIME ==========
+
+FILE:
+AI_RUNTIME\ai_report.py
+MATCH:
+final_decision
+15: "final_decision":
+17: "final_decision",
+
+FILE:
+AI_RUNTIME\decision_service_bridge.py
+MATCH:
+final_decision,DecisionService,decision_service_v32
+14: from service.decision_service_v32 import DecisionServiceV32
+17: from .final_decision import final_decision
+26: service=DecisionServiceV32()
+44: "final_decision":
+63: "final_decision":
+64: final_decision(
+
+FILE:
+AI_RUNTIME\engine.py
+MATCH:
+run_prediction
+3: from .prediction_executor import run_prediction
+32: prediction=run_prediction(
+
+FILE:
+AI_RUNTIME\final_decision.py
+MATCH:
+final_decision
+1: ﻿def final_decision(fusion):
+
+FILE:
+AI_RUNTIME\prediction_executor.py
+MATCH:
+run_prediction
+10: def run_prediction(home, away):
+
+
+========== 06_PREDICTION_ENGINE ==========
+
+FILE:
+06_PREDICTION_ENGINE\tests\prediction_engine_v1.3_full_test.py
+MATCH:
+prediction_engine,prediction_service
+23: "prediction_service.py",
+41: "score_prediction_engine.py",
+
+
+========== 06_PREDICTION_INTELLIGENCE_ENGINE ==========
+
+
+========== 08_DECISION_LAYER ==========
+
+FILE:
+08_DECISION_LAYER\engine\decision_engine_V2.4.py
+MATCH:
+DecisionEngine
+2: class DecisionEngineV24:
+
+FILE:
+08_DECISION_LAYER\engine\decision_engine_v32.py
+MATCH:
+DecisionEngine
+5: class DecisionEngineV32:
+
+FILE:
+08_DECISION_LAYER\service\decision_service_v32.py
+MATCH:
+DecisionEngine,DecisionService,decision_engine,decision_engine_v32
+5: from engine.decision_engine_v32 import DecisionEngineV32
+13: class DecisionServiceV32:
+18: self.decision_engine = DecisionEngineV32()
+41: decision=self.decision_engine.evaluate(
+
+FILE:
+08_DECISION_LAYER\test\decision_service_test.py
+MATCH:
+DecisionService,decision_service_v32
+11: from service.decision_service_v32 import DecisionServiceV32
+14: service = DecisionServiceV32()
+
+
+========== 09_Prediction_System ==========
+
+
+========== 12_API_LAYER ==========
+
+FILE:
+12_API_LAYER\adapter\ai_runtime_adapter.py
+MATCH:
+run_ai_runtime
+35: def run_ai_runtime(match):
+
+FILE:
+12_API_LAYER\api\decision_api.py
+MATCH:
+prediction_service
+15: from service.runtime_prediction_service import RuntimePredictionService
+
+FILE:
+12_API_LAYER\api\prediction_api.py
+MATCH:
+prediction_service
+15: from service.runtime_prediction_service import RuntimePredictionService
+
+FILE:
+12_API_LAYER\service\runtime_prediction_service.py
+MATCH:
+final_decision,run_ai_runtime
+20: from adapter.ai_runtime_adapter import run_ai_runtime
+33: result = run_ai_runtime(
+63: "final_decision",
+
+FILE:
+12_API_LAYER\test\adapter_test.py
+MATCH:
+run_ai_runtime
+28: result = adapter.run_ai_runtime(
+
+FILE:
+12_API_LAYER\test\runtime_service_test.py
+MATCH:
+prediction_service
+16: from service.runtime_prediction_service import RuntimePredictionService
+
+
+========== 13_OUTPUT_SERVICE_LAYER ==========
+
+
+========== 00_SYSTEM_TOOLS ==========
+
+FILE:
+00_SYSTEM_TOOLS\phase14_4_runtime_api_output_audit.py
+MATCH:
+final_decision,DecisionEngine,DecisionService,run_prediction,SourceFileLoader
+34: "run_prediction",
+38: "DecisionService",
+40: "DecisionEngine",
+42: "final_decision",
+50: "SourceFileLoader",
+
+FILE:
+00_SYSTEM_TOOLS\phase15_2_single_brain_audit.py
+MATCH:
+final_decision,DecisionEngine,DecisionService,decision_engine,prediction_engine,prediction_service,run_prediction,run_ai_runtime,SourceFileLoader,decision_service_V3.2,decision_engine_V3.2,decision_service_v32,decision_engine_v32
+36: "final_decision",
+38: "DecisionEngine",
+40: "DecisionService",
+42: "decision_engine",
+44: "prediction_engine",
+46: "prediction_service",
+48: "run_prediction",
+50: "run_ai_runtime",
+52: "SourceFileLoader",
+54: "decision_service_V3.2",
+56: "decision_engine_V3.2",
+58: "decision_service_v32",
+60: "decision_engine_v32"
+192: 08_DECISION_LAYER/service/decision_service_v32.py
+196: 08_DECISION_LAYER/engine/decision_engine_v32.py
+
+FILE:
+00_SYSTEM_TOOLS\phase15_full_pipeline_audit.py
+MATCH:
+final_decision,DecisionEngine,DecisionService,run_prediction,run_ai_runtime,SourceFileLoader
+35: "run_prediction",
+43: "DecisionService",
+45: "DecisionEngine",
+49: "final_decision",
+53: "run_ai_runtime",
+63: "SourceFileLoader",
+
+FILE:
+00_SYSTEM_TOOLS\deploy_scripts\deploy_v15_phase2.py
+MATCH:
+prediction_service
+31: "09_Prediction_System/prediction_service_adapter.py":
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V2.1_V2.2_BATCH.py
+MATCH:
+DecisionEngine,decision_engine
+212: "upgrade_decision_engine.py":r'''
+218: class UpgradeDecisionEngine:
+770: "upgrade_decision_engine.py",
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_autonomous_engine_HIL_V2.3_V2.4_BATCH.py
+MATCH:
+prediction_engine
+341: "failure_prediction_engine.py":r'''
+611: "failure_prediction_engine.py",
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_ai_orchestration_layer_batch_V1.0.py
+MATCH:
+DecisionService
+145: class DecisionService:
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_engine_V1.0_V1.3.py
+MATCH:
+final_decision,DecisionEngine,decision_engine
+206: r"\decision_engine.py",
+213: class DecisionEngine:
+1050: r"\final_decision_report.py",
+1183: "final_decision_output"
+1267: r"\decision_engine_v1.3_checkpoint.json",
+1294: "decision_engine",
+1302: "final_decision_report"
+1321: r"\tests\decision_engine_v1.3_full_test.py",
+1345: "decision_engine.py",
+1366: "final_decision_report.py"
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_intelligence_layer_test_V1.0.py
+MATCH:
+decision_engine
+16: "test":"decision_engine",
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_decision_intelligence_layer_V1.0.py
+MATCH:
+DecisionEngine,decision_engine
+14: r"decision_core\decision_engine.py":
+20: class DecisionEngine:
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_phase14_3_runtime_decision_integration.py
+MATCH:
+final_decision,DecisionEngine,DecisionService,decision_engine,run_prediction,decision_service_v32,decision_engine_v32
+112: # decision_engine_v32
+117: r"08_DECISION_LAYER\engine\decision_engine_v32.py",
+123: class DecisionEngineV32:
+172: # decision_service_v32
+177: r"08_DECISION_LAYER\service\decision_service_v32.py",
+183: from engine.decision_engine_v32 import DecisionEngineV32
+191: class DecisionServiceV32:
+196: self.decision_engine = DecisionEngineV32()
+219: decision=self.decision_engine.evaluate(
+272: from service.decision_service_v32 import DecisionServiceV32
+275: from .final_decision import final_decision
+284: service=DecisionServiceV32()
+302: "final_decision":
+321: "final_decision":
+322: final_decision(
+383: assert "final_decision" in result
+409: def run_prediction(home, away):
+475: "final_decision":
+477: "final_decision",
+521: "service.decision_service_v32"
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_prediction_engine_batch_test_V1.0.py
+MATCH:
+prediction_engine
+291: "prediction_engine_batch_test",
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_prediction_engine_V1.0_V1.3.py
+MATCH:
+prediction_engine,prediction_service
+161: r"\prediction_service.py",
+862: r"\score_prediction_engine.py",
+1233: r"\reports\prediction_engine_report.json",
+1285: r"\prediction_engine_v1.3_checkpoint.json",
+1316: "score_prediction_engine",
+1339: r"\tests\prediction_engine_v1.3_full_test.py",
+1363: "prediction_service.py",
+1381: "score_prediction_engine.py",
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_prediction_intelligence_engine_V1.0.py
+MATCH:
+prediction_engine
+14: "regular_time_prediction/prediction_engine.py":
+
+FILE:
+00_SYSTEM_TOOLS\Module_Deployment_Tool\modules\deploy_prediction_intelligence_test_V1.0.py
+MATCH:
+prediction_engine
+56: "prediction_engine",
+57: BASE+"/regular_time_prediction/prediction_engine.py"
+
+
+========== deployment_scripts ==========
+
+FILE:
+deployment_scripts\decision_layer_V2.4_initializer.py
+MATCH:
+DecisionEngine,DecisionService,decision_engine
+46: "engine\\decision_engine_V2.4.py":
+49: class DecisionEngineV24:
+82: class DecisionService:
+
+FILE:
+deployment_scripts\deploy_full_prediction_ai_V2.1.py
+MATCH:
+DecisionEngine,decision_engine
+103: r"29_DECISION_ENGINE\decision_engine.py":
+107: class DecisionEngine:
+
+FILE:
+deployment_scripts\deploy_prediction_intelligence_batch_01_V2.0.py
+MATCH:
+prediction_engine
+123: r"24_PREDICTION_INTELLIGENCE_LAYER\tests\test_prediction_engine_V2.0.py":
+
+FILE:
+deployment_scripts\deploy_prediction_patch_V2.1.1.py
+MATCH:
+decision_engine
+28: "decision_engine.py",
+
+FILE:
+deployment_scripts\deploy_prediction_phase_V1.2_batch.py
+MATCH:
+prediction_service
+169: ("prediction_service","V1.2","ACTIVE"),
+
+FILE:
+deployment_scripts\prediction_database_test_V1.3.py
+MATCH:
+prediction_service
+3: db=r"E:\football_v\04_PREDICTION_LAYER\database\prediction_service.db"
+
+FILE:
+deployment_scripts\prediction_database_test_V1.4.py
+MATCH:
+prediction_service
+23: BASE+r"\04_PREDICTION_LAYER\database\prediction_service.db",
+
+
+==================================================
+
+Architecture Judgment Target:
+
+ONLY ONE DECISION BRAIN:
+
+
+AI_RUNTIME
+
+
+
+decision_service_bridge.py
+
+
+
+08_DECISION_LAYER/service/decision_service_v32.py
+
+
+
+08_DECISION_LAYER/engine/decision_engine_v32.py
+
+
+ONLY ONE PREDICTION ENTRY:
+
+
+API
+
+
+
+AI_RUNTIME
+
+
+
+MODEL OUTPUTS
+
+
+
+MODEL FUSION
+
+
+
+DECISION
+
+
+==================================================
+
