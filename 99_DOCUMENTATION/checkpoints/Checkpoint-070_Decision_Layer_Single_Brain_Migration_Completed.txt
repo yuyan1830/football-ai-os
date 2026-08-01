@@ -1,0 +1,144 @@
+﻿# Football AI OS Ω+
+
+# Checkpoint-070 Decision Layer Single Brain Migration Completed
+
+
+## 日期
+
+2026-08-01
+
+
+## 状态
+
+Architecture Cleanup Phase
+
+
+## 一、当前生产决策链路
+
+
+AI_RUNTIME
+
+
+
+model_outputs
+
+
+
+model_fusion
+
+
+
+decision_service_bridge
+
+
+
+08_DECISION_LAYER
+
+
+
+DecisionServiceV32
+
+
+
+DecisionEngineV32
+
+
+
+ConsensusEngine
+
+
+
+RiskEngine
+
+
+
+Report Output
+
+
+
+## 二、旧决策链路状态
+
+
+以下模块已停止作为运行入口：
+
+
+1. AI_RUNTIME/final_decision.py
+
+状态:
+Legacy
+
+
+2. 08_DECISION_ENGINE
+
+状态:
+Legacy
+
+
+3. 85_FINAL_DECISION_ENGINE
+
+状态:
+Legacy
+
+
+
+## 三、当前唯一决策大脑
+
+
+路径:
+
+E:\football_v\08_DECISION_LAYER
+
+
+核心:
+
+engine/decision_engine_v32.py
+
+service/decision_service_v32.py
+
+
+
+## 四、验证结果
+
+
+Runtime:
+
+PASS
+
+
+Decision Service:
+
+PASS
+
+
+Consensus:
+
+PASS
+
+
+Risk:
+
+PASS
+
+
+Report:
+
+PASS
+
+
+
+## 五、下一阶段任务
+
+
+1. 清理旧引用
+
+2. 更新部署脚本
+
+3. 删除废弃备份
+
+4. 最终架构冻结
+
+
+## Checkpoint Status
+
+APPROVED
+
