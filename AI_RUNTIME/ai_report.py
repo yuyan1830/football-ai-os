@@ -1,4 +1,4 @@
-def generate_report(prediction,decision):
+﻿def generate_report(prediction,decision):
 
 
     return {
@@ -14,7 +14,10 @@ def generate_report(prediction,decision):
 
         "final_decision":
             decision.get(
-                "final_decision",
+                "decision_layer",
+                {}
+            ).get(
+                "decision",
                 {}
             ),
 

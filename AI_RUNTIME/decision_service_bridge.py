@@ -1,56 +1,126 @@
 ﻿# -*- coding: utf-8 -*-
 
+"""
+Football AI OS Ω+
+
+Decision Service Bridge V3.2
+
+
+职责:
+
+AI_RUNTIME
+
+
+
+08_DECISION_LAYER
+
+连接桥
+"""
+
+
+import os
 import sys
 
 
-sys.path.insert(
-    0,
-    r"E:\football_v\08_DECISION_LAYER"
+
+PROJECT_ROOT = os.path.dirname(
+    os.path.dirname(__file__)
 )
+
+
+DECISION_LAYER_PATH = os.path.join(
+    PROJECT_ROOT,
+    "08_DECISION_LAYER"
+)
+
+
+if DECISION_LAYER_PATH not in sys.path:
+
+    sys.path.insert(
+        0,
+        DECISION_LAYER_PATH
+    )
+
 
 
 from service.decision_service_v32 import DecisionServiceV32
 
 
 
+
 def run_decision(models, fusion):
 
 
-    service = DecisionServiceV32()
+    try:
 
 
-    result = service.run(
+        service = DecisionServiceV32()
 
-        {
 
-            "models": models,
+        result = service.run(
 
-            "fusion": fusion
+            {
+
+                "models": models,
+
+                "fusion": fusion
+
+            }
+
+        )
+
+
+        return {
+
+
+            "decision_layer":
+
+                result,
+
+
+            "status":
+
+                "DECISION_SERVICE_V32_SUCCESS",
+
+
+            "fallback":
+
+                False
 
         }
 
-    )
 
 
-    return {
+    except Exception as e:
 
 
-        "final_decision":
-
-            result.get(
-                "decision",
-                {}
-            ),
+        return {
 
 
-        "decision_layer":
+            "decision_layer":
 
-            result,
+                {
+
+                    "error":
+
+                        str(e),
 
 
-        "fallback":
+                    "status":
 
-            False
+                        "DECISION_SERVICE_V32_FAILED"
 
-    }
+                },
+
+
+            "status":
+
+                "DECISION_SERVICE_FAILED",
+
+
+            "fallback":
+
+                True
+
+        }
 
