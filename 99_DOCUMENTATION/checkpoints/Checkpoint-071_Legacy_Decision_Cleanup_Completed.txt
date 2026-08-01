@@ -1,0 +1,104 @@
+﻿# Football AI OS Ω+
+
+# Checkpoint-071 Legacy Decision Cleanup Completed
+
+
+## 状态
+
+Legacy Decision Architecture Cleanup Completed
+
+
+## 删除模块
+
+
+已删除：
+
+
+08_DECISION_ENGINE
+
+29_DECISION_ENGINE
+
+72_HANDICAP_DECISION_ENGINE
+
+85_FINAL_DECISION_ENGINE
+
+105_HANDICAP_VALUE_DECISION_ENGINE
+
+110_FINAL_MARKET_DECISION_ENGINE
+
+
+旧备份：
+
+99_DOCUMENTATION/checkpoints/backup_phase14_3
+
+
+## 保留生产决策链
+
+
+当前唯一决策入口：
+
+
+AI_RUNTIME
+
+
+
+Decision Service Bridge
+
+
+
+08_DECISION_LAYER
+
+
+
+DecisionServiceV32
+
+
+
+DecisionEngineV32
+
+
+## Runtime验证
+
+
+测试：
+
+run_prediction(
+"测试主队",
+"测试客队"
+)
+
+
+结果：
+
+REPORT_READY
+
+
+Decision:
+
+主胜
+
+
+Consensus:
+
+4/4 主胜
+
+
+Risk:
+
+HIGH
+
+
+Fallback:
+
+False
+
+
+## 架构状态
+
+
+重复决策模块清理完成。
+
+Single Brain Architecture:
+
+READY
+

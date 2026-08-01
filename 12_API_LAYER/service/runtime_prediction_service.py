@@ -60,7 +60,7 @@ class RuntimePredictionService:
 
             "decision":
                 prediction.get(
-                    "final_decision",
+                    "decision_layer",
                     {}
                 ),
 
