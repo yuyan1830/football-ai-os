@@ -1,0 +1,177 @@
+﻿# Football AI OS Ω+
+
+# Checkpoint-072 Architecture Cleanup Plan V1.0
+
+
+## 日期
+
+2026-08-01
+
+
+## 当前版本
+
+develop-v3.2.1-cleanup
+
+
+## 当前生产链路
+
+AI_RUNTIME
+
+
+
+model_outputs
+
+
+
+model_fusion
+
+
+
+decision_service_bridge
+
+
+
+08_DECISION_LAYER
+
+
+
+12_API_LAYER
+
+
+
+13_OUTPUT_SERVICE_LAYER
+
+
+
+## 已完成清理
+
+
+已删除：
+
+08_DECISION_ENGINE
+
+29_DECISION_ENGINE
+
+72_HANDICAP_DECISION_ENGINE
+
+85_FINAL_DECISION_ENGINE
+
+105_HANDICAP_VALUE_DECISION_ENGINE
+
+110_FINAL_MARKET_DECISION_ENGINE
+
+
+已删除旧备份：
+
+99_DOCUMENTATION/checkpoints/backup_phase14_3
+
+
+
+## 当前唯一决策大脑
+
+
+保留：
+
+08_DECISION_LAYER
+
+
+核心：
+
+engine/decision_engine_v32.py
+
+service/decision_service_v32.py
+
+consensus_engine.py
+
+risk_engine.py
+
+
+
+## 待审计历史架构
+
+
+预测历史模块：
+
+04_PREDICTION_LAYER
+
+06_PREDICTION_ENGINE
+
+06_PREDICTION_INTELLIGENCE_ENGINE
+
+
+
+决策历史模块：
+
+08_DECISION_INTELLIGENCE_LAYER
+
+
+
+智能历史模块：
+
+11_System_Intelligence
+
+
+
+## 清理原则
+
+
+1. 当前生产链优先
+
+2. 重复决策模块删除
+
+3. 历史能力先归档再删除
+
+4. 不影响Runtime运行
+
+5. 所有修改必须Checkpoint记录
+
+
+
+## 当前验证结果
+
+
+Runtime:
+
+PASS
+
+
+Decision Service:
+
+PASS
+
+
+Fusion:
+
+PASS
+
+
+Report:
+
+PASS
+
+
+Fallback:
+
+False
+
+
+
+## 下一阶段
+
+
+Phase 72.1
+
+继续进行：
+
+全局依赖审计
+
+历史预测层收敛
+
+System Intelligence职责拆分
+
+
+
+## Status
+
+ARCHITECTURE_CLEANUP_PLANNED
+
